@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "MSI - 15.6\" Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Gray",
+    "description": "Surf the Web with ease using this MSI CX61 2QC-1654US laptop, which features high-speed wireless and Gigabit Ethernet networking for flexible connectivity. With 2GB of video memory, you can enjoy smooth graphics and gaming visuals.",
+    "brand": "MSI",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "So gaming laptops",
+    "price": 699.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7500349_sb.jpg",
+    "url": "http://www.bestbuy.com/site/msi-15-6-laptop-intel-core-i5-8gb-memory-750gb-hard-drive-gray/7500349.p?id=1219679623926&skuId=7500349",
+    "free_shipping": false,
+    "popularity": 2953,
+    "rating": 5,
+    "objectID": "7500349"
+  },
+  "bestbuy": null
+}

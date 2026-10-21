@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Apple - Power Adapter Extension Cable - White",
+    "description": "The Power Adapter Extension Cable is an AC extension cord that provides extra length for your Apple power adapter. Use it with MagSafe and MagSafe 2 adapters and 10W, 12W, and 29W USB power adapters.",
+    "brand": "Apple",
+    "categories": [
+      "Computers & Tablets",
+      "Laptop Accessories",
+      "Laptop Chargers & Adapters"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptop Accessories",
+      "lvl2": "Computers & Tablets > Laptop Accessories > Laptop Chargers & Adapters"
+    },
+    "type": "Notebook accessories",
+    "price": 19.0,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6602021_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-power-adapter-extension-cable-white/6602021.p?id=1219663249564&skuId=6602021&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9441,
+    "rating": 4,
+    "objectID": "6602021"
+  },
+  "bestbuy": {
+    "id": 6602021,
+    "name": "Apple - Power Adapter Extension Cable - White",
+    "type": "HardGood",
+    "price": 19,
+    "upc": "888462315968",
+    "shipping": 0,
+    "description": "Provides extra length for Apple power adapters; compatible with MagSafe and MagSafe 2 adapters; compatible with 10W, 12W and 29W USB power adapters",
+    "manufacturer": "Apple",
+    "model": "MK122LL/A",
+    "url": "http://www.bestbuy.com/site/apple-power-adapter-extension-cable-white/6602021.p?id=1219663249564&skuId=6602021&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6602/6602021_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

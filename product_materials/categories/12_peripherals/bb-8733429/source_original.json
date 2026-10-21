@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Belkin - 3-Port USB 3.0 Hub with Gigabit Ethernet Adapter - Black",
+    "description": "With 3 USB 3.0 ports, this Belkin B2B128TT hub allows you to connect multiple USB 3.0-enabled peripherals to your compatible Windows or Mac laptop. A Gigabit Ethernet adapter with RJ-45 connector provides up to 1 Gbps Internet access.",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "Cables & Connectors",
+      "USB Cables & Hubs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Cables & Connectors",
+      "lvl2": "Computers & Tablets > Cables & Connectors > USB Cables & Hubs"
+    },
+    "type": "Misc. computer acc.",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8733429_sb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-3-port-usb-3-0-hub-with-gigabit-ethernet-adapter-black/8733429.p?id=1219362858713&skuId=8733429&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9026,
+    "rating": 5,
+    "objectID": "8733429"
+  },
+  "bestbuy": {
+    "id": 8733429,
+    "name": "Belkin - 3-Port USB 3.0 Hub with Gigabit Ethernet Adapter - Black",
+    "type": "HardGood",
+    "price": 49.99,
+    "upc": "745883671960",
+    "shipping": 0,
+    "description": "Compatible with most Windows and Mac laptops with a USB 3.0 port and most USB 3.0-enabled peripherals; 3 USB 3.0 ports; Gigabit Ethernet adapter; small form factor",
+    "manufacturer": "Belkin",
+    "model": "B2B128TT",
+    "url": "http://www.bestbuy.com/site/belkin-3-port-usb-3-0-hub-with-gigabit-ethernet-adapter-black/8733429.p?id=1219362858713&skuId=8733429&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8733/8733429_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

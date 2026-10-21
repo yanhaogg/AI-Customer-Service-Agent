@@ -1,0 +1,13 @@
+{
+  "source_url": "https://cdn-demo.algolia.com/bestbuy/4221600_sb.jpg",
+  "resolved_url": "https://cdn-demo.algolia.com/bestbuy/4221600_sb.jpg",
+  "width": 220,
+  "height": 142,
+  "content_type": "image/jpeg",
+  "sha256": "95e7e1f33a9046f538f5ae26b4d9e0d398ee5294f7a651fd56d9e4b1fb811dda",
+  "bytes": 42767,
+  "original_format": "JPEG",
+  "status": "verified",
+  "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+  "rights_status": "third_party_product_image_not_separately_verified"
+}

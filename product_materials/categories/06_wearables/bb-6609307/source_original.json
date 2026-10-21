@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Polar - FT4 Women's Heart Rate Monitor - Purple/Pink",
+    "description": "This Polar water-resistant heart rate monitor and watch system automatically display your target zone to keep you on track with your workout routine. Continuous heart rate measurement and OwnCal technology make it easy for you to stay within your goals.",
+    "brand": "Polar",
+    "categories": [
+      "Health, Fitness & Beauty",
+      "Fitness & GPS Watches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Health, Fitness & Beauty",
+      "lvl1": "Health, Fitness & Beauty > Fitness & GPS Watches"
+    },
+    "type": "Hr watch",
+    "price": 69.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6609307_sb.jpg",
+    "url": "http://www.bestbuy.com/site/polar-ft4-womens-heart-rate-monitor-purple-pink/6609307.p?id=1218762300844&skuId=6609307&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 1778,
+    "rating": 1,
+    "objectID": "6609307"
+  },
+  "bestbuy": {
+    "id": 6609307,
+    "name": "Polar - FT4 Women's Heart Rate Monitor - Purple/Pink",
+    "type": "HardGood",
+    "price": 69.99,
+    "upc": "725882012872",
+    "shipping": 0,
+    "description": "Fits most wrist sizesHeart rate monitorWater-resistant designLCD with backlight",
+    "manufacturer": "Polar",
+    "model": "POLAR FT4F PURPLE",
+    "url": "http://www.bestbuy.com/site/polar-ft4-womens-heart-rate-monitor-purple-pink/6609307.p?id=1218762300844&skuId=6609307&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6609/6609307_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

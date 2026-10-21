@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Lenovo - Miix 3 10 - 10.1\" - Intel Atom - 64GB - With Keyboard - Black",
+    "description": "Learn more about the New Windows Lenovo Miix 3 10 Tablet: Simplify play time and work time with this 2-in-1 tablet, which includes a keyboard for easy typing and a vivid 10.1\" LED 10-point multitouch screen. Wi-Fi technology and Bluetooth 4.0 make it easy to connect your MP3 player, surf the Web and more.",
+    "brand": "Lenovo",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other wintel wifi",
+    "price": 349.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9265014_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lenovo-miix-3-10-10-1-intel-atom-64gb-with-keyboard-black/9265014.p?id=1219702985173&skuId=9265014&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4344,
+    "rating": 4,
+    "objectID": "9265014"
+  },
+  "bestbuy": null
+}

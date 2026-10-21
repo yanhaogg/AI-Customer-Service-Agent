@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Belkin - Dual-Band Wireless-AC+ Gigabit Router - Black",
+    "description": "Enjoy easy wireless Web connectivity with this Belkin F9K1113-BBY dual-band Wireless-AC+ Gigabit router, which features MultiBeam antenna technology to offer a reliable signal and coverage for multiple devices at the same time.",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "Routers",
+      "Wireless Routers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > Routers",
+      "lvl3": "Computers & Tablets > Networking & Wireless > Routers > Wireless Routers"
+    },
+    "type": "Networking",
+    "price": 89.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4070013_sb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-dual-band-wireless-ac-gigabit-router-black/4070013.p?id=1219095672276&skuId=4070013&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9007,
+    "rating": 4,
+    "objectID": "4070013"
+  },
+  "bestbuy": {
+    "id": 4070013,
+    "name": "Belkin - Dual-Band Wireless-AC+ Gigabit Router - Black",
+    "type": "HardGood",
+    "price": 89.99,
+    "upc": "745883651221",
+    "shipping": 0,
+    "description": "Up to 867 Mbps data transfer rates at 5.0GHz (up to 300 Mbps at 2.4GHz); browser-based setup; Intellistream QoS (quality of service); MultiBeam antenna technology",
+    "manufacturer": "Belkin",
+    "model": "F9K1113-BBY",
+    "url": "http://www.bestbuy.com/site/belkin-dual-band-wireless-ac-gigabit-router-black/4070013.p?id=1219095672276&skuId=4070013&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1310/1310279902/1310279902_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

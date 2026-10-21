@@ -1,0 +1,75 @@
+{
+  "id": "bb-6668341",
+  "source_sku": "6668341",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Samsung - Galaxy Ace 4 4G with 4GB Memory Cell Phone (Unlocked) - White",
+  "brand": "Samsung",
+  "model": null,
+  "description_original": "Stay connected with this Samsung Galaxy Ace 4 G313M WHITE cell phone, which lets you talk, text and e-mail on the go. The touch screen offers easy navigation, and Wi-Fi and 4G speed provide fast Web access for downloading, streaming and more.",
+  "description_official_dataset": null,
+  "introduction_zh": "Samsung 品牌的手机商品。来源介绍提及 4GB 容量规格（内存或存储用途见原文）；提及 Wi-Fi 接口或连接方式。该记录来自历史商品目录，适合商品展示与数据库练习；实际参数和当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 99.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Unlocked Cell Phones",
+    "All Unlocked Cell Phones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "Samsung - Galaxy Ace 4 4G with 4GB Memory Cell Phone (Unlocked) - White Stay connected with this Samsung"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "ouch screen offers easy navigation, and Wi-Fi and 4G speed provide fast Web access for downloading, streaming and m"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-6668341/main.jpg",
+      "alt": "Samsung - Galaxy Ace 4 4G with 4GB Memory Cell Phone (Unlocked) - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6668/6668341_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6668/6668341_sb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/png",
+      "sha256": "e74430c32acfcfb09edd9bcafeaf6b0b10fdb4b93f029f667961dab4a6020cf4",
+      "bytes": 39640,
+      "original_format": "PNG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/samsung-galaxy-ace-4-4g-with-4gb-memory-cell-phone-unlocked-white/6668341.p",
+    "collected_at": "2026-10-13T16:17:29.071629+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

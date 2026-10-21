@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "360fly - Panoramic 360° HD Video Camera - Black",
+    "description": "Only at Best Buy  This 360fly panoramic 360&#176; HD video camera features Wi-Fi, a Bluetooth LE interface and the included 360fly app (download required), so you can easily shoot, edit, replay and share recorded video footage using a compatible iOS or Android smartphone. Included action camera adaptor lets you use your 360fly camera with your existing 3-prong mounts.",
+    "brand": "360fly",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Point & Shoot Cameras",
+      "360 & Panoramic Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras > 360 & Panoramic Cameras"
+    },
+    "type": "Point&#38;shoot camcrder",
+    "price": 399.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9131042_rb.jpg",
+    "url": "http://www.bestbuy.com/site/360fly-panoramic-360-hd-video-camera-black/9131042.p?id=1219405459683&skuId=9131042&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9999,
+    "rating": 5,
+    "objectID": "9131042"
+  },
+  "bestbuy": {
+    "id": 9131042,
+    "name": "360fly - Panoramic 360° HD Video Camera - Black",
+    "type": "HardGood",
+    "price": 399.99,
+    "upc": "044476122125",
+    "shipping": 0,
+    "description": "Dust- and crash-resistant; microphone; Wi-Fi; Bluetooth LE interface",
+    "manufacturer": "360fly",
+    "model": "360FLYBLK",
+    "url": "http://www.bestbuy.com/site/360fly-panoramic-360-hd-video-camera-black/9131042.p?id=1219405459683&skuId=9131042&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9131/9131042_rc.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

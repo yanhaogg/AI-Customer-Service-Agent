@@ -1,0 +1,73 @@
+{
+  "id": "bb-5263043",
+  "source_sku": "5263043",
+  "category_id": "09_networking",
+  "category_name_zh": "路由器与网络设备",
+  "name_original": "Linksys - AC1200 Smart Wi-Fi Router with 4-Port Ethernet Switch - Blue",
+  "brand": "Linksys",
+  "model": "WRT1200AC",
+  "description_original": "Enjoy optimal wireless strength and coverage with this Linksys AC1200 WRT1200AC router, which features Wireless-AC and dual-band technologies for reliable performance with speeds up to 3.2 Gbps. WPA2 encryption and an SPI firewall provide security.",
+  "description_official_dataset": "Speeds up to 3.2 Gbps; WPA2 encryption; SPI firewall; plug-and-play operation; dual-band technology; 2 high-performance antennas; 1.3GHz dual-core processor",
+  "introduction_zh": "Linksys 的路由器与网络设备商品。来源介绍提及：接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 149.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Networking & Wireless",
+    "Routers",
+    "Wireless Routers"
+  ],
+  "specifications_original": {
+    "manufacturer": "Linksys",
+    "model": "WRT1200AC",
+    "upc": "745883684748",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "Linksys - AC1200 Smart Wi-Fi Router with 4-Port Ethernet Switch - Blue Enjoy optimal wireless stre"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/09_networking/bb-5263043/main.jpg",
+      "alt": "Linksys - AC1200 Smart Wi-Fi Router with 4-Port Ethernet Switch - Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5263/5263043_rc.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5263/5263043_rc.jpg",
+      "width": 1000,
+      "height": 535,
+      "content_type": "image/jpeg",
+      "sha256": "eb613607cf5680b7c58a8e5ddda6ebcaa2434232ee6ce2bab5f574a727f29271",
+      "bytes": 35322,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/linksys-ac1200-smart-wi-fi-router-with-4-port-ethernet-switch-blue/5263043.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Lyve - Home 2TB Photo and Video Manager - White",
+    "description": "Lyve Home 2TB Photo and Video Manager:A photo album for the digital age, Lyve Home stores a lifetime's worth of memories in one place, so you can instantly view them from a smartphone, tablet or laptop. The free Lyve app also automatically syncs new photos you've taken or posted to Facebook, backing them up and allowing you to save room on your devices. Plus, Lyve Home's 5\" LCD touch screen features a revolving timeline of stored photos, making it an attractive display in your home or office.",
+    "brand": "Lyve",
+    "categories": [
+      "Computers & Tablets",
+      "Hard Drives & Storage",
+      "External Hard Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Hard Drives & Storage",
+      "lvl2": "Computers & Tablets > Hard Drives & Storage > External Hard Drives"
+    },
+    "type": "3.5\" extrnal storage",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3496017_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lyve-home-2tb-photo-and-video-manager-white/3496017.p?id=1219581381875&skuId=3496017&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3760,
+    "rating": 6,
+    "objectID": "3496017"
+  },
+  "bestbuy": {
+    "id": 3496017,
+    "name": "Lyve - Home 2TB Photo and Video Manager - White",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "040232107405",
+    "shipping": 0,
+    "description": "Storage-free access to photos and video across devicesCompact, modern design2 TB storageSecure accounts for up to 3 users",
+    "manufacturer": "Lyve",
+    "model": "LMLH101US",
+    "url": "http://www.bestbuy.com/site/lyve-home-2tb-photo-and-video-manager-white/3496017.p?id=1219581381875&skuId=3496017&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3496/3496017_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

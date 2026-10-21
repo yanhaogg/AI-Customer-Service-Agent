@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Acer - 19\" LED Monitor - Black",
+    "description": "This 16:10 widescreen Acer V196WLB 19\" monitor is wall-mountable and features 170&#176; horizontal and 160&#176; vertical viewing angles, allowing you to create a workstation that suits your needs. An ultrafast 5 ms response time ensures image clarity.",
+    "brand": "Acer",
+    "categories": [
+      "Computers & Tablets",
+      "Monitors",
+      "All Monitors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Monitors",
+      "lvl2": "Computers & Tablets > Monitors > All Monitors"
+    },
+    "type": "So monitors",
+    "price": 109.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9275148_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acer-19-led-monitor-black/9275148.p?id=1219010353404&skuId=9275148",
+    "free_shipping": true,
+    "popularity": 9979,
+    "rating": 5,
+    "objectID": "9275148"
+  },
+  "bestbuy": {
+    "id": 9275148,
+    "name": "Acer - 19\" LED Monitor - Black",
+    "type": "HardGood",
+    "price": 109.99,
+    "upc": "886541978110",
+    "shipping": 0,
+    "description": "ACER 19\" LED Monitor: 5 ms response time; 100,000,000:1 contrast ratio; 250 nits brightness; 1440 x 900 maximum resolution; 170-degree horizontal and 160-degree vertical viewing angles; VGA input; tilt capability; 16:10 widescreen; wall-mountable",
+    "manufacturer": "Acer",
+    "model": "V196WLB",
+    "url": "http://www.bestbuy.com/site/acer-19-led-monitor-black/9275148.p?id=1219010353404&skuId=9275148&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9275/9275148_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "bb-6952841",
+  "source_sku": "6952841",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "LaCie - Rugged 1TB External USB 3.0/Thunderbolt Portable Hard Drive - Orange/Silver",
+  "brand": "LaCie",
+  "model": "9000294",
+  "description_original": "Easily take your files on the go with this LaCie Rugged 9000294 1TB portable external drive, which features a durable design that withstands drops from up to 3.9' for protection against damage. Data transfer rates up to 10 Gbps ensure speedy transfer.",
+  "description_official_dataset": "USB 3.0 and Thunderbolt interfaces; portable design; 3.9' maximum drop height; data transfer rates up to 10 Gbps",
+  "introduction_zh": "LaCie 的存储设备商品。来源介绍提及：容量 1TB；接口或连接方式 USB 3.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 179.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Hard Drives & Storage",
+    "External Hard Drives"
+  ],
+  "specifications_original": {
+    "manufacturer": "LaCie",
+    "model": "9000294",
+    "upc": "093053010232",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "1TB",
+      "evidence_original": "LaCie - Rugged 1TB External USB 3.0/Thunderbolt Portable Hard Drive - Orange/Silver Easi"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 3.0",
+      "evidence_original": "LaCie - Rugged 1TB External USB 3.0/Thunderbolt Portable Hard Drive - Orange/Silver Easily take your file"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-6952841/main.jpg",
+      "alt": "LaCie - Rugged 1TB External USB 3.0/Thunderbolt Portable Hard Drive - Orange/Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6952/6952841_rb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6952/6952841_rb.jpg",
+      "width": 220,
+      "height": 151,
+      "content_type": "image/jpeg",
+      "sha256": "599d656a005a18a11606818b0d832194a1c81c99cf45dd46def001644a1ecc27",
+      "bytes": 4761,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/lacie-rugged-1tb-external-usb-3-0-thunderbolt-portable-hard-drive-orange-silver/6952841.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

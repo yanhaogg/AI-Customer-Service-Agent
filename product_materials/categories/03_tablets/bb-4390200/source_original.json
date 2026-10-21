@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Amazon - Fire - 7\" Tablet - 8GB - Black",
+    "description": "Amazon Fire Tablet: Catch up on your reading or browse the Web with this tablet, which offers access to Amazon Underground, so you can download apps and games and discover exciting new entertainment. Front and rear cameras let you capture memorable moments or chat with friends.",
+    "brand": "Amazon",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Amazon wi-fi",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4390200_sb.jpg",
+    "url": "http://www.bestbuy.com/site/amazon-fire-7-tablet-8gb-black/4390200.p?id=1219741360542&skuId=4390200&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9859,
+    "rating": 1,
+    "objectID": "4390200"
+  },
+  "bestbuy": {
+    "id": 4390200,
+    "name": "Amazon - Fire - 7\" Tablet - 8GB - Black",
+    "type": "HardGood",
+    "price": 49.99,
+    "upc": "848719062854",
+    "shipping": 0,
+    "description": "Fire OS 57\" IPS touch-screen display with 1024 x 600 resolution8GB storage capacityQuad-core processorWi-FiAmazon Underground",
+    "manufacturer": "Amazon",
+    "model": "B00TSUGXKE",
+    "url": "http://www.bestbuy.com/site/amazon-fire-7-tablet-8gb-black/4390200.p?id=1219741360542&skuId=4390200&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/4390200_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

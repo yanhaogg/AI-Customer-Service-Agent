@@ -1,0 +1,82 @@
+{
+  "id": "bb-7962029",
+  "source_sku": "7962029",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Boost Mobile - HTC Desire 510 4G No-Contract Cell Phone - White",
+  "brand": "Boost Mobile",
+  "model": "HTC A11",
+  "description_original": "HTC Desire 510 HTC0PCV1ABMU No-Contract Cell Phone for Boost Mobile: You can download apps, access social media and check your e-mail on the go with the HTC Desire 510. With 4G LTE speeds, you can quickly connect to the Internet from nearly any location. You can even use your phone to navigate features on your TV with HTC Sense. See coverage maps to determine whether service is available in your area.",
+  "description_official_dataset": "Android 4.4.3 KitKat operating system4G LTE speed4.7\" touch screenBluetooth 4.0 interface5.0MP rear-facing and 1.3MP front-facing cameras",
+  "introduction_zh": "Boost Mobile 的手机商品。来源介绍提及：尺寸 7 英寸；成像规格 0MP；成像规格 1.3MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 99.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "No-Contract Phones",
+    "All No-Contract Phones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Boost Mobile",
+    "model": "HTC A11",
+    "upc": "821793041625",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\"",
+      "evidence_original": ".3 KitKat operating system4G LTE speed4.7\" touch screenBluetooth 4.0 interface5.0MP rear-facing and 1.3MP front-"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "0MP",
+      "evidence_original": "7\" touch screenBluetooth 4.0 interface5.0MP rear-facing and 1.3MP front-facing cameras"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "1.3MP",
+      "evidence_original": "ooth 4.0 interface5.0MP rear-facing and 1.3MP front-facing cameras"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-7962029/main.jpg",
+      "alt": "Boost Mobile - HTC Desire 510 4G No-Contract Cell Phone - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7962/7962029_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7962/7962029_sa.jpg",
+      "width": 250,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "f52eb1068a9c4b1761aa61a59922f2f5b4efc83992b751982f9e9d14c065c2be",
+      "bytes": 24308,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/boost-mobile-htc-desire-510-4g-no-contract-cell-phone-white/7962029.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

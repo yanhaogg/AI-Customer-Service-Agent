@@ -1,0 +1,66 @@
+{
+  "id": "bb-5796018",
+  "source_sku": "5796018",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Modal - Earbud Headphones - Black",
+  "brand": "Modal",
+  "model": "MD-HPEBP1-B",
+  "description_original": "With memory-foam ear tips in 3 different sizes, these Modal MD-HPEBP1-B earbud headphones provide comfort during extended listening sessions. The in-line microphone and music controls offer enhanced control.",
+  "description_official_dataset": "In-line microphone and music controls; memory-foam ear tips; includes 3 sizes of additional tips",
+  "introduction_zh": "Modal 的耳机与音箱商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 14.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones",
+    "Earbud & In-Ear Headphones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Modal",
+    "model": "MD-HPEBP1-B",
+    "upc": "600603169755",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-5796018/main.jpg",
+      "alt": "Modal - Earbud Headphones - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5796/5796018_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5796/5796018_sa.jpg",
+      "width": 500,
+      "height": 419,
+      "content_type": "image/jpeg",
+      "sha256": "7c7b3068aa4478df1677c5c305646f5c426d12269186cf379edb638a76b9556e",
+      "bytes": 10090,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/modal-earbud-headphones-black/5796018.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

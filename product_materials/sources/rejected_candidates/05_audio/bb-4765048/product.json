@@ -1,0 +1,70 @@
+{
+  "id": "bb-4765048",
+  "source_sku": "4765048",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Acoustic Research - AR Hatteras Indoor/Outdoor Wireless Bluetooth Stereo Speaker - Black/Silver",
+  "brand": "Acoustic Research",
+  "model": null,
+  "description_original": "Enjoy your music outdoors or indoors with this Acoustic Research AR Hatteras AWSHTB portable speaker, which features a durable weather-resistant design and an area light to illuminate your party. Bluetooth technology lets you connect your compatible device.",
+  "description_official_dataset": null,
+  "introduction_zh": "Acoustic Research 品牌的耳机与音箱商品。来源介绍提及 Bluetooth 接口或连接方式。该记录来自历史商品目录，适合商品展示与数据库练习；实际参数和当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 219.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Home Audio",
+    "Speakers"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "h - AR Hatteras Indoor/Outdoor Wireless Bluetooth Stereo Speaker - Black/Silver Enjoy your music outdoors or indoors wi"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-4765048/main.jpg",
+      "alt": "Acoustic Research - AR Hatteras Indoor/Outdoor Wireless Bluetooth Stereo Speaker - Black/Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4765/4765048_rb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4765/4765048_rb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/png",
+      "sha256": "e74430c32acfcfb09edd9bcafeaf6b0b10fdb4b93f029f667961dab4a6020cf4",
+      "bytes": 39640,
+      "original_format": "PNG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/acoustic-research-ar-hatteras-indoor-outdoor-wireless-bluetooth-stereo-speaker-black-silver/4765048.p",
+    "collected_at": "2026-10-13T16:17:29.071629+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Dell - Inspiron 13.3\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Black",
+    "description": "Only at Best Buy  Dell Inspiron Laptop: Take your work or entertainment on the go with this compact 13.3\" touch-screen laptop, which features 8GB memory for smooth processing and multitasking. HDMI output lets you connect to an HDTV or high-definition monitor for additional viewing options.",
+    "brand": "Dell",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Notebooks",
+    "price": 749.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4453900_sb.jpg",
+    "url": "http://www.bestbuy.com/site/dell-inspiron-13-3-touch-screen-laptop-intel-core-i5-8gb-memory-128gb-solid-state-drive-black/4453900.p?id=1219749487295&skuId=4453900&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7711,
+    "rating": 1,
+    "objectID": "4453900"
+  },
+  "bestbuy": {
+    "id": 4453900,
+    "name": "Dell - Inspiron 2-in-1 13.3\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Black",
+    "type": "HardGood",
+    "price": 749.99,
+    "upc": "884116169178",
+    "shipping": 0,
+    "description": "Only at Best Buy\nBlue Label&#8482;Windows 10Technical details: 6th Gen Intel&#174; Core&#8482; i5 processor; 13.3\" display; 8GB memory; 128GB solid state driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included",
+    "manufacturer": "Dell",
+    "model": "I7353-4371BLK",
+    "url": "http://www.bestbuy.com/site/dell-inspiron-2-in-1-13-3-touch-screen-laptop-intel-core-i5-8gb-memory-128gb-solid-state-drive-black/4453900.p?id=1219749487295&skuId=4453900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1314/1314546147/1314546147_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

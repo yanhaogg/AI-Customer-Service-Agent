@@ -1,0 +1,70 @@
+{
+  "id": "bb-1532462",
+  "source_sku": "1532462",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "Energizer - 64-in-1 USB 2.0 Memory Card Reader/Writer - Black",
+  "brand": "Energizer",
+  "model": null,
+  "description_original": "Quickly transfer files from a memory card to your PC or Mac with this Energizer ENR-CRPUNI memory card reader/writer, which features a USB 2.0 interface for rapid data transfer. Plug-and-play operation simplifies use.",
+  "description_official_dataset": null,
+  "introduction_zh": "Energizer 的存储设备商品。来源介绍提及：接口或连接方式 USB 2.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 12.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Memory Cards",
+    "All Memory Cards"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 2.0",
+      "evidence_original": "Energizer - 64-in-1 USB 2.0 Memory Card Reader/Writer - Black Quickly transfer files from a memor"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-1532462/main.jpg",
+      "alt": "Energizer - 64-in-1 USB 2.0 Memory Card Reader/Writer - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1532/1532462_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1532/1532462_sb.jpg",
+      "width": 555,
+      "height": 339,
+      "content_type": "image/jpeg",
+      "sha256": "1e7afe3e6f868ce17ba44f50040fcc5d36da1e6cd0d9671b52da089db12e2ec4",
+      "bytes": 12922,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/energizer-64-in-1-usb-2-0-memory-card-reader-writer-black/1532462.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

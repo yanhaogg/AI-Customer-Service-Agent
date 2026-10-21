@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Blossom - 12-Zone Smart Sprinkler Controller - Gray",
+    "description": "Blossom 12-Zone Smart Sprinkler Controller: Keep a lush, green yard with this smart controller, which allows you to monitor and manage your sprinkler system through your smartphone, tablet and more. Through the downloadable app, you can track local weather patterns, create personalized watering schedules and more.",
+    "brand": "Blossom",
+    "categories": [
+      "Connected Home",
+      "Appliance & Outlet Control"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Appliance & Outlet Control"
+    },
+    "type": "Home automation",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8151458_sb.jpg",
+    "url": "http://www.bestbuy.com/site/blossom-12-zone-smart-sprinkler-controller-gray/8151458.p?id=1219689228515&skuId=8151458&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8793,
+    "rating": 1,
+    "objectID": "8151458"
+  },
+  "bestbuy": {
+    "id": 8151458,
+    "name": "Blossom - 12-Zone Smart Sprinkler Controller - Gray",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "858283005003",
+    "shipping": 0,
+    "description": "Remote control through your device; tracks local weather; personalized watering schedules; 12-zone management; powerline adapter; wall-mount indoor/outdoor controller",
+    "manufacturer": "Blossom",
+    "model": "AWLCD-0100",
+    "url": "http://www.bestbuy.com/site/blossom-12-zone-smart-sprinkler-controller-gray/8151458.p?id=1219689228515&skuId=8151458&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8151/8151458_sc.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

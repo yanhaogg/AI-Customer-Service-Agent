@@ -1,0 +1,73 @@
+{
+  "id": "bb-1612916",
+  "source_sku": "1612916",
+  "category_id": "09_networking",
+  "category_name_zh": "路由器与网络设备",
+  "name_original": "NETGEAR - AC1200 802.11ac Dual-Band Wireless Router - Black",
+  "brand": "NETGEAR",
+  "model": "R6100100PAS",
+  "description_original": "Enjoy wireless coverage throughout your home with this NETGEAR R6100100PAS router that features AC1200 dual-band technology for a clear, reliable connection across devices. Advanced QoS technology enables smooth high-definition streaming and gaming.",
+  "description_official_dataset": "Up to 300 + 867 Mbps data transfer rates; secure Wi-Fi connections (WPA/WPA2); double firewall protection (SPI/NAT); DoS (Denial-of-service) attack prevention; Push 'N' Connect setup",
+  "introduction_zh": "NETGEAR 的路由器与网络设备商品。来源介绍提及：接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 94.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Networking & Wireless",
+    "Routers",
+    "Wireless Routers"
+  ],
+  "specifications_original": {
+    "manufacturer": "NETGEAR",
+    "model": "R6100100PAS",
+    "upc": "606449098082",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": " + 867 Mbps data transfer rates; secure Wi-Fi connections (WPA/WPA2); double firewall protection (SPI/NAT); DoS (De"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/09_networking/bb-1612916/main.jpg",
+      "alt": "NETGEAR - AC1200 802.11ac Dual-Band Wireless Router - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1612/1612916_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1612/1612916_sa.jpg",
+      "width": 394,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "2dd2c03f87593158d72e8848936f973f22a09f4cefb26b27ccf197945111f05e",
+      "bytes": 8029,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/netgear-ac1200-802-11ac-dual-band-wireless-router-black/1612916.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Insignia - Bluetooth Headphones - Gray",
+    "description": "Only at Best Buy  This Insignia&#8482; NS-CAHBTEB01 headphone's Bluetooth 4.0 interface lets you pair with select Bluetooth-enabled devices from up to 33' away. The in-line controls and built-in microphone enable you to regulate the volume and communicate hands-free.",
+    "brand": "Insignia",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Earbud & In-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Earbud & In-Ear Headphones"
+    },
+    "type": "Wireless in ears",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3817099_rb.jpg",
+    "url": "http://www.bestbuy.com/site/insignia-bluetooth-headphones-gray/3817099.p?id=1219603235752&skuId=3817099&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5745,
+    "rating": 6,
+    "objectID": "3817099"
+  },
+  "bestbuy": {
+    "id": 3817099,
+    "name": "Insignia™ - Wireless Headphones - Gray",
+    "type": "HardGood",
+    "price": 49.99,
+    "upc": "600603184680",
+    "shipping": 0,
+    "description": "Only at Best Buy\nCompatible with most Bluetooth-enabled devices; in-line controls; built-in microphone; curved design; rechargeable battery",
+    "manufacturer": "Insignia™",
+    "model": "NS-CAHBTEB01",
+    "url": "http://www.bestbuy.com/site/insignia-wireless-headphones-gray/3817099.p?id=1219603235752&skuId=3817099&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3817/3817099_rc.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

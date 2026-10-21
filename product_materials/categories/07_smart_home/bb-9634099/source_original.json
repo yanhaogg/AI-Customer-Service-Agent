@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "LIFX - Adjustable White A19 Wi-Fi Smart LED Light Bulb, 75W Equivalent - White",
+    "description": "Illuminate your home with this LIFX White 800 Wi-Fi-enabled light bulb, which features 890 lumens of brightness and a range of cool to warm tones for customized lighting. The Wi-Fi technology lets you control light settings from your compatible device.",
+    "brand": "LIFX",
+    "categories": [
+      "Connected Home",
+      "Smart Lighting",
+      "Smart Light Bulbs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Smart Lighting",
+      "lvl2": "Connected Home > Smart Lighting > Smart Light Bulbs"
+    },
+    "type": "Home automation",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9634099_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lifx-adjustable-white-a19-wi-fi-smart-led-light-bulb-75w-equivalent-white/9634099.p?id=1219430510648&skuId=9634099&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4019,
+    "rating": 3,
+    "objectID": "9634099"
+  },
+  "bestbuy": {
+    "id": 9634099,
+    "name": "LIFX - Adjustable White A19 Wi-Fi Smart LED Light Bulb, 75W Equivalent - Adjustable White",
+    "type": "HardGood",
+    "price": 29.99,
+    "upc": "9347403000376",
+    "shipping": 0,
+    "description": "11W of power (75W equivalent); A19 shape; E26 base; 890 lumens of brightness; lasts up to 25,000 hours; built-in Wi-Fi; dimmable, adjustable design",
+    "manufacturer": "LIFX",
+    "model": "BUL-11-A19-E26-W",
+    "url": "http://www.bestbuy.com/site/lifx-adjustable-white-a19-wi-fi-smart-led-light-bulb-75w-equivalent-adjustable-white/9634099.p?id=1219430510648&skuId=9634099&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9634/9634099_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

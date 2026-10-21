@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "CybertronPC - Trooper Desktop - AMD Athlon II X3 - 8GB Memory - 1TB Hard Drive - Black",
+    "description": "With a built-in Gigabit Ethernet LAN, this CybertronPC Trooper TGM2211F desktop enables wired connection to the Internet, so you can easily stream a variety of Web-based games and other media. The NVIDIA GeForce GT 620 graphics ensure crisp, realistic visuals.",
+    "brand": "CybertronPC",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 579.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1625383_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cybertronpc-trooper-desktop-amd-athlon-ii-x3-8gb-memory-1tb-hard-drive-black/1625383.p?id=1219058145096&skuId=1625383",
+    "free_shipping": false,
+    "popularity": 7783,
+    "rating": 4,
+    "objectID": "1625383"
+  },
+  "bestbuy": null
+}

@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "iBUYPOWER - Desktop - AMD FX-Series - 8GB Memory - 1TB Hard Drive - White",
+    "description": "Enjoy smooth graphics and speedy performance with this iBUYPOWER BB697 desktop, which features 8GB of memory and 4GB of dedicated graphics power for intense gaming. Built-in high-speed wireless networking lets you rapidly connect to the Web.",
+    "brand": "iBUYPOWER",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 949.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4757091_sb.jpg",
+    "url": "http://www.bestbuy.com/site/ibuypower-desktop-amd-fx-series-8gb-memory-1tb-hard-drive-white/4757091.p?id=1219638959291&skuId=4757091",
+    "free_shipping": false,
+    "popularity": 5867,
+    "rating": 3,
+    "objectID": "4757091"
+  },
+  "bestbuy": null
+}

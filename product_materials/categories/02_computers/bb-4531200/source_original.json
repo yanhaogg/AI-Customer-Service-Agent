@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Microsoft - Surface Book 2-in-1 13.5\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Silver",
+    "description": "Microsoft Surface Book Convertible 2-in-1 Laptop: This ultrathin, high-performance laptop is equipped with incredible 3000 x 2000 screen resolution and the versatility of a tablet. It combines a powerful 6th Generation Intel&#174; Core&#8482; i5 processor and 8GB of system memory with discrete graphics so no creative tasks are too demanding. Use the included Surface Pen to mark-up presentations, sign documents, take notes and much more.",
+    "brand": "Microsoft",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Notebooks",
+    "price": 1899.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4531200_sb.jpg",
+    "url": "http://www.bestbuy.com/site/microsoft-surface-book-2-in-1-13-5-touch-screen-laptop-intel-core-i5-8gb-memory-256gb-solid-state-drive-silver/4531200.p?id=1219758515832&skuId=4531200&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3366,
+    "rating": 6,
+    "objectID": "4531200"
+  },
+  "bestbuy": {
+    "id": 4531200,
+    "name": "Microsoft - Surface Book 2-in-1 13.5\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Silver",
+    "type": "HardGood",
+    "price": 1899.99,
+    "upc": "889842015515",
+    "shipping": 0,
+    "description": "Windows 10 ProTechnical details: NVIDIA GeForce GPU; 6th Gen Intel&#174; Core&#8482; i5 processor; 13.5\" display; 8GB memory; 256GB solid state driveSpecial features: Bluetooth; touch screenNote: DVD/CD drive not included",
+    "manufacturer": "Microsoft",
+    "model": "SX3-00001",
+    "url": "http://www.bestbuy.com/site/microsoft-surface-book-2-in-1-13-5-touch-screen-laptop-intel-core-i5-8gb-memory-256gb-solid-state-drive-silver/4531200.p?id=1219758515832&skuId=4531200&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4531/4531200_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

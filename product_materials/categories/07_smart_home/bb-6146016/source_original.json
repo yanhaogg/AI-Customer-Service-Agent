@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "iSmartAlarm - Home Security System Plus Wireless Security System - White",
+    "description": "Only at Best Buy  iSmartAlarm Home Security System Plus Wireless Security System: Set up an expandable system with a CubeOne, a motion sensor, 3 contact sensors and a remote tag. Download the app to manage devices and receive alerts on your Android or iOS phone.",
+    "brand": "iSmartAlarm",
+    "categories": [
+      "Connected Home",
+      "Remote Monitoring Kits"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Remote Monitoring Kits"
+    },
+    "type": "Video monitoring",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6146016_sb.jpg",
+    "url": "http://www.bestbuy.com/site/ismartalarm-home-security-system-plus-wireless-security-system-white/6146016.p?id=1219658498443&skuId=6146016&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5051,
+    "rating": 2,
+    "objectID": "6146016"
+  },
+  "bestbuy": {
+    "id": 6146016,
+    "name": "iSmartAlarm - Home Security System Plus Wireless Security System - White",
+    "type": "HardGood",
+    "price": 149.99,
+    "upc": "858176004229",
+    "shipping": 0,
+    "description": "Only at Best Buy\nIncludes a CubeOne, a motion sensor, 3 contact sensors and a remote tag; iSmartAlarm app (download required); phone call, text message, push notification and e-mail alerts",
+    "manufacturer": "iSmartAlarm",
+    "model": "ISA8",
+    "url": "http://www.bestbuy.com/site/ismartalarm-home-security-system-plus-wireless-security-system-white/6146016.p?id=1219658498443&skuId=6146016&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6146/6146016_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

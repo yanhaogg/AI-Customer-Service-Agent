@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Bowers & Wilkins - 4\" 100W Satellite Speaker (Each) - Matte White",
+    "description": "Learn more about Magnolia Premium Installation   Experience stunningly clear stereo sound with this Bowers & Wilkins M1MW 100W satellite speaker that features a 4\" woven glass fiber woofer cone and 1\" aluminum dome tweeter for high-quality audio.",
+    "brand": "Bowers & Wilkins",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers"
+    },
+    "type": "Mht home theatr spkr",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4841572_rb.jpg",
+    "url": "http://www.bestbuy.com/site/bowers-wilkins-4-100w-satellite-speaker-each-matte-white/4841572.p?id=1218541224893&skuId=4841572&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8562,
+    "rating": 2,
+    "objectID": "4841572"
+  },
+  "bestbuy": {
+    "id": 4841572,
+    "name": "Bowers & Wilkins - 4\" 100W Satellite Speaker (Each) - Matte White",
+    "type": "HardGood",
+    "price": 249.99,
+    "upc": "714346314416",
+    "shipping": 0,
+    "description": "100W peak power and maximum power handling; 4\" woven glass fiber woofer cone; 1\" aluminum dome tweeter",
+    "manufacturer": "Bowers & Wilkins",
+    "model": "M1MW",
+    "url": "http://www.bestbuy.com/site/bowers-wilkins-4-100w-satellite-speaker-each-matte-white/4841572.p?id=1218541224893&skuId=4841572&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4841/4841572_rc.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

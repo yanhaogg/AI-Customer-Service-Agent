@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Samsung - 16GB microSD Class 10 UHS-1 Memory Card - Orange",
+    "description": "Compatible with most devices with a microSD slot, including select tablets, cell phones and computers, this Samsung MB-MP16DA/BBY microSD memory card lets you store up to 16GB of data. The Class 10 UHS-1 speed offers optimal performance.",
+    "brand": "Samsung",
+    "categories": [
+      "Cameras & Camcorders",
+      "Memory Cards",
+      "All Memory Cards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Memory Cards",
+      "lvl2": "Cameras & Camcorders > Memory Cards > All Memory Cards"
+    },
+    "type": "Mobile phone media",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5334001_sb.jpg",
+    "url": "http://www.bestbuy.com/site/samsung-16gb-microsd-class-10-uhs-1-memory-card-orange/5334001.p?id=1219120323731&skuId=5334001&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 1401,
+    "rating": 5,
+    "objectID": "5334001"
+  },
+  "bestbuy": null
+}

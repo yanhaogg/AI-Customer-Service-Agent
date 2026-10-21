@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Microsoft - 1850 Wireless Mobile Mouse - Blue",
+    "description": "The built-in mini USB transceiver storage on this Microsoft 1850 U7Z-00011 mouse ensures easy portability. Plug-and-play operation enables simple use on Mac, PC and Android systems for versatility.",
+    "brand": "Microsoft",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Mice",
+      "Wireless & Bluetooth Mice"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Mice",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Mice > Wireless & Bluetooth Mice"
+    },
+    "type": "Mice",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5867176_sb.jpg",
+    "url": "http://www.bestbuy.com/site/microsoft-1850-wireless-mobile-mouse-blue/5867176.p?id=1219165476804&skuId=5867176&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3402,
+    "rating": 5,
+    "objectID": "5867176"
+  },
+  "bestbuy": {
+    "id": 5867176,
+    "name": "Microsoft - 1850 Wireless Mobile Mouse - Blue",
+    "type": "HardGood",
+    "price": 14.99,
+    "upc": "885370736151",
+    "shipping": 0,
+    "description": "LED tracking technology; built-in USB transceiver storage; plug-and-play operation; 2-button design with scroll wheel; compatible with Mac, PC and Android",
+    "manufacturer": "Microsoft",
+    "model": "U7Z-00011",
+    "url": "http://www.bestbuy.com/site/microsoft-1850-wireless-mobile-mouse-blue/5867176.p?id=1219165476804&skuId=5867176&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5867/5867176_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "bb-8662183",
+  "source_sku": "8662183",
+  "category_id": "04_monitors",
+  "category_name_zh": "显示器",
+  "name_original": "Asus - 19.5\" LED HD Monitor - Black",
+  "brand": "Asus",
+  "model": "VS207D-P",
+  "description_original": "Enjoy high-definition visual entertainment on this Asus VS207D-P widescreen flat-panel LED monitor, which features 250 cd/m² brightness and an 80,000,000:1 ASCR (Asus Smart Contrast Ratio) to optimize image and color quality.",
+  "description_official_dataset": "5 ms response time; 80,000,000:1 ASCR (Asus Smart Contrast Ratio); 250 cd/m² brightness; 1600 x 900 resolution; 170° horizontal and 160° vertical viewing angles; D-sub input; Splendid video intelligence technology",
+  "introduction_zh": "Asus 的显示器商品。来源介绍提及：尺寸 19.5 英寸；分辨率 1600 x 900。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 119.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Monitors",
+    "LED Monitors"
+  ],
+  "specifications_original": {
+    "manufacturer": "Asus",
+    "model": "VS207D-P",
+    "upc": "886227347377",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "19.5\"",
+      "evidence_original": "Asus - 19.5\" LED HD Monitor - Black Enjoy high-definition visual entertainment on "
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1600 x 900",
+      "evidence_original": " Contrast Ratio); 250 cd/m² brightness; 1600 x 900 resolution; 170° horizontal and 160° vertical viewing angles; D-sub i"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/04_monitors/bb-8662183/main.jpg",
+      "alt": "Asus - 19.5\" LED HD Monitor - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8662/8662183_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8662/8662183_sa.jpg",
+      "width": 500,
+      "height": 396,
+      "content_type": "image/jpeg",
+      "sha256": "824259e292aeae42c0cdfa4c40f12cdef5e5d42c4c62cd1ff53afa408640e94b",
+      "bytes": 9994,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/asus-19-5-led-hd-monitor-black/8662183.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

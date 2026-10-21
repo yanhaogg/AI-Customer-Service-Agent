@@ -1,0 +1,70 @@
+{
+  "id": "bb-9631906",
+  "source_sku": "9631906",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "SanDisk - 16GB SDHC Memory Card - Blue",
+  "brand": "SanDisk",
+  "model": null,
+  "description_original": "This SDHC card features 16GB of memory for storing or transferring media. The high transfer rate delivers fast copying or downloading.",
+  "description_official_dataset": null,
+  "introduction_zh": "SanDisk 的存储设备商品。来源介绍提及：容量 16GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 29.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Memory Cards",
+    "All Memory Cards"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "SanDisk - 16GB SDHC Memory Card - Blue This SDHC card features 16GB of memory for st"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-9631906/main.jpg",
+      "alt": "SanDisk - 16GB SDHC Memory Card - Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9631/9631906_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9631/9631906_sb.jpg",
+      "width": 377,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "aaabcc8c061959b9054e274b1441a7ba9f4b056ad95005e9e5410a86702d9945",
+      "bytes": 27308,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/sandisk-16gb-sdhc-memory-card-blue/9631906.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

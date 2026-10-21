@@ -1,0 +1,84 @@
+{
+  "id": "bb-4294526",
+  "source_sku": "4294526",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "CyberPowerPC - Gamer Supreme Desktop - Intel Core i7 - 16GB Memory - 2TB Hard Drive + 256GB Solid State Drive - Black/Red",
+  "brand": "CyberPowerPC",
+  "model": null,
+  "description_original": "CyberPowerPC Gamer Supreme Desktop: Take gameplay to the next level with this desktop, which uses NVIDIA GeForce GTX 970 graphics powered by 4GB dedicated video memory to deliver lush images when connected to an external display. The 2TB hard drive and 256GB solid state drive boost system performance and provide space to store files.",
+  "description_official_dataset": null,
+  "introduction_zh": "CyberPowerPC 的笔记本与台式电脑商品。来源介绍提及：容量 16GB；容量 2TB；容量 256GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 1899.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "All Desktops"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "Gamer Supreme Desktop - Intel Core i7 - 16GB Memory - 2TB Hard Drive + 256GB Solid State Drive - Black/Red CyberPo"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "2TB",
+      "evidence_original": "Desktop - Intel Core i7 - 16GB Memory - 2TB Hard Drive + 256GB Solid State Drive - Black/Red CyberPowerPC Gamer S"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "256GB",
+      "evidence_original": "ore i7 - 16GB Memory - 2TB Hard Drive + 256GB Solid State Drive - Black/Red CyberPowerPC Gamer Supreme Desktop: Tak"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "DIA GeForce GTX 970 graphics powered by 4GB dedicated video memory to deliver lush images when connected to an ex"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-4294526/main.jpg",
+      "alt": "CyberPowerPC - Gamer Supreme Desktop - Intel Core i7 - 16GB Memory - 2TB Hard Drive + 256GB Solid State Drive - Black/Red",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/4294/4294526_sb.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/4294/4294526_sb.jpg",
+      "width": 142,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "ccd9f00b4261ce198d987b53b2621e9dd82c7dcdc71d597fb91a94d8c8a05ef1",
+      "bytes": 6731,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/cyberpowerpc-gamer-supreme-desktop-intel-core-i7-16gb-memory-2tb-hard-drive-256gb-solid-state-drive-black-red/4294526.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

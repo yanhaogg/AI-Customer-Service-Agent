@@ -1,0 +1,87 @@
+{
+  "id": "bb-8868389",
+  "source_sku": "8868389",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "Oregon Scientific - MEEP 2.0 Tablet with 4GB Memory - Orange",
+  "brand": "Oregon Scientific",
+  "model": "OP0118-12",
+  "description_original": "Entertain your child with this Oregon Scientific MEEP 2.0 OP0118-12 tablet, which features a 4GB capacity for storing music, games, movies and more. The 7\" display with zForce technology offers a responsive touch interface for easy navigation.",
+  "description_official_dataset": "7\" touch screen with 800 x 480 resolutionAndroid 4.0 Ice Cream Sandwich operating system4GB storage capacityWi-FiMEEP! Store",
+  "introduction_zh": "Oregon Scientific 的平板电脑商品。来源介绍提及：尺寸 7 英寸 display；尺寸 7 英寸；容量 4GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 99.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {
+    "manufacturer": "Oregon Scientific",
+    "model": "OP0118-12",
+    "upc": "734811807458",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\" display",
+      "evidence_original": "ring music, games, movies and more. The 7\" display with zForce technology offers a responsive touch interface for easy n"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\"",
+      "evidence_original": "ve touch interface for easy navigation. 7\" touch screen with 800 x 480 resolutionAndroid 4.0 Ice Cream Sandwich "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "regon Scientific - MEEP 2.0 Tablet with 4GB Memory - Orange Entertain your child with this Oregon Scientific MEEP"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "800 x 480",
+      "evidence_original": "r easy navigation. 7\" touch screen with 800 x 480 resolutionAndroid 4.0 Ice Cream Sandwich operating system4GB storage "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-8868389/main.jpg",
+      "alt": "Oregon Scientific - MEEP 2.0 Tablet with 4GB Memory - Orange",
+      "source_url": "https://cdn-demo.algolia.com/bestbuy/8868389_rb.jpg",
+      "resolved_url": "https://cdn-demo.algolia.com/bestbuy/8868389_rb.jpg",
+      "width": 220,
+      "height": 132,
+      "content_type": "image/jpeg",
+      "sha256": "bedd4bc52198d99a6259420b1890dc57922560aa0a1c89ea65a0c5dbb42fb497",
+      "bytes": 58214,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/oregon-scientific-meep-2-0-tablet-with-4gb-memory-orange/8868389.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

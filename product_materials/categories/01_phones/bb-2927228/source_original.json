@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Apple - iPhone 5s 16GB Cell Phone (Unlocked) - Silver",
+    "description": "The highly advanced iPhone 5s features an 8MP rear-facing camera, a 1.2MP front-facing camera, ultrafast LTE wireless and iOS 7. Yet it's as thin and light as ever.",
+    "brand": "Apple",
+    "categories": [
+      "Cell Phones",
+      "Unlocked Cell Phones",
+      "All Unlocked Cell Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Unlocked Cell Phones",
+      "lvl2": "Cell Phones > Unlocked Cell Phones > All Unlocked Cell Phones"
+    },
+    "type": "So unlocked hardware",
+    "price": 599.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2927228_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-iphone-5s-16gb-cell-phone-unlocked-silver/2927228.p?id=1219083559951&skuId=2927228",
+    "free_shipping": false,
+    "popularity": 9628,
+    "rating": 1,
+    "objectID": "2927228"
+  },
+  "bestbuy": null
+}

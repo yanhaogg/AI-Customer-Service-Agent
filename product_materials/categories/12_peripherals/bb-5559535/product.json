@@ -1,0 +1,82 @@
+{
+  "id": "bb-5559535",
+  "source_sku": "5559535",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "IOGEAR - Bluetooth 4.0 USB Micro Adapter - Green",
+  "brand": "IOGEAR",
+  "model": "GBU521",
+  "description_original": "Connect up to 3 Bluetooth-enabled devices together and link to your PC with this IOGEAR GBU521 USB micro adapter that allows simple, fast file transfer. A wireless range of up to 30' and data transfer rates up to 3 Mbps ensure reliability.",
+  "description_official_dataset": "Compatible with most PCs; allows connection of up to 3 Bluetooth devices; supports A2DP technology",
+  "introduction_zh": "IOGEAR 的键鼠与电脑外设商品。来源介绍提及：接口或连接方式 Bluetooth 4.0；接口或连接方式 USB；接口或连接方式 Bluetooth。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 19.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Cables & Connectors",
+    "USB Cables & Hubs"
+  ],
+  "specifications_original": {
+    "manufacturer": "IOGEAR",
+    "model": "GBU521",
+    "upc": "881317509512",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.0",
+      "evidence_original": "IOGEAR - Bluetooth 4.0 USB Micro Adapter - Green Connect up to 3 Bluetooth-enabled devices t"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "IOGEAR - Bluetooth 4.0 USB Micro Adapter - Green Connect up to 3 Bluetooth-enabled devices toget"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "B Micro Adapter - Green Connect up to 3 Bluetooth-enabled devices together and link to your PC with this IOGEAR GBU521 "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-5559535/main.jpg",
+      "alt": "IOGEAR - Bluetooth 4.0 USB Micro Adapter - Green",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5559/5559535_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5559/5559535_sa.jpg",
+      "width": 555,
+      "height": 477,
+      "content_type": "image/jpeg",
+      "sha256": "58202b80246ef2759b21709c0c231490dfcecf57495c1e06584771ef24d04f92",
+      "bytes": 14858,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/iogear-bluetooth-4-0-usb-micro-adapter-green/5559535.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

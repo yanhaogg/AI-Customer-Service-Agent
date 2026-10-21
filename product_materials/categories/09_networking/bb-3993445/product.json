@@ -1,0 +1,72 @@
+{
+  "id": "bb-3993445",
+  "source_sku": "3993445",
+  "category_id": "09_networking",
+  "category_name_zh": "路由器与网络设备",
+  "name_original": "NETGEAR - AC1200 Dual-Band Gigabit Wi-Fi Range Extender - White",
+  "brand": "NETGEAR",
+  "model": "EX6150-100NAS",
+  "description_original": "This NETGEAR EX6150-100NAS range extender allows you to extend the coverage of your existing 802.11a/b/g/n/ac network or create a Wireless-AC access point. FastLane technology helps ensure rapid performance by using both 2.4GHz and 5.0GHz Wi-Fi bands.",
+  "description_official_dataset": "Up to 1200 Mbps data transfer rates; WPA/WPA2-PSK (Wi-Fi Protected Access) and WEP security; FastLane technology; external antennas; 2 Wi-Fi modes; Gigabit Ethernet port",
+  "introduction_zh": "NETGEAR 的路由器与网络设备商品。来源介绍提及：接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 119.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Networking & Wireless",
+    "PC Range Extenders"
+  ],
+  "specifications_original": {
+    "manufacturer": "NETGEAR",
+    "model": "EX6150-100NAS",
+    "upc": "606449105056",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "NETGEAR - AC1200 Dual-Band Gigabit Wi-Fi Range Extender - White This NETGEAR EX6150-100NAS range extender allo"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/09_networking/bb-3993445/main.jpg",
+      "alt": "NETGEAR - AC1200 Dual-Band Gigabit Wi-Fi Range Extender - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3993/3993445_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3993/3993445_sa.jpg",
+      "width": 265,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "d0cede801fd2b9b9fba498c361ad05a861d45069288437c49d56889bec8ce558",
+      "bytes": 4709,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/netgear-ac1200-dual-band-gigabit-wi-fi-range-extender-white/3993445.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

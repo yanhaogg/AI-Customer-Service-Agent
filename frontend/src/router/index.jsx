@@ -1,0 +1,21 @@
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import Login from '../pages/Login'
+import Register from '../pages/Register'
+import Home from '../pages/Home'
+import AdminHomepage from '../pages/AdminHomepage'
+import AdminProducts from '../pages/AdminProducts'
+import Orders from '../pages/Orders'
+import Cart from '../pages/Cart'
+import Checkout from '../pages/Checkout'
+import Addresses from '../pages/Addresses'
+import OrderDetail from '../pages/OrderDetail'
+import Profile from '../pages/Profile'
+import Chat from '../pages/Chat'
+import BrowsingHistory from '../pages/BrowsingHistory'
+import HumanSupport from '../pages/HumanSupport'
+import SupportTasks from '../pages/SupportTasks'
+import Products from '../pages/Products'
+import ProductDetail from '../pages/ProductDetail'
+export default function Router() {
+ return <BrowserRouter><Routes><Route path="/" element={<Navigate to="/home" replace/>}/><Route path="/home" element={<Home/>}/><Route path="/admin/homepage" element={<AdminHomepage/>}/><Route path="/admin/products" element={<AdminProducts/>}/><Route path="/products" element={<Products/>}/><Route path="/products/:id" element={<ProductDetail/>}/><Route path="/login" element={<Login/>}/><Route path="/register" element={<Register/>}/><Route path="/orders" element={<Orders/>}/><Route path="/orders/:id" element={<OrderDetail/>}/><Route path="/cart" element={<Cart/>}/><Route path="/checkout" element={<Checkout/>}/><Route path="/addresses" element={<Addresses/>}/><Route path="/admin/orders" element={<Orders admin/>}/><Route path="/admin/tasks" element={<SupportTasks/>}/><Route path="/admin/support" element={<HumanSupport/>}/><Route path="/profile" element={<Profile/>}/><Route path="/chat" element={<Chat/>}/><Route path="/history" element={<BrowsingHistory/>}/><Route path="*" element={<Navigate to="/home" replace/>}/></Routes></BrowserRouter>
+}

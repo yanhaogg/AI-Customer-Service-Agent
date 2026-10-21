@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Olympus - TG-4 16.0-Megapixel Waterproof Digital Camera - Red",
+    "description": "Preserve memories with this Olympus TG-4 16.0-megapixel digital camera that captures sharp photos and 1080p videos and lets you share them via Wi-Fi. The rugged design resists water, freezing temperatures, crushing force, shocks and dust for durability.  Memory card sold separately.",
+    "brand": "Olympus",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Point & Shoot Cameras",
+      "All Point & Shoot Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras > All Point & Shoot Cameras"
+    },
+    "type": "Digital cameras",
+    "price": 379.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5568036_sb.jpg",
+    "url": "http://www.bestbuy.com/site/olympus-tg-4-16-0-megapixel-waterproof-digital-camera-red/5568036.p?id=1219656191061&skuId=5568036&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2569,
+    "rating": 2,
+    "objectID": "5568036"
+  },
+  "bestbuy": {
+    "id": 5568036,
+    "name": "Olympus - TG-4 16.0-Megapixel Waterproof Digital Camera - Red",
+    "type": "HardGood",
+    "price": 379.99,
+    "upc": "050332189874",
+    "shipping": 0,
+    "description": "4x optical/3x digital zoom1080p HD videoWater-resistantUnderwater modes with underwater HDRWi-Fi and GPS",
+    "manufacturer": "Olympus",
+    "model": "V104160RU000",
+    "url": "http://www.bestbuy.com/site/olympus-tg-4-16-0-megapixel-waterproof-digital-camera-red/5568036.p?id=1219656191061&skuId=5568036&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5568/5568036_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

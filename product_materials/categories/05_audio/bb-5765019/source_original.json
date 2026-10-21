@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Ion Audio - Clipster Active Bluetooth Clip-On Speaker - Black",
+    "description": "Listen to music on the go with this Ion Audio Clipster Active ISP34 speaker, which features a tough rubber covering with IPX4 waterproof rating for outdoor use. A Bluetooth interface enables you to stream music from your compatible music player or phone.",
+    "brand": "Ion Audio",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers"
+    },
+    "type": "Impulse",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5765019_sb.jpg",
+    "url": "http://www.bestbuy.com/site/ion-audio-clipster-active-bluetooth-clip-on-speaker-black/5765019.p?id=1219656191540&skuId=5765019&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5150,
+    "rating": 5,
+    "objectID": "5765019"
+  },
+  "bestbuy": null
+}

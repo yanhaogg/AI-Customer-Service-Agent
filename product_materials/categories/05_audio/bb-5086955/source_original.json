@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Pioneer - 4\" Bookshelf Speakers (Pair) - Black",
+    "description": "Experience lush audio with these Pioneer SP-BS22-LR bookshelf speakers that feature 80W maximum power handling for crisp, robust sound. The curved cabinet design helps minimize vibration for exceptional performance.",
+    "brand": "Pioneer",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers",
+      "Bookshelf Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers",
+      "lvl3": "Audio > Home Audio > Speakers > Bookshelf Speakers"
+    },
+    "type": "Bookshelf speakers",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5086955_rb.jpg",
+    "url": "http://www.bestbuy.com/site/pioneer-4-bookshelf-speakers-pair-black/5086955.p?id=1218610014045&skuId=5086955&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2104,
+    "rating": 2,
+    "objectID": "5086955"
+  },
+  "bestbuy": {
+    "id": 5086955,
+    "name": "Pioneer - 4\" Bookshelf Speakers (Pair) - Black",
+    "type": "HardGood",
+    "price": 129.99,
+    "upc": "012562906119",
+    "shipping": 0,
+    "description": "80W maximum power handling; 4\" polypropylene woofer; 1\" soft dome tweeter; oversize vented magnet structure; 4\" structured surface driver; curved cabinet",
+    "manufacturer": "Pioneer",
+    "model": "SP-BS22-LR",
+    "url": "http://www.bestbuy.com/site/pioneer-4-bookshelf-speakers-pair-black/5086955.p?id=1218610014045&skuId=5086955&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5086/5086955_rc.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

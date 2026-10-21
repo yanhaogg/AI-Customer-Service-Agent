@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "LG - G Pad - 7\" - 8GB - Wi-Fi + 4G LTE Sprint - Black",
+    "description": "LG G Pad Tablet: Stream videos, catch up on social media and browse the Web with ease using this tablet, which features a 7\" touch screen for simple navigation and a Qualcomm Snapdragon quad-core processor for speedy performance. Stay connected to the Web in more places with 4G LTE capability.",
+    "brand": "LG",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Android connected",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9415008_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lg-g-pad-7-8gb-wi-fi-4g-lte-sprint-black/9415008.p?id=1219703346536&skuId=9415008&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4150,
+    "rating": 6,
+    "objectID": "9415008"
+  },
+  "bestbuy": {
+    "id": 9415008,
+    "name": "LG - G Pad - 7\" - 8GB - Wi-Fi + 4G LTE Sprint - Black",
+    "type": "HardGood",
+    "price": 249.99,
+    "upc": "652810501620",
+    "shipping": 0,
+    "description": "Android 5.0 Lollipop7\" touch screen with 1280 x 800 resolution8GB storageQuad-core processorWi-Fi + 4G LTE5.0MP rear- and 1.2MP front-facing camerasmicroSD slot",
+    "manufacturer": "LG",
+    "model": "LGV400.AUSABK",
+    "url": "http://www.bestbuy.com/site/lg-g-pad-7-8gb-wi-fi-4g-lte-sprint-black/9415008.p?id=1219703346536&skuId=9415008&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9415/9415008_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

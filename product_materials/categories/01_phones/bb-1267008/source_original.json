@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "Sony - Xperia Z3V 4G LTE Cell Phone - Black (Verizon Wireless)",
+    "description": "Sony Xperia Cell Phone for Verizon Wireless: Take great photographs and 4K video wherever your phone goes. Stream most PlayStation 4 games (console and games sold separately) over a Wi-Fi network so you can play away from the living room. Verizon Edge option available in store. Learn more &#8250;",
+    "brand": "Sony",
+    "categories": [
+      "Cell Phones",
+      "All Cell Phones with Plans"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > All Cell Phones with Plans"
+    },
+    "type": "Vzn handsets",
+    "price": 599.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1267008_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sony-xperia-z3v-4g-lte-cell-phone-black-verizon-wireless/1267008.p?id=1219482736386&skuId=1267008&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 199,
+    "rating": 3,
+    "objectID": "1267008"
+  },
+  "bestbuy": null
+}

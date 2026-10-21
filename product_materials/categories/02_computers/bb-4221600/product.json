@@ -1,0 +1,81 @@
+{
+  "id": "bb-4221600",
+  "source_sku": "4221600",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "HP - 15.6\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black",
+  "brand": "HP",
+  "model": null,
+  "description_original": "HP Laptop: Easily browse Web sites and swipe through features wherever you go with this efficient laptop, which features a 15.6\" touch screen that simplifies navigation. Store your expanding media collection and documents on the generous 1TB hard drive.",
+  "description_official_dataset": null,
+  "introduction_zh": "HP 的笔记本与台式电脑商品。来源介绍提及：尺寸 15.6 英寸；容量 6GB；容量 1TB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 399.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\"",
+      "evidence_original": "HP - 15.6\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - B"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "6GB",
+      "evidence_original": "\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black HP Laptop: Easily browse Web sites an"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "1TB",
+      "evidence_original": "n Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black HP Laptop: Easily browse Web sites and swipe throu"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-4221600/main.jpg",
+      "alt": "HP - 15.6\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black",
+      "source_url": "https://cdn-demo.algolia.com/bestbuy/4221600_sb.jpg",
+      "resolved_url": "https://cdn-demo.algolia.com/bestbuy/4221600_sb.jpg",
+      "width": 220,
+      "height": 142,
+      "content_type": "image/jpeg",
+      "sha256": "95e7e1f33a9046f538f5ae26b4d9e0d398ee5294f7a651fd56d9e4b1fb811dda",
+      "bytes": 42767,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/hp-15-6-touch-screen-laptop-intel-core-i3-6gb-memory-1tb-hard-drive-black/4221600.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

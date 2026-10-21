@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Lenovo - 11.6\" Laptop - Intel Celeron - 2GB Memory - 32GB Solid State Drive - Silver",
+    "description": "Lenovo Laptop: Work and play wherever you go with this lightweight 11.6\" laptop. Check your e-mail and access social media with built-in wireless networking, and pair with your other devices via Bluetooth 4.0. Plus, connect an external high-definition display using the micro HDMI output.",
+    "brand": "Lenovo",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Burst skus",
+    "price": 179.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4537500_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lenovo-11-6-laptop-intel-celeron-2gb-memory-32gb-solid-state-drive-silver/4537500.p?id=1219758512681&skuId=4537500&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4375,
+    "rating": 4,
+    "objectID": "4537500"
+  },
+  "bestbuy": null
+}

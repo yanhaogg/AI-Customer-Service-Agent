@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Sharkk - 4-Port USB 3.0 Hub - Black",
+    "description": "Connect up to 4 devices to your computer with this Sharkk SK-UH004 USB hub, which features 4 USB 3.0 ports that deliver high-speed performance up to 5 Gbps. The built-in USB connector and plug-and-play design make setup fast and simple.",
+    "brand": "Sharkk",
+    "categories": [
+      "Computers & Tablets",
+      "Cables & Connectors",
+      "USB Cables & Hubs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Cables & Connectors",
+      "lvl2": "Computers & Tablets > Cables & Connectors > USB Cables & Hubs"
+    },
+    "type": "So c-pab",
+    "price": 13.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9243063_rb.jpg",
+    "url": "http://www.bestbuy.com/site/sharkk-4-port-usb-3-0-hub-black/9243063.p?id=1219701750244&skuId=9243063",
+    "free_shipping": true,
+    "popularity": 666,
+    "rating": 1,
+    "objectID": "9243063"
+  },
+  "bestbuy": null
+}

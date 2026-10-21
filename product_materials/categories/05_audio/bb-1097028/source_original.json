@@ -1,0 +1,37 @@
+{
+  "algolia": {
+    "name": "Harman Kardon - Esquire Mini Portable Bluetooth Speaker - Black",
+    "description": "Listen to your favorite music on the go with this Harman Kardon portable speaker, which features a Bluetooth interface that allows simple wireless pairing with select devices. A dual-microphone conferencing system allows clear communication.",
+    "brand": "Harman Kardon",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1097028_sb.jpg",
+    "url": "http://www.bestbuy.com/site/harman-kardon-esquire-mini-portable-bluetooth-speaker-black/1097028.p?id=1219483244493&skuId=1097028&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 6279,
+    "rating": 3,
+    "objectID": "1097028"
+  },
+  "bestbuy": {
+    "id": 1097028,
+    "name": "Harman Kardon - Esquire Mini Portable Bluetooth Speaker - Black",
+    "type": "HardGood",
+    "price": 149.99,
+    "upc": "028292264870",
+    "shipping": 0,
+    "description": "Compatible with most Bluetooth-enabled devices; 8W of power (4W x 2); dual-microphone conferencing system; rechargeable lithium-polymer battery; auxiliary input",
+    "manufacturer": "Harman Kardon",
+    "model": "HKESQUIREMINIBLKAM",
+    "url": "http://www.bestbuy.com/site/harman-kardon-esquire-mini-portable-bluetooth-speaker-black/1097028.p?id=1219483244493&skuId=1097028&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1097/1097028_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bb-5563224",
+  "source_sku": "5563224",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "LG - Extravert 2 Cell Phone - Blue (Verizon Wireless)",
+  "brand": "LG",
+  "model": null,
+  "description_original": "LG Extravert 2 LG-VN280 for Verizon Wireless: With a slide-out QWERTY keyboard, this LG cell phone is great for those who love texting with friends, family and colleagues while on the go. A simple touch screen makes navigating features easy, and the durable, lightweight design is great for frequent use. Verizon Edge option available. Learn more ›",
+  "description_official_dataset": null,
+  "introduction_zh": "LG 品牌的手机商品。具体产品功能、适用设备与配件说明见保留的英文介绍。该记录来自历史商品目录，适合商品展示与数据库练习；实际参数和当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 179.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "All Cell Phones with Plans"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-5563224/main.jpg",
+      "alt": "LG - Extravert 2 Cell Phone - Blue (Verizon Wireless)",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5563/5563224_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5563/5563224_sb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/png",
+      "sha256": "e74430c32acfcfb09edd9bcafeaf6b0b10fdb4b93f029f667961dab4a6020cf4",
+      "bytes": 39640,
+      "original_format": "PNG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/lg-extravert-2-cell-phone-blue-verizon-wireless/5563224.p",
+    "collected_at": "2026-10-13T16:17:29.071629+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "GoPro - HERO+ LCD HD Waterproof Action Camera",
+    "description": "GoPro HERO+ LCD HD Waterproof Action Camera: Capture beautiful 8.0MP shots with this waterproof action camera from GoPro. Hold the shutter button down for burst shooting up to 5 fps (frames per second). GoPro's wearable, mountable design and touch-screen controls make it easy to capture the action from your unique first-person perspective. This GoPro HERO+ LCD action camera also has built-in Wi-Fi and Bluetooth, making it easy to share footage and control the camera remotely.",
+    "brand": "GoPro",
+    "categories": [
+      "Cameras & Camcorders",
+      "Camcorders",
+      "Action Camcorders",
+      "All Action Camcorders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Camcorders",
+      "lvl2": "Cameras & Camcorders > Camcorders > Action Camcorders",
+      "lvl3": "Cameras & Camcorders > Camcorders > Action Camcorders > All Action Camcorders"
+    },
+    "type": "Point&#38;shoot camcrder",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6954009_rb.jpg",
+    "url": "http://www.bestbuy.com/site/gopro-hero-lcd-hd-waterproof-action-camera/6954009.p?id=1219667156948&skuId=6954009&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6490,
+    "rating": 3,
+    "objectID": "6954009"
+  },
+  "bestbuy": {
+    "id": 6954009,
+    "name": "GoPro - HERO+ LCD HD Waterproof Action Camera",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "818279014129",
+    "shipping": 0,
+    "description": "8.0MP still images; Auto Low Light; Wi-Fi; Bluetooth interface; SuperView; QuikCapture; HiLight Tag; waterproof up to 131'",
+    "manufacturer": "GoPro",
+    "model": "CHDHB-101",
+    "url": "http://www.bestbuy.com/site/gopro-hero-lcd-hd-waterproof-action-camera/6954009.p?id=1219667156948&skuId=6954009&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6954/6954009_rc.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

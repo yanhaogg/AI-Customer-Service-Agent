@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "GoPro - LCD Touch BacPac - Black/White",
+    "description": "Play back videos and photos directly from select GoPro cameras with this LCD Touch BacPac ALCDB-401 touch display, which features a compact design and seamless attachment to your camera. The display's adjustable brightness helps conserve battery life.",
+    "brand": "GoPro",
+    "categories": [
+      "Cameras & Camcorders",
+      "Camcorder Accessories",
+      "LCD Monitors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Camcorder Accessories",
+      "lvl2": "Cameras & Camcorders > Camcorder Accessories > LCD Monitors"
+    },
+    "type": "Action cam accy",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8712062_rb.jpg",
+    "url": "http://www.bestbuy.com/site/gopro-lcd-touch-bacpac-black-white/8712062.p?id=1219361173782&skuId=8712062&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6484,
+    "rating": 4,
+    "objectID": "8712062"
+  },
+  "bestbuy": {
+    "id": 8712062,
+    "name": "GoPro - LCD Touch BacPac - Black/White",
+    "type": "HardGood",
+    "price": 79.99,
+    "upc": "818279012538",
+    "shipping": 0,
+    "description": "Compatible with GoPro HERO4 Black, HERO3+ and HERO3 cameras; removable touch display; built-in speaker; adjustable brightness; compact design",
+    "manufacturer": "GoPro",
+    "model": "ALCDB-401",
+    "url": "http://www.bestbuy.com/site/gopro-lcd-touch-bacpac-black-white/8712062.p?id=1219361173782&skuId=8712062&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8712/8712062_rc.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

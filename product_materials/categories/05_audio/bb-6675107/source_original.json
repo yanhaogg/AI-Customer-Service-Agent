@@ -1,0 +1,23 @@
+{
+  "algolia": {
+    "name": "Outdoor Tech - Buckshot Portable Wireless Speaker - Black",
+    "description": "Enjoy crisp audio with this Outdoor Tech Buckshot OT1301-B wireless speaker that features Bluetooth 4.0 technology for pairing with compatible mobile devices. The rugged, portable design enables on-the-go indoor or outdoor listening.",
+    "brand": "Outdoor Tech",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6675107_sb.jpg",
+    "url": "http://www.bestbuy.com/site/outdoor-tech-buckshot-portable-wireless-speaker-black/6675107.p?id=1219234629820&skuId=6675107&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2330,
+    "rating": 5,
+    "objectID": "6675107"
+  },
+  "bestbuy": null
+}

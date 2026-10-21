@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Grace Digital - Mondo Wireless Music Player and Internet Radio - Black",
+    "description": "Enjoy thousands of radio stations or stream music from your collection with this Grace Digital radio that features built-in 802.11n connectivity for a wireless Internet connection. The auxiliary input allows connection of most portable audio devices.",
+    "brand": "Grace Digital",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Wireless & Multiroom Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Wireless & Multiroom Audio"
+    },
+    "type": "So dig hm audio sys",
+    "price": 169.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5255793_sb.jpg",
+    "url": "http://www.bestbuy.com/site/grace-digital-mondo-wireless-music-player-and-internet-radio-black/5255793.p?id=1218627547741&skuId=5255793",
+    "free_shipping": true,
+    "popularity": 6463,
+    "rating": 5,
+    "objectID": "5255793"
+  },
+  "bestbuy": {
+    "id": 5255793,
+    "name": "Grace Digital - Mondo Wireless Music Player and Internet Radio - Black",
+    "type": "HardGood",
+    "price": 169.99,
+    "upc": "893153002607",
+    "shipping": 0,
+    "description": "From our expanded online assortment; plays music directly from the Internet; streams music from a PC, Mac or NAS; built-in 802.11n wireless connectivity; 10 presets; built-in speaker; auxiliary input; USB connectivity",
+    "manufacturer": "Grace Digital",
+    "model": "GDI-IRC6000",
+    "url": "http://www.bestbuy.com/site/grace-digital-mondo-wireless-music-player-and-internet-radio-black/5255793.p?id=1218627547741&skuId=5255793&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5255/5255793_sa.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

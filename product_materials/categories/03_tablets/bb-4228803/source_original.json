@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Asus - Transformer Book T100TAF - 10.1\" - Intel Atom - 32GB - With Keyboard - Gray",
+    "description": "Asus Transformer Book 10.1: The Transformer Book operates as both a Windows tablet and an ultraportable notebook. Detach the tablet to work and play anywhere, and dock to enjoy the comfortable keyboard, smart gesture-enabled touchpad and advanced connectivity.",
+    "brand": "Asus",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other wintel wifi",
+    "price": 279.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4228803_sb.jpg",
+    "url": "http://www.bestbuy.com/site/asus-transformer-book-t100taf-10-1-intel-atom-32gb-with-keyboard-gray/4228803.p?id=1219709884797&skuId=4228803&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9289,
+    "rating": 4,
+    "objectID": "4228803"
+  },
+  "bestbuy": null
+}

@@ -1,0 +1,70 @@
+{
+  "id": "bb-6924124",
+  "source_sku": "6924124",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "SkyBell - Wi-Fi Video Doorbell - Bronze",
+  "brand": "SkyBell",
+  "model": null,
+  "description_original": "SkyBell Wi-Fi Video Doorbell: Answer your door from your smartphone with the SkyBell video doorbell. Complete with a video camera, motion sensor, microphone and speaker, this doorbell lets you see, hear and speak to your visitor from a mobile device anywhere in the world.",
+  "description_official_dataset": null,
+  "introduction_zh": "SkyBell 的智能家居商品。来源介绍提及：接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 149.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Security Cameras & Systems",
+    "Security Cameras"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "SkyBell - Wi-Fi Video Doorbell - Bronze SkyBell Wi-Fi Video Doorbell: Answer your doo"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-6924124/main.jpg",
+      "alt": "SkyBell - Wi-Fi Video Doorbell - Bronze",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6924/6924124_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6924/6924124_sb.jpg",
+      "width": 998,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "b9889e0ad3616bb82c0d8c475f5a405f2cd387798fd677b3f969d0dd4efd34ed",
+      "bytes": 123581,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/skybell-wi-fi-video-doorbell-bronze/6924124.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

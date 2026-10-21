@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "HP - 15.6\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black",
+    "description": "HP Laptop: Easily browse Web sites and swipe through features wherever you go with this efficient laptop, which features a 15.6\" touch screen that simplifies navigation. Store your expanding media collection and documents on the generous 1TB hard drive.",
+    "brand": "HP",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Burst skus",
+    "price": 399.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4221600_sb.jpg",
+    "url": "http://www.bestbuy.com/site/hp-15-6-touch-screen-laptop-intel-core-i3-6gb-memory-1tb-hard-drive-black/4221600.p?id=1219708598794&skuId=4221600&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6138,
+    "rating": 4,
+    "objectID": "4221600"
+  },
+  "bestbuy": null
+}

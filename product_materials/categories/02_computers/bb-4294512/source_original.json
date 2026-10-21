@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "CyberPowerPC - Gamer Supreme Desktop - Intel Core i7 - 32GB Memory - 2TB Hard Drive + 256GB Solid State Drive - White",
+    "description": "CyberPowerPC Gamer Supreme Desktop: Utilizing NVIDIA Titan X graphics powered by 12GB dedicated video memory, this efficient desktop delivers lush gaming images when you connect to a display via the HDMI output. The 2TB hard drive and 256GB solid state drive boost performance and provide spacious storage.",
+    "brand": "CyberPowerPC",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 2499.99,
+    "price_range": "> 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4294512_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cyberpowerpc-gamer-supreme-desktop-intel-core-i7-32gb-memory-2tb-hard-drive-256gb-solid-state-drive-white/4294512.p?id=bb4294512&skuId=4294512",
+    "free_shipping": true,
+    "popularity": 7794,
+    "rating": 3,
+    "objectID": "4294512"
+  },
+  "bestbuy": null
+}

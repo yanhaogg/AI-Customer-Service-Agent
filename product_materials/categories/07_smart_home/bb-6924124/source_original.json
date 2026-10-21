@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "SkyBell - Wi-Fi Video Doorbell - Bronze",
+    "description": "SkyBell Wi-Fi Video Doorbell: Answer your door from your smartphone with the SkyBell video doorbell. Complete with a video camera, motion sensor, microphone and speaker, this doorbell lets you see, hear and speak to your visitor from a mobile device anywhere in the world.",
+    "brand": "SkyBell",
+    "categories": [
+      "Connected Home",
+      "Security Cameras & Systems",
+      "Security Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Security Cameras & Systems",
+      "lvl2": "Connected Home > Security Cameras & Systems > Security Cameras"
+    },
+    "type": "Video monitoring",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6924124_sb.jpg",
+    "url": "http://www.bestbuy.com/site/skybell-wi-fi-video-doorbell-bronze/6924124.p?id=1219667166822&skuId=6924124&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 537,
+    "rating": 1,
+    "objectID": "6924124"
+  },
+  "bestbuy": null
+}

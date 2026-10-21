@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Logitech - Bluetooth Keyboard for Apple® iPad® 2nd-, 3rd- and 4th-Generation - Black",
+    "description": "Start typing with ease with your Apple iPad 2nd-, 3rd- or 4th-generation using this Logitech 920-004013 keyboard that features Bluetooth technology for a simple wireless connection and 64 keys for fast, accurate data entry.",
+    "brand": "Logitech",
+    "categories": [
+      "Computers & Tablets",
+      "iPad & Tablet Accessories",
+      "Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > iPad & Tablet Accessories",
+      "lvl2": "Computers & Tablets > iPad & Tablet Accessories > Keyboards"
+    },
+    "type": "Bluetooth keyboards",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4974041_sb.jpg",
+    "url": "http://www.bestbuy.com/site/logitech-bluetooth-keyboard-for-apple-ipad-2nd--3rd-and-4th-generation-black/4974041.p?id=1218587135346&skuId=4974041&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3974,
+    "rating": 5,
+    "objectID": "4974041"
+  },
+  "bestbuy": {
+    "id": 4974041,
+    "name": "Logitech - Bluetooth Keyboard for Apple® iPad® 2nd-, 3rd- and 4th-Generation - Black",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "097855086228",
+    "shipping": 0,
+    "description": "Compatible with Apple iPad 2nd-, 3rd- and 4th-generation; Bluetooth technology; 64 keys; multimedia and Internet keys",
+    "manufacturer": "Logitech",
+    "model": "920-004013",
+    "url": "http://www.bestbuy.com/site/logitech-bluetooth-keyboard-for-apple-ipad-2nd--3rd-and-4th-generation-black/4974041.p?id=1218587135346&skuId=4974041&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1308/1308136507/1308136507_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

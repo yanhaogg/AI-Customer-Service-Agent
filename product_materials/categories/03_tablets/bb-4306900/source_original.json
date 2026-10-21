@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "DigiLand - 7\" Tablet - 8GB - Black",
+    "description": "DigiLand Tablet: Take work and entertainment to go with this tablet, which offers a lush LCD touch screen with IPS technology for a crisp, clear view of your videos and Web content. The quad-core processor ensures fast, efficient performance for everyday tasks.",
+    "brand": "DigiLand",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Burst tablets wifi",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4306900_sb.jpg",
+    "url": "http://www.bestbuy.com/site/digiland-7-tablet-8gb-black/4306900.p?id=1219730560876&skuId=4306900&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7636,
+    "rating": 2,
+    "objectID": "4306900"
+  },
+  "bestbuy": {
+    "id": 4306900,
+    "name": "DigiLand - 7\" Tablet - 8GB - Black",
+    "type": "HardGood",
+    "price": 39.99,
+    "upc": "840778100188",
+    "shipping": 0,
+    "description": "Android 5.1 Lollipop operating system7\" WVGA LCD touch screen with 1024 x 600 resolution8GB storage capacityQuad core processorWi-FiFront and rear cameras",
+    "manufacturer": "DigiLand",
+    "model": "DL718M",
+    "url": "http://www.bestbuy.com/site/digiland-7-tablet-8gb-black/4306900.p?id=1219730560876&skuId=4306900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4306/4306900_sa.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

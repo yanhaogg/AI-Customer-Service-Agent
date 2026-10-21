@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "LG - Extravert 2 Cell Phone - Blue (Verizon Wireless)",
+    "description": "LG Extravert 2 LG-VN280 for Verizon Wireless: With a slide-out QWERTY keyboard, this LG cell phone is great for those who love texting with friends, family and colleagues while on the go. A simple touch screen makes navigating features easy, and the durable, lightweight design is great for frequent use.  Verizon Edge option available. Learn more &#8250;",
+    "brand": "LG",
+    "categories": [
+      "Cell Phones",
+      "All Cell Phones with Plans"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > All Cell Phones with Plans"
+    },
+    "type": "Vzw basic",
+    "price": 179.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5563224_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lg-extravert-2-cell-phone-blue-verizon-wireless/5563224.p?id=1219139274201&skuId=5563224&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4153,
+    "rating": 1,
+    "objectID": "5563224"
+  },
+  "bestbuy": null
+}

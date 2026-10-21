@@ -1,0 +1,75 @@
+{
+  "id": "bb-6935031",
+  "source_sku": "6935031",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Altec Lansing - Boom Jacket Bluetooth Speaker - Blue",
+  "brand": "Altec Lansing",
+  "model": "IMW576-BLU",
+  "description_original": "Only at Best Buy This Altec Lansing Boom Jacket IMW576-BLU speaker's Bluetooth interface and NFC (near-field communication) technology let you stream music from select devices from up to 50' away. The water-, sand-, shock- and snow-proof construction offers protection.",
+  "description_official_dataset": "Only at Best Buy BluetoothRechargeable batteryWaterproofFloats in waterSpeakerphone",
+  "introduction_zh": "Altec Lansing 的耳机与音箱商品。来源介绍提及：接口或连接方式 Bluetooth；接口或连接方式 NFC。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio"
+  ],
+  "specifications_original": {
+    "manufacturer": "Altec Lansing",
+    "model": "IMW576-BLU",
+    "upc": "021331967619",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "Altec Lansing - Boom Jacket Bluetooth Speaker - Blue Only at Best Buy This Altec Lansing Boom Jacket IMW576"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "NFC",
+      "evidence_original": "6-BLU speaker's Bluetooth interface and NFC (near-field communication) technology let you stream music from selec"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-6935031/main.jpg",
+      "alt": "Altec Lansing - Boom Jacket Bluetooth Speaker - Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6935/6935031_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6935/6935031_sa.jpg",
+      "width": 500,
+      "height": 203,
+      "content_type": "image/jpeg",
+      "sha256": "e4ccb6b00c017fe4643b4e1650ab57a010cd3dbbdebb0bf6b2c680a4ec14e7e2",
+      "bytes": 20135,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/altec-lansing-boom-jacket-bluetooth-speaker-blue/6935031.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

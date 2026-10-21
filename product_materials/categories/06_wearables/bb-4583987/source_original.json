@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Microsoft - Band 2 (Large) - Black",
+    "description": "Microsoft Band 2 (Large): Keep track of your health and fitness goals throughout the day by monitoring your heart rate, steps taken, calories burned, sleep quality, hours slept and other helpful metrics. Just pair with your Windows Phone, Apple&#174; iOS or Android device via Bluetooth to receive alerts at a glance.  Discover how the technology of Microsoft Band 2 can assist you in a healthy, productive lifestyle. Learn more &#8250;",
+    "brand": "Microsoft",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4583987_sb.jpg",
+    "url": "http://www.bestbuy.com/site/microsoft-band-2-large-black/4583987.p?id=1219773215436&skuId=4583987&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3395,
+    "rating": 3,
+    "objectID": "4583987"
+  },
+  "bestbuy": null
+}

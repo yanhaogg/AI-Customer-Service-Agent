@@ -1,0 +1,77 @@
+{
+  "id": "bb-3817099",
+  "source_sku": "3817099",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Insignia - Bluetooth Headphones - Gray",
+  "brand": "Insignia",
+  "model": "NS-CAHBTEB01",
+  "description_original": "Only at Best Buy This Insignia™ NS-CAHBTEB01 headphone's Bluetooth 4.0 interface lets you pair with select Bluetooth-enabled devices from up to 33' away. The in-line controls and built-in microphone enable you to regulate the volume and communicate hands-free.",
+  "description_official_dataset": "Only at Best Buy Compatible with most Bluetooth-enabled devices; in-line controls; built-in microphone; curved design; rechargeable battery",
+  "introduction_zh": "Insignia 的耳机与音箱商品。来源介绍提及：接口或连接方式 Bluetooth；接口或连接方式 Bluetooth 4.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 49.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones",
+    "Earbud & In-Ear Headphones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Insignia™",
+    "model": "NS-CAHBTEB01",
+    "upc": "600603184680",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "Insignia - Bluetooth Headphones - Gray Only at Best Buy This Insignia™ NS-CAHBTEB01 headph"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.0",
+      "evidence_original": "This Insignia™ NS-CAHBTEB01 headphone's Bluetooth 4.0 interface lets you pair with select Bluetooth-enabled devices from up"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-3817099/main.jpg",
+      "alt": "Insignia - Bluetooth Headphones - Gray",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3817/3817099_rc.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3817/3817099_rc.jpg",
+      "width": 105,
+      "height": 115,
+      "content_type": "image/jpeg",
+      "sha256": "421f6158aa65756d852fb2d14d213c26393b9517a5d1b11e921479d1873c965f",
+      "bytes": 2639,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/insignia-bluetooth-headphones-gray/3817099.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

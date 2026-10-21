@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Monster - 24k Over-the-Ear DJ Headphones - Gold/Black",
+    "description": "With noise isolation, Pure Monster Sound and DJ-style swiveling earcups, these Monster 24k over-the-ear headphones make it easy to monitor your next set. ControlTalk Universal in-line audio controls help you manage your listening experience.",
+    "brand": "Monster",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Over-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Over-Ear Headphones"
+    },
+    "type": "On ear headphones",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8732045_sb.jpg",
+    "url": "http://www.bestbuy.com/site/monster-24k-over-the-ear-dj-headphones-gold-black/8732045.p?id=1219362858444&skuId=8732045&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3145,
+    "rating": 2,
+    "objectID": "8732045"
+  },
+  "bestbuy": null
+}

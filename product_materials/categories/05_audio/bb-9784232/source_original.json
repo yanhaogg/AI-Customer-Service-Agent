@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Energy - 4-1/2\" 2-Way Bookshelf Speaker (Pair) - Black",
+    "description": "Learn more about Magnolia    Premium Installation    Designed with a flat on-axis frequency response and sporting a 4-1/2\" woofer, 3/4\" hyperbolic aluminum dome tweeter and a bass-reflex enclosure with a rear-firing port, this bookshelf speaker delivers vibrant, lifelike sound.",
+    "brand": "Energy",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers",
+      "Bookshelf Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers",
+      "lvl3": "Audio > Home Audio > Speakers > Bookshelf Speakers"
+    },
+    "type": "Mht bookshelf spkrs",
+    "price": 199.98,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9784232_sb.jpg",
+    "url": "http://www.bestbuy.com/site/energy-4-1-2-2-way-bookshelf-speaker-pair-black/9784232.p?id=1218173773218&skuId=9784232&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7115,
+    "rating": 2,
+    "objectID": "9784232"
+  },
+  "bestbuy": {
+    "id": 9784232,
+    "name": "Energy - 4-1/2\" 2-Way Bookshelf Speaker (Pair) - Black",
+    "type": "HardGood",
+    "price": 199.98,
+    "upc": "629303300176",
+    "shipping": 0,
+    "description": "20-100W recommended amplifier power; 4-1/2\" woofer with ribbed elliptical surround; 3/4\" hyperbolic aluminum dome tweeter; gold-plated 5-way binding posts",
+    "manufacturer": "Energy",
+    "model": "CB-5",
+    "url": "http://www.bestbuy.com/site/energy-4-1-2-2-way-bookshelf-speaker-pair-black/9784232.p?id=1218173773218&skuId=9784232&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9784/9784232_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

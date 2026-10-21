@@ -1,0 +1,93 @@
+{
+  "id": "bb-4221508",
+  "source_sku": "4221508",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "HP - 15.6\" Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Black",
+  "brand": "HP",
+  "model": "15-f305dx",
+  "description_original": "HP Laptop: Stay connected and productive wherever you go with this efficient, lightweight 15.6\" laptop, which features a 500GB hard drive that offers space for your growing media collection. Link with an HDTV using the HDMI output to watch stored movies and shows on the big screen.",
+  "description_official_dataset": "Windows 10 Home 64-bitTechnical details: AMD A6-Series processor; 15.6\" display; 4GB memory; 500GB hard driveSpecial features: HDMI output",
+  "introduction_zh": "HP 的笔记本与台式电脑商品。来源介绍提及：尺寸 15.6 英寸；尺寸 15.6 英寸 display；容量 4GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 279.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {
+    "manufacturer": "HP",
+    "model": "15-f305dx",
+    "upc": "889894103161",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\"",
+      "evidence_original": "HP - 15.6\" Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Black HP Lap"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\" display",
+      "evidence_original": "nical details: AMD A6-Series processor; 15.6\" display; 4GB memory; 500GB hard driveSpecial features: HDMI output"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "HP - 15.6\" Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Black HP Laptop: Stay connected and produ"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "500GB",
+      "evidence_original": "\" Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Black HP Laptop: Stay connected and productive wherever "
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "collection. Link with an HDTV using the HDMI output to watch stored movies and shows on the big screen. Windows 10"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-4221508/main.jpg",
+      "alt": "HP - 15.6\" Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4221/4221508_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4221/4221508_sb.jpg",
+      "width": 220,
+      "height": 157,
+      "content_type": "image/jpeg",
+      "sha256": "3fab6cfaff91b2a30b651e4b446eb91ded3e93d8f74a03a43e7ffa396e8e86ed",
+      "bytes": 5941,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/hp-15-6-laptop-amd-a6-series-4gb-memory-500gb-hard-drive-black/4221508.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

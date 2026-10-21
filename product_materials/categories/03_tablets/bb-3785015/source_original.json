@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Apple - iPad Air 2 Wi-Fi + Cellular 128GB - Silver",
+    "description": "The thinnest iPad ever is also the most capable. It's loaded with advanced technologies, including the Touch ID fingerprint sensor.",
+    "brand": "Apple",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "iPad"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > iPad"
+    },
+    "type": "Apple connected",
+    "price": 829.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3785015_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-ipad-air-2-wi-fi-cellular-128gb-silver/3785015.p?id=1219093520070&skuId=3785015&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9698,
+    "rating": 2,
+    "objectID": "3785015"
+  },
+  "bestbuy": null
+}

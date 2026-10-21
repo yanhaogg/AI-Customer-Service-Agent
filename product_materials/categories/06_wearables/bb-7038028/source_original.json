@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "LG - Watch Urbane Smartwatch 46mm Stainless Steel - Gold Leather",
+    "description": "LG Watch Urbane Smartwatch: Stay connected with this convenient smartwatch, which delivers smart notifications based on a prioritized ranking system to help you manage your schedule. Just say \"OK Google\" to send a text message, play a track or search the Web.",
+    "brand": "LG",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 349.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7038028_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lg-watch-urbane-smartwatch-46mm-stainless-steel-gold-leather/7038028.p?id=1219668746139&skuId=7038028&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4092,
+    "rating": 2,
+    "objectID": "7038028"
+  },
+  "bestbuy": {
+    "id": 7038028,
+    "name": "LG - Watch Urbane Smartwatch 46mm Stainless Steel - Gold Leather",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "652810502351",
+    "shipping": 0,
+    "description": "Fits most wrist sizesCompatible with iOS and Android22mm leather bandHeart rate monitorWater-resistant designSmart notifications",
+    "manufacturer": "LG",
+    "model": "LGW150.AUSAPG",
+    "url": "http://www.bestbuy.com/site/lg-watch-urbane-smartwatch-46mm-stainless-steel-gold-leather/7038028.p?id=1219668746139&skuId=7038028&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7038/7038028_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

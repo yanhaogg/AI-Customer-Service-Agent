@@ -1,0 +1,96 @@
+{
+  "id": "bb-8526153",
+  "source_sku": "8526153",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "NVIDIA - SHIELD Pro - Black",
+  "brand": "NVIDIA",
+  "model": "945125712500000",
+  "description_original": "NVIDIA SHIELD Pro: Experience a vast world of gaming and entertainment with the SHIELD Pro, which features Wi-Fi for easy access to apps, movies, music and more. Envelop yourself in detailed images with 4K Ultra HD playback.",
+  "description_official_dataset": "Compatible with most HDMI-enabled TVs; equipped with Google Play store; built-in Wi-Fi; Bluetooth 4.1 interface; built-in Google Cast; 4K Ultra HD-ready; NVIDIA Tegra X1 processor; 500GB storage capacity",
+  "introduction_zh": "NVIDIA 的笔记本与台式电脑商品。来源介绍提及：容量 500GB；分辨率 4K；分辨率 Ultra HD。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 299.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "All Desktops"
+  ],
+  "specifications_original": {
+    "manufacturer": "NVIDIA",
+    "model": "945125712500000",
+    "upc": "850438005234",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "500GB",
+      "evidence_original": "ra HD-ready; NVIDIA Tegra X1 processor; 500GB storage capacity"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "4K",
+      "evidence_original": "nvelop yourself in detailed images with 4K Ultra HD playback. Compatible with most HDMI-enabled TVs; equipped wi"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "Ultra HD",
+      "evidence_original": "lop yourself in detailed images with 4K Ultra HD playback. Compatible with most HDMI-enabled TVs; equipped with Google"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "ent with the SHIELD Pro, which features Wi-Fi for easy access to apps, movies, music and more. Envelop yourself in "
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "Ultra HD playback. Compatible with most HDMI-enabled TVs; equipped with Google Play store; built-in Wi-Fi; Bluetoo"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.1",
+      "evidence_original": "with Google Play store; built-in Wi-Fi; Bluetooth 4.1 interface; built-in Google Cast; 4K Ultra HD-ready; NVIDIA Tegra X1 p"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-8526153/main.jpg",
+      "alt": "NVIDIA - SHIELD Pro - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8526/8526153_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8526/8526153_sa.jpg",
+      "width": 422,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "d0b75ea7feeb20bef31b44a7c54e3432726f819e246f8ab88ed677ef075e41b0",
+      "bytes": 15573,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/nvidia-shield-pro-black/8526153.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

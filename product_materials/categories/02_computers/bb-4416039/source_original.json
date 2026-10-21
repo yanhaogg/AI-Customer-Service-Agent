@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "HP - 15.6\" Touch-Screen Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Flyer Red",
+    "description": "HP 15.6\" Laptop: With a high-resolution HD touch-screen display and a 500GB hard drive, this laptop offers ample features for portable work sessions and entertainment. The speakers feature DTS Studio Sound for powerful audio, and a Bluetooth interface makes it easy to link mobile devices.",
+    "brand": "HP",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "So laptops",
+    "price": 449.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4416039_sb.jpg",
+    "url": "http://www.bestbuy.com/site/hp-15-6-touch-screen-laptop-amd-a6-series-4gb-memory-500gb-hard-drive-flyer-red/4416039.p?id=1219745390583&skuId=4416039",
+    "free_shipping": true,
+    "popularity": 6139,
+    "rating": 6,
+    "objectID": "4416039"
+  },
+  "bestbuy": null
+}

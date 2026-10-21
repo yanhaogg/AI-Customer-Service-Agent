@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Linksys - AC1200 Smart Wi-Fi Router with 4-Port Ethernet Switch - Blue",
+    "description": "Enjoy optimal wireless strength and coverage with this Linksys AC1200 WRT1200AC router, which features Wireless-AC and dual-band technologies for reliable performance with speeds up to 3.2 Gbps. WPA2 encryption and an SPI firewall provide security.",
+    "brand": "Linksys",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "Routers",
+      "Wireless Routers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > Routers",
+      "lvl3": "Computers & Tablets > Networking & Wireless > Routers > Wireless Routers"
+    },
+    "type": "Networking",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5263043_rb.jpg",
+    "url": "http://www.bestbuy.com/site/linksys-ac1200-smart-wi-fi-router-with-4-port-ethernet-switch-blue/5263043.p?id=1219649730761&skuId=5263043&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4009,
+    "rating": 2,
+    "objectID": "5263043"
+  },
+  "bestbuy": {
+    "id": 5263043,
+    "name": "Linksys - AC1200 Smart Wi-Fi Router with 4-Port Ethernet Switch - Blue",
+    "type": "HardGood",
+    "price": 149.99,
+    "upc": "745883684748",
+    "shipping": 0,
+    "description": "Speeds up to 3.2 Gbps; WPA2 encryption; SPI firewall; plug-and-play operation; dual-band technology; 2 high-performance antennas; 1.3GHz dual-core processor",
+    "manufacturer": "Linksys",
+    "model": "WRT1200AC",
+    "url": "http://www.bestbuy.com/site/linksys-ac1200-smart-wi-fi-router-with-4-port-ethernet-switch-blue/5263043.p?id=1219649730761&skuId=5263043&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5263/5263043_rc.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

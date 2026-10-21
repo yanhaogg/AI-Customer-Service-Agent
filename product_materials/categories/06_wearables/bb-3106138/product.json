@@ -1,0 +1,65 @@
+{
+  "id": "bb-3106138",
+  "source_sku": "3106138",
+  "category_id": "06_wearables",
+  "category_name_zh": "智能穿戴",
+  "name_original": "Casio - Men's Digital Sport Watch - Black",
+  "brand": "Casio",
+  "model": "AE1000W-1BVCF",
+  "description_original": "Casio Men's Digital Sport Watch: Manage your busy day with this digital sport watch that features a world time clock and a 48-city world time zone map, so you can keep track of time on the go. The flexible stainless-steel band offers good looks and durability.",
+  "description_official_dataset": "Measures time; push-button operation; world map time zone display; analog subdial; digital display; stainless-steel band; stopwatch; timer; 5 alarms; 10-year battery; water-resistant up to 330'",
+  "introduction_zh": "Casio 的智能穿戴商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 22.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Health, Fitness & Beauty",
+    "Fitness & GPS Watches"
+  ],
+  "specifications_original": {
+    "manufacturer": "Casio",
+    "model": "AE1000W-1BVCF",
+    "upc": "079767443351",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/06_wearables/bb-3106138/main.jpg",
+      "alt": "Casio - Men's Digital Sport Watch - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3106/3106138_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3106/3106138_sa.jpg",
+      "width": 400,
+      "height": 572,
+      "content_type": "image/jpeg",
+      "sha256": "c9e0972fdee490f4387e104f251d238c78f4df1ebbf4eeea1f66e92f804aaff1",
+      "bytes": 28528,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/casio-mens-digital-sport-watch-black/3106138.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

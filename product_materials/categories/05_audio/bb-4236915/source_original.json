@@ -1,0 +1,37 @@
+{
+  "algolia": {
+    "name": "Aluratek - Bluetooth Audio Transmitter - White",
+    "description": "Transform your TV, stereo system or MP3 player into a streaming device with this Aluratek ABT01F Bluetooth audio transmitter, which feature Bluetooth 3.0 technology for easy wireless connectivity. Plug-and-play setup simplifies use.",
+    "brand": "Aluratek",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 29.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4236915_sb.jpg",
+    "url": "http://www.bestbuy.com/site/aluratek-bluetooth-audio-transmitter-white/4236915.p?id=1219711483005&skuId=4236915&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9878,
+    "rating": 2,
+    "objectID": "4236915"
+  },
+  "bestbuy": {
+    "id": 4236915,
+    "name": "Aluratek - Bluetooth Audio Transmitter - White",
+    "type": "HardGood",
+    "price": 29.99,
+    "upc": "812658012911",
+    "shipping": 0,
+    "description": "Adds Bluetooth audio streaming capability; compatible with most devices with a 3.5mm auxiliary output; wireless range up to 33'; LED indicators; volume control; sleep mode; plug-and-play setup; built-in battery",
+    "manufacturer": "Aluratek",
+    "model": "ABT01F",
+    "url": "http://www.bestbuy.com/site/aluratek-bluetooth-audio-transmitter-white/4236915.p?id=1219711483005&skuId=4236915&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4236/4236915_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

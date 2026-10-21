@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Garmin - Approach S6 GPS Golf Watch - Black",
+    "description": "Garmin Approach S6 GPS Golf Watch: This GPS watch features more than 30,000 preloaded international courses, so you can easily plan each game. The SwingTempo, TempoTraining and SwingStrength metrics help you enhance and monitor your swing.",
+    "brand": "Garmin",
+    "categories": [
+      "Health, Fitness & Beauty",
+      "Fitness & GPS Watches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Health, Fitness & Beauty",
+      "lvl1": "Health, Fitness & Beauty > Fitness & GPS Watches"
+    },
+    "type": "Monitoring devices",
+    "price": 399.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7801503_sb.jpg",
+    "url": "http://www.bestbuy.com/site/garmin-approach-s6-gps-golf-watch-black/7801503.p?id=1219290980479&skuId=7801503&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6702,
+    "rating": 4,
+    "objectID": "7801503"
+  },
+  "bestbuy": {
+    "id": 7801503,
+    "name": "Garmin - Approach S6 GPS Golf Watch - Black",
+    "type": "HardGood",
+    "price": 399.99,
+    "upc": "753759116309",
+    "shipping": 0,
+    "description": "GARMIN Approach S6 GPS Golf Watch: Preloaded with more than 30,000 international golf courses; built-in odometer and round timer; 1\" high-resolution touch screen; dedicated CourseView button with Green View; smart notifications; waterproof up to 164'",
+    "manufacturer": "Garmin",
+    "model": "010-01195-01",
+    "url": "http://www.bestbuy.com/site/garmin-approach-s6-gps-golf-watch-black/7801503.p?id=1219290980479&skuId=7801503&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1312/1312394504/1312394504_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

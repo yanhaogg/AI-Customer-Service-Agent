@@ -1,0 +1,66 @@
+{
+  "id": "bb-7428001",
+  "source_sku": "7428001",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "SONOS - Boost Wireless Speaker Transmitter - White",
+  "brand": "SONOS",
+  "model": "SONOS BOOST",
+  "description_original": "Enjoy reliable streaming performance with your SONOS speakers using this SONOS Boost wireless transmitter, which features 3 antennas that broadcast 360° signals through walls and ceilings for efficient long-range coverage to most rooms.",
+  "description_official_dataset": "Compatible with most SONOS wireless speakers; establishes a wireless network for reliable wireless streaming; surround-sound capability; 3 antennas",
+  "introduction_zh": "SONOS 的耳机与音箱商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 99.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Home Audio",
+    "Wireless & Multiroom Audio"
+  ],
+  "specifications_original": {
+    "manufacturer": "SONOS",
+    "model": "SONOS BOOST",
+    "upc": "878269000853",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-7428001/main.jpg",
+      "alt": "SONOS - Boost Wireless Speaker Transmitter - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7428/7428001_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7428/7428001_sa.jpg",
+      "width": 500,
+      "height": 263,
+      "content_type": "image/jpeg",
+      "sha256": "f5dedb6fe8080ce97a3b730d90cb2989c62e5f87e24f9a36a728b589489f601a",
+      "bytes": 3768,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/sonos-boost-wireless-speaker-transmitter-white/7428001.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

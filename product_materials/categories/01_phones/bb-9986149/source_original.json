@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "HTC - Desire Eye 4G with 16GB Memory Cell Phone - Black (AT&T)",
+    "description": "HTC Desire EYE 4G Cell Phone for AT&T: Experience high-quality sound as you talk on the phone or listen to music, and beautify your photos with dynamic editing features and built-in tools. Add effects while you take selfies or find the right perspective with the front and back cameras. Each camera has its own built-in LED flash and backside illumination to take stunning images even in low-light conditions.",
+    "brand": "HTC",
+    "categories": [
+      "Cell Phones",
+      "All Cell Phones with Plans"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > All Cell Phones with Plans"
+    },
+    "type": "At&#38;t smartphone",
+    "price": 358.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9986149_sb.jpg",
+    "url": "http://www.bestbuy.com/site/htc-desire-eye-4g-with-16gb-memory-cell-phone-black-at-t/9986149.p?id=1219459038961&skuId=9986149&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5896,
+    "rating": 2,
+    "objectID": "9986149"
+  },
+  "bestbuy": null
+}

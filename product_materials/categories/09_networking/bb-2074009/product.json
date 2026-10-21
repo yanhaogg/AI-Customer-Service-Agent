@@ -1,0 +1,71 @@
+{
+  "id": "bb-2074009",
+  "source_sku": "2074009",
+  "category_id": "09_networking",
+  "category_name_zh": "路由器与网络设备",
+  "name_original": "Linksys - 802.11ac Smart Wi-Fi Dual-Band Router - Black",
+  "brand": "Linksys",
+  "model": null,
+  "description_original": "Linksys EA6900 AC1900 Dual-Band Smart Router: This router is great for bandwidth-heavy uses like streaming video and online gaming. It has 3 external antennas to expand the range of the wireless network, and beamforming technology sends a focused signal to your connected devices to maintain a stronger connection.",
+  "description_official_dataset": null,
+  "introduction_zh": "Linksys 的路由器与网络设备商品。来源介绍提及：接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Networking & Wireless",
+    "Routers",
+    "Wireless Routers"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "Linksys - 802.11ac Smart Wi-Fi Dual-Band Router - Black Linksys EA6900 AC1900 Dual-Band Smart Router"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/09_networking/bb-2074009/main.jpg",
+      "alt": "Linksys - 802.11ac Smart Wi-Fi Dual-Band Router - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2074/2074009_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2074/2074009_sb.jpg",
+      "width": 1000,
+      "height": 497,
+      "content_type": "image/jpeg",
+      "sha256": "64bf8b5707637219cb1b1506f2358b2f3a0608a9f8ff7300ba20769d3a66e2fe",
+      "bytes": 31083,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/linksys-802-11ac-smart-wi-fi-dual-band-router-black/2074009.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Asus - Extreme Wireless-AC2400 Dual-Band Gigabit Router - Black",
+    "description": "Enjoy wireless Internet access throughout your home with this Asus Extreme RT-AC87R router that features 802.11ac AiRadar universal beamforming technology and 4 detachable dual-band antennas to provide reliable coverage up to 5,000 sq. ft.",
+    "brand": "Asus",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "Routers",
+      "Wireless Routers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > Routers",
+      "lvl3": "Computers & Tablets > Networking & Wireless > Routers > Wireless Routers"
+    },
+    "type": "Networking",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7230042_rb.jpg",
+    "url": "http://www.bestbuy.com/site/asus-extreme-wireless-ac2400-dual-band-gigabit-router-black/7230042.p?id=1219258061855&skuId=7230042&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9299,
+    "rating": 6,
+    "objectID": "7230042"
+  },
+  "bestbuy": null
+}

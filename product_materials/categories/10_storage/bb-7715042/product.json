@@ -1,0 +1,70 @@
+{
+  "id": "bb-7715042",
+  "source_sku": "7715042",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "Kingston - 128GB SDXC Class 10 Memory Card - Black",
+  "brand": "Kingston",
+  "model": null,
+  "description_original": "Save your HD video recordings, high-quality photos and other large-capacity files on this Kingston Technology 128GB SDXC memory card that features a write-protect switch that helps safeguard against accidental data loss.",
+  "description_official_dataset": null,
+  "introduction_zh": "Kingston 的存储设备商品。来源介绍提及：容量 128GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 129.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Memory Cards",
+    "All Memory Cards"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "128GB",
+      "evidence_original": "Kingston - 128GB SDXC Class 10 Memory Card - Black Save your HD video recordings, high"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-7715042/main.jpg",
+      "alt": "Kingston - 128GB SDXC Class 10 Memory Card - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7715/7715042_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7715/7715042_sb.jpg",
+      "width": 500,
+      "height": 375,
+      "content_type": "image/jpeg",
+      "sha256": "c7e05e6be748e499c56c43ac4177091048510cbef7af776c4b4c787b7d1595f5",
+      "bytes": 21063,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/kingston-128gb-sdxc-class-10-memory-card-black/7715042.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

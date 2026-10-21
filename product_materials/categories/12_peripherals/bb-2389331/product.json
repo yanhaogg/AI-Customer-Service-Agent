@@ -1,0 +1,77 @@
+{
+  "id": "bb-2389331",
+  "source_sku": "2389331",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Belkin - 7-port USB Hub - Black",
+  "brand": "Belkin",
+  "model": "F4U041v",
+  "description_original": "Belkin F4U041v 7-port USB Hub - 7 x USB 2.0 USB - External Belkin F4U041v 7-port USB Hub - 7 x USB 2.0 USB - External",
+  "description_official_dataset": "7 x USB 2.0 USB - External",
+  "introduction_zh": "Belkin 的键鼠与电脑外设商品。来源介绍提及：接口或连接方式 USB；接口或连接方式 USB 2.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 39.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Cables & Connectors",
+    "USB Cables & Hubs"
+  ],
+  "specifications_original": {
+    "manufacturer": "Belkin",
+    "model": "F4U041v",
+    "upc": "722868789377",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Belkin - 7-port USB Hub - Black Belkin F4U041v 7-port USB Hub - 7 x USB 2.0 USB - Externa"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 2.0",
+      "evidence_original": "ack Belkin F4U041v 7-port USB Hub - 7 x USB 2.0 USB - External Belkin F4U041v 7-port USB Hub - 7 x USB 2.0 USB - Exte"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-2389331/main.jpg",
+      "alt": "Belkin - 7-port USB Hub - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2389/2389331_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2389/2389331_sb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "d95230021ffbdf3c1234485dff820bd479f1b8f12134efc1d05063558fb38388",
+      "bytes": 18759,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/belkin-7-port-usb-hub-black/2389331.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

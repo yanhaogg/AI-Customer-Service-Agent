@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Asus - ZenWatch 2 Smartwatch 49mm Stainless Steel - Silver/Taupe Rubber",
+    "description": "Asus ZenWatch 2 Smartwatch: With a 2.5D curved Corning Gorilla Glass 3 cover lens and water-resistant design, you can wear this durable smartwatch worry-free. Set fitness goals and monitor your progress, as the watch tracks activity type, duration, distance and calories burned for you.",
+    "brand": "Asus",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4355300_sb.jpg",
+    "url": "http://www.bestbuy.com/site/asus-zenwatch-2-smartwatch-49mm-stainless-steel-silver-taupe-rubber/4355300.p?id=1219736064649&skuId=4355300&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9277,
+    "rating": 1,
+    "objectID": "4355300"
+  },
+  "bestbuy": null
+}

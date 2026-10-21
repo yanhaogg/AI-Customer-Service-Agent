@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "NVIDIA - SHIELD Pro - Black",
+    "description": "NVIDIA SHIELD Pro: Experience a vast world of gaming and entertainment with the SHIELD Pro, which features Wi-Fi for easy access to apps, movies, music and more. Envelop yourself in detailed images with 4K Ultra HD playback.",
+    "brand": "NVIDIA",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "Gaming controllers",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8526153_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nvidia-shield-pro-black/8526153.p?id=1219692520014&skuId=8526153&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2594,
+    "rating": 6,
+    "objectID": "8526153"
+  },
+  "bestbuy": {
+    "id": 8526153,
+    "name": "NVIDIA - SHIELD Pro - Black",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "850438005234",
+    "shipping": 0,
+    "description": "Compatible with most HDMI-enabled TVs; equipped with Google Play store; built-in Wi-Fi; Bluetooth 4.1 interface; built-in Google Cast; 4K Ultra HD-ready; NVIDIA Tegra X1 processor; 500GB storage capacity",
+    "manufacturer": "NVIDIA",
+    "model": "945125712500000",
+    "url": "http://www.bestbuy.com/site/nvidia-shield-pro-black/8526153.p?id=1219692520014&skuId=8526153&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8526/8526153_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

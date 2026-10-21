@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Motorola - Digital Wireless Video Baby Monitor",
+    "description": "Keep an eye on your child from up to 520' away with this Motorola MOTO-MBP18 wireless monitor that enables both audio and video surveillance. A high-sensitivity microphone promotes clear sound capture.",
+    "brand": "Motorola",
+    "categories": [
+      "Connected Home",
+      "Baby Monitors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Baby Monitors"
+    },
+    "type": "Video monitoring",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2673614_sb.jpg",
+    "url": "http://www.bestbuy.com/site/motorola-digital-wireless-video-baby-monitor/2673614.p?id=1219075842640&skuId=2673614&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3011,
+    "rating": 4,
+    "objectID": "2673614"
+  },
+  "bestbuy": {
+    "id": 2673614,
+    "name": "Motorola - Digital Wireless Video Baby Monitor",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "816479010835",
+    "shipping": 0,
+    "description": "Includes a video monitor and a camera; high-sensitivity microphone; up to 520' range; automatic channel selection; sound-activated lights",
+    "manufacturer": "Motorola",
+    "model": "MOTO-MBP18",
+    "url": "http://www.bestbuy.com/site/motorola-digital-wireless-video-baby-monitor/2673614.p?id=1219075842640&skuId=2673614&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2673/2673614_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

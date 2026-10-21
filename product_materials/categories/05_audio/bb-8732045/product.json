@@ -1,0 +1,64 @@
+{
+  "id": "bb-8732045",
+  "source_sku": "8732045",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Monster - 24k Over-the-Ear DJ Headphones - Gold/Black",
+  "brand": "Monster",
+  "model": null,
+  "description_original": "With noise isolation, Pure Monster Sound and DJ-style swiveling earcups, these Monster 24k over-the-ear headphones make it easy to monitor your next set. ControlTalk Universal in-line audio controls help you manage your listening experience.",
+  "description_official_dataset": null,
+  "introduction_zh": "Monster 的耳机与音箱商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 299.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones",
+    "Over-Ear Headphones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-8732045/main.jpg",
+      "alt": "Monster - 24k Over-the-Ear DJ Headphones - Gold/Black",
+      "source_url": "https://cdn-demo.algolia.com/bestbuy/8732045_sb.jpg",
+      "resolved_url": "https://cdn-demo.algolia.com/bestbuy/8732045_sb.jpg",
+      "width": 107,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "540953b76e40b4dcb3a771df21becee753b22b5c3269e82a0b122ef5565d1f82",
+      "bytes": 36753,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/monster-24k-over-the-ear-dj-headphones-gold-black/8732045.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

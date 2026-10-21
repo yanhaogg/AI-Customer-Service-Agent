@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "CybertronPC - ViperX7 Desktop - Intel Core i7 - 8GB Memory - 1TB Hard Drive - Blue",
+    "description": "Enjoy crisp images via a connected display (not included) with this CybertronPC ViperX7 TGMVPRX734BL desktop that features AMD Radeon R7 250 graphics with 1GB dedicated video memory for vivid visuals. The Gigabit Ethernet LAN simplifies wired Web access.",
+    "brand": "CybertronPC",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 1099.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9990181_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cybertronpc-viperx7-desktop-intel-core-i7-8gb-memory-1tb-hard-drive-blue/9990181.p?id=1219459040511&skuId=9990181",
+    "free_shipping": false,
+    "popularity": 7782,
+    "rating": 6,
+    "objectID": "9990181"
+  },
+  "bestbuy": {
+    "id": 9990181,
+    "name": "CybertronPC - ViperX7 Desktop - Intel Core i7 - 8GB Memory - 1TB Hard Drive - Blue",
+    "type": "HardGood",
+    "price": 999.99,
+    "upc": "844750021768",
+    "shipping": 0,
+    "description": "Windows 8.1Technical details: 4th Gen Intel&#174; Core&#8482; i7 processor; 8GB memory; 1TB hard driveSpecial features: 1GB dedicated graphics; HDMI output",
+    "manufacturer": "CybertronPC",
+    "model": "TGMVPRX734BL",
+    "url": "http://www.bestbuy.com/site/cybertronpc-viperx7-desktop-intel-core-i7-8gb-memory-1tb-hard-drive-blue/9990181.p?id=1219459040511&skuId=9990181&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9990/9990181_sa.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "bb-5765019",
+  "source_sku": "5765019",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Ion Audio - Clipster Active Bluetooth Clip-On Speaker - Black",
+  "brand": "Ion Audio",
+  "model": null,
+  "description_original": "Listen to music on the go with this Ion Audio Clipster Active ISP34 speaker, which features a tough rubber covering with IPX4 waterproof rating for outdoor use. A Bluetooth interface enables you to stream music from your compatible music player or phone.",
+  "description_official_dataset": null,
+  "introduction_zh": "Ion Audio 的耳机与音箱商品。来源介绍提及：接口或连接方式 Bluetooth。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 39.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Home Audio",
+    "Speakers"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "Ion Audio - Clipster Active Bluetooth Clip-On Speaker - Black Listen to music on the go with this Ion Audio"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-5765019/main.jpg",
+      "alt": "Ion Audio - Clipster Active Bluetooth Clip-On Speaker - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5765/5765019_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5765/5765019_sb.jpg",
+      "width": 501,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "bb6fcfb09d314239ce240299f1b4828616c3771fa6a4d2faccef5bc07ab43e9b",
+      "bytes": 64596,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/ion-audio-clipster-active-bluetooth-clip-on-speaker-black/5765019.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

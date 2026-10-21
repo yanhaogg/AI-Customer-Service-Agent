@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Panasonic - HC-VX870K 4K Ultra HD Flash Memory Camcorder - Black",
+    "description": "Preserve important moments with this Panasonic HC-VX870K camcorder, which features a BSI MOS sensor that captures stunning footage with up to 4K Ultra HD (3840 x 2160) resolution and clear stereo sound. Hybrid image stabilization ensures smooth videos.",
+    "brand": "Panasonic",
+    "categories": [
+      "Cameras & Camcorders",
+      "Camcorders",
+      "Traditional Camcorders",
+      "All Traditional Camcorders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Camcorders",
+      "lvl2": "Cameras & Camcorders > Camcorders > Traditional Camcorders",
+      "lvl3": "Cameras & Camcorders > Camcorders > Traditional Camcorders > All Traditional Camcorders"
+    },
+    "type": "Digital video",
+    "price": 899.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3774034_sb.jpg",
+    "url": "http://www.bestbuy.com/site/panasonic-hc-vx870k-4k-ultra-hd-flash-memory-camcorder-black/3774034.p?id=1219599694660&skuId=3774034&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2278,
+    "rating": 4,
+    "objectID": "3774034"
+  },
+  "bestbuy": {
+    "id": 3774034,
+    "name": "Panasonic - HC-VX870K 4K Ultra HD Flash Memory Camcorder - Black",
+    "type": "HardGood",
+    "price": 899.99,
+    "upc": "885170229464",
+    "shipping": 0,
+    "description": "20x optical/60x digital zoom; 25.9MP digital still mode; 3\" LCD touch screen; low-light/night recording; Hybrid O.I.S. (optical image stabilization); Wi-Fi; NFC (near-field communication) technology",
+    "manufacturer": "Panasonic",
+    "model": "HC-VX870K",
+    "url": "http://www.bestbuy.com/site/panasonic-hc-vx870k-4k-ultra-hd-flash-memory-camcorder-black/3774034.p?id=1219599694660&skuId=3774034&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3774/3774034_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Life N Soul - Bluetooth Over-the-Ear Headphones - Green",
+    "description": "These Life N Soul BN301-G over-the-ear headphones features a Bluetooth 4.0 interface that enables you to pair with your Bluetooth-enabled devices from up to 30' away. On-ear controls let you switch between music and calls.",
+    "brand": "Life N Soul",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Over-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Over-Ear Headphones"
+    },
+    "type": "So headphone mp3 spk",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1154277_sb.jpg",
+    "url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-over-the-ear-headphones-green/1154277.p?id=1219473306613&skuId=1154277",
+    "free_shipping": true,
+    "popularity": 4087,
+    "rating": 2,
+    "objectID": "1154277"
+  },
+  "bestbuy": null
+}

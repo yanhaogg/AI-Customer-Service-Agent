@@ -1,0 +1,70 @@
+{
+  "id": "bb-2518192",
+  "source_sku": "2518192",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Phiaton - Chord MS 530 Over-the-Ear Headphones - Black",
+  "brand": "Phiaton",
+  "model": null,
+  "description_original": "Enjoy clear audio with these Phiaton Chord MS 530 headphones that feature active noise-cancelling technology to minimize background sounds. Bluetooth 4.0 technology enables simple wireless pairing.",
+  "description_official_dataset": null,
+  "introduction_zh": "Phiaton 的耳机与音箱商品。来源介绍提及：接口或连接方式 Bluetooth 4.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 159.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones",
+    "Over-Ear Headphones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.0",
+      "evidence_original": "chnology to minimize background sounds. Bluetooth 4.0 technology enables simple wireless pairing. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-2518192/main.jpg",
+      "alt": "Phiaton - Chord MS 530 Over-the-Ear Headphones - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2518/2518192_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2518/2518192_sb.jpg",
+      "width": 219,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "93ad2f185f52f9d442c77e93118d814b7131fd5c23149f7422ed6551d6f1162e",
+      "bytes": 5208,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/phiaton-chord-ms-530-over-the-ear-headphones-black/2518192.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

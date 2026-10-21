@@ -1,0 +1,86 @@
+{
+  "id": "bb-3356045",
+  "source_sku": "3356045",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Samsung - Galaxy 2 16.3-Megapixel Digital Camera - White",
+  "brand": "Samsung",
+  "model": null,
+  "description_original": "This Samsung Galaxy 2 digital camera's 16.3-megapixel, 1/2.3\" BSI CMOS sensor allows you to capture sharp images and high-definition video footage. The 4.8\" touch screen simplifies operation, and built-in Wi-Fi makes sharing stored files easy. Memory card sold separately.",
+  "description_official_dataset": null,
+  "introduction_zh": "Samsung 的相机与摄像机商品。来源介绍提及：尺寸 2.3 英寸；尺寸 4.8 英寸；成像规格 16.3-Megapixel。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 449.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Point & Shoot Cameras",
+    "All Point & Shoot Cameras"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "2.3\"",
+      "evidence_original": "xy 2 digital camera's 16.3-megapixel, 1/2.3\" BSI CMOS sensor allows you to capture sharp images and high-definitio"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "4.8\"",
+      "evidence_original": " and high-definition video footage. The 4.8\" touch screen simplifies operation, and built-in Wi-Fi makes sharing s"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "16.3-Megapixel",
+      "evidence_original": "Samsung - Galaxy 2 16.3-Megapixel Digital Camera - White This Samsung Galaxy 2 digital camera's 16.3-me"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "reen simplifies operation, and built-in Wi-Fi makes sharing stored files easy. Memory card sold separately. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-3356045/main.jpg",
+      "alt": "Samsung - Galaxy 2 16.3-Megapixel Digital Camera - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3356/3356045_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3356/3356045_sb.jpg",
+      "width": 1000,
+      "height": 559,
+      "content_type": "image/jpeg",
+      "sha256": "ce2436f7f7ec5dd178980e95916d65eb4710653af69d4bdcd1cb75b3a5e7a71e",
+      "bytes": 45344,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/samsung-galaxy-2-16-3-megapixel-digital-camera-white/3356045.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

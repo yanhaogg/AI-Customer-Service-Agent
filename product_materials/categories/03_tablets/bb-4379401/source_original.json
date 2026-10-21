@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Acer - One 10 - 10.1\" - Intel Atom - 32GB - With Keyboard - Silver",
+    "description": "Acer One 10 Tablet: Get the versatility you need with a device that converts to laptop, tablet, tent and display modes. Just attach the keyboard dock to enjoy effortless typing, or use the 10.1\" 5-point multitouch screen independently to tap, touch and glide your way through features.",
+    "brand": "Acer",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other wintel wifi",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4379401_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acer-one-10-10-1-intel-atom-32gb-with-keyboard-silver/4379401.p?id=1219740708139&skuId=4379401&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9962,
+    "rating": 2,
+    "objectID": "4379401"
+  },
+  "bestbuy": {
+    "id": 4379401,
+    "name": "Acer - One 10 - 10.1\" - Intel Atom - 32GB - With Keyboard - Silver",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "888863333127",
+    "shipping": 0,
+    "description": "Windows 1010.1\" 5-point multitouch screen with 1280 x 800 resolution32GB storage capacityQuad-core processorWi-FiBluetooth 4.02.0MP front- and rear-facing cameras",
+    "manufacturer": "Acer",
+    "model": "ONE 10 S1002-145A 2-IN-1",
+    "url": "http://www.bestbuy.com/site/acer-one-10-10-1-intel-atom-32gb-with-keyboard-silver/4379401.p?id=1219740708139&skuId=4379401&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4379/4379401_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

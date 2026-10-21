@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Seagate - 500GB Internal SATA Hard Drive for Desktops",
+    "description": "Simply add this SATA hard drive to your computer and enjoy a whopping 500GB of storage space for all your movies, music, photos, documents and more.",
+    "brand": "Seagate",
+    "categories": [
+      "Computers & Tablets",
+      "Hard Drives & Storage",
+      "Internal Hard Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Hard Drives & Storage",
+      "lvl2": "Computers & Tablets > Hard Drives & Storage > Internal Hard Drives"
+    },
+    "type": "Internal hard drives",
+    "price": 59.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8294632_sb.jpg",
+    "url": "http://www.bestbuy.com/site/seagate-500gb-internal-sata-hard-drive-for-desktops/8294632.p?id=1172880157923&skuId=8294632&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 745,
+    "rating": 2,
+    "objectID": "8294632"
+  },
+  "bestbuy": {
+    "id": 8294632,
+    "name": "Seagate - 500GB Internal SATA Hard Drive for Desktops",
+    "type": "HardGood",
+    "price": 52.99,
+    "upc": "763649002346",
+    "shipping": 0,
+    "description": "Serial ATA interface; whisper-quiet operation; up to 3 Gbps data transfer rates; 16MB cache buffer",
+    "manufacturer": "Seagate",
+    "model": "ST3500641AS-RK",
+    "url": "http://www.bestbuy.com/site/seagate-500gb-internal-sata-hard-drive-for-desktops/8294632.p?id=1172880157923&skuId=8294632&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8294/8294632_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

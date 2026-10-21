@@ -1,0 +1,37 @@
+{
+  "algolia": {
+    "name": "iHome - Bluetooth Speaker - Black",
+    "description": "Listen to your favorite tunes on the go with this rechargeable iHome IBT74BC speaker, which features a Bluetooth interface, so you can stream music from most Bluetooth-enabled devices, including select Apple&#174;, Android and BlackBerry models.",
+    "brand": "iHome",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7401097_sb.jpg",
+    "url": "http://www.bestbuy.com/site/ihome-bluetooth-speaker-black/7401097.p?id=1219677654326&skuId=7401097&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5839,
+    "rating": 4,
+    "objectID": "7401097"
+  },
+  "bestbuy": {
+    "id": 7401097,
+    "name": "iHome - Bluetooth Speaker - Black",
+    "type": "HardGood",
+    "price": 49.99,
+    "upc": "047532908053",
+    "shipping": 0,
+    "description": "Compatible with most Bluetooth-enabled devices and devices with a 3.5mm headphone jack; speakerphone; color-changing LEDs; rechargeable lithium-ion battery; auxiliary input",
+    "manufacturer": "iHome",
+    "model": "IBT74BC",
+    "url": "http://www.bestbuy.com/site/ihome-bluetooth-speaker-black/7401097.p?id=1219677654326&skuId=7401097&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7401/7401097_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

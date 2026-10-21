@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Belkin - 7-port USB Hub - Black",
+    "description": "Belkin F4U041v 7-port USB Hub - 7 x USB 2.0 USB - External Belkin F4U041v 7-port USB Hub - 7 x USB 2.0 USB - External",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "Cables & Connectors",
+      "USB Cables & Hubs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Cables & Connectors",
+      "lvl2": "Computers & Tablets > Cables & Connectors > USB Cables & Hubs"
+    },
+    "type": "Misc. computer acc.",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2389331_sb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-7-port-usb-hub-black/2389331.p?id=1218324437376&skuId=2389331&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9022,
+    "rating": 3,
+    "objectID": "2389331"
+  },
+  "bestbuy": {
+    "id": 2389331,
+    "name": "Belkin - 7-port USB Hub - Black",
+    "type": "HardGood",
+    "price": 39.99,
+    "upc": "722868789377",
+    "shipping": 0,
+    "description": "7 x USB 2.0 USB - External",
+    "manufacturer": "Belkin",
+    "model": "F4U041v",
+    "url": "http://www.bestbuy.com/site/belkin-7-port-usb-hub-black/2389331.p?id=1218324437376&skuId=2389331&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2389/2389331_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

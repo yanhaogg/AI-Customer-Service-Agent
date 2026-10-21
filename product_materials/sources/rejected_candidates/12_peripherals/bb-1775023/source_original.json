@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Microsoft - Arc Touch Bluetooth Wireless Mouse - Gray",
+    "description": "Enjoy control from up to 30' away with this Microsoft Arc Touch 7MP-00001 mouse, which features Bluetooth 4.0 for use with select Windows devices. The 3-button, ambidextrous design also includes a touch scroll strip to offer flexibility.",
+    "brand": "Microsoft",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Mice",
+      "Wireless & Bluetooth Mice"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Mice",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Mice > Wireless & Bluetooth Mice"
+    },
+    "type": "Mice",
+    "price": 69.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1775023_sb.jpg",
+    "url": "http://www.bestbuy.com/site/microsoft-arc-touch-bluetooth-wireless-mouse-gray/1775023.p?id=1219509536232&skuId=1775023&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3398,
+    "rating": 5,
+    "objectID": "1775023"
+  },
+  "bestbuy": null
+}

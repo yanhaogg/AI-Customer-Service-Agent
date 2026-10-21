@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Razer - BlackWidow Ultimate Elite Mechanical Gaming Keyboard - Black/Green",
+    "description": "With 109 individually backlit keys, this Razer BlackWidow Ultimate Elite keyboard provides illumination to help you clearly see the keys at night. The fully programmable design lets you customize the keys to suit your gaming needs.",
+    "brand": "Razer",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards",
+      "Gaming Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Computer Keyboards > Gaming Keyboards"
+    },
+    "type": "Gaming controllers",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4988007_sb.jpg",
+    "url": "http://www.bestbuy.com/site/razer-blackwidow-ultimate-elite-mechanical-gaming-keyboard-black-green/4988007.p?id=1219106633128&skuId=4988007&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 1652,
+    "rating": 4,
+    "objectID": "4988007"
+  },
+  "bestbuy": null
+}

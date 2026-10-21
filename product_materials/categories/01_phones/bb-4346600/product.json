@@ -1,0 +1,97 @@
+{
+  "id": "bb-4346600",
+  "source_sku": "4346600",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Sony - Xperia C4 4G with 10GB Memory Cell Phone (Unlocked) - Black",
+  "brand": "Sony",
+  "model": "Xperia C4 Black (E5306)",
+  "description_original": "Sony Xperia C4 Unlocked Cell Phone: Enjoy taking clear photos to share with friends over text messages and social media with this cell phone, which offers 5.0MP and 13.0MP cameras with Exmor R and HDR technologies for sharp selfies and crisp shots of special events. Upload photos over Wi-Fi or using 4G LTE data speeds.",
+  "description_official_dataset": "Android 5.0 Lollipop operating system4G LTE speed5.5\" touch screen5.0MP front- and 13.0MP rear-facing camerasOnly compatible with GSM carriers, including AT&T and T-Mobile",
+  "introduction_zh": "Sony 的手机商品。来源介绍提及：尺寸 5 英寸；容量 10GB；成像规格 5.0MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 299.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Unlocked Cell Phones",
+    "All Unlocked Cell Phones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Sony",
+    "model": "Xperia C4 Black (E5306)",
+    "upc": "095673860693",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5\"",
+      "evidence_original": " Lollipop operating system4G LTE speed5.5\" touch screen5.0MP front- and 13.0MP rear-facing camerasOnly compatibl"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "10GB",
+      "evidence_original": "Sony - Xperia C4 4G with 10GB Memory Cell Phone (Unlocked) - Black Sony Xperia C4 Unlocked Cell Pho"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "5.0MP",
+      "evidence_original": "edia with this cell phone, which offers 5.0MP and 13.0MP cameras with Exmor R and HDR technologies for sharp selfie"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "13.0MP",
+      "evidence_original": "this cell phone, which offers 5.0MP and 13.0MP cameras with Exmor R and HDR technologies for sharp selfies and crisp"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "0MP",
+      "evidence_original": "ng system4G LTE speed5.5\" touch screen5.0MP front- and 13.0MP rear-facing camerasOnly compatible with GSM carrier"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "s of special events. Upload photos over Wi-Fi or using 4G LTE data speeds. Android 5.0 Lollipop operating system4G "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-4346600/main.jpg",
+      "alt": "Sony - Xperia C4 4G with 10GB Memory Cell Phone (Unlocked) - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4346/4346600_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4346/4346600_sb.jpg",
+      "width": 516,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "907dbeba3d14f1761b2437db421ee6594a07a4bba0935d00569f56082905cfd8",
+      "bytes": 44406,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/sony-xperia-c4-4g-with-10gb-memory-cell-phone-unlocked-black/4346600.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

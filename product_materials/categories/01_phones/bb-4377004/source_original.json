@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "HTC - One (M9) 4G with 32GB Memory Cell Phone - Gold (Verizon Wireless)",
+    "description": "With 4G LTE speed and fast AC Wi-Fi, this HTC One (M9) cell phone makes it easy to access the Internet whether you're at home or on the go. The 5\" Super LCD3 touch screen displays high-definition visuals in 1920 x 1080 resolution.  Verizon Edge option available. Learn more &#8250;",
+    "brand": "HTC",
+    "categories": [
+      "Cell Phones",
+      "All Cell Phones with Plans"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > All Cell Phones with Plans"
+    },
+    "type": "Vzn handsets",
+    "price": 661.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4377004_sb.jpg",
+    "url": "http://www.bestbuy.com/site/htc-one-m9-4g-with-32gb-memory-cell-phone-gold-verizon-wireless/4377004.p?id=1219629026192&skuId=4377004&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5889,
+    "rating": 4,
+    "objectID": "4377004"
+  },
+  "bestbuy": null
+}

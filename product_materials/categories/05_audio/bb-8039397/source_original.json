@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Denon - HEOS 1 Portable Wireless Speaker - Black",
+    "description": "Denon HEOS 1 Portable Wireless Speaker: Get the party started with streaming audio or listen to your favorite tunes by the pool with this portable speaker. Charging your USB devices and wired connectivity are quick and easy, thanks to the USB port.",
+    "brand": "Denon",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Wireless & Multiroom Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Wireless & Multiroom Audio"
+    },
+    "type": "Media docks",
+    "price": 199.98,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8039397_sb.jpg",
+    "url": "http://www.bestbuy.com/site/denon-heos-1-portable-wireless-speaker-black/8039397.p?id=1219687239685&skuId=8039397&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7654,
+    "rating": 5,
+    "objectID": "8039397"
+  },
+  "bestbuy": {
+    "id": 8039397,
+    "name": "Denon - HEOS 1 Portable Wireless Speaker - Black",
+    "type": "HardGood",
+    "price": 199.98,
+    "upc": "883795003612",
+    "shipping": 0,
+    "description": "Wireless connectivityWater-resistantCustom wooferHigh-dispersion tweeter2-channel Class D amplifierStereo pairingExpandable with HEOS 1 Go Pack (not included)",
+    "manufacturer": "Denon",
+    "model": "HEOS1BK",
+    "url": "http://www.bestbuy.com/site/denon-heos-1-portable-wireless-speaker-black/8039397.p?id=1219687239685&skuId=8039397&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8039/8039397_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Lenovo - Tab 2 A10-70 - 10.1\" - 16GB - Navy Blue",
+    "description": "This Lenovo Tab 2 A10-70 tablet features a stunning 10.1\" LED display and Dolby Atmos soundbar, so you can catch up on your favorite TV shows and listen to music with impressive audio and video clarity. Wi-Fi lets you stay connected on the go.",
+    "brand": "Lenovo",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other android wifi",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4097025_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lenovo-tab-2-a10-70-10-1-16gb-navy-blue/4097025.p?id=1219618213212&skuId=4097025&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4341,
+    "rating": 5,
+    "objectID": "4097025"
+  },
+  "bestbuy": null
+}

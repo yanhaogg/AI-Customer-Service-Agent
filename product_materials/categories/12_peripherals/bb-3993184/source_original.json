@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Belkin - Universal Wireless Keyboard for Tablets - Black",
+    "description": "With a full, responsive keyboard and a slim, lightweight design, this Belkin F5L175TTBLK case lets you take notes and stay connected on your tablet. Adjustable tilt offers multiple viewing angles for comfortable use.",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "iPad & Tablet Accessories",
+      "Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > iPad & Tablet Accessories",
+      "lvl2": "Computers & Tablets > iPad & Tablet Accessories > Keyboards"
+    },
+    "type": "Bluetooth keyboards",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3993184_rb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-universal-wireless-keyboard-for-tablets-black/3993184.p?id=1219613163836&skuId=3993184&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8949,
+    "rating": 1,
+    "objectID": "3993184"
+  },
+  "bestbuy": {
+    "id": 3993184,
+    "name": "Belkin - Universal Wireless Keyboard for Tablets - Black",
+    "type": "HardGood",
+    "price": 79.99,
+    "upc": "745883665969",
+    "shipping": 0,
+    "description": "Compatible with most tablets; well-spaced keys; plastic material; adjustable tilt; form-fitting, flexible frame",
+    "manufacturer": "Belkin",
+    "model": "F5L175TTBLK",
+    "url": "http://www.bestbuy.com/site/belkin-universal-wireless-keyboard-for-tablets-black/3993184.p?id=1219613163836&skuId=3993184&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3993/3993184_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

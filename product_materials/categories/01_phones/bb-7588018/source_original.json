@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Boost Mobile - LG G Stylo 4G with 8GB Memory No-Contract Cell Phone - Gray",
+    "description": "LG G Stylo No-Contract Cell Phone for Boost Mobile: Check your e-mail, access social media and visit your favorite Web sites, whether you're at home or on the go, with 4G LTE speed and built-in Wi-Fi. A large 5.7\" touch screen simplifies content navigation.  See coverage maps to determine whether service is available in your area.",
+    "brand": "Boost Mobile",
+    "categories": [
+      "Cell Phones",
+      "No-Contract Phones",
+      "All No-Contract Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > No-Contract Phones",
+      "lvl2": "Cell Phones > No-Contract Phones > All No-Contract Phones"
+    },
+    "type": "Boost mobile",
+    "price": 159.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7588018_sb.jpg",
+    "url": "http://www.bestbuy.com/site/boost-mobile-lg-g-stylo-4g-with-8gb-memory-no-contract-cell-phone-gray/7588018.p?id=1219680873136&skuId=7588018&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8740,
+    "rating": 2,
+    "objectID": "7588018"
+  },
+  "bestbuy": {
+    "id": 7588018,
+    "name": "Boost Mobile - LG G Stylo 4G with 8GB Memory Prepaid Cell Phone - Gray",
+    "type": "HardGood",
+    "price": 129.99,
+    "upc": "652810516228",
+    "shipping": 0,
+    "description": "Qualcomm 1.2GHz processorAndroid 5.0 Lollipop operating system4G LTE speedWi-Fi5.7\" TFT touch screenBluetooth interface8.0MP rear-facing camera",
+    "manufacturer": "Boost Mobile",
+    "model": "LGLS770ABB",
+    "url": "http://www.bestbuy.com/site/boost-mobile-lg-g-stylo-4g-with-8gb-memory-prepaid-cell-phone-gray/7588018.p?id=1219680873136&skuId=7588018&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7588/7588018_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

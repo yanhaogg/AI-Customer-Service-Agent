@@ -1,0 +1,64 @@
+{
+  "id": "bb-3410068",
+  "source_sku": "3410068",
+  "category_id": "09_networking",
+  "category_name_zh": "路由器与网络设备",
+  "name_original": "Belkin - Dual-Band Wireless Range Extender",
+  "brand": "Belkin",
+  "model": null,
+  "description_original": "Connect to your network where you're most comfortable with this wireless range extender that features MultiBeam technology for a high-powered signal for multiple devices. Network security is maintained to help keep your personal information safe.",
+  "description_official_dataset": null,
+  "introduction_zh": "Belkin 的路由器与网络设备商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 69.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Networking & Wireless",
+    "PC Range Extenders"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/09_networking/bb-3410068/main.jpg",
+      "alt": "Belkin - Dual-Band Wireless Range Extender",
+      "source_url": "https://cdn-demo.algolia.com/bestbuy/3410068_sb.jpg",
+      "resolved_url": "https://cdn-demo.algolia.com/bestbuy/3410068_sb.jpg",
+      "width": 220,
+      "height": 220,
+      "content_type": "image/jpeg",
+      "sha256": "3e95fc8dc37ddde06a0c682a4e6de00d8ff24062c7e701d54a3c7b70ee6e8c21",
+      "bytes": 13634,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/belkin-dual-band-wireless-range-extender/3410068.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

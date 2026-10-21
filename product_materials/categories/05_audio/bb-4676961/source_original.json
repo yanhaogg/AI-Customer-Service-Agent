@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Beats by Dr. Dre - Beats Mixr On-Ear Headphones - Black",
+    "description": "Enjoy incredible sound with these Beats by Dr. Dre Beats Mixr on-ear headphones that feature 40mm drivers that deliver a low frequency range for smooth mids and highs. The rotating earcups allow for single-ear monitoring and a snug fit.",
+    "brand": "Beats by Dr. Dre",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "On-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > On-Ear Headphones"
+    },
+    "type": "On ear headphones",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4676961_rb.jpg",
+    "url": "http://www.bestbuy.com/site/beats-by-dr-dre-beats-mixr-on-ear-headphones-black/4676961.p?id=1218505466187&skuId=4676961&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9097,
+    "rating": 4,
+    "objectID": "4676961"
+  },
+  "bestbuy": null
+}

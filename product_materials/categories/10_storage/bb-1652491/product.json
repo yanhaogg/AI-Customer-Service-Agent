@@ -1,0 +1,75 @@
+{
+  "id": "bb-1652491",
+  "source_sku": "1652491",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "PNY - 16GB microSDHC Class 10 Memory Card - Black",
+  "brand": "PNY",
+  "model": null,
+  "description_original": "Increase the capacity of your compatible mobile device with this PNY microSDHC card that features 16GB of storage to accommodate apps, music, movies and other mobile content. Read speeds up to 40MB/sec. ensure fast data transfer.",
+  "description_official_dataset": null,
+  "introduction_zh": "PNY 的存储设备商品。来源介绍提及：容量 16GB；容量 40MB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 29.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Memory Cards",
+    "All Memory Cards"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "PNY - 16GB microSDHC Class 10 Memory Card - Black Increase the capacity of your "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "40MB",
+      "evidence_original": "other mobile content. Read speeds up to 40MB/sec. ensure fast data transfer. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-1652491/main.jpg",
+      "alt": "PNY - 16GB microSDHC Class 10 Memory Card - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1652/1652491_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1652/1652491_sb.jpg",
+      "width": 500,
+      "height": 403,
+      "content_type": "image/jpeg",
+      "sha256": "75e7846280c9373503899ef509613f010200c4ca4c04a79d6ed676b14fb2fdb0",
+      "bytes": 18550,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/pny-16gb-microsdhc-class-10-memory-card-black/1652491.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "bb-1319385",
+  "source_sku": "1319385",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Fujifilm - instax mini 8 Instant Film Camera - Blue",
+  "brand": "Fujifilm",
+  "model": "MINI 8 CAMERA BLUE",
+  "description_original": "Capture special moments with this Fujifilm 16273439 instax mini 8 camera that utilizes film packs (not included) to instantly provide you with photos. The brightness dial enables simple customization, and the high-key mode softens your shots for a creative touch.",
+  "description_official_dataset": "Instantly produces photos; brightness adjustment dial; high-key mode; exposure counter; film pack confirmation window",
+  "introduction_zh": "Fujifilm 的相机与摄像机商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 99.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Point & Shoot Cameras",
+    "All Point & Shoot Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Fujifilm",
+    "model": "MINI 8 CAMERA BLUE",
+    "upc": "074101102284",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-1319385/main.jpg",
+      "alt": "Fujifilm - instax mini 8 Instant Film Camera - Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1319/1319385_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1319/1319385_sa.jpg",
+      "width": 485,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "48c49c53964d823975ad4cca2cbfe1462f247a7441de69cbd9f6a2367e1e505d",
+      "bytes": 17338,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/fujifilm-instax-mini-8-instant-film-camera-blue/1319385.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

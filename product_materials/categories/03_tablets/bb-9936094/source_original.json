@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Dell - Venue 11 Pro 10.8\" - Intel Core M - 64GB - with Keyboard - Black",
+    "description": "Learn more about the New Windows Boost your on-the-go productivity with this Dell Venue 11 Pro tablet, which features Wi-Fi for easy Web access and a 64GB capacity that provides space for important files. The 10.8\" capacitive touch screen simplifies use and offers crisp images.",
+    "brand": "Dell",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other wintel wifi",
+    "price": 749.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9936094_sb.jpg",
+    "url": "http://www.bestbuy.com/site/dell-venue-11-pro-10-8-intel-core-m-64gb-with-keyboard-black/9936094.p?id=1219457235200&skuId=9936094&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7684,
+    "rating": 2,
+    "objectID": "9936094"
+  },
+  "bestbuy": null
+}

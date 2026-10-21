@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Oco - Wireless High-Definition Video Monitoring Smart Camera - Silver",
+    "description": "Oco wireless high-definition security camera: Detailed 1280 x 720 resolution and IR night vision help you keep an eye on your home at all times. Wi-Fi connectivity lets you access live or archived footage via a compatible cell phone, tablet or laptop.",
+    "brand": "Oco",
+    "categories": [
+      "Connected Home",
+      "Security Cameras & Systems",
+      "Security Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Security Cameras & Systems",
+      "lvl2": "Connected Home > Security Cameras & Systems > Security Cameras"
+    },
+    "type": "So home monitoring",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6436017_sb.jpg",
+    "url": "http://www.bestbuy.com/site/oco-wireless-high-definition-video-monitoring-smart-camera-silver/6436017.p?id=1219661890801&skuId=6436017",
+    "free_shipping": true,
+    "popularity": 2584,
+    "rating": 6,
+    "objectID": "6436017"
+  },
+  "bestbuy": {
+    "id": 6436017,
+    "name": "Oco - Wireless High-Definition Video Monitoring Smart Camera - Silver",
+    "type": "HardGood",
+    "price": 79.99,
+    "upc": "861190000108",
+    "shipping": 0,
+    "description": "OCO Wireless High-Definition Video Monitoring Smart Camera: Compatible with most Wi-Fi-enabled Android, iOS, Windows and Mac OS devices; 1/4\" CMOS image sensor; 1280 x 720 resolution; IR night vision up to 15'; iVideon cloud storage",
+    "manufacturer": "Oco",
+    "model": "CO14US",
+    "url": "http://www.bestbuy.com/site/oco-wireless-high-definition-video-monitoring-smart-camera-silver/6436017.p?id=1219661890801&skuId=6436017&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6436/6436017_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

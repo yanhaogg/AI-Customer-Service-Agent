@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Acer - Aspire 15.6\" Laptop - Intel Celeron - 4GB Memory - 500GB Hard Drive - Black",
+    "description": "Acer Aspire E15322616 Laptop PC: This lightweight laptop is well-suited to students, employees and casual computer users. It is portable and offers plenty of available space to store photos, music and videos.",
+    "brand": "Acer",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "So laptops",
+    "price": 359.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5009268_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acer-aspire-15-6-laptop-intel-celeron-4gb-memory-500gb-hard-drive-black/5009268.p?id=1219106277887&skuId=5009268",
+    "free_shipping": false,
+    "popularity": 9975,
+    "rating": 2,
+    "objectID": "5009268"
+  },
+  "bestbuy": null
+}

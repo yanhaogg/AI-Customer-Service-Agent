@@ -1,0 +1,92 @@
+{
+  "id": "bb-4390000",
+  "source_sku": "4390000",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "Amazon - Fire HD 10 - 10.1\" Tablet 32GB - Black",
+  "brand": "Amazon",
+  "model": "B00VKLBU3Y",
+  "description_original": "Amazon Fire HD 10 Tablet: With built-in Wi-Fi and the Amazon Underground app store, this tablet provides instant access to thousands of games and extra features. The HD touch screen features a polarizing filter, so you can read comfortably anywhere you go.",
+  "description_official_dataset": "Fire OS 510.1\" IPS touch-screen display with 1280 x 800 resolution32GB storage capacityQuad-core processorWi-FiAmazon Underground",
+  "introduction_zh": "Amazon 的平板电脑商品。来源介绍提及：尺寸 10.1 英寸；尺寸 510.1 英寸；容量 32GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 259.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {
+    "manufacturer": "Amazon",
+    "model": "B00VKLBU3Y",
+    "upc": "848719069419",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "10.1\"",
+      "evidence_original": "Amazon - Fire HD 10 - 10.1\" Tablet 32GB - Black Amazon Fire HD 10 Tablet: With built-in Wi-Fi and"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "510.1\"",
+      "evidence_original": "ad comfortably anywhere you go. Fire OS 510.1\" IPS touch-screen display with 1280 x 800 resolution32GB storage capac"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "32GB",
+      "evidence_original": "Amazon - Fire HD 10 - 10.1\" Tablet 32GB - Black Amazon Fire HD 10 Tablet: With built-in Wi-Fi and the Amazon "
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1280 x 800",
+      "evidence_original": "OS 510.1\" IPS touch-screen display with 1280 x 800 resolution32GB storage capacityQuad-core processorWi-FiAmazon Undergr"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "Amazon Fire HD 10 Tablet: With built-in Wi-Fi and the Amazon Underground app store, this tablet provides instant ac"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-4390000/main.jpg",
+      "alt": "Amazon - Fire HD 10 - 10.1\" Tablet 32GB - Black",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/4390/4390000_sa.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/4390/4390000_sa.jpg",
+      "width": 500,
+      "height": 303,
+      "content_type": "image/jpeg",
+      "sha256": "68e33f3eb31bba7c0ad0c39304425fa11b32322f030a4982e387f10f1f407c1b",
+      "bytes": 116366,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/amazon-fire-hd-10-10-1-tablet-32gb-black/4390000.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

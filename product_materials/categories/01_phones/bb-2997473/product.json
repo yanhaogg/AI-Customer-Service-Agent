@@ -1,0 +1,75 @@
+{
+  "id": "bb-2997473",
+  "source_sku": "2997473",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Blu - Dash C Music 4G Cell Phone (Unlocked) - White/Silver",
+  "brand": "Blu",
+  "model": null,
+  "description_original": "Stay in touch using this Blu Dash C Music cell phone, which features 4G speed and a built-in Wi-Fi network for simple Internet access. The 4GB of memory store music and more, and a stereo FM radio allows you to listen to your favorite songs.",
+  "description_official_dataset": null,
+  "introduction_zh": "Blu 的手机商品。来源介绍提及：容量 4GB；接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 69.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Unlocked Cell Phones",
+    "All Unlocked Cell Phones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "network for simple Internet access. The 4GB of memory store music and more, and a stereo FM radio allows you to l"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": " which features 4G speed and a built-in Wi-Fi network for simple Internet access. The 4GB of memory store music and"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-2997473/main.jpg",
+      "alt": "Blu - Dash C Music 4G Cell Phone (Unlocked) - White/Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2997/2997473_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2997/2997473_sb.jpg",
+      "width": 788,
+      "height": 1500,
+      "content_type": "image/jpeg",
+      "sha256": "765dfaa799bddac145751425cdd6434b6a0485d24c23dc9e215c1fd88920145b",
+      "bytes": 84178,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/blu-dash-c-music-4g-cell-phone-unlocked-white-silver/2997473.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Nest - Cam Security Camera - Black/Silver",
+    "description": "Nest Cam Security Camera: Keep a vigilant eye on your home to monitor for intruders, or to simply keep tabs on your kids or pets with this indoor-use camera. Night vision lets you see in the dark and the Nest app notifies you when the camera detects motion or sound. You can even stream live HD video to your iOS or Android device 24/7 for remote monitoring and archive recorded footage.",
+    "brand": "Nest",
+    "categories": [
+      "Connected Home",
+      "Security Cameras & Systems",
+      "Security Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Security Cameras & Systems",
+      "lvl2": "Connected Home > Security Cameras & Systems > Security Cameras"
+    },
+    "type": "Video monitoring",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6473147_rb.jpg",
+    "url": "http://www.bestbuy.com/site/nest-cam-security-camera-black-silver/6473147.p?id=1219661886395&skuId=6473147&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2829,
+    "rating": 4,
+    "objectID": "6473147"
+  },
+  "bestbuy": {
+    "id": 6473147,
+    "name": "Nest - Cam Security Camera - Black/Silver",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "854448003655",
+    "shipping": 0,
+    "description": "Remote monitoring via most phones and tablets with iOS 8 or later or Android 4.0 or later; Nest app (download required); CMOS image sensor; 1080p high-definition video recording; IR night vision up to 20'",
+    "manufacturer": "Nest",
+    "model": "NC1102ES",
+    "url": "http://www.bestbuy.com/site/nest-cam-security-camera-black-silver/6473147.p?id=1219661886395&skuId=6473147&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6473/6473147_rc.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

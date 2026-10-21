@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Lenovo - 23\" IPS LED HD Monitor - Black",
+    "description": "This Lenovo LED monitor includes a full-aluminum stand that lets you tilt the 23\" display, so you can easily customize the viewing angle to suit your preferences. The 1920 x 1080 maximum resolution presents media in striking clarity.",
+    "brand": "Lenovo",
+    "categories": [
+      "Computers & Tablets",
+      "Monitors",
+      "All Monitors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Monitors",
+      "lvl2": "Computers & Tablets > Monitors > All Monitors"
+    },
+    "type": "Flat screen monitor",
+    "price": 169.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6036011_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lenovo-23-ips-led-hd-monitor-black/6036011.p?id=1219182336709&skuId=6036011&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4366,
+    "rating": 3,
+    "objectID": "6036011"
+  },
+  "bestbuy": {
+    "id": 6036011,
+    "name": "Lenovo - 23\" IPS LED HD Monitor - Black",
+    "type": "HardGood",
+    "price": 169.99,
+    "upc": "888228765921",
+    "shipping": 0,
+    "description": "7 ms response time; 10,000,000:1 dynamic contrast ratio (1000:1 typical); 250 cd/m&#178; brightness; 1920 x 1080 maximum resolution; 178&#176; horizontal and vertical viewing angles; VGA, DVI-D and HDMI inputs",
+    "manufacturer": "Lenovo",
+    "model": "Lenovo LI2323S 23\" LED IPS Monitor",
+    "url": "http://www.bestbuy.com/site/lenovo-23-ips-led-hd-monitor-black/6036011.p?id=1219182336709&skuId=6036011&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1314/1314275788/1314275788_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

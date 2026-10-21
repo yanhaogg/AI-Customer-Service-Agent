@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "House of Marley - Smile Jamaica Earbud Headphones - White/Blue/Mint",
+    "description": "Immerse yourself in rich sound and enjoy a comfortable listening experience with these House of Marley Smile Jamaica EM-JE041-MN headphones that feature sound isolation and include 3 sizes of foam ear tips to ensure a secure fit.",
+    "brand": "House of Marley",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Earbud & In-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Earbud & In-Ear Headphones"
+    },
+    "type": "So headphone mp3 spk",
+    "price": 24.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2866315_sb.jpg",
+    "url": "http://www.bestbuy.com/site/house-of-marley-smile-jamaica-earbud-headphones-white-blue-mint/2866315.p?id=1219080024705&skuId=2866315",
+    "free_shipping": false,
+    "popularity": 6176,
+    "rating": 6,
+    "objectID": "2866315"
+  },
+  "bestbuy": {
+    "id": 2866315,
+    "name": "House of Marley - Smile Jamaica Earbud Headphones - White/Blue/Mint",
+    "type": "HardGood",
+    "price": 24.99,
+    "upc": "846885005095",
+    "shipping": 0,
+    "description": "HOUSE OF MARLEY Smile Jamaica Earbud Headphones: 1-button microphone; sound isolating; 8mm drivers; neodymium magnets; tangle-free fabric cable; earth-friendly materials; 3 ear-tip sizes",
+    "manufacturer": "House of Marley",
+    "model": "EM-JE041-MN",
+    "url": "http://www.bestbuy.com/site/house-of-marley-smile-jamaica-earbud-headphones-white-blue-mint/2866315.p?id=1219080024705&skuId=2866315&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1310/1310723054/1310723054_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Sharp - 240W 5-Disc Compact Stereo/2-Way Speaker System - Black",
+    "description": "This compact system features a 5-disc CD changer, an Apple&#174; iPod&#174;/iPhone&#174; dock, a cassette deck and a digital AM/FM tuner to provide you with a variety of entertainment options. The 2-way speakers deliver enhanced audio.",
+    "brand": "Sharp",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Stereo Shelf Systems"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Stereo Shelf Systems"
+    },
+    "type": "Executive shelf",
+    "price": 189.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2024341_rb.jpg",
+    "url": "http://www.bestbuy.com/site/sharp-240w-5-disc-compact-stereo-2-way-speaker-system-black/2024341.p?id=1218307636202&skuId=2024341&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 648,
+    "rating": 1,
+    "objectID": "2024341"
+  },
+  "bestbuy": {
+    "id": 2024341,
+    "name": "Sharp - 240W 5-Disc Compact Stereo/2-Way Speaker System - Black",
+    "type": "HardGood",
+    "price": 189.99,
+    "upc": "074000369863",
+    "shipping": 0,
+    "description": "Plays CD-R/RW discs and MP3 and WMA files; AM/FM tuner with 40 presets; cassette deck; Apple&#174; iPod&#174;/iPhone&#174; dock; 2-way speakers",
+    "manufacturer": "Sharp",
+    "model": "CDDH950P",
+    "url": "http://www.bestbuy.com/site/sharp-240w-5-disc-compact-stereo-2-way-speaker-system-black/2024341.p?id=1218307636202&skuId=2024341&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2024/2024341_rc.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

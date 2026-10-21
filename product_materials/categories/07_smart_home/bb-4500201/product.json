@@ -1,0 +1,77 @@
+{
+  "id": "bb-4500201",
+  "source_sku": "4500201",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Logitech - Logi Circle Portable Wireless Video Monitoring Camera with 2-way talk - Black",
+  "brand": "Logitech",
+  "model": "961-000392",
+  "description_original": "Logitech Logi Circle Portable Wireless Video Monitoring Camera with 2-way talk: Circle is the intelligent home security camera that keeps you connected to home with a seamless app experience, intelligent portable design and easy-to-connect Wi-Fi capability. Instantly monitor every important moment at home – at night, from work or away on vacation – right on your smart device in beautiful HD video. So whether it's family and pet moments or home security, you never miss a thing.",
+  "description_official_dataset": "Bluetooth and Wi-Fi connectivity; downloadable Circle app; remote access via mobile device; smart notifications; night vision; 8x digital zoom; portable; magnetic wall-mounting hardware",
+  "introduction_zh": "Logitech 的智能家居商品。来源介绍提及：接口或连接方式 Wi-Fi；接口或连接方式 Bluetooth。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Security Cameras & Systems",
+    "Security Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Logitech",
+    "model": "961-000392",
+    "upc": "097855118028",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "ent portable design and easy-to-connect Wi-Fi capability. Instantly monitor every important moment at home – at nig"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": " home security, you never miss a thing. Bluetooth and Wi-Fi connectivity; downloadable Circle app; remote access via mo"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-4500201/main.jpg",
+      "alt": "Logitech - Logi Circle Portable Wireless Video Monitoring Camera with 2-way talk - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4500/4500201_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4500/4500201_sa.jpg",
+      "width": 401,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "c3609a7116c7f5f565402eb966936d5bbdb6423fb5005e5443b2a3fbadbaae9a",
+      "bytes": 18732,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/logitech-logi-circle-portable-wireless-video-monitoring-camera-with-2-way-talk-black/4500201.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

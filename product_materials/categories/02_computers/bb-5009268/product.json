@@ -1,0 +1,81 @@
+{
+  "id": "bb-5009268",
+  "source_sku": "5009268",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "Acer - Aspire 15.6\" Laptop - Intel Celeron - 4GB Memory - 500GB Hard Drive - Black",
+  "brand": "Acer",
+  "model": null,
+  "description_original": "Acer Aspire E15322616 Laptop PC: This lightweight laptop is well-suited to students, employees and casual computer users. It is portable and offers plenty of available space to store photos, music and videos.",
+  "description_official_dataset": null,
+  "introduction_zh": "Acer 的笔记本与台式电脑商品。来源介绍提及：尺寸 15.6 英寸；容量 4GB；容量 500GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 359.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\"",
+      "evidence_original": "Acer - Aspire 15.6\" Laptop - Intel Celeron - 4GB Memory - 500GB Hard Drive - Black Acer A"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "- Aspire 15.6\" Laptop - Intel Celeron - 4GB Memory - 500GB Hard Drive - Black Acer Aspire E15322616 Laptop PC: Th"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "500GB",
+      "evidence_original": "\" Laptop - Intel Celeron - 4GB Memory - 500GB Hard Drive - Black Acer Aspire E15322616 Laptop PC: This lightweight "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-5009268/main.jpg",
+      "alt": "Acer - Aspire 15.6\" Laptop - Intel Celeron - 4GB Memory - 500GB Hard Drive - Black",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/5009/5009268_sb.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/5009/5009268_sb.jpg",
+      "width": 220,
+      "height": 157,
+      "content_type": "image/jpeg",
+      "sha256": "947e8e1c3534e32e3574f9e0395d9f5778236dab91f6ca7ac61895f2bbfb1d24",
+      "bytes": 8496,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/acer-aspire-15-6-laptop-intel-celeron-4gb-memory-500gb-hard-drive-black/5009268.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

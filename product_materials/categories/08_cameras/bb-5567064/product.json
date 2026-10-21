@@ -1,0 +1,83 @@
+{
+  "id": "bb-5567064",
+  "source_sku": "5567064",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Olympus - TG-4 16.0-Megapixel Waterproof Digital Camera - Black",
+  "brand": "Olympus",
+  "model": "V104160BU000",
+  "description_original": "Preserve memories with this Olympus TG-4 16.0-megapixel digital camera that captures sharp photos and 1080p videos and lets you share them via Wi-Fi. The rugged design resists water, freezing temperatures, crushing force, shocks and dust for durability. Memory card sold separately.",
+  "description_official_dataset": "4x optical/3x digital zoom1080p HD videoWater-resistantUnderwater modes with underwater HDRWi-Fi and GPS",
+  "introduction_zh": "Olympus 的相机与摄像机商品。来源介绍提及：分辨率 1080p；成像规格 16.0-Megapixel；接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 379.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Point & Shoot Cameras",
+    "All Point & Shoot Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Olympus",
+    "model": "V104160BU000",
+    "upc": "050332189850",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "resolution",
+      "value_original": "1080p",
+      "evidence_original": "l camera that captures sharp photos and 1080p videos and lets you share them via Wi-Fi. The rugged design resists w"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "16.0-Megapixel",
+      "evidence_original": "Olympus - TG-4 16.0-Megapixel Waterproof Digital Camera - Black Preserve memories with this Olympus"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "080p videos and lets you share them via Wi-Fi. The rugged design resists water, freezing temperatures, crushing for"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-5567064/main.jpg",
+      "alt": "Olympus - TG-4 16.0-Megapixel Waterproof Digital Camera - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5567/5567064_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5567/5567064_sa.jpg",
+      "width": 500,
+      "height": 287,
+      "content_type": "image/jpeg",
+      "sha256": "5ce17488e8ab89d09282a00e3bf22e8eea4a0ab481793ee44910526cb6dbeec3",
+      "bytes": 17788,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/olympus-tg-4-16-0-megapixel-waterproof-digital-camera-black/5567064.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

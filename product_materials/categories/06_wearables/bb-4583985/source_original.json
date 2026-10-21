@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Microsoft - Band 2 (Small) - Black",
+    "description": "Microsoft Band 2 (Small): Monitor your health and fitness with this smartwatch, which tracks your heart rate, steps taken, calories burned, sleep quality, hours slept and other helpful metrics. Plus, you can pair with your Apple&#174; iOS, Android or Windows Phone device via Bluetooth to receive alerts at a glance.  Discover how the technology of Microsoft Band 2 can assist you in a healthy, productive lifestyle. Learn more &#8250;",
+    "brand": "Microsoft",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4583985_sb.jpg",
+    "url": "http://www.bestbuy.com/site/microsoft-band-2-small-black/4583985.p?id=1219773217709&skuId=4583985&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3393,
+    "rating": 2,
+    "objectID": "4583985"
+  },
+  "bestbuy": {
+    "id": 4583985,
+    "name": "Microsoft - Band 2 (Small) - Black",
+    "type": "HardGood",
+    "price": 249.99,
+    "upc": "885370949865",
+    "shipping": 0,
+    "description": "Measures heart rate, steps taken, calories burned, distance traveled, speed, sleep, elevation and other metrics; compatible with most Windows Phone, Apple&#174; iOS and Android devices; Bluetooth interface; water-resistant; LCD",
+    "manufacturer": "Microsoft",
+    "model": "MU5-00001",
+    "url": "http://www.bestbuy.com/site/microsoft-band-2-small-black/4583985.p?id=1219773217709&skuId=4583985&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4583/4583985_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Dell - 2-in-1 13.3\" Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive - Silver Touch",
+    "description": "Only at Best Buy  Dell Convertible 2-in-1 Laptop: This compact, efficient laptop features a bright 13.3\" touch-screen display supported by Intel&#174; HD graphics, so you can immerse yourself in entertainment on the go. Sync with Bluetooth-enabled devices for simple streaming.",
+    "brand": "Dell",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Notebooks",
+    "price": 899.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9514008_sb.jpg",
+    "url": "http://www.bestbuy.com/site/dell-2-in-1-13-3-touch-screen-laptop-intel-core-i7-8gb-memory-1tb-hard-drive-silver-touch/9514008.p?id=1219704425967&skuId=9514008&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 7718,
+    "rating": 4,
+    "objectID": "9514008"
+  },
+  "bestbuy": null
+}

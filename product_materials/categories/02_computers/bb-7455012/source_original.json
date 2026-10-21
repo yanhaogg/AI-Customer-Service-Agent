@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Dell - Inspiron 11.6\" Touch-Screen Laptop - Intel Pentium - 8GB Memory - 128GB Solid State Drive - Era Gray",
+    "description": "Only at Best Buy  Dell Inspiron Laptop: A world of entertainment is at your fingertips with this laptop's clear 11.6\" touch screen, which lets you easily surf the Web and browse through your media collection. The 128GB solid state drive offers space for your files.",
+    "brand": "Dell",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Notebooks",
+    "price": 549.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7455012_sb.jpg",
+    "url": "http://www.bestbuy.com/site/dell-inspiron-11-6-touch-screen-laptop-intel-pentium-8gb-memory-128gb-solid-state-drive-era-gray/7455012.p?id=1219677754751&skuId=7455012&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7712,
+    "rating": 4,
+    "objectID": "7455012"
+  },
+  "bestbuy": null
+}

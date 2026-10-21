@@ -1,0 +1,66 @@
+{
+  "id": "bb-4125209",
+  "source_sku": "4125209",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "JVC - FLATS Over-the-Ear Headphones - Blue",
+  "brand": "JVC",
+  "model": "HAS160A",
+  "description_original": "Listen in comfort with these JVC FLATS HAS160A over-the-ear headphones, which feature a slim stainless-steel headband and soft ear pads. Pivoting earcups allow the headphone to lie flat, so they can be packed away with ease while traveling.",
+  "description_official_dataset": "Sound isolation; 30mm drivers; neodymium magnets; stainless-steel headband; pivoting earcups",
+  "introduction_zh": "JVC 的耳机与音箱商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 19.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones",
+    "Over-Ear Headphones"
+  ],
+  "specifications_original": {
+    "manufacturer": "JVC",
+    "model": "HAS160A",
+    "upc": "046838046049",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-4125209/main.jpg",
+      "alt": "JVC - FLATS Over-the-Ear Headphones - Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4125/4125209_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4125/4125209_sa.jpg",
+      "width": 246,
+      "height": 555,
+      "content_type": "image/jpeg",
+      "sha256": "4772b9ad143303048f2843fc7187a4f13237e9c6c04404100db2cad03fd52bb8",
+      "bytes": 6513,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/jvc-flats-over-the-ear-headphones-blue/4125209.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

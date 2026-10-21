@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "EMTEC - 3D Woodstock 8GB USB 2.0 Type A Flash Drive - Yellow",
+    "description": "Store up to 8GB of digital videos, documents or photos on this EMTEC 3D Woodstock ECMMD8GPN103 flash drive, which features a high-speed USB 2.0 interface for efficient transfers. The popular Peanuts figurine offers a fun look.",
+    "brand": "EMTEC",
+    "categories": [
+      "Computers & Tablets",
+      "USB Flash Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > USB Flash Drives"
+    },
+    "type": "Flash drives",
+    "price": 9.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4227701_sb.jpg",
+    "url": "http://www.bestbuy.com/site/emtec-3d-woodstock-8gb-usb-2-0-type-a-flash-drive-yellow/4227701.p?id=1219710234804&skuId=4227701&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7193,
+    "rating": 5,
+    "objectID": "4227701"
+  },
+  "bestbuy": {
+    "id": 4227701,
+    "name": "EMTEC - 3D Woodstock 8GB USB 2.0 Type A Flash Drive - Yellow",
+    "type": "HardGood",
+    "price": 9.99,
+    "upc": "846143005591",
+    "shipping": 0,
+    "description": "Write speeds up to 5MB/sec.; for PC, Mac and Linux; high-speed USB 2.0 interface; attached Peanuts character figure",
+    "manufacturer": "EMTEC",
+    "model": "ECMMD8GPN103",
+    "url": "http://www.bestbuy.com/site/emtec-3d-woodstock-8gb-usb-2-0-type-a-flash-drive-yellow/4227701.p?id=1219710234804&skuId=4227701&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4227/4227701_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "algolia": {
+    "name": "Altec Lansing - Boom Jacket Bluetooth Speaker - Blue",
+    "description": "Only at Best Buy  This Altec Lansing Boom Jacket IMW576-BLU speaker's Bluetooth interface and NFC (near-field communication) technology let you stream music from select devices from up to 50' away. The water-, sand-, shock- and snow-proof construction offers protection.",
+    "brand": "Altec Lansing",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6935031_sb.jpg",
+    "url": "http://www.bestbuy.com/site/altec-lansing-boom-jacket-bluetooth-speaker-blue/6935031.p?id=1219667735228&skuId=6935031&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9898,
+    "rating": 3,
+    "objectID": "6935031"
+  },
+  "bestbuy": {
+    "id": 6935031,
+    "name": "Altec Lansing - Boom Jacket Bluetooth Speaker - Blue",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "021331967619",
+    "shipping": 0,
+    "description": "Only at Best Buy\nBluetoothRechargeable batteryWaterproofFloats in waterSpeakerphone",
+    "manufacturer": "Altec Lansing",
+    "model": "IMW576-BLU",
+    "url": "http://www.bestbuy.com/site/altec-lansing-boom-jacket-bluetooth-speaker-blue/6935031.p?id=1219667735228&skuId=6935031&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6935/6935031_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

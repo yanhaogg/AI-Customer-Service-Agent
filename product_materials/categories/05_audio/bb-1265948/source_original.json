@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Niles - 2-Pair Speaker Selector with Volume Control",
+    "description": "Learn more about Magnolia               Premium Installation                   This speaker selector features 100W RMS power handling per channel and 200W peak power for robust audio. Selectable impedance magnification, individual room on/off selector switches and 12-step controls offer customized sound.",
+    "brand": "Niles",
+    "categories": [
+      "Audio",
+      "Home Audio Accessories",
+      "Speaker Accessories",
+      "Speaker Selector Switches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio Accessories",
+      "lvl2": "Audio > Home Audio Accessories > Speaker Accessories",
+      "lvl3": "Audio > Home Audio Accessories > Speaker Accessories > Speaker Selector Switches"
+    },
+    "type": "So mht audio accy",
+    "price": 214.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1265948_sb.jpg",
+    "url": "http://www.bestbuy.com/site/niles-2-pair-speaker-selector-with-volume-control/1265948.p?id=1218245458906&skuId=1265948",
+    "free_shipping": false,
+    "popularity": 2656,
+    "rating": 4,
+    "objectID": "1265948"
+  },
+  "bestbuy": {
+    "id": 1265948,
+    "name": "Niles - 2-Pair Speaker Selector with Volume Control",
+    "type": "HardGood",
+    "price": 214.99,
+    "upc": "760514010420",
+    "shipping": 0,
+    "description": "From our expanded online assortment; 100W RMS power handling per channel; 200W peak power; selectable impedance magnification; individual room on/off selector switches; 12-step controls",
+    "manufacturer": "Niles",
+    "model": "Fg01042",
+    "url": "http://www.bestbuy.com/site/niles-2-pair-speaker-selector-with-volume-control/1265948.p?id=1218245458906&skuId=1265948&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1265/1265948_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

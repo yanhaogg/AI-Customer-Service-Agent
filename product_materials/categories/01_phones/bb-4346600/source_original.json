@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Sony - Xperia C4 4G with 10GB Memory Cell Phone (Unlocked) - Black",
+    "description": "Sony Xperia C4 Unlocked Cell Phone: Enjoy taking clear photos to share with friends over text messages and social media with this cell phone, which offers 5.0MP and 13.0MP cameras with Exmor R and HDR technologies for sharp selfies and crisp shots of special events. Upload photos over Wi-Fi or using 4G LTE data speeds.",
+    "brand": "Sony",
+    "categories": [
+      "Cell Phones",
+      "Unlocked Cell Phones",
+      "All Unlocked Cell Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Unlocked Cell Phones",
+      "lvl2": "Cell Phones > Unlocked Cell Phones > All Unlocked Cell Phones"
+    },
+    "type": "Unlocked handsets",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4346600_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sony-xperia-c4-4g-with-10gb-memory-cell-phone-unlocked-black/4346600.p?id=1219734737974&skuId=4346600&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 200,
+    "rating": 4,
+    "objectID": "4346600"
+  },
+  "bestbuy": {
+    "id": 4346600,
+    "name": "Sony - Xperia C4 4G with 16GB Memory Cell Phone (Unlocked) - Black",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "095673860693",
+    "shipping": 0,
+    "description": "Android 5.0 Lollipop operating system4G LTE speed5.5\" touch screen5.0MP front- and 13.0MP rear-facing camerasOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "manufacturer": "Sony",
+    "model": "Xperia C4 Black (E5306)",
+    "url": "http://www.bestbuy.com/site/sony-xperia-c4-4g-with-16gb-memory-cell-phone-unlocked-black/4346600.p?id=1219734737974&skuId=4346600&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313490786/1313490786_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

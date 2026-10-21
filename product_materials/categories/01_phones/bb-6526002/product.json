@@ -1,0 +1,87 @@
+{
+  "id": "bb-6526002",
+  "source_sku": "6526002",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "NET10 - LG Sunrise with 4GB Memory No-Contract Cell Phone - Gray",
+  "brand": "NET10",
+  "model": "NTLGL15G3P4P",
+  "description_original": "LG Sunrise No-Contract Cell Phone for TRACFONE: Stream music and videos with this Bluetooth 4.0-enabled LG cell phone, which makes wireless connectivity simple. The 3.8\" touch screen provides clear images and easy navigation.",
+  "description_official_dataset": "Qualcomm MSM 8210 1.2GHz dual processorAndroid 4.4.2 KitKat operating system3G speedWi-Fi3.8\" touch screenBluetooth enabled",
+  "introduction_zh": "NET10 的手机商品。来源介绍提及：尺寸 3.8 英寸；尺寸 8 英寸；容量 4GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 39.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "No-Contract Phones",
+    "All No-Contract Phones"
+  ],
+  "specifications_original": {
+    "manufacturer": "NET10",
+    "model": "NTLGL15G3P4P",
+    "upc": "616960102199",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "3.8\"",
+      "evidence_original": "makes wireless connectivity simple. The 3.8\" touch screen provides clear images and easy navigation. Qualcomm MSM "
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "8\"",
+      "evidence_original": "2 KitKat operating system3G speedWi-Fi3.8\" touch screenBluetooth enabled"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "NET10 - LG Sunrise with 4GB Memory No-Contract Cell Phone - Gray LG Sunrise No-Contract Cell Phon"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.0",
+      "evidence_original": "FONE: Stream music and videos with this Bluetooth 4.0-enabled LG cell phone, which makes wireless connectivity simple. The "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-6526002/main.jpg",
+      "alt": "NET10 - LG Sunrise with 4GB Memory No-Contract Cell Phone - Gray",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6526/6526002_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6526/6526002_sa.jpg",
+      "width": 285,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "cbef63ee27bfa6b58c90cd95adb399a7c51e1030e0555656c260adeb8ac101ae",
+      "bytes": 24860,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/net10-lg-sunrise-with-4gb-memory-no-contract-cell-phone-gray/6526002.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

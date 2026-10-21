@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "NET10 - LG Optimus Q No-Contract Mobile Phone - Black",
+    "description": "Experience fast, reliable connections on the go with this mobile phone that features 3G speed and Wi-Fi connectivity for quick access to e-mail and Web browsing. The 3.2\" HVGA touch screen allows simple navigation of the phone's functions.",
+    "brand": "NET10",
+    "categories": [
+      "Cell Phones",
+      "No-Contract Phones",
+      "All No-Contract Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > No-Contract Phones",
+      "lvl2": "Cell Phones > No-Contract Phones > All No-Contract Phones"
+    },
+    "type": "Net10",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3654411_sb.jpg",
+    "url": "http://www.bestbuy.com/site/net10-lg-optimus-q-no-contract-mobile-phone-black/3654411.p?id=1218425884310&skuId=3654411&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2818,
+    "rating": 2,
+    "objectID": "3654411"
+  },
+  "bestbuy": {
+    "id": 3654411,
+    "name": "NET10 - LG Optimus Q No-Contract Mobile Phone - Black",
+    "type": "HardGood",
+    "price": 149.99,
+    "upc": "616960026082",
+    "shipping": 0,
+    "description": "Android 2.3 operating system3G speedWi-Fi3.2\" HVGA color touch-screen display",
+    "manufacturer": "NET10",
+    "model": "NTLGL55CPWP",
+    "url": "http://www.bestbuy.com/site/net10-lg-optimus-q-no-contract-mobile-phone-black/3654411.p?id=1218425884310&skuId=3654411&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3654/3654411_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

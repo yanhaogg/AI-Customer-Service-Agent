@@ -1,0 +1,93 @@
+{
+  "id": "bb-9924115",
+  "source_sku": "9924115",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Onkyo - 5.1.2-Channel Dolby Atmos Ready Network A/V Receiver/Speaker Package - Black",
+  "brand": "Onkyo",
+  "model": "HT-S7700",
+  "description_original": "This Onkyo HT-S7700 home theater system contains speakers and a receiver with 4K pass-through to enhance your entertainment. To build a complete 3D home theater system, you'll also need a 3D TV, 3D glasses designed for the TV and a high-speed HDMI cable.",
+  "description_official_dataset": "ONKYO 5.1.2-Channel Dolby Atmos Ready Network A/V Receiver/Speaker Package: Dolby Atmos and Dolby TrueHD decoders; USB port; built-in Wi-Fi; Bluetooth interface; Qdeo processing technology by Marvell; powered zone 2 and zone 2 line-out; bi-amping capability",
+  "introduction_zh": "Onkyo 的耳机与音箱商品。来源介绍提及：分辨率 4K；接口或连接方式 HDMI；接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 799.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Home Audio",
+    "Home Theater Systems",
+    "All Home Theater Systems"
+  ],
+  "specifications_original": {
+    "manufacturer": "Onkyo",
+    "model": "HT-S7700",
+    "upc": "751398012044",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "resolution",
+      "value_original": "4K",
+      "evidence_original": "m contains speakers and a receiver with 4K pass-through to enhance your entertainment. To build a complete 3D ho"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "es designed for the TV and a high-speed HDMI cable. ONKYO 5.1.2-Channel Dolby Atmos Ready Network A/V Receiver/Spe"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": " Dolby Atmos and Dolby TrueHD decoders; USB port; built-in Wi-Fi; Bluetooth interface; Qdeo processing technology"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "lby TrueHD decoders; USB port; built-in Wi-Fi; Bluetooth interface; Qdeo processing technology by Marvell; powered "
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "eHD decoders; USB port; built-in Wi-Fi; Bluetooth interface; Qdeo processing technology by Marvell; powered zone 2 and "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-9924115/main.jpg",
+      "alt": "Onkyo - 5.1.2-Channel Dolby Atmos Ready Network A/V Receiver/Speaker Package - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9924/9924115_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9924/9924115_sa.jpg",
+      "width": 500,
+      "height": 194,
+      "content_type": "image/jpeg",
+      "sha256": "f91e9e8151ca2c9cc15f55af2dd1d17c04b0afb5f5ef94eca3a9d53eac908dcd",
+      "bytes": 6400,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/onkyo-5-1-2-channel-dolby-atmos-ready-network-a-v-receiver-speaker-package-black/9924115.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

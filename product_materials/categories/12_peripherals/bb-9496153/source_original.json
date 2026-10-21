@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Corsair - K95 RGB Mechanical Gaming Keyboard - Black",
+    "description": "Dominate your next PC adventure with this Corsair K95 CH-9000082-NA keyboard, which features Cherry MX Red mechanical switches for smooth, linear response and backlighting with 16.8 million colors that offers static, animated or reactive illumination.",
+    "brand": "Corsair",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards",
+      "Gaming Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Computer Keyboards > Gaming Keyboards"
+    },
+    "type": "So cards-components",
+    "price": 189.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9496153_sb.jpg",
+    "url": "http://www.bestbuy.com/site/corsair-k95-rgb-mechanical-gaming-keyboard-black/9496153.p?id=1219418205537&skuId=9496153",
+    "free_shipping": false,
+    "popularity": 7915,
+    "rating": 5,
+    "objectID": "9496153"
+  },
+  "bestbuy": null
+}

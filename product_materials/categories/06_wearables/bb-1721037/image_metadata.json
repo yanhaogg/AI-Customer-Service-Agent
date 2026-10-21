@@ -1,0 +1,13 @@
+{
+  "source_url": "https://cdn-demo.algolia.com/bestbuy/1721037_rb.jpg",
+  "resolved_url": "https://cdn-demo.algolia.com/bestbuy/1721037_rb.jpg",
+  "width": 173,
+  "height": 160,
+  "content_type": "image/jpeg",
+  "sha256": "fa6de0c438ec69a38b7648174c9a8b2f01521a2d99af4d3e64c0608b99507e35",
+  "bytes": 8011,
+  "original_format": "JPEG",
+  "status": "verified",
+  "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+  "rights_status": "third_party_product_image_not_separately_verified"
+}

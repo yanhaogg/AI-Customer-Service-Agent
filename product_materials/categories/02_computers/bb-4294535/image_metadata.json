@@ -1,0 +1,13 @@
+{
+  "source_url": "https://cdn-demo.algolia.com/bestbuy/4294535_sb.jpg",
+  "resolved_url": "https://cdn-demo.algolia.com/bestbuy/4294535_sb.jpg",
+  "width": 145,
+  "height": 160,
+  "content_type": "image/jpeg",
+  "sha256": "96307efc3dc32342b6dbd385685e5dbf3a9785e153a3abde30e5aa79d5c45243",
+  "bytes": 7580,
+  "original_format": "JPEG",
+  "status": "verified",
+  "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+  "rights_status": "third_party_product_image_not_separately_verified"
+}

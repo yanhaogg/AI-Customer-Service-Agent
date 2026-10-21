@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Acoustic Research - Pasadena Portable Bluetooth Rechargeable Speaker System - Black",
+    "description": "Acoustic Research Pasadena Rechargeable Speaker System: Listen to your favorite tunes with this 10W speaker system, which resists damage from the elements for simple operation inside or outside of the house. The 2-way system sounds like 1 source rather than several separate sources.",
+    "brand": "Acoustic Research",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers"
+    },
+    "type": "Outdoor speakers",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8524004_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acoustic-research-pasadena-portable-bluetooth-rechargeable-speaker-system-black/8524004.p?id=1219692520015&skuId=8524004&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9957,
+    "rating": 4,
+    "objectID": "8524004"
+  },
+  "bestbuy": null
+}

@@ -1,0 +1,82 @@
+{
+  "id": "bb-8896017",
+  "source_sku": "8896017",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Insignia™ - 5.9\" USB Type-C-to-USB 3.0 Type-A Adapter - White",
+  "brand": "Insignia™",
+  "model": "NS-PU396CA-WH",
+  "description_original": "Connect your USB devices to your Apple® MacBook® with this Insignia™ NS-PU396CA-WH adapter, which features USB Type-A and USB Type-C connectors. Transfer speeds up to 5 Gbps ensure rapid response times.",
+  "description_official_dataset": "Compatible with Apple® MacBook® and other devices with a USB Type-C port; connects your USB Type-A devices to your MacBook; PVC jacket; up to 5 Gbps transfer speeds; reversible plug",
+  "introduction_zh": "Insignia™ 的键鼠与电脑外设商品。来源介绍提及：尺寸 5.9 英寸；接口或连接方式 USB；接口或连接方式 USB 3.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 14.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Cables & Connectors",
+    "USB Cables & Hubs"
+  ],
+  "specifications_original": {
+    "manufacturer": "Insignia™",
+    "model": "NS-PU396CA-WH",
+    "upc": "600603189654",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5.9\"",
+      "evidence_original": "Insignia™ - 5.9\" USB Type-C-to-USB 3.0 Type-A Adapter - White Connect your USB devices"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Insignia™ - 5.9\" USB Type-C-to-USB 3.0 Type-A Adapter - White Connect your USB devices to "
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 3.0",
+      "evidence_original": "Insignia™ - 5.9\" USB Type-C-to-USB 3.0 Type-A Adapter - White Connect your USB devices to your Apple® MacBoo"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-8896017/main.jpg",
+      "alt": "Insignia™ - 5.9\" USB Type-C-to-USB 3.0 Type-A Adapter - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8896/8896017_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8896/8896017_sa.jpg",
+      "width": 500,
+      "height": 187,
+      "content_type": "image/jpeg",
+      "sha256": "102864ee663fe7de2a879adbd40319233a7abe510639ac6d0bc97d90c6a6b54f",
+      "bytes": 5505,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/insignia-5-9-usb-type-c-to-usb-3-0-type-a-adapter-white/8896017.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

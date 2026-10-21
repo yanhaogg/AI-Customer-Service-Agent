@@ -1,0 +1,82 @@
+{
+  "id": "bb-8591148",
+  "source_sku": "8591148",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "Intel - 535 Series 240GB Internal SATA Solid State Drive - Silver",
+  "brand": "Intel",
+  "model": "BBSSDSC240H6R5",
+  "description_original": "With 240GB of storage capacity, this Intel 535 Series BBSSDSC240H6R5 solid state drive allows you to expand the storage of your laptop or desktop and efficiently manage a variety of tasks. The M.2 form factor saves space without sacrificing performance.",
+  "description_official_dataset": "SATA 6 Gbps interface; M.2 form factor; NAND technology; up to 540MB/sec. sequential read speeds; up to 490MB/sec. sequential write speeds",
+  "introduction_zh": "Intel 的存储设备商品。来源介绍提及：容量 240GB；容量 540MB；容量 490MB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 134.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Hard Drives & Storage",
+    "Solid State Drives"
+  ],
+  "specifications_original": {
+    "manufacturer": "Intel",
+    "model": "BBSSDSC240H6R5",
+    "upc": "735858292795",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "240GB",
+      "evidence_original": "Intel - 535 Series 240GB Internal SATA Solid State Drive - Silver With 240GB of storage capaci"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "540MB",
+      "evidence_original": "M.2 form factor; NAND technology; up to 540MB/sec. sequential read speeds; up to 490MB/sec. sequential write speeds"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "490MB",
+      "evidence_original": "40MB/sec. sequential read speeds; up to 490MB/sec. sequential write speeds"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-8591148/main.jpg",
+      "alt": "Intel - 535 Series 240GB Internal SATA Solid State Drive - Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8591/8591148_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8591/8591148_sb.jpg",
+      "width": 169,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "6e25351f745d20f55046a0dacf2ec4451b37ca3501313b856970de1b8b911267",
+      "bytes": 6339,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/intel-535-series-240gb-internal-sata-solid-state-drive-silver/8591148.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

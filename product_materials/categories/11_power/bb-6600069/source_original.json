@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Apple - 29W USB-C Power Adapter - White",
+    "description": "The Apple 29W USB-C Power adapter offers fast, efficient charging at home, in the office, or on the go. This adapter is compatible with MacBook computers featuring a USB-C port and requires a USB-C Charge Cable (sold separately).",
+    "brand": "Apple",
+    "categories": [
+      "Computers & Tablets",
+      "Laptop Accessories",
+      "Laptop Chargers & Adapters"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptop Accessories",
+      "lvl2": "Computers & Tablets > Laptop Accessories > Laptop Chargers & Adapters"
+    },
+    "type": "Notebook accessories",
+    "price": 49.0,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6600069_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-29w-usb-c-power-adapter-white/6600069.p?id=1219663250413&skuId=6600069&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9745,
+    "rating": 3,
+    "objectID": "6600069"
+  },
+  "bestbuy": {
+    "id": 6600069,
+    "name": "Apple - 29W USB-C Power Adapter - White",
+    "type": "HardGood",
+    "price": 49,
+    "upc": "888462108348",
+    "shipping": 0,
+    "description": "Compatible with Apple MacBook&#174;; fast, efficient charging; use with a USB-C Charge Cable (sold separately)",
+    "manufacturer": "Apple",
+    "model": "MJ262LL/A",
+    "url": "http://www.bestbuy.com/site/apple-29w-usb-c-power-adapter-white/6600069.p?id=1219663250413&skuId=6600069&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6600/6600069_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

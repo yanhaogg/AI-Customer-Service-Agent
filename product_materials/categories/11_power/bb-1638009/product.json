@@ -1,0 +1,72 @@
+{
+  "id": "bb-1638009",
+  "source_sku": "1638009",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "Platinum - Quick Charge Car Charger - Black",
+  "brand": "Platinum",
+  "model": "PT-DC1USQC",
+  "description_original": "Platinum Quick Charge Car Charger: Charge your electronic devices on the go with this universally compatible car charger. Qualcomm Quick Charge 2.0 enables faster charging than conventional USB chargers.",
+  "description_official_dataset": "Compatible with most smartphones, tablets, e-readers, MP3 players and other electronic devices; Qualcomm Quick Charge 2.0; 15W maximum output",
+  "introduction_zh": "Platinum 的充电与电源配件商品。来源介绍提及：接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 24.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Car Chargers"
+  ],
+  "specifications_original": {
+    "manufacturer": "Platinum",
+    "model": "PT-DC1USQC",
+    "upc": "600603184673",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "ables faster charging than conventional USB chargers. Compatible with most smartphones, tablets, e-readers, MP3 p"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-1638009/main.jpg",
+      "alt": "Platinum - Quick Charge Car Charger - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1638/1638009_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1638/1638009_sa.jpg",
+      "width": 499,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "8b3202211045dfc02e365f9b943fcc7d183a01f1cb627371581918f4eb22631f",
+      "bytes": 21552,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/platinum-quick-charge-car-charger-black/1638009.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "CybertronPC - Patriot Desktop - AMD A4-Series - 8GB Memory - 1TB Hard Drive - Blue",
+    "description": "Enhance your gameplay with this CybertronPC Patriot TGM1293B desktop, which features built-in wireless networking to enable you to compete against virtual opponents. The 1TB hard drive provides ample storage for your games, movies and other media.",
+    "brand": "CybertronPC",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 499.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1625356_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cybertronpc-patriot-desktop-amd-a4-series-8gb-memory-1tb-hard-drive-blue/1625356.p?id=1219058141034&skuId=1625356",
+    "free_shipping": false,
+    "popularity": 7785,
+    "rating": 4,
+    "objectID": "1625356"
+  },
+  "bestbuy": {
+    "id": 1625356,
+    "name": "CybertronPC - Patriot Desktop - AMD A4-Series - 8GB Memory - 1TB Hard Drive - Blue",
+    "type": "HardGood",
+    "price": 399.99,
+    "upc": "844750019994",
+    "shipping": 0,
+    "description": "Technical details: AMD A4-Series processor; 8GB memory; 1TB hard driveSpecial features: Built-in wireless networking; HDMI output",
+    "manufacturer": "CybertronPC",
+    "model": "TGM1293B",
+    "url": "http://www.bestbuy.com/site/cybertronpc-patriot-desktop-amd-a4-series-8gb-memory-1tb-hard-drive-blue/1625356.p?id=1219058141034&skuId=1625356&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1625/1625356_sa.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

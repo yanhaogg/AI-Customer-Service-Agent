@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Misfit - Bolt Multicolor Smart LED Light Bulb - Black/White",
+    "description": "Misfit Bolt Smart LED Light Bulb: Set the mood in a room with this smart LED light bulb, which features more than 1 million programmable colors. You can adjust the brightness and turn the light bulb on and off using your compatible phone or Misfit Flash.",
+    "brand": "Misfit",
+    "categories": [
+      "Connected Home",
+      "Smart Lighting",
+      "Smart Light Bulbs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Smart Lighting",
+      "lvl2": "Connected Home > Smart Lighting > Smart Light Bulbs"
+    },
+    "type": "Home automation",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5221046_sb.jpg",
+    "url": "http://www.bestbuy.com/site/misfit-bolt-multicolor-smart-led-light-bulb-black-white/5221046.p?id=1219661897467&skuId=5221046&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3295,
+    "rating": 4,
+    "objectID": "5221046"
+  },
+  "bestbuy": {
+    "id": 5221046,
+    "name": "Misfit - Bolt Multicolor Smart LED Light Bulb - Multicolor",
+    "type": "HardGood",
+    "price": 49.99,
+    "upc": "812554021154",
+    "shipping": 0,
+    "description": "800 lumens; 13W of power (60W incandescent equivalent); sunrise simulation; Misfit Home mobile app (download required)",
+    "manufacturer": "Misfit",
+    "model": "B00YZ",
+    "url": "http://www.bestbuy.com/site/misfit-bolt-multicolor-smart-led-light-bulb-multicolor/5221046.p?id=1219661897467&skuId=5221046&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5221/5221046_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "bb-8568018",
+  "source_sku": "8568018",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "Gateway - 15.6\" Touch-Screen Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Black",
+  "brand": "Gateway",
+  "model": null,
+  "description_original": "Gateway Laptop: Control media playback, surf the Web and play your favorite games, all with your fingertips on this laptop's 15.6\" touch screen. The built-in webcam makes it easy to video chat with friends and family.",
+  "description_official_dataset": null,
+  "introduction_zh": "Gateway 的笔记本与台式电脑商品。来源介绍提及：尺寸 15.6 英寸；容量 4GB；容量 500GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 479.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\"",
+      "evidence_original": "Gateway - 15.6\" Touch-Screen Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive -"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "\" Touch-Screen Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Black Gateway Laptop: Control media playb"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "500GB",
+      "evidence_original": "n Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Black Gateway Laptop: Control media playback, surf the W"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-8568018/main.jpg",
+      "alt": "Gateway - 15.6\" Touch-Screen Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Black",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/8568/8568018_sb.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/8568/8568018_sb.jpg",
+      "width": 220,
+      "height": 145,
+      "content_type": "image/jpeg",
+      "sha256": "5e241a0bf05741201683c078ce01986b2dfba0d5d020c2476e447a2da9160a61",
+      "bytes": 10610,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/gateway-15-6-touch-screen-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-black/8568018.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Beats by Dr. Dre - Beats Mixr On-Ear Headphones - Neon Green",
+    "description": "Enjoy incredible sound with these Beats by Dr. Dre Beats Mixr GREENNEON MIXR on-ear headphones, which feature 40mm drivers that deliver a low frequency range for smooth mids and highs. The rotating earcups allow for single-ear monitoring and a snug fit.",
+    "brand": "Beats by Dr. Dre",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "On-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > On-Ear Headphones"
+    },
+    "type": "On ear headphones",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8902143_sb.jpg",
+    "url": "http://www.bestbuy.com/site/beats-by-dr-dre-beats-mixr-on-ear-headphones-neon-green/8902143.p?id=1218952124623&skuId=8902143&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9096,
+    "rating": 4,
+    "objectID": "8902143"
+  },
+  "bestbuy": null
+}

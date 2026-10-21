@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Modal - Earbud Headphones - Black",
+    "description": "With memory-foam ear tips in 3 different sizes, these Modal MD-HPEBP1-B earbud headphones provide comfort during extended listening sessions. The in-line microphone and music controls offer enhanced control.",
+    "brand": "Modal",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Earbud & In-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Earbud & In-Ear Headphones"
+    },
+    "type": "Earbud headphones",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5796018_sb.jpg",
+    "url": "http://www.bestbuy.com/site/modal-earbud-headphones-black/5796018.p?id=1219159698656&skuId=5796018&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 3213,
+    "rating": 4,
+    "objectID": "5796018"
+  },
+  "bestbuy": {
+    "id": 5796018,
+    "name": "Modal - Earbud Headphones - Black",
+    "type": "HardGood",
+    "price": 14.99,
+    "upc": "600603169755",
+    "shipping": 0,
+    "description": "In-line microphone and music controls; memory-foam ear tips; includes 3 sizes of additional tips",
+    "manufacturer": "Modal",
+    "model": "MD-HPEBP1-B",
+    "url": "http://www.bestbuy.com/site/modal-earbud-headphones-black/5796018.p?id=1219159698656&skuId=5796018&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5796/5796018_sa.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

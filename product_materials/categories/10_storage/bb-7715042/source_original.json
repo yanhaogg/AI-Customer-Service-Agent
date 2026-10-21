@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Kingston - 128GB SDXC Class 10 Memory Card - Black",
+    "description": "Save your HD video recordings, high-quality photos and other large-capacity files on this Kingston Technology 128GB SDXC memory card that features a write-protect switch that helps safeguard against accidental data loss.",
+    "brand": "Kingston",
+    "categories": [
+      "Cameras & Camcorders",
+      "Memory Cards",
+      "All Memory Cards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Memory Cards",
+      "lvl2": "Cameras & Camcorders > Memory Cards > All Memory Cards"
+    },
+    "type": "So memory sd",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7715042_sb.jpg",
+    "url": "http://www.bestbuy.com/site/kingston-128gb-sdxc-class-10-memory-card-black/7715042.p?id=1218858761193&skuId=7715042",
+    "free_shipping": false,
+    "popularity": 4582,
+    "rating": 4,
+    "objectID": "7715042"
+  },
+  "bestbuy": null
+}

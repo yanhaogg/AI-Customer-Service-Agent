@@ -1,0 +1,64 @@
+{
+  "id": "bb-8902143",
+  "source_sku": "8902143",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Beats by Dr. Dre - Beats Mixr On-Ear Headphones - Neon Green",
+  "brand": "Beats by Dr. Dre",
+  "model": null,
+  "description_original": "Enjoy incredible sound with these Beats by Dr. Dre Beats Mixr GREENNEON MIXR on-ear headphones, which feature 40mm drivers that deliver a low frequency range for smooth mids and highs. The rotating earcups allow for single-ear monitoring and a snug fit.",
+  "description_official_dataset": null,
+  "introduction_zh": "Beats by Dr. Dre 的耳机与音箱商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 249.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones",
+    "On-Ear Headphones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-8902143/main.jpg",
+      "alt": "Beats by Dr. Dre - Beats Mixr On-Ear Headphones - Neon Green",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8902/8902143_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8902/8902143_sb.jpg",
+      "width": 193,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "cd793b3f873dd4d74039dd7eb0d605e38d4b54a2dd7bea9104d8e47bfea8d41a",
+      "bytes": 9943,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/beats-by-dr-dre-beats-mixr-on-ear-headphones-neon-green/8902143.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

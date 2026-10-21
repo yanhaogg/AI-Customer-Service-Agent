@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "DENAQ - AC Power Adapter and Charger for Select Dell Laptops - Black",
+    "description": "This DENAQ DQ-PA-12-7450 AC adapter charges select Dell laptops by harnessing 65W to deliver a steady stream of power to your device. Smart technology communicates accurate information to your laptop for efficient performance.",
+    "brand": "DENAQ",
+    "categories": [
+      "Computers & Tablets",
+      "Laptop Accessories",
+      "Laptop Chargers & Adapters"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptop Accessories",
+      "lvl2": "Computers & Tablets > Laptop Accessories > Laptop Chargers & Adapters"
+    },
+    "type": "So computer battery",
+    "price": 22.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6481962_sb.jpg",
+    "url": "http://www.bestbuy.com/site/denaq-ac-power-adapter-and-charger-for-select-dell-laptops-black/6481962.p?id=1218737839772&skuId=6481962",
+    "free_shipping": true,
+    "popularity": 7666,
+    "rating": 3,
+    "objectID": "6481962"
+  },
+  "bestbuy": {
+    "id": 6481962,
+    "name": "DENAQ - AC Power Adapter and Charger for Select Dell Laptops - Black",
+    "type": "HardGood",
+    "price": 22.99,
+    "upc": "814352012136",
+    "shipping": 0,
+    "description": "Compatible with select Dell laptops; charges your device; safety fuses; smart technology",
+    "manufacturer": "DENAQ",
+    "model": "DQ-PA-12-7450",
+    "url": "http://www.bestbuy.com/site/denaq-ac-power-adapter-and-charger-for-select-dell-laptops-black/6481962.p?id=1218737839772&skuId=6481962&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6481/6481962_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Sony - 420W Portable Party Speaker System with Apple® iPod® and iPhone® Dock - Black",
+    "description": "Enjoy your digital music with this Sony RDHGTK37IP 420W portable party speaker system that features Bluetooth connectivity for wireless audio streaming and an iPod and iPhone dock and USB port for quick connection of compatible devices.",
+    "brand": "Sony",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Stereo Shelf Systems"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Stereo Shelf Systems"
+    },
+    "type": "Executive shelf",
+    "price": 349.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8865054_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sony-420w-portable-party-speaker-system-with-apple-ipod-and-iphone-dock-black/8865054.p?id=1218922148731&skuId=8865054&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 425,
+    "rating": 5,
+    "objectID": "8865054"
+  },
+  "bestbuy": {
+    "id": 8865054,
+    "name": "Sony - 420W Portable Party Speaker System with Apple® iPod® and iPhone® Dock - Black",
+    "type": "HardGood",
+    "price": 349.99,
+    "upc": "027242859968",
+    "shipping": 0,
+    "description": "Plays AAC, MP3, WAV and WMA formats; 11 EQ presets; DJ effects; two 7-7/8\" woofers; two 2-5/8\" tweeters; Bluetooth connectivity; NFC (Near Field Communications) technology; USB port",
+    "manufacturer": "Sony",
+    "model": "RDHGTK37IP",
+    "url": "http://www.bestbuy.com/site/sony-420w-portable-party-speaker-system-with-apple-ipod-and-iphone-dock-black/8865054.p?id=1218922148731&skuId=8865054&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8865/8865054_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

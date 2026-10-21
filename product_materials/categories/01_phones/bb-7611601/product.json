@@ -1,0 +1,70 @@
+{
+  "id": "bb-7611601",
+  "source_sku": "7611601",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "AT&T - Unite Express 4G LTE No-Contract Mobile Hotspot - Black",
+  "brand": "AT&T",
+  "model": null,
+  "description_original": "Stay connected wherever you go with this AT&T NETGEAR Spengler no-contract mobile hotspot, which offers 802.11b/g/n Wi-Fi connectivity and 4G LTE speed, so you can access the Internet from multiple devices.",
+  "description_official_dataset": null,
+  "introduction_zh": "AT&T 的手机商品。来源介绍提及：接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 59.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "No-Contract Phones",
+    "All No-Contract Phones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "obile hotspot, which offers 802.11b/g/n Wi-Fi connectivity and 4G LTE speed, so you can access the Internet from mu"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-7611601/main.jpg",
+      "alt": "AT&T - Unite Express 4G LTE No-Contract Mobile Hotspot - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7611/7611601_rb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7611/7611601_rb.jpg",
+      "width": 1000,
+      "height": 607,
+      "content_type": "image/jpeg",
+      "sha256": "7f4dc5b98d9f32b00b4f3ec3883495aa881fa65e9bbd2bd89b596155cbbe06ad",
+      "bytes": 54565,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/at-t-unite-express-4g-lte-no-contract-mobile-hotspot-black/7611601.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

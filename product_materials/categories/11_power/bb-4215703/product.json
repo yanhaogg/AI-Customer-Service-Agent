@@ -1,0 +1,72 @@
+{
+  "id": "bb-4215703",
+  "source_sku": "4215703",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "Scosche - reVOLT USB Vehicle Charger - Black",
+  "brand": "Scosche",
+  "model": "USBC121M",
+  "description_original": "Keep your cell phone, tablet or action camera charged on the go with this Scosche reVOLT USBC121M vehicle charger, which features a low-profile design and an illuminated USB port for simple connection with a wide variety of devices.",
+  "description_official_dataset": "Compatible with select Apple® iPhone®, iPod® and iPad® models and most USB-enabled devices; 2.4 amps; 12W maximum output; illuminated USB port",
+  "introduction_zh": "Scosche 的充电与电源配件商品。来源介绍提及：接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 14.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Car Chargers"
+  ],
+  "specifications_original": {
+    "manufacturer": "Scosche",
+    "model": "USBC121M",
+    "upc": "033991042445",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Scosche - reVOLT USB Vehicle Charger - Black Keep your cell phone, tablet or action camera"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-4215703/main.jpg",
+      "alt": "Scosche - reVOLT USB Vehicle Charger - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4215/4215703_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4215/4215703_sa.jpg",
+      "width": 309,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "e8fb558620fbf935b0312fdea396b5a9f9dc04afccbec5261cee5453c9a31f1b",
+      "bytes": 6537,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/scosche-revolt-usb-vehicle-charger-black/4215703.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

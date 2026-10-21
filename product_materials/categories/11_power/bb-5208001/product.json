@@ -1,0 +1,72 @@
+{
+  "id": "bb-5208001",
+  "source_sku": "5208001",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "Griffin Technology - Mossy Oak USB Vehicle Charger - Multi",
+  "brand": "Griffin Technology",
+  "model": "GC38611",
+  "description_original": "Keep your USB-chargeable cell phone powered and ready for use on the go with this Griffin Technology Mossy Oak GC38611 vehicle charger, which features a USB Type A socket that delivers 10W of power.",
+  "description_official_dataset": "Compatible with most USB-chargeable cell phones; USB Type A socket; delivers 10W of power; built-in circuit protection",
+  "introduction_zh": "Griffin Technology 的充电与电源配件商品。来源介绍提及：接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 19.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Car Chargers"
+  ],
+  "specifications_original": {
+    "manufacturer": "Griffin Technology",
+    "model": "GC38611",
+    "upc": "685387413546",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Griffin Technology - Mossy Oak USB Vehicle Charger - Multi Keep your USB-chargeable cell phone powered a"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-5208001/main.jpg",
+      "alt": "Griffin Technology - Mossy Oak USB Vehicle Charger - Multi",
+      "source_url": "https://cdn-demo.algolia.com/bestbuy/5208001_rb.jpg",
+      "resolved_url": "https://cdn-demo.algolia.com/bestbuy/5208001_rb.jpg",
+      "width": 202,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "59e36d5342a21fc0e996957c6ef29a3e2aaf8e0540725d1174b48b5de51581d3",
+      "bytes": 56299,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/griffin-technology-mossy-oak-usb-vehicle-charger-multi/5208001.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

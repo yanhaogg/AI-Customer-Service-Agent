@@ -1,0 +1,73 @@
+{
+  "id": "bb-1721037",
+  "source_sku": "1721037",
+  "category_id": "06_wearables",
+  "category_name_zh": "智能穿戴",
+  "name_original": "Gameband - Minecraft Wearable (Small) - Black TPU",
+  "brand": "Gameband",
+  "model": "MC0801S",
+  "description_original": "Gameband Minecraft Wearable: This wristband saves your Minecraft worlds and backs them up onto secure, cloud-based servers, so you can carry your worlds with you and play them on virtually any computer. Even if you lose your Gameband, you can order a replacement with all your data intact.",
+  "description_official_dataset": "Fits wrists of approximately 6.7\"Compatible with PC, Mac and LinuxTPU bandIPX-4 splash-resistant",
+  "introduction_zh": "Gameband 的智能穿戴商品。来源介绍提及：尺寸 6.7 英寸。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Smartwatches & Accessories",
+    "Smartwatches"
+  ],
+  "specifications_original": {
+    "manufacturer": "Gameband",
+    "model": "MC0801S",
+    "upc": "861590000104",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "6.7\"",
+      "evidence_original": "ta intact. Fits wrists of approximately 6.7\"Compatible with PC, Mac and LinuxTPU bandIPX-4 splash-resistant"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/06_wearables/bb-1721037/main.jpg",
+      "alt": "Gameband - Minecraft Wearable (Small) - Black TPU",
+      "source_url": "https://cdn-demo.algolia.com/bestbuy/1721037_rb.jpg",
+      "resolved_url": "https://cdn-demo.algolia.com/bestbuy/1721037_rb.jpg",
+      "width": 173,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "fa6de0c438ec69a38b7648174c9a8b2f01521a2d99af4d3e64c0608b99507e35",
+      "bytes": 8011,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/gameband-minecraft-wearable-small-black-tpu/1721037.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

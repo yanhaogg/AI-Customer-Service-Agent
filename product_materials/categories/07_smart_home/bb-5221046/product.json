@@ -1,0 +1,66 @@
+{
+  "id": "bb-5221046",
+  "source_sku": "5221046",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Misfit - Bolt Multicolor Smart LED Light Bulb - Black/White",
+  "brand": "Misfit",
+  "model": "B00YZ",
+  "description_original": "Misfit Bolt Smart LED Light Bulb: Set the mood in a room with this smart LED light bulb, which features more than 1 million programmable colors. You can adjust the brightness and turn the light bulb on and off using your compatible phone or Misfit Flash.",
+  "description_official_dataset": "800 lumens; 13W of power (60W incandescent equivalent); sunrise simulation; Misfit Home mobile app (download required)",
+  "introduction_zh": "Misfit 的智能家居商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 49.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Smart Lighting",
+    "Smart Light Bulbs"
+  ],
+  "specifications_original": {
+    "manufacturer": "Misfit",
+    "model": "B00YZ",
+    "upc": "812554021154",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-5221046/main.jpg",
+      "alt": "Misfit - Bolt Multicolor Smart LED Light Bulb - Black/White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5221/5221046_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5221/5221046_sa.jpg",
+      "width": 268,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "f75cea1f5d7ab34770c3a468ac13a58dc23f1c16c7d41d160c75a542c6753c4e",
+      "bytes": 10587,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/misfit-bolt-multicolor-smart-led-light-bulb-black-white/5221046.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

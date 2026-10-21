@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Apple - iPod touch® 16GB MP3 Player (6th Generation - Latest Model) - Gold",
+    "description": "iPod touch is the perfect way to carry your music collection in your pocket. Now in 5 stunning colors. Listen to your favorite songs from Apple Music* and iTunes. iPod touch offers the ultimate mobile gaming experience. Take great photos and videos with the new 8MP iSight camera and make video calls with the improved FaceTime HD camera.&#185; And stay connected with Messages and the most popular social networking apps. All on a 4-inch Retina display.&#178;",
+    "brand": "Apple",
+    "categories": [
+      "Audio",
+      "iPod & MP3 Players",
+      "iPods",
+      "iPod touch"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > iPod & MP3 Players",
+      "lvl2": "Audio > iPod & MP3 Players > iPods",
+      "lvl3": "Audio > iPod & MP3 Players > iPods > iPod touch"
+    },
+    "type": "Mp3 ipod touch",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6934719_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-ipod-touch-16gb-mp3-player-6th-generation-latest-model-gold/6934719.p?id=1218814982546&skuId=6934719&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9509,
+    "rating": 2,
+    "objectID": "6934719"
+  },
+  "bestbuy": {
+    "id": 6934719,
+    "name": "Apple - iPod touch® 16GB MP3 Player - Gold",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "888462349932",
+    "shipping": 0,
+    "description": "iOS 8 operating system4-inch Retina displayWi-Fi enabled, Bluetooth 4.1Apple A8 chip with M8 motion coprocessor16GB built-in storage capacity8MP iSight camera & FaceTime HD camera",
+    "manufacturer": "Apple",
+    "model": "MKH02LL/A",
+    "url": "http://www.bestbuy.com/site/apple-ipod-touch-16gb-mp3-player-gold/6934719.p?id=1218814982546&skuId=6934719&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6934/6934719_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

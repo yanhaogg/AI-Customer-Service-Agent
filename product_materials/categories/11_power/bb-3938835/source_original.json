@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "CyberPower - 1000VA Battery Back-Up System - Black",
+    "description": "This CyberPower LE1000DG 1000VA battery back-up system features Line Interactive topology that regulates high and low voltage without using battery power. Twelve outlets safeguard equipment, with 1030 joules of protection.",
+    "brand": "CyberPower",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Battery Backup (UPS)"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Battery Backup (UPS)"
+    },
+    "type": "Surge/ups",
+    "price": 109.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3938835_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cyberpower-1000va-battery-back-up-system-black/3938835.p?id=1219609308930&skuId=3938835&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7807,
+    "rating": 2,
+    "objectID": "3938835"
+  },
+  "bestbuy": {
+    "id": 3938835,
+    "name": "CyberPower - 1000VA Battery Back-Up System - Black",
+    "type": "HardGood",
+    "price": 109.99,
+    "upc": "649532612536",
+    "shipping": 0,
+    "description": "1030 joules of protection; 12 surge-protected outlets; phone line protection; AVR (Automatic Voltage Regulation); Line Interactive and standby topologies; GreenPower UPS Bypass design; multifunction LCD",
+    "manufacturer": "CyberPower",
+    "model": "LE1000DG",
+    "url": "http://www.bestbuy.com/site/cyberpower-1000va-battery-back-up-system-black/3938835.p?id=1219609308930&skuId=3938835&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3938/3938835_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

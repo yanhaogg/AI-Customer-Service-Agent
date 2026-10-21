@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Lenovo - 15.6\" Laptop - Intel Core i3 - 4GB Memory - 1TB Hard Drive - Black",
+    "description": "Lenovo Laptop: With built-in wireless networking and a bright HD display, this laptop makes it easy to stay connected and productive at home or on the go. Connect to external displays with the HDMI output, or sync wirelessly with Bluetooth.",
+    "brand": "Lenovo",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Burst skus",
+    "price": 349.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9679149_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lenovo-15-6-laptop-intel-core-i3-4gb-memory-1tb-hard-drive-black/9679149.p?id=1219706108461&skuId=9679149&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4373,
+    "rating": 2,
+    "objectID": "9679149"
+  },
+  "bestbuy": null
+}

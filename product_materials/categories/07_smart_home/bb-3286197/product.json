@@ -1,0 +1,66 @@
+{
+  "id": "bb-3286197",
+  "source_sku": "3286197",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Philips - Friends of hue 120-Lumen, 12W LightStrip Luminaire Starter Kit, 15W Equivalent 6.6' - Multicolor",
+  "brand": "Philips",
+  "model": "259499",
+  "description_original": "Philips Friends of hue LightStrip Luminaires 259499 Starter Kit: Trim, bend and attach these versatile strips to your fixtures and furniture to create mood lighting and draw attention to decorations. The wireless bridge allows you use your phone to change colors, schedule gradual dimming and more.",
+  "description_official_dataset": "For use with Philips hue bridge and bulbs and LightStrip and Bloom luminaires; 12W of power; 120 lumens of brightness; lasts up to 12,000 hours",
+  "introduction_zh": "Philips 的智能家居商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Smart Lighting",
+    "Smart Lighting Kits"
+  ],
+  "specifications_original": {
+    "manufacturer": "Philips",
+    "model": "259499",
+    "upc": "046677797515",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-3286197/main.jpg",
+      "alt": "Philips - Friends of hue 120-Lumen, 12W LightStrip Luminaire Starter Kit, 15W Equivalent 6.6' - Multicolor",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3286/3286197_rc.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3286/3286197_rc.jpg",
+      "width": 500,
+      "height": 251,
+      "content_type": "image/jpeg",
+      "sha256": "06d9ba57df314fa0b25e35dd3323609ed71aa547c373b1d89d80d897e4232bb4",
+      "bytes": 14147,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/philips-friends-of-hue-120-lumen-12w-lightstrip-luminaire-starter-kit-15w-equivalent-6-6-multicolor/3286197.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

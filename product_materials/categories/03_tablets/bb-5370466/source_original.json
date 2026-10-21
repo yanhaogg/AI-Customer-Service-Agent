@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Insignia™ - 8\" Flex Tablet - 8GB - Wi-Fi + 4G LTE Verizon - Black",
+    "description": "Only at Best Buy  Featuring built-in Wi-Fi and 4G LTE embedded mobile Broadband, this Insignia&#8482; Flex NS-15T8LTE tablet enables fast and easy on-the-go Internet access. The 8\" IPS-LED capacitive touch screen simplifies content navigation.",
+    "brand": "Insignia™",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Android connected",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5370466_sb.jpg",
+    "url": "http://www.bestbuy.com/site/insignia-8-flex-tablet-8gb-wi-fi-4g-lte-verizon-black/5370466.p?id=1219122741336&skuId=5370466&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5523,
+    "rating": 4,
+    "objectID": "5370466"
+  },
+  "bestbuy": null
+}

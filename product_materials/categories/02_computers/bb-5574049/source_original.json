@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "iBUYPOWER - Desktop - AMD FX-Series - 8GB Memory - 1TB Hard Drive - Black",
+    "description": "Store plenty of data on this iBUYPOWER BB679i desktop's 1TB hard drive, which offers ample space for your media files and documents. The built-in wireless networking allows you to quickly connect to the Internet.",
+    "brand": "iBUYPOWER",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 779.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5574049_sb.jpg",
+    "url": "http://www.bestbuy.com/site/ibuypower-desktop-amd-fx-series-8gb-memory-1tb-hard-drive-black/5574049.p?id=1219143550897&skuId=5574049",
+    "free_shipping": false,
+    "popularity": 5868,
+    "rating": 5,
+    "objectID": "5574049"
+  },
+  "bestbuy": null
+}

@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "LG - GizmoPal Smartwatch 97mm PET - Pink TPU (Verizon Wireless)",
+    "description": "LG GizmoPal Smartwatch 97mm PET: Keep your child safe and connected with this smartwatch, which can call 2 registered contacts and receive calls from up to 4 authorized numbers. Set the device to auto answer to prevent missed calls, and adjust the volume remotely.",
+    "brand": "LG",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Activated smartwatch",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6463147_rb.jpg",
+    "url": "http://www.bestbuy.com/site/lg-gizmopal-smartwatch-97mm-pet-pink-tpu-verizon-wireless/6463147.p?id=1219665416665&skuId=6463147",
+    "free_shipping": false,
+    "popularity": 4140,
+    "rating": 5,
+    "objectID": "6463147"
+  },
+  "bestbuy": {
+    "id": 6463147,
+    "name": "LG - GizmoPal Smartwatch 97mm PET - Pink TPU (Verizon Wireless)",
+    "type": "HardGood",
+    "price": 79.99,
+    "upc": "652810800266",
+    "shipping": 0,
+    "description": "Fits most wrist sizesCompatible with select Apple&#174; iOS and Android devicesTPU bandIPX3 water resistance2-way callingAuto call answer",
+    "manufacturer": "LG",
+    "model": "LG-VC100P",
+    "url": "http://www.bestbuy.com/site/lg-gizmopal-smartwatch-97mm-pet-pink-tpu-verizon-wireless/6463147.p?id=1219665416665&skuId=6463147&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6463/6463147_rc.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

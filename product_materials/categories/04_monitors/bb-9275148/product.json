@@ -1,0 +1,77 @@
+{
+  "id": "bb-9275148",
+  "source_sku": "9275148",
+  "category_id": "04_monitors",
+  "category_name_zh": "显示器",
+  "name_original": "Acer - 19\" LED Monitor - Black",
+  "brand": "Acer",
+  "model": "V196WLB",
+  "description_original": "This 16:10 widescreen Acer V196WLB 19\" monitor is wall-mountable and features 170° horizontal and 160° vertical viewing angles, allowing you to create a workstation that suits your needs. An ultrafast 5 ms response time ensures image clarity.",
+  "description_official_dataset": "ACER 19\" LED Monitor: 5 ms response time; 100,000,000:1 contrast ratio; 250 nits brightness; 1440 x 900 maximum resolution; 170-degree horizontal and 160-degree vertical viewing angles; VGA input; tilt capability; 16:10 widescreen; wall-mountable",
+  "introduction_zh": "Acer 的显示器商品。来源介绍提及：尺寸 19 英寸；分辨率 1440 x 900。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 109.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Monitors",
+    "All Monitors"
+  ],
+  "specifications_original": {
+    "manufacturer": "Acer",
+    "model": "V196WLB",
+    "upc": "886541978110",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "19\"",
+      "evidence_original": "Acer - 19\" LED Monitor - Black This 16:10 widescreen Acer V196WLB 19\" monitor is"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1440 x 900",
+      "evidence_original": ":1 contrast ratio; 250 nits brightness; 1440 x 900 maximum resolution; 170-degree horizontal and 160-degree vertical vie"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/04_monitors/bb-9275148/main.jpg",
+      "alt": "Acer - 19\" LED Monitor - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9275/9275148_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9275/9275148_sa.jpg",
+      "width": 500,
+      "height": 425,
+      "content_type": "image/jpeg",
+      "sha256": "8dd9c7fbe9e3c2402bfbccc4977f903994e274fb27b338bf687e12681ee7d5a7",
+      "bytes": 9541,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/acer-19-led-monitor-black/9275148.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

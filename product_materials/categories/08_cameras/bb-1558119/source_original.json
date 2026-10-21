@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Sony - a6000 Mirrorless Camera with 16-50mm Lens - White",
+    "description": "Featuring a 16-50mm f/3.5-5.6 zoom lens, this Sony a6000 24.3-megapixel mirrorless camera lets you take up-close shots of faraway subjects in crisp, sharp detail. Fast shooting up to 11 fps helps you follow the action.  Memory card sold separately.",
+    "brand": "Sony",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Mirrorless Cameras",
+      "All Mirrorless Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras > All Mirrorless Cameras"
+    },
+    "type": "Mirrorless cameras",
+    "price": 799.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1558119_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sony-a6000-mirrorless-camera-with-16-50mm-lens-white/1558119.p?id=1219500989595&skuId=1558119&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 390,
+    "rating": 3,
+    "objectID": "1558119"
+  },
+  "bestbuy": null
+}

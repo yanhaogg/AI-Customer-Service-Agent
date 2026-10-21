@@ -1,0 +1,70 @@
+{
+  "id": "bb-5563031",
+  "source_sku": "5563031",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Boost Mobile - LG Volt 4G No-Contract Cell Phone - Dark Blue",
+  "brand": "Boost Mobile",
+  "model": null,
+  "description_original": "LG Volt No-Contract Cell Phone for Boost Mobile: Stay connected in more ways than one with this high-powered prepaid smartphone. The 4.7\" display delivers sharp, vivid colors for streaming videos, browsing social media and more, while its 4G LTE speed guarantees a fast, powerful performance all day long. Connect even further by turning your phone into a universal remote for your TV, cable box and more.",
+  "description_official_dataset": null,
+  "introduction_zh": "Boost Mobile 的手机商品。来源介绍提及：尺寸 4.7 英寸 display。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 179.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "No-Contract Phones",
+    "All No-Contract Phones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "4.7\" display",
+      "evidence_original": "is high-powered prepaid smartphone. The 4.7\" display delivers sharp, vivid colors for streaming videos, browsing social me"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-5563031/main.jpg",
+      "alt": "Boost Mobile - LG Volt 4G No-Contract Cell Phone - Dark Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5563/5563031_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5563/5563031_sb.jpg",
+      "width": 505,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "b120cae7a9fd98fd827652ea159a130b45e15c6ca840b093dc2d5205c11650cb",
+      "bytes": 63954,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/boost-mobile-lg-volt-4g-no-contract-cell-phone-dark-blue/5563031.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

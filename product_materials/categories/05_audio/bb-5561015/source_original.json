@@ -1,0 +1,23 @@
+{
+  "algolia": {
+    "name": "Logitech - X100 Mobile Wireless Speaker - Gray",
+    "description": "Designed for use with most Bluetooth-enabled devices, this Logitech X100 Mobile 984-000353 speaker offers a wireless range of up to 30', so you can listen in a comfortable location. The wrist and backpack cord simplifies transport.",
+    "brand": "Logitech",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5561015_sb.jpg",
+    "url": "http://www.bestbuy.com/site/logitech-x100-mobile-wireless-speaker-gray/5561015.p?id=1219137982825&skuId=5561015&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3835,
+    "rating": 6,
+    "objectID": "5561015"
+  },
+  "bestbuy": null
+}

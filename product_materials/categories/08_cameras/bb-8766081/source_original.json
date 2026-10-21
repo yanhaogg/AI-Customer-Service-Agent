@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Polaroid - Cube Lifestyle HD Action Camera - Black",
+    "description": "Capture all of your in-action moments with this Polaroid Cube Lifestyle POLC3BK HD action camera that features a compact, shockproof and coldproof design. The camera comes with a microSD memory card slot for easy exporting.",
+    "brand": "Polaroid",
+    "categories": [
+      "Cameras & Camcorders",
+      "Camcorders",
+      "Action Camcorders",
+      "All Action Camcorders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Camcorders",
+      "lvl2": "Cameras & Camcorders > Camcorders > Action Camcorders",
+      "lvl3": "Cameras & Camcorders > Camcorders > Action Camcorders > All Action Camcorders"
+    },
+    "type": "Point&#38;shoot camcrder",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8766081_rb.jpg",
+    "url": "http://www.bestbuy.com/site/polaroid-cube-lifestyle-hd-action-camera-black/8766081.p?id=1219365670014&skuId=8766081&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 1767,
+    "rating": 3,
+    "objectID": "8766081"
+  },
+  "bestbuy": {
+    "id": 8766081,
+    "name": "Polaroid - Cube Lifestyle HD Action Camera - Black",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "840102105148",
+    "shipping": 0,
+    "description": "POLAROID Cube Lifestyle HD Action Camera: Compact design; 6.0MP CMOS image sensor; 1080p image resolution; digital image stabilization; rechargeable lithium-ion battery; shockproof; coldproof",
+    "manufacturer": "Polaroid",
+    "model": "POLC3BK",
+    "url": "http://www.bestbuy.com/site/polaroid-cube-lifestyle-hd-action-camera-black/8766081.p?id=1219365670014&skuId=8766081&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8766/8766081_rc.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

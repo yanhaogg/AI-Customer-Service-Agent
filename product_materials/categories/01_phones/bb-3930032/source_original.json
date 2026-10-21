@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "HTC - One (M9) 4G with 32GB Memory Cell Phone - Gray (AT&T)",
+    "description": "With 4G LTE speed and fast AC Wi-Fi, this HTC One (M9) HTC ONE M9 GREY cell phone makes it easy to access the Internet whether you're at home or on the go. The 5\" Super LCD3 touch screen displays high-definition visuals in 1920 x 1080 resolution.  AT&T Next option available. Learn more &#8250;",
+    "brand": "HTC",
+    "categories": [
+      "Cell Phones",
+      "All Cell Phones with Plans"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > All Cell Phones with Plans"
+    },
+    "type": "At&#38;t smartphone",
+    "price": 708.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3930032_sb.jpg",
+    "url": "http://www.bestbuy.com/site/htc-one-m9-4g-with-32gb-memory-cell-phone-gray-at-t/3930032.p?id=1219609309193&skuId=3930032&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5888,
+    "rating": 1,
+    "objectID": "3930032"
+  },
+  "bestbuy": null
+}

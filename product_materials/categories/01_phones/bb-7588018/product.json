@@ -1,0 +1,92 @@
+{
+  "id": "bb-7588018",
+  "source_sku": "7588018",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Boost Mobile - LG G Stylo 4G with 8GB Memory No-Contract Cell Phone - Gray",
+  "brand": "Boost Mobile",
+  "model": "LGLS770ABB",
+  "description_original": "LG G Stylo No-Contract Cell Phone for Boost Mobile: Check your e-mail, access social media and visit your favorite Web sites, whether you're at home or on the go, with 4G LTE speed and built-in Wi-Fi. A large 5.7\" touch screen simplifies content navigation. See coverage maps to determine whether service is available in your area.",
+  "description_official_dataset": "Qualcomm 1.2GHz processorAndroid 5.0 Lollipop operating system4G LTE speedWi-Fi5.7\" TFT touch screenBluetooth interface8.0MP rear-facing camera",
+  "introduction_zh": "Boost Mobile 的手机商品。来源介绍提及：尺寸 5.7 英寸；尺寸 7 英寸；容量 8GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 159.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "No-Contract Phones",
+    "All No-Contract Phones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Boost Mobile",
+    "model": "LGLS770ABB",
+    "upc": "652810516228",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5.7\"",
+      "evidence_original": "G LTE speed and built-in Wi-Fi. A large 5.7\" touch screen simplifies content navigation. See coverage maps to dete"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\"",
+      "evidence_original": "ipop operating system4G LTE speedWi-Fi5.7\" TFT touch screenBluetooth interface8.0MP rear-facing camera"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "Boost Mobile - LG G Stylo 4G with 8GB Memory No-Contract Cell Phone - Gray LG G Stylo No-Contract Cell Phon"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "0MP",
+      "evidence_original": "7\" TFT touch screenBluetooth interface8.0MP rear-facing camera"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": " the go, with 4G LTE speed and built-in Wi-Fi. A large 5.7\" touch screen simplifies content navigation. See coverag"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-7588018/main.jpg",
+      "alt": "Boost Mobile - LG G Stylo 4G with 8GB Memory No-Contract Cell Phone - Gray",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7588/7588018_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7588/7588018_sa.jpg",
+      "width": 255,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "f561c2fff51680070da308033f5aea31584e39d5c73060f5290d855ecfee5868",
+      "bytes": 10906,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/boost-mobile-lg-g-stylo-4g-with-8gb-memory-no-contract-cell-phone-gray/7588018.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

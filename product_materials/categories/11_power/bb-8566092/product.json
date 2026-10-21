@@ -1,0 +1,72 @@
+{
+  "id": "bb-8566092",
+  "source_sku": "8566092",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "Monster - Core Power 1200 USB 12-Outlet Surge Protector",
+  "brand": "Monster",
+  "model": "MP EXP 1200 USB WH 121890",
+  "description_original": "Protect your devices from power surges with this wall-mountable Monster Core Power 1200 USB 12-outlet surge protector that features 2160 joules of protection and a 6' power cord for many location options.",
+  "description_official_dataset": "2160 joules of protection; 12 surge-protected outlets; 2 USB surge-protected charging ports; 6' power cord; wall-mountable",
+  "introduction_zh": "Monster 的充电与电源配件商品。来源介绍提及：接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 49.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Surge Protectors & Power",
+    "Surge Protectors"
+  ],
+  "specifications_original": {
+    "manufacturer": "Monster",
+    "model": "MP EXP 1200 USB WH 121890",
+    "upc": "050644717444",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Monster - Core Power 1200 USB 12-Outlet Surge Protector Protect your devices from power surges with"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-8566092/main.jpg",
+      "alt": "Monster - Core Power 1200 USB 12-Outlet Surge Protector",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8566/8566092_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8566/8566092_sa.jpg",
+      "width": 181,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "61b0a20e90a9fdd6352a0ef3d0e145a728644beca713d94dee8980afbd7aca61",
+      "bytes": 11515,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/monster-core-power-1200-usb-12-outlet-surge-protector/8566092.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

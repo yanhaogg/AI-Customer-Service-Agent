@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Gameband - Minecraft Wearable (Small) - Black TPU",
+    "description": "Gameband Minecraft Wearable: This wristband saves your Minecraft worlds and backs them up onto secure, cloud-based servers, so you can carry your worlds with you and play them on virtually any computer. Even if you lose your Gameband, you can order a replacement with all your data intact.",
+    "brand": "Gameband",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1721037_rb.jpg",
+    "url": "http://www.bestbuy.com/site/gameband-minecraft-wearable-small-black-tpu/1721037.p?id=1219509180033&skuId=1721037&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6706,
+    "rating": 5,
+    "objectID": "1721037"
+  },
+  "bestbuy": {
+    "id": 1721037,
+    "name": "Gameband - Minecraft Wearable (Small) - Black TPU",
+    "type": "HardGood",
+    "price": 79.99,
+    "upc": "861590000104",
+    "shipping": 0,
+    "description": "Fits wrists of approximately 6.7\"Compatible with PC, Mac and LinuxTPU bandIPX-4 splash-resistant",
+    "manufacturer": "Gameband",
+    "model": "MC0801S",
+    "url": "http://www.bestbuy.com/site/gameband-minecraft-wearable-small-black-tpu/1721037.p?id=1219509180033&skuId=1721037&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1721/1721037_rc.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

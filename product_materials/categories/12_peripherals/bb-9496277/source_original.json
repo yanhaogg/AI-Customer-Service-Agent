@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Corsair - K70 RGB Mechanical Gaming Keyboard - Black",
+    "description": "This Corsair K70 CH-9000065-NA features Cherry MX Brown RGB mechanical key switches that offer smooth, linear response with a wide actuation zone, so you can precisely control the gameplay. RGB LED backlighting illuminates the keys for a stylish look.",
+    "brand": "Corsair",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards"
+    },
+    "type": "So cards-components",
+    "price": 169.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9496277_sb.jpg",
+    "url": "http://www.bestbuy.com/site/corsair-k70-rgb-mechanical-gaming-keyboard-black/9496277.p?id=1219418203596&skuId=9496277",
+    "free_shipping": false,
+    "popularity": 7916,
+    "rating": 2,
+    "objectID": "9496277"
+  },
+  "bestbuy": null
+}

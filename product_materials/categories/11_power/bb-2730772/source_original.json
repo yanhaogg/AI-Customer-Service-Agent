@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Belkin - 12-Outlet Surge Protector - White",
+    "description": "Protect your home theater equipment, cable or satellite connections and phone from power spikes with this 12-outlet surge protector that features a large, recessed power switch that helps prevent accidental shutdowns.",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Surge Protectors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Surge Protectors"
+    },
+    "type": "So computer access",
+    "price": 42.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2730772_sb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-12-outlet-surge-protector-white/2730772.p?id=1218347171336&skuId=2730772",
+    "free_shipping": false,
+    "popularity": 9029,
+    "rating": 2,
+    "objectID": "2730772"
+  },
+  "bestbuy": {
+    "id": 2730772,
+    "name": "Belkin - 12-Outlet Surge Protector - White",
+    "type": "HardGood",
+    "price": 42.99,
+    "upc": "722868758168",
+    "shipping": 0,
+    "description": "4000 joules of protection; 12 surge-protected outlets; 2-line AC protection; 1-in, 2-out RJ-11 phone/fax surge protection; cable and satellite coaxial surge protection; 8' power cord",
+    "manufacturer": "Belkin",
+    "model": "BV112230-08",
+    "url": "http://www.bestbuy.com/site/belkin-12-outlet-surge-protector-white/2730772.p?id=1218347171336&skuId=2730772&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2730/2730772_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

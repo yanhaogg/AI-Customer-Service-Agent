@@ -1,0 +1,623 @@
+{
+  "count": 400,
+  "target": 400,
+  "collected_at": "2026-10-13T16:24:05.281969+00:00",
+  "categories": {
+    "手机": 35,
+    "笔记本与台式电脑": 45,
+    "平板电脑": 30,
+    "显示器": 20,
+    "耳机与音箱": 75,
+    "智能穿戴": 30,
+    "智能家居": 25,
+    "相机与摄像机": 30,
+    "路由器与网络设备": 20,
+    "存储设备": 25,
+    "充电与电源配件": 25,
+    "键鼠与电脑外设": 40
+  },
+  "verified_images": 400,
+  "official_dataset_matches": 238,
+  "with_extracted_attributes": 302,
+  "with_model": 238,
+  "with_price": 400,
+  "unique_skus": 400,
+  "unique_image_hashes": 395,
+  "total_image_bytes": 12751055,
+  "image_failures": [
+    {
+      "sku": "7638173",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7638/7638173_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/7638/7638173_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/7638173_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "5548001",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5548/5548001_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/5548/5548001_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/5548001_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "6668401",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6668/6668401_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/6668/6668401_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/6668401_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "9247014",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/pac/products/1313/1313533599/1313533599_sa.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313533599/1313533599_sa.jpg",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9247/9247014_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/9247/9247014_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/9247014_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "6672146",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6672/6672146_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/6672/6672146_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/6672146_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "3241007",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3241/3241007_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/3241/3241007_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/3241007_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "4893012",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4893/4893012_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/4893/4893012_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/4893012_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "6668341",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6668/6668341_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/6668/6668341_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/6668341_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "9323553",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9323/9323553_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/9323/9323553_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/9323553_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "5563224",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5563/5563224_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/5563/5563224_sb.jpg",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/5563224_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "8614908",
+      "category": "01_phones",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8614/8614908_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/8614/8614908_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/8614908_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "8155217",
+      "category": "02_computers",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8155/8155217_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/8155/8155217_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/8155217_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "9561097",
+      "category": "02_computers",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9561/9561097_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/9561/9561097_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/9561097_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "7649882",
+      "category": "03_tablets",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7649/7649882_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/7649/7649882_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/7649882_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "4765048",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4765/4765048_rb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/4765/4765048_rb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/4765048_rb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "8011033",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8011/8011033_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/8011/8011033_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/8011033_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "8637087",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8637/8637087_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/8637/8637087_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/8637087_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "2866315",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/pac/products/1310/1310723054/1310723054_sa.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/pac/products/1310/1310723054/1310723054_sa.jpg",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2866/2866315_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/2866/2866315_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/2866315_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "4892836",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4892/4892836_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/4892/4892836_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/4892836_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "6747623",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6747/6747623_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/6747/6747623_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/6747623_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "1610736",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1610/1610736_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/1610/1610736_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/1610736_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "1700513",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/pac/products/1306/1306005461/1306005461_sa.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/pac/products/1306/1306005461/1306005461_sa.jpg",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1700/1700513_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/1700/1700513_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/1700513_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "8636916",
+      "category": "05_audio",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8636/8636916_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/8636/8636916_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/8636916_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "5162018",
+      "category": "06_wearables",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5162/5162018_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/5162/5162018_sb.jpg",
+          "error": "Remote end closed connection without response"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/5162018_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "7689007",
+      "category": "08_cameras",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7689/7689007_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/7689/7689007_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/7689007_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "2240021",
+      "category": "10_storage",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2240/2240021_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/2240/2240021_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/2240021_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "8115029",
+      "category": "10_storage",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8115/8115029_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/8115/8115029_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/8115029_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "5173104",
+      "category": "10_storage",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5173/5173104_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/5173/5173104_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/5173104_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "4445016",
+      "category": "12_peripherals",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4445/4445016_rc.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/4445/4445016_rc.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4445/4445016_rb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/4445/4445016_rb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/4445016_rb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    },
+    {
+      "sku": "9243063",
+      "category": "12_peripherals",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9243/9243063_rb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/9243/9243063_rb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/9243063_rb.jpg",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ]
+    },
+    {
+      "sku": "1775023",
+      "category": "12_peripherals",
+      "attempts": [
+        {
+          "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1775/1775023_sb.jpg",
+          "error": "Image Unavailable placeholder, not a product photo"
+        },
+        {
+          "url": "https://img.bbystatic.com/BestBuy_US/images/products/1775/1775023_sb.jpg",
+          "error": "Image too small"
+        },
+        {
+          "url": "https://cdn-demo.algolia.com/bestbuy/1775023_sb.jpg",
+          "error": "Image too small"
+        }
+      ]
+    }
+  ],
+  "source_file_sha256": {
+    "bestbuy_complete.sqlite": "fa58153579719c5d85eafdf35c407e0d31091bdb9f729b41c768be3d698df568",
+    "algolia_records.json": "d71c55f1ab2ab9eb429db982bcb84a2a1dbdf93b89cfe6d680cfe4f6b6eacd7c"
+  }
+}

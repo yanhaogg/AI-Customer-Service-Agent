@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "DigiLand - 7\" - 8GB - Black",
+    "description": "DigiLand 7\" Tablet: Perfect for new tablet users, this streamlined device features a quick processor and multitouch screen for casual browsing and basic gaming. Dual cameras let you capture memories and chat with friends.",
+    "brand": "DigiLand",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Burst tablets wifi",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8610212_sb.jpg",
+    "url": "http://www.bestbuy.com/site/digiland-7-8gb-black/8610212.p?id=1219354106671&skuId=8610212&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7637,
+    "rating": 6,
+    "objectID": "8610212"
+  },
+  "bestbuy": null
+}

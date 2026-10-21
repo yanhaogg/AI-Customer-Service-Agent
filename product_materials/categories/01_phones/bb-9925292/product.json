@@ -1,0 +1,70 @@
+{
+  "id": "bb-9925292",
+  "source_sku": "9925292",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Huawei - Ascend Mate 2 4G Cell Phone (Unlocked) - Black",
+  "brand": "Huawei",
+  "model": null,
+  "description_original": "Utilizing an efficient quad-core Qualcomm Snapdragon 400 processor and 4G LTE speed, this Huawei Ascend Mate 2 MT2-L03 BLK cell phone makes it easy to stay connected, wherever you are. A large 6.1\" capacitive touch screen simplifies navigation.",
+  "description_official_dataset": null,
+  "introduction_zh": "Huawei 的手机商品。来源介绍提及：尺寸 6.1 英寸。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 249.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Unlocked Cell Phones",
+    "All Unlocked Cell Phones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "6.1\"",
+      "evidence_original": "ay connected, wherever you are. A large 6.1\" capacitive touch screen simplifies navigation. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-9925292/main.jpg",
+      "alt": "Huawei - Ascend Mate 2 4G Cell Phone (Unlocked) - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9925/9925292_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9925/9925292_sb.jpg",
+      "width": 530,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "2904c5b92b2df9939f2fbec874939549974ed26dd6e22372ba85111086e389ba",
+      "bytes": 58336,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/huawei-ascend-mate-2-4g-cell-phone-unlocked-black/9925292.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

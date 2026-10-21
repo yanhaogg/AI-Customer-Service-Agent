@@ -1,0 +1,72 @@
+{
+  "id": "bb-1319463",
+  "source_sku": "1319463",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "DigiPower - Dual USB Vehicle Charger - Black",
+  "brand": "DigiPower",
+  "model": "SP-PC200",
+  "description_original": "Recharge your mobile phone, MP3 player or tablet while you're on the go with this DigiPower SP-PC200 vehicle charger, which delivers 10.5W of power for fast performance and features dual USB interfaces for simultaneously providing power to 2 devices.",
+  "description_official_dataset": "Compatible with select Windows Phone, Android, BlackBerry and Apple® iPod®, iPad® and iPhone® models; delivers 10.5W of power; dual USB interfaces",
+  "introduction_zh": "DigiPower 的充电与电源配件商品。来源介绍提及：接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 14.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Car Chargers"
+  ],
+  "specifications_original": {
+    "manufacturer": "DigiPower",
+    "model": "SP-PC200",
+    "upc": "758302644414",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "DigiPower - Dual USB Vehicle Charger - Black Recharge your mobile phone, MP3 player or tab"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-1319463/main.jpg",
+      "alt": "DigiPower - Dual USB Vehicle Charger - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1319/1319463_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1319/1319463_sa.jpg",
+      "width": 268,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "7e68e52ea2d98a3269116a0b918f4f8b3f8231c4c152efaccb1fdf3956a6d9cf",
+      "bytes": 20550,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/digipower-dual-usb-vehicle-charger-black/1319463.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

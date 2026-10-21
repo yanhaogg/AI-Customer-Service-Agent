@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Samsung - Gear Circle Wireless Headphones - White",
+    "description": "Only at Best Buy  Featuring a lightweight, sweat-resistant design, these Samsung Gear Circle SM-R130NZWSXAR wireless headphones make it easy to answer phone calls, listen to music, control volume and more while working out without having to get out your compatible cell phone.",
+    "brand": "Samsung",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Wireless Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Wireless Headphones"
+    },
+    "type": "Wireless in ears",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1206099_sb.jpg",
+    "url": "http://www.bestbuy.com/site/samsung-gear-circle-wireless-headphones-white/1206099.p?id=1219478144259&skuId=1206099&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 1007,
+    "rating": 4,
+    "objectID": "1206099"
+  },
+  "bestbuy": null
+}

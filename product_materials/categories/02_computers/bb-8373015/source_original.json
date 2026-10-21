@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Asus - 15.6\" Laptop - Intel Core i5 - 6GB Memory - 1TB Hard Drive - Matte Black",
+    "description": "Asus Laptop: Enjoy the functionality you need from a computer in a design that's compact enough to take on the go. With a spacious 1TB hard drive, you'll have plenty of room to store pictures, videos, music and more. You can even wirelessly connect to other devices via the Bluetooth interface.  Learn more about the New Windows &#8250;",
+    "brand": "Asus",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Burst skus",
+    "price": 449.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8373015_sb.jpg",
+    "url": "http://www.bestbuy.com/site/asus-15-6-laptop-intel-core-i5-6gb-memory-1tb-hard-drive-matte-black/8373015.p?id=1219691060120&skuId=8373015&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9339,
+    "rating": 3,
+    "objectID": "8373015"
+  },
+  "bestbuy": null
+}

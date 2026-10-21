@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Jabra - Rox Wireless Earbud Headphones - Black",
+    "description": "Enjoy your music with these Jabra Rox 100-96400000-02 wireless earbud headphones that feature Bluetooth technology for simple pairing with compatible devices. High-definition Dolby enhanced sound and noise cancellation offer clear, vibrant audio.",
+    "brand": "Jabra",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Earbud & In-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Earbud & In-Ear Headphones"
+    },
+    "type": "Wireless in ears",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2960887_sb.jpg",
+    "url": "http://www.bestbuy.com/site/jabra-rox-wireless-earbud-headphones-black/2960887.p?id=1219084636631&skuId=2960887&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5027,
+    "rating": 2,
+    "objectID": "2960887"
+  },
+  "bestbuy": {
+    "id": 2960887,
+    "name": "Jabra - Rox Wireless Earbud Headphones - Black",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "615822005968",
+    "shipping": 0,
+    "description": "JABRA Rox Wireless Earbud Headphones: 6mm drivers; power-saving magnets; Bluetooth and NFC (near-field communication) technologies; high-definition Dolby enhanced sound; in-line controls",
+    "manufacturer": "Jabra",
+    "model": "100-96400000-02",
+    "url": "http://www.bestbuy.com/site/jabra-rox-wireless-earbud-headphones-black/2960887.p?id=1219084636631&skuId=2960887&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2960/2960887_sa.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Philips - Friends of hue 120-Lumen, 12W LightStrip Luminaire Starter Kit, 15W Equivalent 6.6' - Multicolor",
+    "description": "Philips Friends of hue LightStrip Luminaires 259499 Starter Kit: Trim, bend and attach these versatile strips to your fixtures and furniture to create mood lighting and draw attention to decorations. The wireless bridge allows you use your phone to change colors, schedule gradual dimming and more.",
+    "brand": "Philips",
+    "categories": [
+      "Connected Home",
+      "Smart Lighting",
+      "Smart Lighting Kits"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Smart Lighting",
+      "lvl2": "Connected Home > Smart Lighting > Smart Lighting Kits"
+    },
+    "type": "Home automation",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3286197_rb.jpg",
+    "url": "http://www.bestbuy.com/site/philips-friends-of-hue-120-lumen-12w-lightstrip-luminaire-starter-kit-15w-equivalent-6-6-multicolor/3286197.p?id=1219090034698&skuId=3286197&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 2193,
+    "rating": 6,
+    "objectID": "3286197"
+  },
+  "bestbuy": {
+    "id": 3286197,
+    "name": "Philips - Friends of hue 120-Lumen, 12W LightStrip Luminaire Starter Kit, 15W Equivalent 6.6' - Multicolor",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "046677797515",
+    "shipping": 0,
+    "description": "For use with Philips hue bridge and bulbs and LightStrip and Bloom luminaires; 12W of power; 120 lumens of brightness; lasts up to 12,000 hours",
+    "manufacturer": "Philips",
+    "model": "259499",
+    "url": "http://www.bestbuy.com/site/philips-friends-of-hue-120-lumen-12w-lightstrip-luminaire-starter-kit-15w-equivalent-6-6-multicolor/3286197.p?id=1219090034698&skuId=3286197&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3286/3286197_rc.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

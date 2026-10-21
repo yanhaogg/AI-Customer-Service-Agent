@@ -1,0 +1,92 @@
+{
+  "id": "bb-8887025",
+  "source_sku": "8887025",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Huawei - P8 Lite 4G with 16GB Memory Cell Phone (Unlocked) - Black",
+  "brand": "Huawei",
+  "model": "ALE-L04 BLK",
+  "description_original": "Huawei P8 Lite Unlocked Cell Phone: You'll enjoy surfing the Web, watching videos and playing games on this phone's clear 5\" capacitive touch screen. The 4G LTE speed and Wi-Fi make it easy to stream content, download apps and more.",
+  "description_official_dataset": "Qualcomm Snapdragon 615 1.5GHz octa-core processorAndroid 4.4 KitKat operating system4G LTE speed5\" capacitive touch screen13.0MP rear- and 5.0MP front-facing camerasDual SIMOnly compatible with GSM carriers, including AT&T and T-Mobile",
+  "introduction_zh": "Huawei 的手机商品。来源介绍提及：尺寸 5 英寸；容量 16GB；成像规格 0MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 249.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Unlocked Cell Phones",
+    "All Unlocked Cell Phones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Huawei",
+    "model": "ALE-L04 BLK",
+    "upc": "886598033176",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5\"",
+      "evidence_original": "and playing games on this phone's clear 5\" capacitive touch screen. The 4G LTE speed and Wi-Fi make it easy to s"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "Huawei - P8 Lite 4G with 16GB Memory Cell Phone (Unlocked) - Black Huawei P8 Lite Unlocked Cell Pho"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "0MP",
+      "evidence_original": "G LTE speed5\" capacitive touch screen13.0MP rear- and 5.0MP front-facing camerasDual SIMOnly compatible with GSM "
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "5.0MP",
+      "evidence_original": "capacitive touch screen13.0MP rear- and 5.0MP front-facing camerasDual SIMOnly compatible with GSM carriers, includ"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "tive touch screen. The 4G LTE speed and Wi-Fi make it easy to stream content, download apps and more. Qualcomm Snap"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-8887025/main.jpg",
+      "alt": "Huawei - P8 Lite 4G with 16GB Memory Cell Phone (Unlocked) - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8887/8887025_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8887/8887025_sb.jpg",
+      "width": 498,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "c9f09aa64d4e14098dd0b2d950b88a618651d8836f23c4401667bb851886bfac",
+      "bytes": 46473,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/huawei-p8-lite-4g-with-16gb-memory-cell-phone-unlocked-black/8887025.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "bb-9231014",
+  "source_sku": "9231014",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "AT&T GoPhone - Microsoft Lumia 640 4G LTE with 8GB Memory No-Contract Cell Phone - Black",
+  "brand": "AT&T GoPhone",
+  "model": null,
+  "description_original": "Microsoft 640 No-Contract Cell Phone for AT&T GoPhone: Stay connected and productive wherever you are with this no-contract cell phone, which features 4G LTE speed and Wi-Fi for flexible Internet connection options. Easily browse Web sites and flip through features using the 5\" touch screen, and snap photos with the 8.0MP rear-facing camera.",
+  "description_official_dataset": null,
+  "introduction_zh": "AT&T GoPhone 的手机商品。来源介绍提及：尺寸 5 英寸；容量 8GB；成像规格 8.0MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "No-Contract Phones",
+    "All No-Contract Phones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5\"",
+      "evidence_original": "tes and flip through features using the 5\" touch screen, and snap photos with the 8.0MP rear-facing camera. "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "Phone - Microsoft Lumia 640 4G LTE with 8GB Memory No-Contract Cell Phone - Black Microsoft 640 No-Contract Cell "
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "8.0MP",
+      "evidence_original": " touch screen, and snap photos with the 8.0MP rear-facing camera. "
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": " phone, which features 4G LTE speed and Wi-Fi for flexible Internet connection options. Easily browse Web sites and"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-9231014/main.jpg",
+      "alt": "AT&T GoPhone - Microsoft Lumia 640 4G LTE with 8GB Memory No-Contract Cell Phone - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9231/9231014_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9231/9231014_sb.jpg",
+      "width": 514,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "304a726d1b8dd2fd18273d62c78a07dd15e7038fc0f994ecb1a4a91acc61d09d",
+      "bytes": 64752,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/at-t-gophone-microsoft-lumia-640-4g-lte-with-8gb-memory-no-contract-cell-phone-black/9231014.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "bb-4531401",
+  "source_sku": "4531401",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "Microsoft - Surface Book 2-in-1 13.5\" Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 512GB Solid State Drive - Silver",
+  "brand": "Microsoft",
+  "model": "CR7-00001",
+  "description_original": "Microsoft Surface Book Convertible 2-in-1 Laptop: This ultrathin, high-performance laptop is equipped with incredible 3000 x 2000 screen resolution and the versatility of a tablet. It combines a powerful 6th Generation Intel® Core™ i7 processor and 16GB of system memory with discrete graphics so no creative tasks are too demanding. Use the included Surface Pen to mark-up presentations, sign documents, take notes and much more.",
+  "description_official_dataset": "Windows 10 ProTechnical details: NVIDIA GeForce GPU; 6th Gen Intel® Core™ i7 processor; 13.5\" display; 16GB memory; 512GB solid state driveSpecial features: Bluetooth; touch screenNote: DVD/CD drive not included",
+  "introduction_zh": "Microsoft 的笔记本与台式电脑商品。来源介绍提及：尺寸 13.5 英寸；尺寸 13.5 英寸 display；容量 16GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 2699.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {
+    "manufacturer": "Microsoft",
+    "model": "CR7-00001",
+    "upc": "889842015652",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "13.5\"",
+      "evidence_original": "Microsoft - Surface Book 2-in-1 13.5\" Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 512GB Solid State"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "13.5\" display",
+      "evidence_original": "GPU; 6th Gen Intel® Core™ i7 processor; 13.5\" display; 16GB memory; 512GB solid state driveSpecial features: Bluetooth; tou"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "\" Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 512GB Solid State Drive - Silver Microsoft Surface Book Conv"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "512GB",
+      "evidence_original": " Laptop - Intel Core i7 - 16GB Memory - 512GB Solid State Drive - Silver Microsoft Surface Book Convertible 2-in-1 "
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "3000 x 2000",
+      "evidence_original": "ance laptop is equipped with incredible 3000 x 2000 screen resolution and the versatility of a tablet. It combines a powe"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "12GB solid state driveSpecial features: Bluetooth; touch screenNote: DVD/CD drive not included"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-4531401/main.jpg",
+      "alt": "Microsoft - Surface Book 2-in-1 13.5\" Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 512GB Solid State Drive - Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4531/4531401_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4531/4531401_sa.jpg",
+      "width": 500,
+      "height": 362,
+      "content_type": "image/jpeg",
+      "sha256": "95ea9207be37fd60c3b1939f876df8236411597f545d18c70b1620285a63a73a",
+      "bytes": 28742,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/microsoft-surface-book-2-in-1-13-5-touch-screen-laptop-intel-core-i7-16gb-memory-512gb-solid-state-drive-silver/4531401.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

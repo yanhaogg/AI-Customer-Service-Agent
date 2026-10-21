@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Samsung - S Action Mouse - White",
+    "description": "Easily multitask on your Samsung Galaxy Note Pro or Galaxy Tab Pro with this Samsung S Action ET-MP900DWEGUJ mouse that features a Blue Trace sensor and 1600 dpi sensitivity for precise control. Bluetooth technology offers easy connectivity.",
+    "brand": "Samsung",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Mice",
+      "Wireless & Bluetooth Mice"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Mice",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Mice > Wireless & Bluetooth Mice"
+    },
+    "type": "Accessories",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4289003_sb.jpg",
+    "url": "http://www.bestbuy.com/site/samsung-s-action-mouse-white/4289003.p?id=1219097503875&skuId=4289003&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 970,
+    "rating": 3,
+    "objectID": "4289003"
+  },
+  "bestbuy": {
+    "id": 4289003,
+    "name": "Samsung - S Action Mouse - White",
+    "type": "HardGood",
+    "price": 39.99,
+    "upc": "887276569642",
+    "shipping": 0,
+    "description": "Blue Trace technology; 1600 dpi sensitivity; compatible with Samsung Galaxy Note Pro and Galaxy Tab Pro devices; ergonomic design; S, S Action and right buttons; Bluetooth 3.0 connectivity",
+    "manufacturer": "Samsung",
+    "model": "ET-MP900DWEGUJ",
+    "url": "http://www.bestbuy.com/site/samsung-s-action-mouse-white/4289003.p?id=1219097503875&skuId=4289003&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4289/4289003_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

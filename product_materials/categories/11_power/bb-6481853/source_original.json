@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "DENAQ - AC Power Adapter and Charger for Select Asus Laptops - Black",
+    "description": "Help ensure your Asus laptop is ready for use with this DENAQ DQ-ADP36EH-4817 AC power adapter that uses smart technology to communicate with your computer and charge it efficiently. Safety fuses help defend your laptop against power surges.",
+    "brand": "DENAQ",
+    "categories": [
+      "Computers & Tablets",
+      "Laptop Accessories",
+      "Laptop Chargers & Adapters"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptop Accessories",
+      "lvl2": "Computers & Tablets > Laptop Accessories > Laptop Chargers & Adapters"
+    },
+    "type": "So computer battery",
+    "price": 24.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6481853_sb.jpg",
+    "url": "http://www.bestbuy.com/site/denaq-ac-power-adapter-and-charger-for-select-asus-laptops-black/6481853.p?id=1218737889928&skuId=6481853",
+    "free_shipping": false,
+    "popularity": 7667,
+    "rating": 2,
+    "objectID": "6481853"
+  },
+  "bestbuy": {
+    "id": 6481853,
+    "name": "DENAQ - AC Power Adapter and Charger for Select Asus Laptops - Black",
+    "type": "HardGood",
+    "price": 24.99,
+    "upc": "814352012020",
+    "shipping": 0,
+    "description": "Compatible with select Asus laptops; charges your laptop; safety fuses; smart technology",
+    "manufacturer": "DENAQ",
+    "model": "DQ-ADP36EH-4817",
+    "url": "http://www.bestbuy.com/site/denaq-ac-power-adapter-and-charger-for-select-asus-laptops-black/6481853.p?id=1218737889928&skuId=6481853&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6481/6481853_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

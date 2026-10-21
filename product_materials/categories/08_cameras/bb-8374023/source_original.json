@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "GoPro - HERO HD Waterproof Action Camera",
+    "description": "GoPro HERO HD Waterproof Action Camera: Capture footage of your adventures in HD with this waterproof action camera from GoPro. GoPro's wearable, mountable design makes it easy to capture the action from your unique first-person perspective. The GoPro HERO HD waterproof camera's user-friendly video modes like QuikCapture, SuperView, and Auto Low Light make it easier to achieve professional-quality video.",
+    "brand": "GoPro",
+    "categories": [
+      "Cameras & Camcorders",
+      "Camcorders",
+      "Action Camcorders",
+      "All Action Camcorders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Camcorders",
+      "lvl2": "Cameras & Camcorders > Camcorders > Action Camcorders",
+      "lvl3": "Cameras & Camcorders > Camcorders > Action Camcorders > All Action Camcorders"
+    },
+    "type": "Point&#38;shoot camcrder",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8374023_rb.jpg",
+    "url": "http://www.bestbuy.com/site/gopro-hero-hd-waterproof-action-camera/8374023.p?id=1219329115703&skuId=8374023&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 6492,
+    "rating": 2,
+    "objectID": "8374023"
+  },
+  "bestbuy": null
+}

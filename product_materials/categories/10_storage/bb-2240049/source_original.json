@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "G-Technology - G-DRIVE mobile with Thunderbolt 1TB External USB 3.0 Portable Hard Drive - Silver",
+    "description": "With a 1TB capacity, this G-Technology G-DRIVE mobile with Thunderbolt 0G03040 external USB 3.0 hard drive offers plenty of space for your digital media. The portable aluminum case provides durability, making it easy to safely take your files on the go.",
+    "brand": "G-Technology",
+    "categories": [
+      "Computers & Tablets",
+      "Hard Drives & Storage",
+      "External Hard Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Hard Drives & Storage",
+      "lvl2": "Computers & Tablets > Hard Drives & Storage > External Hard Drives"
+    },
+    "type": "3.5\" extrnal storage",
+    "price": 189.95,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2240049_rb.jpg",
+    "url": "http://www.bestbuy.com/site/g-technology-g-drive-mobile-with-thunderbolt-1tb-external-usb-3-0-portable-hard-drive-silver/2240049.p?id=1219535312662&skuId=2240049&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6708,
+    "rating": 6,
+    "objectID": "2240049"
+  },
+  "bestbuy": {
+    "id": 2240049,
+    "name": "G-Technology - G-DRIVE mobile with Thunderbolt 1TB External USB 3.0 Portable Hard Drive - Silver",
+    "type": "HardGood",
+    "price": 189.95,
+    "upc": "705487193183",
+    "shipping": 0,
+    "description": "USB 3.0 and Thunderbolt interfaces; bus-powered design; Apple&#174; Time Machine compatible; aluminum case; data transfer rates up to 136MB/sec.",
+    "manufacturer": "G-Technology",
+    "model": "0G03040",
+    "url": "http://www.bestbuy.com/site/g-technology-g-drive-mobile-with-thunderbolt-1tb-external-usb-3-0-portable-hard-drive-silver/2240049.p?id=1219535312662&skuId=2240049&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1309/1309193394/1309193394_sa.jpg",
+    "createdAt": "2016-11-17 18:00:01.751 +00:00",
+    "updatedAt": "2016-11-17 18:00:01.751 +00:00"
+  }
+}

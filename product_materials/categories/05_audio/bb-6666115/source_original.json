@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Eclipse - 180 Pro 4GB* Video MP3 Player - Gunmetal",
+    "description": "Keep your music library with you while on the go with this Eclipse 180 Pro MP3 player that features a micro SD card slot (not included) for expansive storage. The built-in video camera lets you capture the action without switching devices.",
+    "brand": "Eclipse",
+    "categories": [
+      "Audio",
+      "iPod & MP3 Players",
+      "MP3 Players"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > iPod & MP3 Players",
+      "lvl2": "Audio > iPod & MP3 Players > MP3 Players"
+    },
+    "type": "Mp3 device - other",
+    "price": 29.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6666115_sb.jpg",
+    "url": "http://www.bestbuy.com/site/eclipse-180-pro-4gb-video-mp3-player-gunmetal/6666115.p?id=1219231128040&skuId=6666115&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7255,
+    "rating": 1,
+    "objectID": "6666115"
+  },
+  "bestbuy": {
+    "id": 6666115,
+    "name": "Eclipse - 180 Pro 4GB* Video MP3 Player - Gunmetal",
+    "type": "HardGood",
+    "price": 29.99,
+    "upc": "878376003082",
+    "shipping": 0,
+    "description": "1.9\" screen4GB* internal memory; microSD card slotBuilt-in video camera",
+    "manufacturer": "Eclipse",
+    "model": "ECLIPSE-180-PRO GM",
+    "url": "http://www.bestbuy.com/site/eclipse-180-pro-4gb-video-mp3-player-gunmetal/6666115.p?id=1219231128040&skuId=6666115&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6666/6666115_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

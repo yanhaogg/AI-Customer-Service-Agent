@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Celluon - Epic Wireless Projection Keyboard - Silver",
+    "description": "Celluon Epic Wireless Projection Keyboard: Easily type and input commands without taking up space on your desktop using this keyboard, which features a red laser diode light source that projects the image of a keyboard onto your work surface. A Bluetooth 3.0 interface makes it easy to connect with your PC, Mac or other Bluetooth-enabled device.",
+    "brand": "Celluon",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards"
+    },
+    "type": "Keyboards",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6032006_sb.jpg",
+    "url": "http://www.bestbuy.com/site/celluon-epic-wireless-projection-keyboard-silver/6032006.p?id=1219182335740&skuId=6032006&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8100,
+    "rating": 4,
+    "objectID": "6032006"
+  },
+  "bestbuy": {
+    "id": 6032006,
+    "name": "Celluon - Epic Wireless Projection Keyboard - Silver",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "887155000075",
+    "shipping": 0,
+    "description": "Compatible with PC and Mac; Bluetooth 3.0 interface; mouse feature; QWERTY design; 19mm key pitch",
+    "manufacturer": "Celluon",
+    "model": "EPIC",
+    "url": "http://www.bestbuy.com/site/celluon-epic-wireless-projection-keyboard-silver/6032006.p?id=1219182335740&skuId=6032006&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6032/6032006_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

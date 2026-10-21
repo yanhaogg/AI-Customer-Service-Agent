@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Nikon - 1 AW1 Mirrorless Camera with 11-27.5mm Lens - White",
+    "description": "Nikon 1 AW1 Mirrorless Camera with 11&#8211;27.5mm Lens: Take photos and videos of your next adventure with the water-, shock- and freeze-proof Nikon 1 AW1, which withstands a variety of environmental conditions. The included 11&#8211;27.5mm lens allows you to start shooting right away. You can tag shots with location data using GPS to keep track of where each picture was taken.  Memory card sold separately.",
+    "brand": "Nikon",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Mirrorless Cameras",
+      "All Mirrorless Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras > All Mirrorless Cameras"
+    },
+    "type": "Mirrorless cameras",
+    "price": 799.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2060145_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nikon-1-aw1-mirrorless-camera-with-11-27-5mm-lens-white/2060145.p?id=1219068629729&skuId=2060145&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 2734,
+    "rating": 2,
+    "objectID": "2060145"
+  },
+  "bestbuy": {
+    "id": 2060145,
+    "name": "Nikon - 1 AW1 Mirrorless Camera with 11-27.5mm Lens - White",
+    "type": "HardGood",
+    "price": 799.99,
+    "upc": "018208276691",
+    "shipping": 0,
+    "description": "14.2-megapixel, CX-format CMOS sensorWaterproof up to 49'Shooting speeds up to 60 fpsHybrid autofocus systemGPS capability",
+    "manufacturer": "Nikon",
+    "model": "27669",
+    "url": "http://www.bestbuy.com/site/nikon-1-aw1-mirrorless-camera-with-11-27-5mm-lens-white/2060145.p?id=1219068629729&skuId=2060145&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1310/1310253360/1310253360_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

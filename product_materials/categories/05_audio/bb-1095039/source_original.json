@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Blue Microphones - Mo-Fi Over-the-Ear Headphones - Gray",
+    "description": "Immerse yourself in your favorite music with these Blue Microphones Mo-Fi 7020 over-the-ear headphones, which feature 50mm titanium-reinforced dynamic drivers and neodymium magnets that create rich, clear audio and a sealed design for sound isolation.",
+    "brand": "Blue Microphones",
+    "categories": [
+      "Audio",
+      "Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones"
+    },
+    "type": "Mht headphones",
+    "price": 349.98,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1095039_sb.jpg",
+    "url": "http://www.bestbuy.com/site/blue-microphones-mo-fi-over-the-ear-headphones-gray/1095039.p?id=1219469043846&skuId=1095039&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 8774,
+    "rating": 3,
+    "objectID": "1095039"
+  },
+  "bestbuy": {
+    "id": 1095039,
+    "name": "Blue Microphones - Mo-Fi Over-the-Ear Headphones - Gray",
+    "type": "HardGood",
+    "price": 349.98,
+    "upc": "836213007020",
+    "shipping": 0,
+    "description": "Sound isolation; 50mm titanium-reinforced dynamic drivers; neodymium magnets; high-power audiophile amplifier; user-adjustable tension and suspension; multijointed headband",
+    "manufacturer": "Blue Microphones",
+    "model": "7020",
+    "url": "http://www.bestbuy.com/site/blue-microphones-mo-fi-over-the-ear-headphones-gray/1095039.p?id=1219469043846&skuId=1095039&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1095/1095039_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Panamax - 11-Outlet Power Conditioner/Surge Protector - Black",
+    "description": "With 5 isolated and filtered outlet banks and connectivity for cable boxes, LAN, telephones and DSL modems, this power conditioner ensures that your home theater system and other electronic components remain protected from voltage fluctuation.",
+    "brand": "Panamax",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Surge Protectors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Surge Protectors"
+    },
+    "type": "Mht power",
+    "price": 539.98,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8484641_sb.jpg",
+    "url": "http://www.bestbuy.com/site/panamax-11-outlet-power-conditioner-surge-protector-black/8484641.p?id=1186003259657&skuId=8484641&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2315,
+    "rating": 6,
+    "objectID": "8484641"
+  },
+  "bestbuy": {
+    "id": 8484641,
+    "name": "Panamax - 11-Outlet Power Conditioner/Surge Protector - Black",
+    "type": "HardGood",
+    "price": 539.98,
+    "upc": "050616008167",
+    "shipping": 0,
+    "description": "Compatible with high-definition home theater systems; digital voltmeter; 5 isolated, filtered outlet banks; linear AC noise filtration; signal line protection; power sequencing feature",
+    "manufacturer": "Panamax",
+    "model": "M5300-PM",
+    "url": "http://www.bestbuy.com/site/panamax-11-outlet-power-conditioner-surge-protector-black/8484641.p?id=1186003259657&skuId=8484641&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8484/8484641_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

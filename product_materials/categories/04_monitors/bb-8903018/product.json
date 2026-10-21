@@ -1,0 +1,82 @@
+{
+  "id": "bb-8903018",
+  "source_sku": "8903018",
+  "category_id": "04_monitors",
+  "category_name_zh": "显示器",
+  "name_original": "BenQ - 24\" LED HD Monitor - Black/Red",
+  "brand": "BenQ",
+  "model": "XL2411Z",
+  "description_original": "Take your gaming up a notch with this BenQ XL2411Z 24\" LED monitor, which offers an ultrafast 1 ms response time to minimize blurring, streaking and ghosting in fast-paced movies and games. Enjoy games and browse the Web in crisp, 1080p resolution.",
+  "description_official_dataset": "BENQ 24\" LED HD Monitor: 1 ms gray-to-gray response time; 1000:1 contrast ratio; 350 nits brightness; 1080p resolution; DVI-D, VGA (D-Sub), HDMI and DisplayPort 1.2 inputs; headphone jack; antiglare screen; 144Hz refresh rate; wall mountable",
+  "introduction_zh": "BenQ 的显示器商品。来源介绍提及：尺寸 24 英寸；分辨率 1080p；接口或连接方式 HDMI。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 329.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Monitors",
+    "LED Monitors"
+  ],
+  "specifications_original": {
+    "manufacturer": "BenQ",
+    "model": "XL2411Z",
+    "upc": "840046030568",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "24\"",
+      "evidence_original": "BenQ - 24\" LED HD Monitor - Black/Red Take your gaming up a notch with this BenQ"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1080p",
+      "evidence_original": "njoy games and browse the Web in crisp, 1080p resolution. BENQ 24\" LED HD Monitor: 1 ms gray-to-gray response time;"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "; 1080p resolution; DVI-D, VGA (D-Sub), HDMI and DisplayPort 1.2 inputs; headphone jack; antiglare screen; 144Hz r"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/04_monitors/bb-8903018/main.jpg",
+      "alt": "BenQ - 24\" LED HD Monitor - Black/Red",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8903/8903018_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8903/8903018_sa.jpg",
+      "width": 1500,
+      "height": 1382,
+      "content_type": "image/jpeg",
+      "sha256": "9d44e1994ad4b38ea54ce307d53fc92191e296cc3417cb6108f85f0d53fa8dc6",
+      "bytes": 57161,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/benq-24-led-hd-monitor-black-red/8903018.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

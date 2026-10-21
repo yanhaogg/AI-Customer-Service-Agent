@@ -1,0 +1,82 @@
+{
+  "id": "bb-7903081",
+  "source_sku": "7903081",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "j5 create - USB 3.0 Multi-Adapter - Black",
+  "brand": "j5 create",
+  "model": "JUA370",
+  "description_original": "Provide your computer with extra connectivity with this j5 create JUA370 multi-adapter that lets you easily utilize another USB peripheral, VGA monitor or Gigabit LAN via an existing USB 3.0 port. Up to 5 Gbps data transfer ensures efficient operation.",
+  "description_official_dataset": "Compatible with Windows and Mac OS; USB 3.0 plug-and-play; backward compatible with USB 2.0 and 1.1; lets you add an additional USB peripheral, VGA monitor or Gigabit LAN via USB; data transfer rates up to 5 Gbps",
+  "introduction_zh": "j5 create 的键鼠与电脑外设商品。来源介绍提及：接口或连接方式 USB 3.0；接口或连接方式 USB；接口或连接方式 USB 2.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Cables & Connectors",
+    "USB Cables & Hubs"
+  ],
+  "specifications_original": {
+    "manufacturer": "j5 create",
+    "model": "JUA370",
+    "upc": "847626000751",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 3.0",
+      "evidence_original": "j5 create - USB 3.0 Multi-Adapter - Black Provide your computer with extra connectivity w"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "er that lets you easily utilize another USB peripheral, VGA monitor or Gigabit LAN via an existing USB 3.0 port. "
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 2.0",
+      "evidence_original": "plug-and-play; backward compatible with USB 2.0 and 1.1; lets you add an additional USB peripheral, VGA monitor or Gi"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-7903081/main.jpg",
+      "alt": "j5 create - USB 3.0 Multi-Adapter - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7903/7903081_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7903/7903081_sa.jpg",
+      "width": 500,
+      "height": 224,
+      "content_type": "image/jpeg",
+      "sha256": "2424b8cd191be3ddb1abfe5692ac96e4a83b28a2f1ac276f20922ae11e6280c2",
+      "bytes": 9145,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/j5-create-usb-3-0-multi-adapter-black/7903081.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

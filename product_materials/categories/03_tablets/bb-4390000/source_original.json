@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Amazon - Fire HD 10 - 10.1\" Tablet 32GB - Black",
+    "description": "Amazon Fire HD 10 Tablet: With built-in Wi-Fi and the Amazon Underground app store, this tablet provides instant access to thousands of games and extra features. The HD touch screen features a polarizing filter, so you can read comfortably anywhere you go.",
+    "brand": "Amazon",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Amazon wi-fi",
+    "price": 259.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4390000_sb.jpg",
+    "url": "http://www.bestbuy.com/site/amazon-fire-hd-10-10-1-tablet-32gb-black/4390000.p?id=1219741360547&skuId=4390000&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9853,
+    "rating": 4,
+    "objectID": "4390000"
+  },
+  "bestbuy": {
+    "id": 4390000,
+    "name": "Amazon - Fire HD 10 - 10.1\" Tablet 32GB - Black",
+    "type": "HardGood",
+    "price": 259.99,
+    "upc": "848719069419",
+    "shipping": 0,
+    "description": "Fire OS 510.1\" IPS touch-screen display with 1280 x 800 resolution32GB storage capacityQuad-core processorWi-FiAmazon Underground",
+    "manufacturer": "Amazon",
+    "model": "B00VKLBU3Y",
+    "url": "http://www.bestbuy.com/site/amazon-fire-hd-10-10-1-tablet-32gb-black/4390000.p?id=1219741360547&skuId=4390000&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/4390000_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "JVC - FLATS Over-the-Ear Headphones - Blue",
+    "description": "Listen in comfort with these JVC FLATS HAS160A over-the-ear headphones, which feature a slim stainless-steel headband and soft ear pads. Pivoting earcups allow the headphone to lie flat, so they can be packed away with ease while traveling.",
+    "brand": "JVC",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Over-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Over-Ear Headphones"
+    },
+    "type": "On ear headphones",
+    "price": 19.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4125209_sb.jpg",
+    "url": "http://www.bestbuy.com/site/jvc-flats-over-the-ear-headphones-blue/4125209.p?id=1218456767230&skuId=4125209&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4866,
+    "rating": 6,
+    "objectID": "4125209"
+  },
+  "bestbuy": {
+    "id": 4125209,
+    "name": "JVC - FLATS Over-the-Ear Headphones - Blue",
+    "type": "HardGood",
+    "price": 19.99,
+    "upc": "046838046049",
+    "shipping": 0,
+    "description": "Sound isolation; 30mm drivers; neodymium magnets; stainless-steel headband; pivoting earcups",
+    "manufacturer": "JVC",
+    "model": "HAS160A",
+    "url": "http://www.bestbuy.com/site/jvc-flats-over-the-ear-headphones-blue/4125209.p?id=1218456767230&skuId=4125209&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4125/4125209_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

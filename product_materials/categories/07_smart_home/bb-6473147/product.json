@@ -1,0 +1,72 @@
+{
+  "id": "bb-6473147",
+  "source_sku": "6473147",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Nest - Cam Security Camera - Black/Silver",
+  "brand": "Nest",
+  "model": "NC1102ES",
+  "description_original": "Nest Cam Security Camera: Keep a vigilant eye on your home to monitor for intruders, or to simply keep tabs on your kids or pets with this indoor-use camera. Night vision lets you see in the dark and the Nest app notifies you when the camera detects motion or sound. You can even stream live HD video to your iOS or Android device 24/7 for remote monitoring and archive recorded footage.",
+  "description_official_dataset": "Remote monitoring via most phones and tablets with iOS 8 or later or Android 4.0 or later; Nest app (download required); CMOS image sensor; 1080p high-definition video recording; IR night vision up to 20'",
+  "introduction_zh": "Nest 的智能家居商品。来源介绍提及：分辨率 1080p。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Security Cameras & Systems",
+    "Security Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Nest",
+    "model": "NC1102ES",
+    "upc": "854448003655",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "resolution",
+      "value_original": "1080p",
+      "evidence_original": "(download required); CMOS image sensor; 1080p high-definition video recording; IR night vision up to 20'"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-6473147/main.jpg",
+      "alt": "Nest - Cam Security Camera - Black/Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6473/6473147_rc.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6473/6473147_rc.jpg",
+      "width": 105,
+      "height": 170,
+      "content_type": "image/jpeg",
+      "sha256": "e1e07590b28e1726eba2f58c66c9b15531ba9a4b80bfd0300f81eaa60f407c97",
+      "bytes": 3178,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/nest-cam-security-camera-black-silver/6473147.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

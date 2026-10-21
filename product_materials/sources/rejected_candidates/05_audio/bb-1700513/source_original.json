@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Sennheiser - Audiophile Over-the-Ear Headphones - Titan",
+    "description": "Learn more about Magnolia Premium Installation   Listen to your music comfortably with these headphones that feature velour ear cushions and a twist-n-lock cable for easy use. Eargonomic Acoustic Refinement (E.A.R) technology simulates sitting in front of hi-fi speakers without space constrictions.",
+    "brand": "Sennheiser",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Over-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Over-Ear Headphones"
+    },
+    "type": "Mht headphones",
+    "price": 179.98,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1700513_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sennheiser-audiophile-over-the-ear-headphones-titan/1700513.p?id=1218285361000&skuId=1700513&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 711,
+    "rating": 5,
+    "objectID": "1700513"
+  },
+  "bestbuy": {
+    "id": 1700513,
+    "name": "Sennheiser - Audiophile Over-the-Ear Headphones - Titan",
+    "type": "HardGood",
+    "price": 149.98,
+    "upc": "615104187702",
+    "shipping": 0,
+    "description": "Only @ Best BuyEargonomic Acoustic Refinement technology; Duofol diaphragm technology; neodymium ferrous magnet; aluminum voice coils",
+    "manufacturer": "Sennheiser",
+    "model": "HD558",
+    "url": "http://www.bestbuy.com/site/sennheiser-audiophile-over-the-ear-headphones-titan/1700513.p?id=1218285361000&skuId=1700513&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1306/1306005461/1306005461_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

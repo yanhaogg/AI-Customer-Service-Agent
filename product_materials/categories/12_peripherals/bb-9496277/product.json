@@ -1,0 +1,64 @@
+{
+  "id": "bb-9496277",
+  "source_sku": "9496277",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Corsair - K70 RGB Mechanical Gaming Keyboard - Black",
+  "brand": "Corsair",
+  "model": null,
+  "description_original": "This Corsair K70 CH-9000065-NA features Cherry MX Brown RGB mechanical key switches that offer smooth, linear response with a wide actuation zone, so you can precisely control the gameplay. RGB LED backlighting illuminates the keys for a stylish look.",
+  "description_official_dataset": null,
+  "introduction_zh": "Corsair 的键鼠与电脑外设商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 169.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Mice & Keyboards",
+    "Computer Keyboards"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-9496277/main.jpg",
+      "alt": "Corsair - K70 RGB Mechanical Gaming Keyboard - Black",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/9496/9496277_sb.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/9496/9496277_sb.jpg",
+      "width": 220,
+      "height": 145,
+      "content_type": "image/jpeg",
+      "sha256": "96d7f27ca29dd81754f2f2d193eafcf881c0c7bf3d7e86bfb8b056da0b065e43",
+      "bytes": 8790,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/corsair-k70-rgb-mechanical-gaming-keyboard-black/9496277.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

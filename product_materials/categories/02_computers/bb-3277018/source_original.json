@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Samsung - ATIV One 7 Curved 27\" All-in-One - Intel Core i5 - 8GB Memory - 1TB Hard Drive - Rusty Black",
+    "description": "Samsung ATIV One 7 27\" Curved All-in-One Computer: This all-in-one computer is great for work or play, with a curved design that offers a wide, panoramic view. Plus, Galaxy smartphone users can take advantage of cross-device functionality, like data sharing and making phone calls directly from this computer.",
+    "brand": "Samsung",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops",
+      "All-in-One Computers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops",
+      "lvl2": "Computers & Tablets > All Desktops > All-in-One Computers"
+    },
+    "type": "All in one computers",
+    "price": 1199.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3277018_sb.jpg",
+    "url": "http://www.bestbuy.com/site/samsung-ativ-one-7-curved-27-all-in-one-intel-core-i5-8gb-memory-1tb-hard-drive-rusty-black/3277018.p?id=1219575816029&skuId=3277018&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 1184,
+    "rating": 3,
+    "objectID": "3277018"
+  },
+  "bestbuy": null
+}

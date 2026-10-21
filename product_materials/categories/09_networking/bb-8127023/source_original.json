@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Amped Wireless - High Power AC1750 Wireless Range Extender - White",
+    "description": "Boost the coverage of your existing wireless network by up to 10,000 sq. ft. with this Amped Wireless High Power AC1750 REC33A range extender, which features Wireless-AC technology, 12 amplifiers and 3 antennas for a fast, reliable signal.",
+    "brand": "Amped Wireless",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "PC Range Extenders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > PC Range Extenders"
+    },
+    "type": "Networking",
+    "price": 139.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8127023_sb.jpg",
+    "url": "http://www.bestbuy.com/site/amped-wireless-high-power-ac1750-wireless-range-extender-white/8127023.p?id=1219689230081&skuId=8127023&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9820,
+    "rating": 1,
+    "objectID": "8127023"
+  },
+  "bestbuy": {
+    "id": 8127023,
+    "name": "Amped Wireless - High Power AC1750 Wireless Range Extender - White",
+    "type": "HardGood",
+    "price": 119.99,
+    "upc": "850535006004",
+    "shipping": 0,
+    "description": "Extends the range of 802.11a/b/g/n/ac networks by up to 10,000 sq. ft.; up to 1710 Mbps wireless transmission speed; data encryption; plug-in design; 12 amplifiers; 3 antennas",
+    "manufacturer": "Amped Wireless",
+    "model": "REC33A",
+    "url": "http://www.bestbuy.com/site/amped-wireless-high-power-ac1750-wireless-range-extender-white/8127023.p?id=1219689230081&skuId=8127023&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8127/8127023_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

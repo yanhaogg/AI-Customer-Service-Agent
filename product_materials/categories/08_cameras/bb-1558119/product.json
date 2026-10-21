@@ -1,0 +1,71 @@
+{
+  "id": "bb-1558119",
+  "source_sku": "1558119",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Sony - a6000 Mirrorless Camera with 16-50mm Lens - White",
+  "brand": "Sony",
+  "model": null,
+  "description_original": "Featuring a 16-50mm f/3.5-5.6 zoom lens, this Sony a6000 24.3-megapixel mirrorless camera lets you take up-close shots of faraway subjects in crisp, sharp detail. Fast shooting up to 11 fps helps you follow the action. Memory card sold separately.",
+  "description_official_dataset": null,
+  "introduction_zh": "Sony 的相机与摄像机商品。来源介绍提及：成像规格 24.3-megapixel。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 799.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Mirrorless Cameras",
+    "All Mirrorless Cameras"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "camera_resolution",
+      "value_original": "24.3-megapixel",
+      "evidence_original": "mm f/3.5-5.6 zoom lens, this Sony a6000 24.3-megapixel mirrorless camera lets you take up-close shots of faraway subjects in"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-1558119/main.jpg",
+      "alt": "Sony - a6000 Mirrorless Camera with 16-50mm Lens - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1558/1558119_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1558/1558119_sb.jpg",
+      "width": 1000,
+      "height": 524,
+      "content_type": "image/jpeg",
+      "sha256": "67c1e98cf01c4ee523e8e12d087a2d7bac512e147495edb453338b867c440df3",
+      "bytes": 67080,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/sony-a6000-mirrorless-camera-with-16-50mm-lens-white/1558119.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

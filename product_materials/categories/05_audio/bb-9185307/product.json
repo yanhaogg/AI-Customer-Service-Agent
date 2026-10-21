@@ -1,0 +1,64 @@
+{
+  "id": "bb-9185307",
+  "source_sku": "9185307",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "HMDX - Burst Portable Rechargeable Speaker - Yellow",
+  "brand": "HMDX",
+  "model": "HX-P130-YE",
+  "description_original": "Enjoy your music on the go with this HMDX Burst HX-P130-YE portable speaker, which features a retractable 3.5mm cord for easy connection to a compatible audio device. The rechargeable battery offers up to 6 hours of playback between charges.",
+  "description_official_dataset": "Compatible with most audio devices with a 3.5mm output; rubberized silicone exterior; rechargeable battery",
+  "introduction_zh": "HMDX 的耳机与音箱商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 24.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio"
+  ],
+  "specifications_original": {
+    "manufacturer": "HMDX",
+    "model": "HX-P130-YE",
+    "upc": "031262057945",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-9185307/main.jpg",
+      "alt": "HMDX - Burst Portable Rechargeable Speaker - Yellow",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9185/9185307_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9185/9185307_sa.jpg",
+      "width": 755,
+      "height": 850,
+      "content_type": "image/jpeg",
+      "sha256": "a14a2a115f11d5ebc12d760a5b0f321e1033876527b431546000c4f8efb20c0e",
+      "bytes": 24173,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/hmdx-burst-portable-rechargeable-speaker-yellow/9185307.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Asus - 15.6\" Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive - Dark Gray",
+    "description": "Asus Laptop: With 8GB of powerful memory and NVIDIA GT 950M graphics driven by 2GB of video memory, this laptop works and plays as hard as you do. Ultrafast Wireless-AC Wi-Fi makes it easy to stream movies and music or update social media.  Learn more about the New Windows &#8250;",
+    "brand": "Asus",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "So gaming laptops",
+    "price": 879.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8963091_sb.jpg",
+    "url": "http://www.bestbuy.com/site/asus-15-6-laptop-intel-core-i7-8gb-memory-1tb-hard-drive-dark-gray/8963091.p?id=1219698445364&skuId=8963091",
+    "free_shipping": true,
+    "popularity": 9338,
+    "rating": 3,
+    "objectID": "8963091"
+  },
+  "bestbuy": null
+}

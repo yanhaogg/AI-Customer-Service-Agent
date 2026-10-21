@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "MSI - Apache 17.3\" Laptop - Intel Core i7 - 12GB Memory - 1TB Hard Drive - Aluminum Black",
+    "description": "Only at Best Buy  Dominate the competition with this MSI Apache GE72-036 laptop, which features NVIDIA GeForce GTX 965M graphics with 2GB GDDR5 video memory that display your favorite games in 1920 x 1080 resolution on the 17.3\" high-definition nonreflective display.",
+    "brand": "MSI",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "So gaming laptops",
+    "price": 1349.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3571075_sb.jpg",
+    "url": "http://www.bestbuy.com/site/msi-apache-17-3-laptop-intel-core-i7-12gb-memory-1tb-hard-drive-aluminum-black/3571075.p?id=1219588129524&skuId=3571075",
+    "free_shipping": false,
+    "popularity": 2952,
+    "rating": 2,
+    "objectID": "3571075"
+  },
+  "bestbuy": null
+}

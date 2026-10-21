@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Nikon - Coolpix AW130 16.0-Megapixel Digital Camera - Blue",
+    "description": "With a NIKKOR 24-120mm wide-angle glass lens and a 16.0-megapixel CMOS sensor, this Nikon Coolpix AW130 digital camera lets you capture sharp photos and high-definition video footage. Built-in Wi-Fi makes it easy to share stored footage across devices.  Memory card sold separately.",
+    "brand": "Nikon",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Point & Shoot Cameras",
+      "All Point & Shoot Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras > All Point & Shoot Cameras"
+    },
+    "type": "Digital cameras",
+    "price": 349.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3558087_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nikon-coolpix-aw130-16-0-megapixel-digital-camera-blue/3558087.p?id=1219588123869&skuId=3558087&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 2705,
+    "rating": 5,
+    "objectID": "3558087"
+  },
+  "bestbuy": null
+}

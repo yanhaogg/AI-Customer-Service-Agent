@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "SanDisk - Clip Sport 4GB* MP3 Player - Black",
+    "description": "Stay entertained during your workout with this SanDisk Clip Sport MP3 player, which features a 4GB* capacity for storing music and audio books. The 1.4\" LCD display with 128 x 128 resolution offers a clear view and helps simplify operation.",
+    "brand": "SanDisk",
+    "categories": [
+      "Audio",
+      "iPod & MP3 Players",
+      "MP3 Players"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > iPod & MP3 Players",
+      "lvl2": "Audio > iPod & MP3 Players > MP3 Players"
+    },
+    "type": "Mp3 device - other",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3760001_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sandisk-clip-sport-4gb-mp3-player-black/3760001.p?id=1219093519650&skuId=3760001&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 900,
+    "rating": 6,
+    "objectID": "3760001"
+  },
+  "bestbuy": {
+    "id": 3760001,
+    "name": "SanDisk - Clip Sport 4GB* MP3 Player - Black",
+    "type": "HardGood",
+    "price": 39.99,
+    "upc": "619659107437",
+    "shipping": 0,
+    "description": "1.4\" screen with 128 x 128 resolution4GB* internal memory; microSDHC card slotBuilt-in FM tunerClip-on design",
+    "manufacturer": "SanDisk",
+    "model": "SDMX24-004G-A46K",
+    "url": "http://www.bestbuy.com/site/sandisk-clip-sport-4gb-mp3-player-black/3760001.p?id=1219093519650&skuId=3760001&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3760/3760001_sa.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

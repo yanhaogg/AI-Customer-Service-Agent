@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Sony - a7 II Mirrorless Camera with 28-70mm Lens - Black",
+    "description": "With 5-axis in-body image stabilization, this Sony a7 II mirrorless camera lets you take clear, arresting images on the go. The 3\" tiltable TFT-LCD and high-contrast OLED EVF make it easy to accurately frame your shot.  Memory card sold separately.",
+    "brand": "Sony",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Mirrorless Cameras",
+      "All Mirrorless Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras > All Mirrorless Cameras"
+    },
+    "type": "Mirrorless cameras",
+    "price": 1999.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1634012_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sony-a7-ii-mirrorless-camera-with-28-70mm-lens-black/1634012.p?id=1219503851392&skuId=1634012&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 388,
+    "rating": 5,
+    "objectID": "1634012"
+  },
+  "bestbuy": {
+    "id": 1634012,
+    "name": "Sony - Alpha a7 II Full-Frame Mirrorless Camera with 28-70mm Lens - Black",
+    "type": "HardGood",
+    "price": 1999.99,
+    "upc": "027242888739",
+    "shipping": 0,
+    "description": "24.3-megapixel full-frame Exmor CMOS sensorISO 100-25,600Shooting speeds up to 5 fpsFast Hybrid autofocusBuilt-in Wi-Fi and NFC (near-field communication)",
+    "manufacturer": "Sony",
+    "model": "ILCE7M2K/B",
+    "url": "http://www.bestbuy.com/site/sony-alpha-a7-ii-full-frame-mirrorless-camera-with-28-70mm-lens-black/1634012.p?id=1219503851392&skuId=1634012&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1634/1634012_sa.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

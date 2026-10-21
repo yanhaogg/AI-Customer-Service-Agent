@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Lenovo - 17.3\" Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 1TB+8GB Hybrid Hard Drive - Black",
+    "description": "Only at Best Buy  Lenovo Y70 - 80DU00DSUS Laptop: Enjoy spectacularly smooth gameplay on even the most graphic- and memory-intensive games. Plus, the Full HD touch screen and built-in subwoofer let you watch movies right on your computer, wherever you go.  Learn more about Windows 8.1 &#8250;",
+    "brand": "Lenovo",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Gaming laptops",
+    "price": 1299.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6339015_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lenovo-17-3-touch-screen-laptop-intel-core-i7-16gb-memory-1tb-8gb-hybrid-hard-drive-black/6339015.p?id=1219661389849&skuId=6339015&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4372,
+    "rating": 3,
+    "objectID": "6339015"
+  },
+  "bestbuy": null
+}

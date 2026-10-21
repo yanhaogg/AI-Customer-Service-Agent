@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Amped Wireless - High Power AC1750 Wireless-AC Router - Black",
+    "description": "Enjoy optimal wireless coverage with this Amped Wireless AC1750 RTA1750 router, which works with 802.11a/b/g/n/ac networks and features High Power technology, 3 high-gain, dual-band antennas and 12 amplifiers for powerful performance.",
+    "brand": "Amped Wireless",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "Routers",
+      "Wireless Routers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > Routers",
+      "lvl3": "Computers & Tablets > Networking & Wireless > Routers > Wireless Routers"
+    },
+    "type": "Networking",
+    "price": 169.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1836054_sb.jpg",
+    "url": "http://www.bestbuy.com/site/amped-wireless-high-power-ac1750-wireless-ac-router-black/1836054.p?id=1219514011811&skuId=1836054&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9819,
+    "rating": 5,
+    "objectID": "1836054"
+  },
+  "bestbuy": null
+}

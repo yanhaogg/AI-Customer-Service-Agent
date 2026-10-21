@@ -1,0 +1,65 @@
+{
+  "id": "bb-8151458",
+  "source_sku": "8151458",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Blossom - 12-Zone Smart Sprinkler Controller - Gray",
+  "brand": "Blossom",
+  "model": "AWLCD-0100",
+  "description_original": "Blossom 12-Zone Smart Sprinkler Controller: Keep a lush, green yard with this smart controller, which allows you to monitor and manage your sprinkler system through your smartphone, tablet and more. Through the downloadable app, you can track local weather patterns, create personalized watering schedules and more.",
+  "description_official_dataset": "Remote control through your device; tracks local weather; personalized watering schedules; 12-zone management; powerline adapter; wall-mount indoor/outdoor controller",
+  "introduction_zh": "Blossom 的智能家居商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Appliance & Outlet Control"
+  ],
+  "specifications_original": {
+    "manufacturer": "Blossom",
+    "model": "AWLCD-0100",
+    "upc": "858283005003",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-8151458/main.jpg",
+      "alt": "Blossom - 12-Zone Smart Sprinkler Controller - Gray",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8151/8151458_sc.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8151/8151458_sc.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "b9cb6b4ebcfb96b2c13460562c5623bfd3fe87c43a669d36e351b2e2a3d32352",
+      "bytes": 21578,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/blossom-12-zone-smart-sprinkler-controller-gray/8151458.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

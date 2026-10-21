@@ -1,0 +1,83 @@
+{
+  "id": "bb-3778012",
+  "source_sku": "3778012",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Canon - EOS 5DS DSLR Camera (Body Only) - Black",
+  "brand": "Canon",
+  "model": "0581C002",
+  "description_original": "Capture realistic photos using this Canon EOS 5DS DSLR camera, which features a 50.6-megapixel CMOS sensor for high-resolution shooting. The 100 - 6400 ISO enables clear shooting in a variety of lighting conditions. Memory card sold separately.",
+  "description_official_dataset": "3.2\" ClearView II LCD monitor50.6-megapixel CMOS sensorFull high-definition 30p videoISO 100-6400 (expandable to 50 and 12,800)EOS Scene Detection System",
+  "introduction_zh": "Canon 的相机与摄像机商品。来源介绍提及：尺寸 3.2 英寸；成像规格 50.6-megapixel；成像规格 6-megapixel。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 3699.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Digital SLR Cameras",
+    "DSLR Body Only"
+  ],
+  "specifications_original": {
+    "manufacturer": "Canon",
+    "model": "0581C002",
+    "upc": "013803256949",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "3.2\"",
+      "evidence_original": "onditions. Memory card sold separately. 3.2\" ClearView II LCD monitor50.6-megapixel CMOS sensorFull high-definitio"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "50.6-megapixel",
+      "evidence_original": "n EOS 5DS DSLR camera, which features a 50.6-megapixel CMOS sensor for high-resolution shooting. The 100 - 6400 ISO enables "
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "6-megapixel",
+      "evidence_original": "rately. 3.2\" ClearView II LCD monitor50.6-megapixel CMOS sensorFull high-definition 30p videoISO 100-6400 (expandable to "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-3778012/main.jpg",
+      "alt": "Canon - EOS 5DS DSLR Camera (Body Only) - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3778/3778012_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3778/3778012_sa.jpg",
+      "width": 500,
+      "height": 389,
+      "content_type": "image/jpeg",
+      "sha256": "20086e4f75a8134e48129476f3fcab8542f879c6e36e0e2805c620ac9ed62930",
+      "bytes": 31250,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/canon-eos-5ds-dslr-camera-body-only-black/3778012.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

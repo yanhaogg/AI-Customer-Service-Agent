@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Huawei - Smartwatch 42mm Stainless Steel - Black Stainless Steel",
+    "description": "Huawei Smartwatch: Stay connected on the go with this smartwatch, which provides helpful notifications when you receive calls, texts and app alerts on your compatible Apple&#174; iOS or Android device. You can control functions just by saying \"OK Google\" and speaking your commands. Plus, meet your health and fitness goals with a built-in activity tracker with heart rate monitor.",
+    "brand": "Huawei",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 449.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4457700_sb.jpg",
+    "url": "http://www.bestbuy.com/site/huawei-smartwatch-42mm-stainless-steel-black-stainless-steel/4457700.p?id=1219750723814&skuId=4457700&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 5876,
+    "rating": 3,
+    "objectID": "4457700"
+  },
+  "bestbuy": {
+    "id": 4457700,
+    "name": "Huawei - Smartwatch 42mm Stainless Steel - Black Stainless Steel",
+    "type": "HardGood",
+    "price": 449.99,
+    "upc": "886598036191",
+    "shipping": 0,
+    "description": "Fits most wrist sizesCompatible with select Apple&#174; iOS and Android devices18mm stainless steel bandHeart rate monitorWater-resistant designCall, text and app alerts",
+    "manufacturer": "Huawei",
+    "model": "55020539",
+    "url": "http://www.bestbuy.com/site/huawei-smartwatch-42mm-stainless-steel-black-stainless-steel/4457700.p?id=1219750723814&skuId=4457700&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4457/4457700_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

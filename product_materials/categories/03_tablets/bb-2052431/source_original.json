@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "nabi - 2S - 7\" - 16GB - Red",
+    "description": "With its 7\" capacitive multitouch display and built-in Wi-Fi, this nabi 2S SN02NV07AWH tablet makes it easy for your child to navigate Web content and learn. An included Drop-Safe bumper helps keep the tablet protected.",
+    "brand": "nabi",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "So tablet pc",
+    "price": 172.0,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2052431_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nabi-2s-7-16gb-red/2052431.p?id=1219522639948&skuId=2052431",
+    "free_shipping": false,
+    "popularity": 2925,
+    "rating": 1,
+    "objectID": "2052431"
+  },
+  "bestbuy": null
+}

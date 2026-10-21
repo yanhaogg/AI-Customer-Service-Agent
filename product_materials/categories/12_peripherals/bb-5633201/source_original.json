@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Insignia™ - 7-Port USB 2.0 Hub - Black",
+    "description": "Expand your computer's connectivity with this Insignia&#8482; NS-PCH5721 USB hub, which features 7 USB 2.0 ports that support data transfer rates up to 480 Mbps for fast uploads and downloads. A 5V, 500 mA/port output delivers reliable power to devices.",
+    "brand": "Insignia™",
+    "categories": [
+      "Computers & Tablets",
+      "Cables & Connectors",
+      "USB Cables & Hubs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Cables & Connectors",
+      "lvl2": "Computers & Tablets > Cables & Connectors > USB Cables & Hubs"
+    },
+    "type": "Misc. computer acc.",
+    "price": 29.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5633201_sb.jpg",
+    "url": "http://www.bestbuy.com/site/insignia-7-port-usb-2-0-hub-black/5633201.p?id=1219144863367&skuId=5633201&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5530,
+    "rating": 3,
+    "objectID": "5633201"
+  },
+  "bestbuy": {
+    "id": 5633201,
+    "name": "Insignia™ - 7-Port USB 2.0 Hub - Black",
+    "type": "HardGood",
+    "price": 29.99,
+    "upc": "600603168826",
+    "shipping": 0,
+    "description": "Compatible with most devices with USB 2.0 connectivity; expands 1 USB 2.0 port into 7; 5V, 500 mA/port output; data transfer speeds up to 480 Mbps; plug-and-play operation",
+    "manufacturer": "Insignia™",
+    "model": "NS-PCH5721",
+    "url": "http://www.bestbuy.com/site/insignia-7-port-usb-2-0-hub-black/5633201.p?id=1219144863367&skuId=5633201&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5633/5633201_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

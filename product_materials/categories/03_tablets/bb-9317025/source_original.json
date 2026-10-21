@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "nabi - BigTab HD - 20\" - 16GB - Black/Silver",
+    "description": "nabi BigTab HD 20\" Tablet: With a large hard drive and quick processor, this kid-friendly tablet lets children and their families collaborate on art projects, interactive stories, movies and more on its HD+ multitouch display. Use the integrated handle and kickstand to carry and adjust the tablet from room to room.",
+    "brand": "nabi",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other android wifi",
+    "price": 399.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9317025_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nabi-bigtab-hd-20-16gb-black-silver/9317025.p?id=1219416310298&skuId=9317025&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 2924,
+    "rating": 6,
+    "objectID": "9317025"
+  },
+  "bestbuy": null
+}

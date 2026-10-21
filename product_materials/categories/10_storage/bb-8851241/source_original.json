@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "Emtec - C600 Superman 8GB USB 2.0 Flash Drive - Black",
+    "description": "Showcase your fandom with this EMTEC C600 USB 2.0 flash drive, which features the Superman logo and colors for a fun look. The 8GB capacity lets you take plenty of files on the go, and the retractable sliding system guards against damage.",
+    "brand": "Emtec",
+    "categories": [
+      "Computers & Tablets",
+      "USB Flash Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > USB Flash Drives"
+    },
+    "type": "Flash drives",
+    "price": 7.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8851241_sb.jpg",
+    "url": "http://www.bestbuy.com/site/emtec-c600-superman-8gb-usb-2-0-flash-drive-black/8851241.p?id=1219398526242&skuId=8851241&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7187,
+    "rating": 6,
+    "objectID": "8851241"
+  },
+  "bestbuy": null
+}

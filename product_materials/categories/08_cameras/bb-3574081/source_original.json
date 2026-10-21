@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Nikon - Coolpix AW130 16.0-Megapixel Waterproof Digital Camera - Black",
+    "description": "With a NIKKOR 24-120mm wide-angle glass lens and a 16.0-megapixel CMOS sensor, this Nikon Coolpix AW130 digital camera lets you capture sharp photos and high-definition video footage. Built-in Wi-Fi makes it easy to share stored footage across devices.  Memory card sold separately.",
+    "brand": "Nikon",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Point & Shoot Cameras",
+      "All Point & Shoot Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras > All Point & Shoot Cameras"
+    },
+    "type": "Digital cameras",
+    "price": 349.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3574081_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nikon-coolpix-aw130-16-0-megapixel-waterproof-digital-camera-black/3574081.p?id=1219588129393&skuId=3574081&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2704,
+    "rating": 2,
+    "objectID": "3574081"
+  },
+  "bestbuy": {
+    "id": 3574081,
+    "name": "Nikon - Coolpix AW130 16.0-Megapixel Waterproof Digital Camera - Black",
+    "type": "HardGood",
+    "price": 349.99,
+    "upc": "018208264919",
+    "shipping": 0,
+    "description": "5x optical/4x digital zoom3\" OLED displayHigh-definition movie modeBuilt-in Wi-Fi with NFC (near-field communication) technology",
+    "manufacturer": "Nikon",
+    "model": "26491",
+    "url": "http://www.bestbuy.com/site/nikon-coolpix-aw130-16-0-megapixel-waterproof-digital-camera-black/3574081.p?id=1219588129393&skuId=3574081&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1312/1312431087/1312431087_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

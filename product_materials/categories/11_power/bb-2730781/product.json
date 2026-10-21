@@ -1,0 +1,66 @@
+{
+  "id": "bb-2730781",
+  "source_sku": "2730781",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "Belkin - 8-Outlet Surge Protector - White",
+  "brand": "Belkin",
+  "model": "BV108200-06",
+  "description_original": "This surge protector features 8 surge-protected outlets for safeguarding your home or office equipment from energy fluctuations and spikes. The phone line protection and splitter help ensure open and continuous phone line connections.",
+  "description_official_dataset": "3000 joules of protection; 8 surge-protected outlets; 2-line AC protection; 1-in, 2-out RJ-11 phone/fax surge protection; 6' power cord",
+  "introduction_zh": "Belkin 的充电与电源配件商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 27.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Surge Protectors & Power",
+    "Surge Protectors"
+  ],
+  "specifications_original": {
+    "manufacturer": "Belkin",
+    "model": "BV108200-06",
+    "upc": "722868758090",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-2730781/main.jpg",
+      "alt": "Belkin - 8-Outlet Surge Protector - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2730/2730781_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2730/2730781_sa.jpg",
+      "width": 172,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "5c9f68ffcfddf5879745386af14e29b38c6e1aaa67b6a487687faeac101c5744",
+      "bytes": 9857,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/belkin-8-outlet-surge-protector-white/2730781.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

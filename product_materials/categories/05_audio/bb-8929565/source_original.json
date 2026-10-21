@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Power Acoustik - Wireless IR Headphones - Black",
+    "description": "Enjoy detailed wireless audio with these Power Acoustik WLHP-200 headphones, which feature a 2-channel UHF IR receiver for crystal clarity. ALC (auto level control) dampens volume spikes for even listening.",
+    "brand": "Power Acoustik",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Wireless Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Wireless Headphones"
+    },
+    "type": "So car accessories",
+    "price": 22.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8929565_rb.jpg",
+    "url": "http://www.bestbuy.com/site/power-acoustik-wireless-ir-headphones-black/8929565.p?id=1218952110525&skuId=8929565",
+    "free_shipping": false,
+    "popularity": 1737,
+    "rating": 1,
+    "objectID": "8929565"
+  },
+  "bestbuy": {
+    "id": 8929565,
+    "name": "Power Acoustik - Wireless IR Headphones - Black",
+    "type": "HardGood",
+    "price": 22.99,
+    "upc": "709483045705",
+    "shipping": 0,
+    "description": "2-channel UHF IR receiver; auto mute and off; ALC (auto level control); variable volume control",
+    "manufacturer": "Power Acoustik",
+    "model": "WLHP-200",
+    "url": "http://www.bestbuy.com/site/power-acoustik-wireless-ir-headphones-black/8929565.p?id=1218952110525&skuId=8929565&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8929/8929565_rc.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bb-8970003",
+  "source_sku": "8970003",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "Motorola - Moto G (2nd Generation) Cell Phone (Unlocked) (U.S. Version) - White",
+  "brand": "Motorola",
+  "model": null,
+  "description_original": "Enjoy your media on the go with this Motorola Moto G (2nd Generation) 00504NARTL cell phone, which features a 5\" high-definition touch screen that delivers crisp, detailed images. The 8.0MP rear-facing camera lets you capture videos with 720p resolution.",
+  "description_official_dataset": null,
+  "introduction_zh": "Motorola 的手机商品。来源介绍提及：尺寸 5 英寸；分辨率 720p；成像规格 8.0MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 149.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Unlocked Cell Phones",
+    "All Unlocked Cell Phones"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5\"",
+      "evidence_original": "00504NARTL cell phone, which features a 5\" high-definition touch screen that delivers crisp, detailed images. Th"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "720p",
+      "evidence_original": "ing camera lets you capture videos with 720p resolution. "
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "8.0MP",
+      "evidence_original": "at delivers crisp, detailed images. The 8.0MP rear-facing camera lets you capture videos with 720p resolution. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-8970003/main.jpg",
+      "alt": "Motorola - Moto G (2nd Generation) Cell Phone (Unlocked) (U.S. Version) - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8970/8970003_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8970/8970003_sb.jpg",
+      "width": 506,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "04577a8f28ac01f34d27428fa4f3c0f6bb66957fac17d6033e0b2fe3d879d3bb",
+      "bytes": 48715,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/motorola-moto-g-2nd-generation-cell-phone-unlocked-u-s-version-white/8970003.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

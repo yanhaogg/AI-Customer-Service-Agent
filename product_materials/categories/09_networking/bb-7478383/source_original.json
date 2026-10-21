@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Belkin - AC750 Dual-Band Wireless-AC Router with 4-Port Ethernet Switch - Black",
+    "description": "This Belkin AC750 F9K1116 dual-band wireless-AC router delivers data transfer rates up to 733 Mbps for blazing-fast Web connection. Four Ethernet ports enable simple wired connectivity for additional options.",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "Routers",
+      "Wireless Routers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > Routers",
+      "lvl3": "Computers & Tablets > Networking & Wireless > Routers > Wireless Routers"
+    },
+    "type": "Networking",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7478383_rb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-ac750-dual-band-wireless-ac-router-with-4-port-ethernet-switch-black/7478383.p?id=1218847153051&skuId=7478383&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9020,
+    "rating": 2,
+    "objectID": "7478383"
+  },
+  "bestbuy": {
+    "id": 7478383,
+    "name": "Belkin - AC750 Dual-Band Wireless-AC Router with 4-Port Ethernet Switch - Black",
+    "type": "HardGood",
+    "price": 79.99,
+    "upc": "722868917244",
+    "shipping": 0,
+    "description": "Data transfer rates up to 733 Mbps; USB port; auto detecting",
+    "manufacturer": "Belkin",
+    "model": "F9K1116",
+    "url": "http://www.bestbuy.com/site/belkin-ac750-dual-band-wireless-ac-router-with-4-port-ethernet-switch-black/7478383.p?id=1218847153051&skuId=7478383&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7478/7478383_rc.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

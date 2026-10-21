@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Panasonic - DMC-LX100 12.8-Megapixel Digital Camera - Black",
+    "description": "Capture sharp photos and 4K video footage using this Panasonic DMC-LX100 digital camera, which features a 12.8-megapixel, 4/3\" MOS sensor and LEICA DC VARIO-SUMMLUX lens system. Built-in Wi-Fi simplifies file sharing.  Memory card sold separately.",
+    "brand": "Panasonic",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Point & Shoot Cameras",
+      "All Point & Shoot Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras > All Point & Shoot Cameras"
+    },
+    "type": "Digital cameras",
+    "price": 799.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1206456_sb.jpg",
+    "url": "http://www.bestbuy.com/site/panasonic-dmc-lx100-12-8-megapixel-digital-camera-black/1206456.p?id=1219478145339&skuId=1206456&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2286,
+    "rating": 4,
+    "objectID": "1206456"
+  },
+  "bestbuy": {
+    "id": 1206456,
+    "name": "Panasonic - DMC-LX100 12.8-Megapixel Digital Camera - Black",
+    "type": "HardGood",
+    "price": 799.99,
+    "upc": "885170226722",
+    "shipping": 0,
+    "description": "3.1x optical/4x digital zoom3\" TFT-LCD4K video captureBuilt-in Wi-Fi with NFC (near-field communication) technology",
+    "manufacturer": "Panasonic",
+    "model": "DMC-LX100K",
+    "url": "http://www.bestbuy.com/site/panasonic-dmc-lx100-12-8-megapixel-digital-camera-black/1206456.p?id=1219478145339&skuId=1206456&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1206/1206456_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

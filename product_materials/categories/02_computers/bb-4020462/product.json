@@ -1,0 +1,98 @@
+{
+  "id": "bb-4020462",
+  "source_sku": "4020462",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "Acer - 11.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gray",
+  "brand": "Acer",
+  "model": "C740C4PE",
+  "description_original": "Acer Chromebook: Stay productive and entertained whether you're at home or on the go with this 11.6\" Chromebook, which features built-in Wireless-AC networking for rapid Web access. Easily connect a display via HDMI to enjoy enlarged content. Learn more about Chromebooks ›",
+  "description_official_dataset": "Chrome OSTechnical details: Intel® Celeron® processor; 11.6\" display; 4GB memory; 16GB solid state driveSpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included",
+  "introduction_zh": "Acer 的笔记本与台式电脑商品。来源介绍提及：尺寸 11.6 英寸；尺寸 11.6 英寸 display；容量 4GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 279.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "Chromebooks"
+  ],
+  "specifications_original": {
+    "manufacturer": "Acer",
+    "model": "C740C4PE",
+    "upc": "887899773891",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "11.6\"",
+      "evidence_original": "Acer - 11.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gr"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "11.6\" display",
+      "evidence_original": "cal details: Intel® Celeron® processor; 11.6\" display; 4GB memory; 16GB solid state driveSpecial features: Bluetooth; HDMI "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "er - 11.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gray Acer Chromebook: Stay producti"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "romebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gray Acer Chromebook: Stay productive and enterta"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "eb access. Easily connect a display via HDMI to enjoy enlarged content. Learn more about Chromebooks › Chrome OSTe"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "16GB solid state driveSpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-4020462/main.jpg",
+      "alt": "Acer - 11.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gray",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4020/4020462_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4020/4020462_sb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "b7c8d2a066b7f8e5aa339ddd53928895ca7978c3a334a11d4bf794339e6fed19",
+      "bytes": 76469,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/acer-11-6-chromebook-intel-celeron-4gb-memory-16gb-solid-state-drive-gray/4020462.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

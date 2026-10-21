@@ -1,0 +1,72 @@
+{
+  "id": "bb-6444024",
+  "source_sku": "6444024",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Plantronics - BackBeat FIT Behind-the-Neck Bluetooth Headphones - Blue/Black",
+  "brand": "Plantronics",
+  "model": "200450-63",
+  "description_original": "Enjoy hands-free calls and music during your workout with these Plantronics BackBeat FIT 200450-63 Bluetooth stereo headphones that feature P2i coating to help resist damage from sweat or splashing water. The armband securely holds your smartphone.",
+  "description_official_dataset": "Behind-the-neck design; compatible with most Bluetooth-enabled mobile devices; P2i coating; DeepSleep hibernation mode; safety eartip design; up to 8-hour listening time; easy controls",
+  "introduction_zh": "Plantronics 的耳机与音箱商品。来源介绍提及：接口或连接方式 Bluetooth。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 129.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones",
+    "Wireless Headphones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Plantronics",
+    "model": "200450-63",
+    "upc": "017229143692",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "ntronics - BackBeat FIT Behind-the-Neck Bluetooth Headphones - Blue/Black Enjoy hands-free calls and music during your "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-6444024/main.jpg",
+      "alt": "Plantronics - BackBeat FIT Behind-the-Neck Bluetooth Headphones - Blue/Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6444/6444024_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6444/6444024_sa.jpg",
+      "width": 500,
+      "height": 347,
+      "content_type": "image/jpeg",
+      "sha256": "4cae29b01a68843e3f3900f5852092571b13f41068dfdb3e0a33a436e8ebc308",
+      "bytes": 18590,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/plantronics-backbeat-fit-behind-the-neck-bluetooth-headphones-blue-black/6444024.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

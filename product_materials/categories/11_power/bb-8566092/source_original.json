@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Monster - Core Power 1200 USB 12-Outlet Surge Protector",
+    "description": "Protect your devices from power surges with this wall-mountable Monster Core Power 1200 USB 12-outlet surge protector that features 2160 joules of protection and a 6' power cord for many location options.",
+    "brand": "Monster",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Surge Protectors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Surge Protectors"
+    },
+    "type": "Surge/ups",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8566092_sb.jpg",
+    "url": "http://www.bestbuy.com/site/monster-core-power-1200-usb-12-outlet-surge-protector/8566092.p?id=1219347814846&skuId=8566092&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 3131,
+    "rating": 2,
+    "objectID": "8566092"
+  },
+  "bestbuy": {
+    "id": 8566092,
+    "name": "Monster - Core Power 1200 USB 12-Outlet Surge Protector",
+    "type": "HardGood",
+    "price": 49.99,
+    "upc": "050644717444",
+    "shipping": 0,
+    "description": "2160 joules of protection; 12 surge-protected outlets; 2 USB surge-protected charging ports; 6' power cord; wall-mountable",
+    "manufacturer": "Monster",
+    "model": "MP EXP 1200 USB WH 121890",
+    "url": "http://www.bestbuy.com/site/monster-core-power-1200-usb-12-outlet-surge-protector/8566092.p?id=1219347814846&skuId=8566092&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8566/8566092_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

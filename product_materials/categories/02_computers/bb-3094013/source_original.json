@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Apple - 21.5\" iMac® - Intel Core i5 (2.8GHz) - 8GB Memory - 1TB Hard Drive - Silver",
+    "description": "Apple iMac MK442LL/A All-in-One: iMac features a gorgeous 21.5\" widescreen display, a powerful Intel&#174; processor, superfast graphics, and more. All in a stunningly thin enclosure that's only 5 mm at its edge.",
+    "brand": "Apple",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "Apple cpu's",
+    "price": 1299.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3094013_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-21-5-imac-intel-core-i5-2-8ghz-8gb-memory-1tb-hard-drive-silver/3094013.p?id=1219570896831&skuId=3094013&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9754,
+    "rating": 4,
+    "objectID": "3094013"
+  },
+  "bestbuy": {
+    "id": 3094013,
+    "name": "Apple - 21.5\" iMac® - Intel Core i5 - 8GB Memory - 1TB Hard Drive - Silver",
+    "type": "HardGood",
+    "price": 1299.99,
+    "upc": "888462347747",
+    "shipping": 0,
+    "description": "Mac OS XTechnical details: Intel&#174; Core&#8482; i5 processor; 21.5\" display; 8GB memory; 1TB hard driveSpecial features: Built-in wireless networking; wireless keyboard and mouse; webcamNote: DVD/CD drive not included",
+    "manufacturer": "Apple",
+    "model": "MK442LL/A",
+    "url": "http://www.bestbuy.com/site/apple-21-5-imac-intel-core-i5-8gb-memory-1tb-hard-drive-silver/3094013.p?id=1219570896831&skuId=3094013&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3094/3094013_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

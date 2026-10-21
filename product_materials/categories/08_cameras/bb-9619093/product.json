@@ -1,0 +1,76 @@
+{
+  "id": "bb-9619093",
+  "source_sku": "9619093",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "HTC - RE 16.0-Megapixel Waterproof Digital Camera",
+  "brand": "HTC",
+  "model": null,
+  "description_original": "Be ready to capture special moments with this HTC RE digital camera, which allows 1-handed operation and features a grip sensor that turns the camera on automatically when it is picked up. The 16.0MP CMOS sensor delivers crisp, detailed images.",
+  "description_official_dataset": null,
+  "introduction_zh": "HTC 的相机与摄像机商品。来源介绍提及：成像规格 16.0-Megapixel；成像规格 16.0MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Camcorders",
+    "Action Camcorders",
+    "All Action Camcorders"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "camera_resolution",
+      "value_original": "16.0-Megapixel",
+      "evidence_original": "HTC - RE 16.0-Megapixel Waterproof Digital Camera Be ready to capture special moments with th"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "16.0MP",
+      "evidence_original": "automatically when it is picked up. The 16.0MP CMOS sensor delivers crisp, detailed images. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-9619093/main.jpg",
+      "alt": "HTC - RE 16.0-Megapixel Waterproof Digital Camera",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9619/9619093_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9619/9619093_sb.jpg",
+      "width": 276,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "c59977cd5ca890bf2adc7a317418701eced777bf4f93f659ada6be0005509a16",
+      "bytes": 17486,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/htc-re-16-0-megapixel-waterproof-digital-camera/9619093.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "bb-4550902",
+  "source_sku": "4550902",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver",
+  "brand": "Alienware",
+  "model": "AW17R3-3758SLV",
+  "description_original": "Alienware Laptop: With 3GB dedicated NVIDIA graphics and vivid 4K Ultra HD resolution, this laptop offers stunning graphics and smooth gameplay, so you can take on your most challenging opponents with ease. Built-in 2.1-channel Klipsch speakers offer immersive audio for an enhanced gaming experience.",
+  "description_official_dataset": "Windows 104K Ultra HD3GB dedicated graphicsTechnical details: 6th Gen Intel® Core™ i7 processor; 17.3\" display; 8GB memory; 1TB hard drive + 128GB solid state driveSpecial features: Backlit keyboard; HDMI outputNote: DVD/CD drive not included",
+  "introduction_zh": "Alienware 的笔记本与台式电脑商品。来源介绍提及：尺寸 17.3 英寸；尺寸 17.3 英寸 display；容量 8GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 1649.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {
+    "manufacturer": "Alienware",
+    "model": "AW17R3-3758SLV",
+    "upc": "884116203988",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "17.3\"",
+      "evidence_original": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 12"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "17.3\" display",
+      "evidence_original": "ils: 6th Gen Intel® Core™ i7 processor; 17.3\" display; 8GB memory; 1TB hard drive + 128GB solid state driveSpecial features"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver Alien"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "1TB",
+      "evidence_original": "D Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver Alienware Laptop: "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "128GB",
+      "evidence_original": "Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver Alienware Laptop: With 3GB dedicated "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "3GB",
+      "evidence_original": "ve - Epic Silver Alienware Laptop: With 3GB dedicated NVIDIA graphics and vivid 4K Ultra HD resolution, this lapt"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "4K",
+      "evidence_original": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "Ultra HD",
+      "evidence_original": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid St"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "riveSpecial features: Backlit keyboard; HDMI outputNote: DVD/CD drive not included"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-4550902/main.jpg",
+      "alt": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4550/4550902_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4550/4550902_sa.jpg",
+      "width": 500,
+      "height": 323,
+      "content_type": "image/jpeg",
+      "sha256": "f8186af38ccf6624dce70002e94fece176b748254887ea401e926401b79fa19b",
+      "bytes": 10313,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/alienware-17-3-4k-ultra-hd-laptop-intel-core-i7-8gb-memory-1tb-hard-drive-128gb-solid-state-drive-epic-silver/4550902.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

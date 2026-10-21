@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Bose® - 151® SE Environmental Speakers (Pair) - White",
+    "description": "Whether it's on your patio, poolside, lawn or even on your boat, you can enjoy music while relaxing outdoors. Bose's Stereo Everywhere&#174; performance speakers spread the lovely sound around the whole area.  Learn more about Bose products and proprietary technologies in our Bose Store.",
+    "brand": "Bose®",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers",
+      "Outdoor Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers",
+      "lvl3": "Audio > Home Audio > Speakers > Outdoor Speakers"
+    },
+    "type": "Outdoor speakers",
+    "price": 279.98,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6340907_sb.jpg",
+    "url": "http://www.bestbuy.com/site/bose-151-se-environmental-speakers-pair-white/6340907.p?id=1076628385961&skuId=6340907&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8688,
+    "rating": 5,
+    "objectID": "6340907"
+  },
+  "bestbuy": {
+    "id": 6340907,
+    "name": "Bose® - 151® SE Environmental Speakers (Pair) - White",
+    "type": "HardGood",
+    "price": 279.98,
+    "upc": "017817343169",
+    "shipping": 0,
+    "description": "3 full-range environmental drivers in each speaker; horizontal or vertical mount",
+    "manufacturer": "Bose®",
+    "model": "151 SE",
+    "url": "http://www.bestbuy.com/site/bose-151-se-environmental-speakers-pair-white/6340907.p?id=1076628385961&skuId=6340907&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6340/6340907_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

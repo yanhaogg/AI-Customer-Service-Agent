@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Canon - EOS 5DS DSLR Camera (Body Only) - Black",
+    "description": "Capture realistic photos using this Canon EOS 5DS DSLR camera, which features a 50.6-megapixel CMOS sensor for high-resolution shooting. The 100 - 6400 ISO enables clear shooting in a variety of lighting conditions.  Memory card sold separately.",
+    "brand": "Canon",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Digital SLR Cameras",
+      "DSLR Body Only"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras > DSLR Body Only"
+    },
+    "type": "Dslr cameras",
+    "price": 3699.99,
+    "price_range": "> 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3778012_sb.jpg",
+    "url": "http://www.bestbuy.com/site/canon-eos-5ds-dslr-camera-body-only-black/3778012.p?id=1219599681582&skuId=3778012&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8302,
+    "rating": 3,
+    "objectID": "3778012"
+  },
+  "bestbuy": {
+    "id": 3778012,
+    "name": "Canon - EOS 5DS DSLR Camera (Body Only) - Black",
+    "type": "HardGood",
+    "price": 3699.99,
+    "upc": "013803256949",
+    "shipping": 0,
+    "description": "3.2\" ClearView II LCD monitor50.6-megapixel CMOS sensorFull high-definition 30p videoISO 100-6400 (expandable to 50 and 12,800)EOS Scene Detection System",
+    "manufacturer": "Canon",
+    "model": "0581C002",
+    "url": "http://www.bestbuy.com/site/canon-eos-5ds-dslr-camera-body-only-black/3778012.p?id=1219599681582&skuId=3778012&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3778/3778012_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

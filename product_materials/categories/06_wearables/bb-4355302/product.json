@@ -1,0 +1,65 @@
+{
+  "id": "bb-4355302",
+  "source_sku": "4355302",
+  "category_id": "06_wearables",
+  "category_name_zh": "智能穿戴",
+  "name_original": "Asus - ZenWatch 2 Smartwatch 49mm Stainless Steel - Gunmetal/Brown Leather",
+  "brand": "Asus",
+  "model": null,
+  "description_original": "Asus ZenWatch 2 Smartwatch: Wear this smartwatch worry-free with the 2.5D curved Corning Gorilla Glass 3 lens cover and water-resistant design for durability. The quad-core Qualcomm processor ensures speedy, efficient performance as you set fitness goals and track your progress.",
+  "description_official_dataset": null,
+  "introduction_zh": "Asus 的智能穿戴商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 149.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Smartwatches & Accessories",
+    "Smartwatches"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/06_wearables/bb-4355302/main.jpg",
+      "alt": "Asus - ZenWatch 2 Smartwatch 49mm Stainless Steel - Gunmetal/Brown Leather",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4355/4355302_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4355/4355302_sb.jpg",
+      "width": 585,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "b79bd7afc5d033155b09f6e777b9a0b0d4d66fe59e91aba7214701338015dbfe",
+      "bytes": 51452,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/asus-zenwatch-2-smartwatch-49mm-stainless-steel-gunmetal-brown-leather/4355302.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

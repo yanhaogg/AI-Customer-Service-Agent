@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Canon - EOS 5D Mark III DSLR Camera (Body Only) - Black",
+    "description": "Canon EOS 5D Mark III DSLR Camera Body: Capture amazing high-resolution photos with this professional-grade Canon DSLR. Don't miss a moment with a high frame rate and dual image processor for clear fast-action shots.  Memory card sold separately.",
+    "brand": "Canon",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Digital SLR Cameras",
+      "DSLR Body Only"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras > DSLR Body Only"
+    },
+    "type": "Dslr cameras",
+    "price": 2799.99,
+    "price_range": "> 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4839357_sb.jpg",
+    "url": "http://www.bestbuy.com/site/canon-eos-5d-mark-iii-dslr-camera-body-only-black/4839357.p?id=1218541224336&skuId=4839357&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8305,
+    "rating": 4,
+    "objectID": "4839357"
+  },
+  "bestbuy": {
+    "id": 4839357,
+    "name": "Canon - EOS 5D Mark III DSLR Camera (Body Only) - Black",
+    "type": "HardGood",
+    "price": 2799.99,
+    "upc": "013803142433",
+    "shipping": 0,
+    "description": "22.3 megapixel full-frame CMOS sensorISO 100&#8211;25600Up to 6.0 fps continuous shootingUp to 41 cross-type pointsDIGIC 5+ image processorEOS HD video with manual exposure control",
+    "manufacturer": "Canon",
+    "model": "5260B002",
+    "url": "http://www.bestbuy.com/site/canon-eos-5d-mark-iii-dslr-camera-body-only-black/4839357.p?id=1218541224336&skuId=4839357&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1308/1308093015/1308093015_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

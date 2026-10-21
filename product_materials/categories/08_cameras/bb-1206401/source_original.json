@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Panasonic - DMC-FZ1000 20.1-Megapixel Digital Camera - Black",
+    "description": "With a 25-400mm LEICA DC lens and 20.1-megapixel MOS sensor, this Panasonic DMC-FZ1000 digital camera allows you to capture high-resolution images and 4K QFHD videos simultaneously. Built-in Wi-Fi allows you to share stored files across devices.  Memory card sold separately.",
+    "brand": "Panasonic",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Point & Shoot Cameras",
+      "All Point & Shoot Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras > All Point & Shoot Cameras"
+    },
+    "type": "Digital cameras",
+    "price": 799.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1206401_sb.jpg",
+    "url": "http://www.bestbuy.com/site/panasonic-dmc-fz1000-20-1-megapixel-digital-camera-black/1206401.p?id=1219478145338&skuId=1206401&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2287,
+    "rating": 1,
+    "objectID": "1206401"
+  },
+  "bestbuy": null
+}

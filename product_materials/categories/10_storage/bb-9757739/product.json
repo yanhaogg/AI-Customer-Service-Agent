@@ -1,0 +1,71 @@
+{
+  "id": "bb-9757739",
+  "source_sku": "9757739",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "Case Logic - USB Flash Drive Case - Magenta",
+  "brand": "Case Logic",
+  "model": "USB-201MAGE",
+  "description_original": "This USB flash drive case holds 2 USB flash drives in front and back pockets and features neoprene and jersey materials for long-lasting use.",
+  "description_official_dataset": "Holds 2 USB flash drives in front and back pockets; attaches to most backpacks, messenger totes and briefcases; neoprene and jersey materials",
+  "introduction_zh": "Case Logic 的存储设备商品。来源介绍提及：接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 3.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "USB Flash Drives"
+  ],
+  "specifications_original": {
+    "manufacturer": "Case Logic",
+    "model": "USB-201MAGE",
+    "upc": "085854217675",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Case Logic - USB Flash Drive Case - Magenta This USB flash drive case holds 2 USB flas"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-9757739/main.jpg",
+      "alt": "Case Logic - USB Flash Drive Case - Magenta",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9757/9757739_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9757/9757739_sa.jpg",
+      "width": 196,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "41bf08f819766aea8061352b86cf94a484f12b13329cc0290bf5b47b95354fc3",
+      "bytes": 19809,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/case-logic-usb-flash-drive-case-magenta/9757739.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

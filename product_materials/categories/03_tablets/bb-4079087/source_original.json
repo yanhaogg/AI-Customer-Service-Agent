@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Acer - Iconia - 8\" - Intel Atom - 32GB - Slate",
+    "description": "With an 8\" multitouch display and Wi-Fi, this Acer Iconia B18101193 tablet makes it easy to browse the Web at home or on the go. The Bluetooth 4.0 interface lets you pair with other Bluetooth-enabled devices.",
+    "brand": "Acer",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "So tablet pc",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4079087_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acer-iconia-8-intel-atom-32gb-slate/4079087.p?id=1219618214120&skuId=4079087",
+    "free_shipping": false,
+    "popularity": 9965,
+    "rating": 1,
+    "objectID": "4079087"
+  },
+  "bestbuy": {
+    "id": 4079087,
+    "name": "Acer - Iconia - 8\" - Intel Atom - 32GB - Slate",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "888863026524",
+    "shipping": 0,
+    "description": "8\" multitouch display with 1280 x 800 resolutionAndroid 4.4 KitKat operating system32GB storage capacityQuad-core processorWi-FiBluetooth 4.0 interface",
+    "manufacturer": "Acer",
+    "model": "B18101193",
+    "url": "http://www.bestbuy.com/site/acer-iconia-8-intel-atom-32gb-slate/4079087.p?id=1219618214120&skuId=4079087&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4079/4079087_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

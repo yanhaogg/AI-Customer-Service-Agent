@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "GoPro - HERO+ HD Action Camera",
+    "description": "Capture 1080p full HD videos wherever life takes you with this GoPro HERO+ CHDHC-101 action camera, which features an integrated compact, water-resistant housing. Wi-Fi and Bluetooth connectivity make it easy to share special moments.",
+    "brand": "GoPro",
+    "categories": [
+      "Cameras & Camcorders",
+      "Camcorders",
+      "Action Camcorders",
+      "All Action Camcorders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Camcorders",
+      "lvl2": "Cameras & Camcorders > Camcorders > Action Camcorders",
+      "lvl3": "Cameras & Camcorders > Camcorders > Action Camcorders > All Action Camcorders"
+    },
+    "type": "Point&#38;shoot camcrder",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4453300_rb.jpg",
+    "url": "http://www.bestbuy.com/site/gopro-hero-hd-action-camera/4453300.p?id=1219749483001&skuId=4453300&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6491,
+    "rating": 4,
+    "objectID": "4453300"
+  },
+  "bestbuy": null
+}

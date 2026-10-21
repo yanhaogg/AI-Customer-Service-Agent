@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Griffin Technology - PowerBlock Wall Charger and PowerJolt Vehicle Charger for Most Lightning-Enabled Apple® Devices - Black",
+    "description": "Keep your Lightning-enabled devices charged and synced while you're at home or on the go with these Griffin Technology NA38222 PowerBlock and PowerJolt chargers, which deliver 10W of power for reliable performance.",
+    "brand": "Griffin Technology",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Car Chargers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Car Chargers"
+    },
+    "type": "Chargers",
+    "price": 39.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1908054_sb.jpg",
+    "url": "http://www.bestbuy.com/site/griffin-technology-powerblock-wall-charger-and-powerjolt-vehicle-charger-for-most-lightning-enabled-apple-devices-black/1908054.p?id=1219067159024&skuId=1908054&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 6429,
+    "rating": 6,
+    "objectID": "1908054"
+  },
+  "bestbuy": {
+    "id": 1908054,
+    "name": "Griffin Technology - PowerBlock Wall Charger and PowerJolt Vehicle Charger for Most Lightning-Enabled Apple® Devices - Black",
+    "type": "HardGood",
+    "price": 39.99,
+    "upc": "685387406654",
+    "shipping": 0,
+    "description": "Compatible with most Lightning-enabled Apple devices; let you charge and sync your device at home or on the go; deliver 10W of power",
+    "manufacturer": "Griffin Technology",
+    "model": "NA38222",
+    "url": "http://www.bestbuy.com/site/griffin-technology-powerblock-wall-charger-and-powerjolt-vehicle-charger-for-most-lightning-enabled-apple-devices-black/1908054.p?id=1219067159024&skuId=1908054&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1908/1908054_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

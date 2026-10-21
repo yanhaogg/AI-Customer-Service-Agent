@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Amazon - Fire Wireless Keyboard for Fire HDX 8.9 Tablets - Black",
+    "description": "Easily navigate and type on your Fire HDX 8.9 tablet using this Amazon Fire B00KYFWDLU wireless keyboard that features a lightweight, wireless design to encourage productivity on the go. Use the integrated shortcut keys for instant access to your e-mail.",
+    "brand": "Amazon",
+    "categories": [
+      "Computers & Tablets",
+      "iPad & Tablet Accessories",
+      "Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > iPad & Tablet Accessories",
+      "lvl2": "Computers & Tablets > iPad & Tablet Accessories > Keyboards"
+    },
+    "type": "Bluetooth keyboards",
+    "price": 59.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9359692_sb.jpg",
+    "url": "http://www.bestbuy.com/site/amazon-fire-wireless-keyboard-for-fire-hdx-8-9-tablets-black/9359692.p?id=1219405822633&skuId=9359692&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9840,
+    "rating": 2,
+    "objectID": "9359692"
+  },
+  "bestbuy": null
+}

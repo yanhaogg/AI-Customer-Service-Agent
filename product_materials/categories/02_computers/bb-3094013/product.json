@@ -1,0 +1,86 @@
+{
+  "id": "bb-3094013",
+  "source_sku": "3094013",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "Apple - 21.5\" iMac® - Intel Core i5 (2.8GHz) - 8GB Memory - 1TB Hard Drive - Silver",
+  "brand": "Apple",
+  "model": "MK442LL/A",
+  "description_original": "Apple iMac MK442LL/A All-in-One: iMac features a gorgeous 21.5\" widescreen display, a powerful Intel® processor, superfast graphics, and more. All in a stunningly thin enclosure that's only 5 mm at its edge.",
+  "description_official_dataset": "Mac OS XTechnical details: Intel® Core™ i5 processor; 21.5\" display; 8GB memory; 1TB hard driveSpecial features: Built-in wireless networking; wireless keyboard and mouse; webcamNote: DVD/CD drive not included",
+  "introduction_zh": "Apple 的笔记本与台式电脑商品。来源介绍提及：尺寸 21.5 英寸；尺寸 21.5 英寸 display；容量 8GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 1299.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "All Desktops"
+  ],
+  "specifications_original": {
+    "manufacturer": "Apple",
+    "model": "MK442LL/A",
+    "upc": "888462347747",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "21.5\"",
+      "evidence_original": "Apple - 21.5\" iMac® - Intel Core i5 (2.8GHz) - 8GB Memory - 1TB Hard Drive - Silver"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "21.5\" display",
+      "evidence_original": "cal details: Intel® Core™ i5 processor; 21.5\" display; 8GB memory; 1TB hard driveSpecial features: Built-in wireless networ"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": " 21.5\" iMac® - Intel Core i5 (2.8GHz) - 8GB Memory - 1TB Hard Drive - Silver Apple iMac MK442LL/A All-in-One: iMa"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "1TB",
+      "evidence_original": "- Intel Core i5 (2.8GHz) - 8GB Memory - 1TB Hard Drive - Silver Apple iMac MK442LL/A All-in-One: iMac features a "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-3094013/main.jpg",
+      "alt": "Apple - 21.5\" iMac® - Intel Core i5 (2.8GHz) - 8GB Memory - 1TB Hard Drive - Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3094/3094013_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3094/3094013_sa.jpg",
+      "width": 500,
+      "height": 435,
+      "content_type": "image/jpeg",
+      "sha256": "4b08121d8d827909d8ad6b0d1649a0f72d2a902ffc44ee3028ed00abbb7dad0b",
+      "bytes": 27813,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/apple-21-5-imac-intel-core-i5-2-8ghz-8gb-memory-1tb-hard-drive-silver/3094013.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

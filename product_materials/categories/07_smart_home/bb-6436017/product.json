@@ -1,0 +1,82 @@
+{
+  "id": "bb-6436017",
+  "source_sku": "6436017",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Oco - Wireless High-Definition Video Monitoring Smart Camera - Silver",
+  "brand": "Oco",
+  "model": "CO14US",
+  "description_original": "Oco wireless high-definition security camera: Detailed 1280 x 720 resolution and IR night vision help you keep an eye on your home at all times. Wi-Fi connectivity lets you access live or archived footage via a compatible cell phone, tablet or laptop.",
+  "description_official_dataset": "OCO Wireless High-Definition Video Monitoring Smart Camera: Compatible with most Wi-Fi-enabled Android, iOS, Windows and Mac OS devices; 1/4\" CMOS image sensor; 1280 x 720 resolution; IR night vision up to 15'; iVideon cloud storage",
+  "introduction_zh": "Oco 的智能家居商品。来源介绍提及：尺寸 4 英寸；分辨率 1280 x 720；接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 149.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Security Cameras & Systems",
+    "Security Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Oco",
+    "model": "CO14US",
+    "upc": "861190000108",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "4\"",
+      "evidence_original": "oid, iOS, Windows and Mac OS devices; 1/4\" CMOS image sensor; 1280 x 720 resolution; IR night vision up to 15'; "
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1280 x 720",
+      "evidence_original": "gh-definition security camera: Detailed 1280 x 720 resolution and IR night vision help you keep an eye on your home at a"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": " keep an eye on your home at all times. Wi-Fi connectivity lets you access live or archived footage via a compatibl"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-6436017/main.jpg",
+      "alt": "Oco - Wireless High-Definition Video Monitoring Smart Camera - Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6436/6436017_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6436/6436017_sa.jpg",
+      "width": 1500,
+      "height": 1189,
+      "content_type": "image/jpeg",
+      "sha256": "2c95795410f85fea3d7a8522e868224fa1df0c17374e72c60d98806c2b569ecf",
+      "bytes": 80073,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/oco-wireless-high-definition-video-monitoring-smart-camera-silver/6436017.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

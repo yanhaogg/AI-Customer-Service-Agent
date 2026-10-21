@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Asus - 802.11ac Dual-Band Gigabit Wireless Router - Black",
+    "description": "With speeds up to 1300 Mbps at 5.0GHz and up to 600 Mbps at 2.4GHz, this Asus RT-AC68R 802.11ac wireless router offers rapid data transfer. AiRadar technology ensures optimal coverage and signal strength.",
+    "brand": "Asus",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "Routers",
+      "Wireless Routers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > Routers",
+      "lvl3": "Computers & Tablets > Networking & Wireless > Routers > Wireless Routers"
+    },
+    "type": "Networking",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1688401_sb.jpg",
+    "url": "http://www.bestbuy.com/site/asus-802-11ac-dual-band-gigabit-wireless-router-black/1688401.p?id=1219060355760&skuId=1688401&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9310,
+    "rating": 4,
+    "objectID": "1688401"
+  },
+  "bestbuy": null
+}

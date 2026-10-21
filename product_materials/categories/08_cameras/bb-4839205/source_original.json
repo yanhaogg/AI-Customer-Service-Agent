@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Canon - EOS 5D Mark III DSLR Camera with 24-105mm f/4L IS Lens - Black",
+    "description": "Canon EOS 5D Mark III DSLR Camera with 24&#8211;105mm f/4L IS Lens: Capture amazing high-resolution photos with this professional-grade Canon DSLR. Don't miss a moment with a high frame rate and dual image processor for clear fast-action shots. The included zoom lens with image stabilizer technology lets you come in close and shoot every detail in crisp, clear quality, even from a distance.  Memory card sold separately.",
+    "brand": "Canon",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Digital SLR Cameras",
+      "DSLR Body & Lens"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras > DSLR Body & Lens"
+    },
+    "type": "Dslr cameras",
+    "price": 3399.99,
+    "price_range": "> 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4839205_sb.jpg",
+    "url": "http://www.bestbuy.com/site/canon-eos-5d-mark-iii-dslr-camera-with-24-105mm-f-4l-is-lens-black/4839205.p?id=1218541221456&skuId=4839205&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8304,
+    "rating": 2,
+    "objectID": "4839205"
+  },
+  "bestbuy": {
+    "id": 4839205,
+    "name": "Canon - EOS 5D Mark III DSLR Camera with 24-105mm f/4L IS Lens - Black",
+    "type": "HardGood",
+    "price": 3399.99,
+    "upc": "013803142457",
+    "shipping": 0,
+    "description": "22.3 megapixel full-frame CMOS sensorISO 100&#8211;25600Up to 6.0 fps continuous shootingUp to 41 cross-type pointsDIGIC 5+ image processorEOS HD video with manual exposure control",
+    "manufacturer": "Canon",
+    "model": "5260B009",
+    "url": "http://www.bestbuy.com/site/canon-eos-5d-mark-iii-dslr-camera-with-24-105mm-f-4l-is-lens-black/4839205.p?id=1218541221456&skuId=4839205&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4839/4839205_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

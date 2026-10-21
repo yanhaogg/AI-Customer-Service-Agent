@@ -1,0 +1,86 @@
+{
+  "id": "bb-2996026",
+  "source_sku": "2996026",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "Lenovo - 15.6\" Laptop - AMD A8-Series - 6GB Memory - 500GB Hard Drive - Black",
+  "brand": "Lenovo",
+  "model": null,
+  "description_original": "Clearly view your favorite movies or look at photos using this Lenovo G50 - 80E30181US laptop, which features a 15.6\" display that offers visuals in high-definition. A 500GB hard drive provides serviceable storage for your files.",
+  "description_official_dataset": null,
+  "introduction_zh": "Lenovo 的笔记本与台式电脑商品。来源介绍提及：尺寸 15.6 英寸；尺寸 15.6 英寸 display；容量 6GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 329.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\"",
+      "evidence_original": "Lenovo - 15.6\" Laptop - AMD A8-Series - 6GB Memory - 500GB Hard Drive - Black Clearl"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\" display",
+      "evidence_original": "0 - 80E30181US laptop, which features a 15.6\" display that offers visuals in high-definition. A 500GB hard drive provides s"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "6GB",
+      "evidence_original": "Lenovo - 15.6\" Laptop - AMD A8-Series - 6GB Memory - 500GB Hard Drive - Black Clearly view your favorite movies o"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "500GB",
+      "evidence_original": "\" Laptop - AMD A8-Series - 6GB Memory - 500GB Hard Drive - Black Clearly view your favorite movies or look at photo"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-2996026/main.jpg",
+      "alt": "Lenovo - 15.6\" Laptop - AMD A8-Series - 6GB Memory - 500GB Hard Drive - Black",
+      "source_url": "https://cdn-demo.algolia.com/bestbuy/2996026_sb.jpg",
+      "resolved_url": "https://cdn-demo.algolia.com/bestbuy/2996026_sb.jpg",
+      "width": 220,
+      "height": 128,
+      "content_type": "image/jpeg",
+      "sha256": "402d7ba94979996033661527abd9ce98c0db9bf70c2775244a22fed5d67b7c8a",
+      "bytes": 41812,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/lenovo-15-6-laptop-amd-a8-series-6gb-memory-500gb-hard-drive-black/2996026.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

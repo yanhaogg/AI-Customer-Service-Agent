@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Dynex™ - Apple MFi Certified Vehicle Charger - Black",
+    "description": "This Dynex&#8482; DX-BA555 charger delivers 5W of power, making it easy to power your Apple&#174; iPhone&#174; 5, 5s, 6s or 6s Plus or Lightning connector-equipped MP3 player in your vehicle. The 6' length allows a wide range of motion during charging.",
+    "brand": "Dynex™",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Car Chargers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Car Chargers"
+    },
+    "type": "Chargers",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7046436_sb.jpg",
+    "url": "http://www.bestbuy.com/site/dynex-apple-mfi-certified-vehicle-charger-black/7046436.p?id=1218826436642&skuId=7046436&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7440,
+    "rating": 4,
+    "objectID": "7046436"
+  },
+  "bestbuy": {
+    "id": 7046436,
+    "name": "Dynex™ - Apple MFi Certified Vehicle Charger - Black",
+    "type": "HardGood",
+    "price": 14.99,
+    "upc": "600603152696",
+    "shipping": 0,
+    "description": "Compatible with Apple&#174; iPhone&#174; 5 and 5s and most MP3 players with a Lightning connector; 5W output; 6' length",
+    "manufacturer": "Dynex™",
+    "model": "DX-BA555",
+    "url": "http://www.bestbuy.com/site/dynex-apple-mfi-certified-vehicle-charger-black/7046436.p?id=1218826436642&skuId=7046436&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7046/7046436_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

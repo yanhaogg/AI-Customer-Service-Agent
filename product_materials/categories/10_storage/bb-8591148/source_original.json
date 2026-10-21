@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Intel - 535 Series 240GB Internal SATA Solid State Drive - Silver",
+    "description": "With 240GB of storage capacity, this Intel 535 Series BBSSDSC240H6R5 solid state drive allows you to expand the storage of your laptop or desktop and efficiently manage a variety of tasks. The M.2 form factor saves space without sacrificing performance.",
+    "brand": "Intel",
+    "categories": [
+      "Computers & Tablets",
+      "Hard Drives & Storage",
+      "Solid State Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Hard Drives & Storage",
+      "lvl2": "Computers & Tablets > Hard Drives & Storage > Solid State Drives"
+    },
+    "type": "Internal hard drives",
+    "price": 134.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8591148_sb.jpg",
+    "url": "http://www.bestbuy.com/site/intel-535-series-240gb-internal-sata-solid-state-drive-silver/8591148.p?id=1219693612383&skuId=8591148&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 5168,
+    "rating": 3,
+    "objectID": "8591148"
+  },
+  "bestbuy": {
+    "id": 8591148,
+    "name": "Intel - 535 Series 240GB Internal SATA Solid State Drive - Silver",
+    "type": "HardGood",
+    "price": 134.99,
+    "upc": "735858292795",
+    "shipping": 0,
+    "description": "SATA 6 Gbps interface; M.2 form factor; NAND technology; up to 540MB/sec. sequential read speeds; up to 490MB/sec. sequential write speeds",
+    "manufacturer": "Intel",
+    "model": "BBSSDSC240H6R5",
+    "url": "http://www.bestbuy.com/site/intel-535-series-240gb-internal-sata-solid-state-drive-silver/8591148.p?id=1219693612383&skuId=8591148&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313392646/1313392646_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

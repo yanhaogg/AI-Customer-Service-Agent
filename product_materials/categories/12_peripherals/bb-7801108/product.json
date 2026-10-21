@@ -1,0 +1,73 @@
+{
+  "id": "bb-7801108",
+  "source_sku": "7801108",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Microsoft - 1850 Wireless Mobile Mouse - Purple",
+  "brand": "Microsoft",
+  "model": "U7Z-00041",
+  "description_original": "The built-in mini USB transceiver storage on this Microsoft 1850 U7Z-00041 mouse ensures easy portability. Plug-and-play operation enables simple use on Mac, PC and Android systems for versatility.",
+  "description_official_dataset": "LED tracking technology; built-in USB transceiver storage; plug-and-play operation; 2-button design with scroll wheel; compatible with Mac, PC and Android",
+  "introduction_zh": "Microsoft 的键鼠与电脑外设商品。来源介绍提及：接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 14.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Mice & Keyboards",
+    "Mice",
+    "Wireless & Bluetooth Mice"
+  ],
+  "specifications_original": {
+    "manufacturer": "Microsoft",
+    "model": "U7Z-00041",
+    "upc": "885370737462",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Mobile Mouse - Purple The built-in mini USB transceiver storage on this Microsoft 1850 U7Z-00041 mouse ensures ea"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-7801108/main.jpg",
+      "alt": "Microsoft - 1850 Wireless Mobile Mouse - Purple",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7801/7801108_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7801/7801108_sa.jpg",
+      "width": 295,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "6a4b90f1e4315585bb2c81efe3d6b028a086cc8a9ba3e747f9969d7bfaf97fde",
+      "bytes": 6037,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/microsoft-1850-wireless-mobile-mouse-purple/7801108.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

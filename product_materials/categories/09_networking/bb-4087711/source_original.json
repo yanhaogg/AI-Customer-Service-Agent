@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Amped Wireless - 1000 mW Wi-Fi Signal Booster - Black",
+    "description": "The SB1000 amplifies the signal strength of your certified Wi-Fi device to deliver more Wi-Fi range and performance. The SB1000 replaces the removable antenna on your certified Wi-Fi device to boost the signal by 20x in a 360 radius to eliminate dead zones.",
+    "brand": "Amped Wireless",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "PC Range Extenders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > PC Range Extenders"
+    },
+    "type": "Networking",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4087711_sb.jpg",
+    "url": "http://www.bestbuy.com/site/amped-wireless-1000-mw-wi-fi-signal-booster-black/4087711.p?id=1218454465548&skuId=4087711&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9821,
+    "rating": 2,
+    "objectID": "4087711"
+  },
+  "bestbuy": null
+}

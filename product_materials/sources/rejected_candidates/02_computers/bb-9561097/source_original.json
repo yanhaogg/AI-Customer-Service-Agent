@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "Alienware - Alpha Desktop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Black",
+    "description": "Stay connected with this Alienware Alpha ASM100-1580 desktop, which features built-in wireless networking for access to online gaming, social media and more. The included wireless Xbox 360 controller with USB adapter lets you play your favorite games.",
+    "brand": "Alienware",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "Gaming desktops",
+    "price": 499.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9561097_sb.jpg",
+    "url": "http://www.bestbuy.com/site/alienware-alpha-desktop-intel-core-i3-4gb-memory-500gb-hard-drive-black/9561097.p?id=1219424183258&skuId=9561097&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9916,
+    "rating": 5,
+    "objectID": "9561097"
+  },
+  "bestbuy": null
+}

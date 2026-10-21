@@ -1,0 +1,86 @@
+{
+  "id": "bb-7500349",
+  "source_sku": "7500349",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "MSI - 15.6\" Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Gray",
+  "brand": "MSI",
+  "model": null,
+  "description_original": "Surf the Web with ease using this MSI CX61 2QC-1654US laptop, which features high-speed wireless and Gigabit Ethernet networking for flexible connectivity. With 2GB of video memory, you can enjoy smooth graphics and gaming visuals.",
+  "description_official_dataset": null,
+  "introduction_zh": "MSI 的笔记本与台式电脑商品。来源介绍提及：尺寸 15.6 英寸；容量 8GB；容量 750GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 699.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Laptops",
+    "All Laptops",
+    "PC Laptops"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "15.6\"",
+      "evidence_original": "MSI - 15.6\" Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Gray Surf th"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "MSI - 15.6\" Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Gray Surf the Web with ease using this MS"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "750GB",
+      "evidence_original": "\" Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Gray Surf the Web with ease using this MSI CX61 2QC-1654"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "2GB",
+      "evidence_original": "working for flexible connectivity. With 2GB of video memory, you can enjoy smooth graphics and gaming visuals. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-7500349/main.jpg",
+      "alt": "MSI - 15.6\" Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Gray",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/7500/7500349_sb.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/7500/7500349_sb.jpg",
+      "width": 203,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "c1e2e91d8eb5683a59ef04e09de833ddc94f2557155ec0b7ca878645e1b9fcb6",
+      "bytes": 10703,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/msi-15-6-laptop-intel-core-i5-8gb-memory-750gb-hard-drive-gray/7500349.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

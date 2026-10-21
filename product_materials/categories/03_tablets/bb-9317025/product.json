@@ -1,0 +1,75 @@
+{
+  "id": "bb-9317025",
+  "source_sku": "9317025",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "nabi - BigTab HD - 20\" - 16GB - Black/Silver",
+  "brand": "nabi",
+  "model": null,
+  "description_original": "nabi BigTab HD 20\" Tablet: With a large hard drive and quick processor, this kid-friendly tablet lets children and their families collaborate on art projects, interactive stories, movies and more on its HD+ multitouch display. Use the integrated handle and kickstand to carry and adjust the tablet from room to room.",
+  "description_official_dataset": null,
+  "introduction_zh": "nabi 的平板电脑商品。来源介绍提及：尺寸 20 英寸；容量 16GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 399.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "20\"",
+      "evidence_original": "nabi - BigTab HD - 20\" - 16GB - Black/Silver nabi BigTab HD 20\" Tablet: With a large hard dr"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "nabi - BigTab HD - 20\" - 16GB - Black/Silver nabi BigTab HD 20\" Tablet: With a large hard drive and"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-9317025/main.jpg",
+      "alt": "nabi - BigTab HD - 20\" - 16GB - Black/Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9317/9317025_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9317/9317025_sb.jpg",
+      "width": 220,
+      "height": 144,
+      "content_type": "image/jpeg",
+      "sha256": "1fbe1a6fc2eafcf9a8775a46a85ac1a1aa734834eb7c4ce1e282ff22c6b6ef6a",
+      "bytes": 6244,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/nabi-bigtab-hd-20-16gb-black-silver/9317025.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

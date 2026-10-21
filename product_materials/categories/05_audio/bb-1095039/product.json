@@ -1,0 +1,65 @@
+{
+  "id": "bb-1095039",
+  "source_sku": "1095039",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Blue Microphones - Mo-Fi Over-the-Ear Headphones - Gray",
+  "brand": "Blue Microphones",
+  "model": "7020",
+  "description_original": "Immerse yourself in your favorite music with these Blue Microphones Mo-Fi 7020 over-the-ear headphones, which feature 50mm titanium-reinforced dynamic drivers and neodymium magnets that create rich, clear audio and a sealed design for sound isolation.",
+  "description_official_dataset": "Sound isolation; 50mm titanium-reinforced dynamic drivers; neodymium magnets; high-power audiophile amplifier; user-adjustable tension and suspension; multijointed headband",
+  "introduction_zh": "Blue Microphones 的耳机与音箱商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 349.98,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Headphones"
+  ],
+  "specifications_original": {
+    "manufacturer": "Blue Microphones",
+    "model": "7020",
+    "upc": "836213007020",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-1095039/main.jpg",
+      "alt": "Blue Microphones - Mo-Fi Over-the-Ear Headphones - Gray",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/1095/1095039_sa.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/1095/1095039_sa.jpg",
+      "width": 472,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "bb50bef060e6031ccaf7d074ccd9ed21bb4ac8f0e1ae0f263dec0b8dbe3dcebd",
+      "bytes": 119942,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/blue-microphones-mo-fi-over-the-ear-headphones-gray/1095039.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

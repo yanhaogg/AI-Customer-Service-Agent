@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Insignia™ - Flex - 10.1\" - 16GB - Silver/White",
+    "description": "Only at Best Buy  Insignia&#8482; Flex 10.1\" Tablet: This tablet features a 10.1\" touch-screen display and 1280 x 800 resolution for simple navigation and bright, clear images. Wi-Fi and Bluetooth offer flexible connectivity.",
+    "brand": "Insignia™",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other android wifi",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6086148_sb.jpg",
+    "url": "http://www.bestbuy.com/site/insignia-flex-10-1-16gb-silver-white/6086148.p?id=1219660450840&skuId=6086148&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5396,
+    "rating": 2,
+    "objectID": "6086148"
+  },
+  "bestbuy": null
+}

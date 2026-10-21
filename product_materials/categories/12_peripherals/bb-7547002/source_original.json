@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Corsair - Gaming K65 RGB Mechanical Keyboard - Black",
+    "description": "Only at Best Buy  Easily type and control the on-screen action of your games with this Corsair Gaming K65 RGB keyboard that features Cherry Red MX RGB mechanical key switches for optimal performance. Multicolor backlighting illuminates the keys in an array of colors.",
+    "brand": "Corsair",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards",
+      "Gaming Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Computer Keyboards > Gaming Keyboards"
+    },
+    "type": "Gaming controllers",
+    "price": 139.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7547002_sb.jpg",
+    "url": "http://www.bestbuy.com/site/corsair-gaming-k65-rgb-mechanical-keyboard-black/7547002.p?id=1219279718644&skuId=7547002&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7922,
+    "rating": 4,
+    "objectID": "7547002"
+  },
+  "bestbuy": null
+}

@@ -1,0 +1,72 @@
+{
+  "id": "bb-7500102",
+  "source_sku": "7500102",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Night Owl - AHD Indoor/Outdoor High-Definition Security Bullet Cameras (2-Pack) - Black",
+  "brand": "Night Owl",
+  "model": "CAM-2PK-AHD7",
+  "description_original": "Night Owl AHD Security Bullet Cameras: Watch over your property in striking 720p resolution with these cameras, which capture crisp footage to save to your Night Owl AHD-Series DVR (not included) and feature IR night vision for a clear view at up to 100'.",
+  "description_official_dataset": "NIGHT OWL AHD Indoor/Outdoor High-Definition Security Bullet Cameras (2-Pack): BNC connectivity; IR night vision up to 100'; 70-degree wide viewing angle; indoor/outdoor housing; vandal-resistant wall- or ceiling-mount",
+  "introduction_zh": "Night Owl 的智能家居商品。来源介绍提及：分辨率 720p。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 99.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Security Cameras & Systems",
+    "Security Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Night Owl",
+    "model": "CAM-2PK-AHD7",
+    "upc": "810830021904",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "resolution",
+      "value_original": "720p",
+      "evidence_original": "s: Watch over your property in striking 720p resolution with these cameras, which capture crisp footage to save to"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-7500102/main.jpg",
+      "alt": "Night Owl - AHD Indoor/Outdoor High-Definition Security Bullet Cameras (2-Pack) - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7500/7500102_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7500/7500102_sa.jpg",
+      "width": 1262,
+      "height": 1284,
+      "content_type": "image/jpeg",
+      "sha256": "03f75256c6b0fbf331d6f600821b3d670e7774453c231690b3f53f3e6fbe5b2a",
+      "bytes": 74832,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/night-owl-ahd-indoor-outdoor-high-definition-security-bullet-cameras-2-pack-black/7500102.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

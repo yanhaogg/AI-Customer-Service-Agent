@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Belkin - Dual-Band Wireless Range Extender",
+    "description": "Connect to your network where you're most comfortable with this wireless range extender that features MultiBeam technology for a high-powered signal for multiple devices. Network security is maintained to help keep your personal information safe.",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "PC Range Extenders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > PC Range Extenders"
+    },
+    "type": "Networking",
+    "price": 69.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3410068_sb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-dual-band-wireless-range-extender/3410068.p?id=1218399172165&skuId=3410068&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9008,
+    "rating": 5,
+    "objectID": "3410068"
+  },
+  "bestbuy": null
+}

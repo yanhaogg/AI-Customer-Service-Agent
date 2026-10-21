@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "IK Multimedia - iRig KEYS 37-Key USB MIDI Keyboard Controller - White",
+    "description": "Create music with this IK Multimedia iRig KEYS 113432 keyboard that features 37 velocity-sensitive keys and a more than 3-octave range to allow expressive playing. The 30-pin dock connector enables connectivity to compatible Apple&#174; devices.",
+    "brand": "IK Multimedia",
+    "categories": [
+      "Musical Instruments",
+      "Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Musical Instruments",
+      "lvl1": "Musical Instruments > Keyboards"
+    },
+    "type": "So recording sftware",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7880183_sb.jpg",
+    "url": "http://www.bestbuy.com/site/ik-multimedia-irig-keys-37-key-usb-midi-keyboard-controller-white/7880183.p?id=1218862002066&skuId=7880183",
+    "free_shipping": false,
+    "popularity": 5824,
+    "rating": 6,
+    "objectID": "7880183"
+  },
+  "bestbuy": null
+}

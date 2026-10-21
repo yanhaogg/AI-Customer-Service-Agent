@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Energizer - 64-in-1 USB 2.0 Memory Card Reader/Writer - Black",
+    "description": "Quickly transfer files from a memory card to your PC or Mac with this Energizer ENR-CRPUNI memory card reader/writer, which features a USB 2.0 interface for rapid data transfer. Plug-and-play operation simplifies use.",
+    "brand": "Energizer",
+    "categories": [
+      "Cameras & Camcorders",
+      "Memory Cards",
+      "All Memory Cards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Memory Cards",
+      "lvl2": "Cameras & Camcorders > Memory Cards > All Memory Cards"
+    },
+    "type": "Misc camera acces",
+    "price": 12.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1532462_sb.jpg",
+    "url": "http://www.bestbuy.com/site/energizer-64-in-1-usb-2-0-memory-card-reader-writer-black/1532462.p?id=1219054455262&skuId=1532462&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7169,
+    "rating": 3,
+    "objectID": "1532462"
+  },
+  "bestbuy": null
+}

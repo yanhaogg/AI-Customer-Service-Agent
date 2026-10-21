@@ -1,0 +1,88 @@
+{
+  "id": "bb-1715073",
+  "source_sku": "1715073",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Kodak - FZ51 16.2-Megapixel Digital Camera - Blue",
+  "brand": "Kodak",
+  "model": "FZ51-BL",
+  "description_original": "Capture crisp photos and video clips with this Kodak FZ51 digital camera, which features a 16.2-megapixel, 1/2.3\" CCD sensor and digital image stabilization for optimal image clarity. The 2.7\" LCD monitor lets you carefully set up your shots. Memory card sold separately.",
+  "description_official_dataset": "5x optical/6x digital zoom2.7\" LCD monitorMovie modeDigital image stabilization",
+  "introduction_zh": "Kodak 的相机与摄像机商品。来源介绍提及：尺寸 2.3 英寸；尺寸 2.7 英寸；尺寸 7 英寸。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Point & Shoot Cameras",
+    "All Point & Shoot Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Kodak",
+    "model": "FZ51-BL",
+    "upc": "819900010121",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "2.3\"",
+      "evidence_original": "era, which features a 16.2-megapixel, 1/2.3\" CCD sensor and digital image stabilization for optimal image clarity."
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "2.7\"",
+      "evidence_original": "lization for optimal image clarity. The 2.7\" LCD monitor lets you carefully set up your shots. Memory card sold se"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\"",
+      "evidence_original": "separately. 5x optical/6x digital zoom2.7\" LCD monitorMovie modeDigital image stabilization"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "16.2-Megapixel",
+      "evidence_original": "Kodak - FZ51 16.2-Megapixel Digital Camera - Blue Capture crisp photos and video clips with this "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-1715073/main.jpg",
+      "alt": "Kodak - FZ51 16.2-Megapixel Digital Camera - Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1715/1715073_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1715/1715073_sa.jpg",
+      "width": 500,
+      "height": 317,
+      "content_type": "image/jpeg",
+      "sha256": "95d89230168b53b83fb7ec9c6f079d188ed9df531fc2f9581f33e001ffd04a8d",
+      "bytes": 14994,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/kodak-fz51-16-2-megapixel-digital-camera-blue/1715073.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "PNY - 16GB microSDHC Class 10 Memory Card - Black",
+    "description": "Increase the capacity of your compatible mobile device with this PNY microSDHC card that features 16GB of storage to accommodate apps, music, movies and other mobile content. Read speeds up to 40MB/sec. ensure fast data transfer.",
+    "brand": "PNY",
+    "categories": [
+      "Cameras & Camcorders",
+      "Memory Cards",
+      "All Memory Cards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Memory Cards",
+      "lvl2": "Cameras & Camcorders > Memory Cards > All Memory Cards"
+    },
+    "type": "Mobile phone media",
+    "price": 29.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1652491_sb.jpg",
+    "url": "http://www.bestbuy.com/site/pny-16gb-microsdhc-class-10-memory-card-black/1652491.p?id=1219058303352&skuId=1652491&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 1893,
+    "rating": 3,
+    "objectID": "1652491"
+  },
+  "bestbuy": null
+}

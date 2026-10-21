@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Insignia™ - 4-Port USB 3.0 Hub - Black",
+    "description": "Connect up to 4 USB 3.0 devices to your computer through a single port with this Insignia&#8482; NS-PCH5431 USB hub, which features 4 USB ports that support data transfer rates up to 5 Gbps for fast uploads and downloads.",
+    "brand": "Insignia™",
+    "categories": [
+      "Computers & Tablets",
+      "Cables & Connectors",
+      "USB Cables & Hubs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Cables & Connectors",
+      "lvl2": "Computers & Tablets > Cables & Connectors > USB Cables & Hubs"
+    },
+    "type": "Misc. computer acc.",
+    "price": 29.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5631038_sb.jpg",
+    "url": "http://www.bestbuy.com/site/insignia-4-port-usb-3-0-hub-black/5631038.p?id=1219144862832&skuId=5631038&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5614,
+    "rating": 1,
+    "objectID": "5631038"
+  },
+  "bestbuy": {
+    "id": 5631038,
+    "name": "Insignia™ - 4-Port USB 3.0 Hub - Black",
+    "type": "HardGood",
+    "price": 29.99,
+    "upc": "600603168819",
+    "shipping": 0,
+    "description": "Compatible with most devices with USB 3.0 connectivity; expands 1 USB 3.0 port into 4; 5V, 3.6-amp/port output; data transfer speeds up to 5 Gbps; plug-and-play operation",
+    "manufacturer": "Insignia™",
+    "model": "NS-PCH5431",
+    "url": "http://www.bestbuy.com/site/insignia-4-port-usb-3-0-hub-black/5631038.p?id=1219144862832&skuId=5631038&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5631/5631038_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "bb-6604198",
+  "source_sku": "6604198",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Apple - USB-C Digital AV Multiport Adapter - White",
+  "brand": "Apple",
+  "model": "MJ1K2AM/A",
+  "description_original": "The USB-C Digital AV Multiport Adapter lets you connect your MacBook with USB-C port to an HDMI display, while also connecting a standard USB device and a USB-C charging cable. Mirror your MacBook display to your HDMI-enabled display in up to 1080p at 60Hz or 4K Ultra HD resolution.",
+  "description_official_dataset": "Compatible with Apple MacBook®; connects to an HDMI-enabled TV; sync and charge your Apple iPhone®, iPad® or iPod®; HDMI, USB 3.1 and USB-C connectors",
+  "introduction_zh": "Apple 的键鼠与电脑外设商品。来源介绍提及：分辨率 1080p；分辨率 4K；分辨率 Ultra HD。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Cables & Connectors",
+    "USB Cables & Hubs"
+  ],
+  "specifications_original": {
+    "manufacturer": "Apple",
+    "model": "MJ1K2AM/A",
+    "upc": "888462074940",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "resolution",
+      "value_original": "1080p",
+      "evidence_original": "y to your HDMI-enabled display in up to 1080p at 60Hz or 4K Ultra HD resolution. Compatible with Apple MacBook®; co"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "4K",
+      "evidence_original": "abled display in up to 1080p at 60Hz or 4K Ultra HD resolution. Compatible with Apple MacBook®; connects to an H"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "Ultra HD",
+      "evidence_original": "ed display in up to 1080p at 60Hz or 4K Ultra HD resolution. Compatible with Apple MacBook®; connects to an HDMI-enabl"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB-C",
+      "evidence_original": "Apple - USB-C Digital AV Multiport Adapter - White The USB-C Digital AV Multiport A"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "nect your MacBook with USB-C port to an HDMI display, while also connecting a standard USB device and a USB-C char"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "splay, while also connecting a standard USB device and a USB-C charging cable. Mirror your MacBook display to you"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-6604198/main.jpg",
+      "alt": "Apple - USB-C Digital AV Multiport Adapter - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6604/6604198_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6604/6604198_sa.jpg",
+      "width": 215,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "cebce04bff6877e4fcf513b1d476962ec31ca935ea74bf47da863d35f67d82ec",
+      "bytes": 2516,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/apple-usb-c-digital-av-multiport-adapter-white/6604198.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

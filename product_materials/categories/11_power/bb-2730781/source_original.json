@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Belkin - 8-Outlet Surge Protector - White",
+    "description": "This surge protector features 8 surge-protected outlets for safeguarding your home or office equipment from energy fluctuations and spikes. The phone line protection and splitter help ensure open and continuous phone line connections.",
+    "brand": "Belkin",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Surge Protectors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Surge Protectors"
+    },
+    "type": "So computer access",
+    "price": 27.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2730781_sb.jpg",
+    "url": "http://www.bestbuy.com/site/belkin-8-outlet-surge-protector-white/2730781.p?id=1218347168534&skuId=2730781",
+    "free_shipping": false,
+    "popularity": 9021,
+    "rating": 3,
+    "objectID": "2730781"
+  },
+  "bestbuy": {
+    "id": 2730781,
+    "name": "Belkin - 8-Outlet Surge Protector - White",
+    "type": "HardGood",
+    "price": 27.99,
+    "upc": "722868758090",
+    "shipping": 0,
+    "description": "3000 joules of protection; 8 surge-protected outlets; 2-line AC protection; 1-in, 2-out RJ-11 phone/fax surge protection; 6' power cord",
+    "manufacturer": "Belkin",
+    "model": "BV108200-06",
+    "url": "http://www.bestbuy.com/site/belkin-8-outlet-surge-protector-white/2730781.p?id=1218347168534&skuId=2730781&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2730/2730781_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

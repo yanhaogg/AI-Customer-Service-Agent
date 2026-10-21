@@ -1,0 +1,5 @@
+# Local bootstrap credentials; never commit.
+/backend/.superadmin_credentials.txt
+
+# Backend provider credentials.
+/backend/.env

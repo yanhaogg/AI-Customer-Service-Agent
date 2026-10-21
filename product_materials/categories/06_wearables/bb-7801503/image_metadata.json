@@ -1,0 +1,13 @@
+{
+  "source_url": "https://cdn-demo.algolia.com/bestbuy/7801503_sb.jpg",
+  "resolved_url": "https://cdn-demo.algolia.com/bestbuy/7801503_sb.jpg",
+  "width": 120,
+  "height": 160,
+  "content_type": "image/jpeg",
+  "sha256": "4e5298c4368c275ab5af44b117940517839a0b3b7335b71c312737e89b8f4fab",
+  "bytes": 7529,
+  "original_format": "JPEG",
+  "status": "verified",
+  "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+  "rights_status": "third_party_product_image_not_separately_verified"
+}

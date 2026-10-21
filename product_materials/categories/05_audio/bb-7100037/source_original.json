@@ -1,0 +1,37 @@
+{
+  "algolia": {
+    "name": "Jam - Alloy Bluetooth Wireless Speaker - Black",
+    "description": "Rock out to your favorite tunes with this Jam Alloy HX-P560 wireless speaker, which features Bluetooth technology to connect to your compatible Bluetooth-enabled devices. The speaker recharges USB-powered devices for ease of use.",
+    "brand": "Jam",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 59.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7100037_sb.jpg",
+    "url": "http://www.bestbuy.com/site/jam-alloy-bluetooth-wireless-speaker-black/7100037.p?id=1219668764541&skuId=7100037&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 5009,
+    "rating": 1,
+    "objectID": "7100037"
+  },
+  "bestbuy": {
+    "id": 7100037,
+    "name": "Jam - Alloy Bluetooth Wireless Speaker - Black",
+    "type": "HardGood",
+    "price": 59.99,
+    "upc": "031262066633",
+    "shipping": 0,
+    "description": "Compatible with most Bluetooth-enabled devices; 2 active and 2 passive speakers; charges USB-powered devices; rechargeable design",
+    "manufacturer": "Jam",
+    "model": "HX-P560",
+    "url": "http://www.bestbuy.com/site/jam-alloy-bluetooth-wireless-speaker-black/7100037.p?id=1219668764541&skuId=7100037&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7100/7100037_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "Emtec - C600 Batman 8GB USB 2.0 Flash Drive - Black",
+    "description": "Take important files on the go with this EMTEC C600 USB 2.0 flash drive, which features an 8GB capacity to accommodate music, movies, photos and more. The Batman logo and colors clearly shows off your fan status.",
+    "brand": "Emtec",
+    "categories": [
+      "Computers & Tablets",
+      "USB Flash Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > USB Flash Drives"
+    },
+    "type": "Flash drives",
+    "price": 7.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8851109_sb.jpg",
+    "url": "http://www.bestbuy.com/site/emtec-c600-batman-8gb-usb-2-0-flash-drive-black/8851109.p?id=1219398526243&skuId=8851109&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7188,
+    "rating": 2,
+    "objectID": "8851109"
+  },
+  "bestbuy": null
+}

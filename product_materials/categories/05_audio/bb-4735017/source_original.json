@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Skullcandy - 50/50 Earbud Headphones - Gray/Hot Lime",
+    "description": "These Skullcandy 50/50 S2FFGM-386 earbud headphones feature a hybrid finish, which is made from polycarbonate and ABS materials for durability. The Mic3 3-button microphone gives you enhanced control over your connected iOS device.",
+    "brand": "Skullcandy",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Earbud & In-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Earbud & In-Ear Headphones"
+    },
+    "type": "Earbud headphones",
+    "price": 49.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4735017_sb.jpg",
+    "url": "http://www.bestbuy.com/site/skullcandy-50-50-earbud-headphones-gray-hot-lime/4735017.p?id=1219103648993&skuId=4735017&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 590,
+    "rating": 3,
+    "objectID": "4735017"
+  },
+  "bestbuy": null
+}

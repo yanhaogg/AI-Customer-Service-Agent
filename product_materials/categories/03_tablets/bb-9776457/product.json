@@ -1,0 +1,80 @@
+{
+  "id": "bb-9776457",
+  "source_sku": "9776457",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "Google - Nexus 9 - 8.9\" - 16GB - Indigo Black",
+  "brand": "Google",
+  "model": null,
+  "description_original": "With an Android 5.0 Lollipop operating system, powerful 64-bit processor and responsive 8.9\" IPS touch screen, this Google Nexus 9 99HZF003-00 tablet lets you work, or play, however you want. Connect to the Web via Wi-Fi for an easy browsing experience.",
+  "description_official_dataset": null,
+  "introduction_zh": "Google 的平板电脑商品。来源介绍提及：尺寸 8.9 英寸；容量 16GB；接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 399.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "8.9\"",
+      "evidence_original": "Google - Nexus 9 - 8.9\" - 16GB - Indigo Black With an Android 5.0 Lollipop operating system, "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "Google - Nexus 9 - 8.9\" - 16GB - Indigo Black With an Android 5.0 Lollipop operating system, powerfu"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "owever you want. Connect to the Web via Wi-Fi for an easy browsing experience. "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-9776457/main.jpg",
+      "alt": "Google - Nexus 9 - 8.9\" - 16GB - Indigo Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9776/9776457_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9776/9776457_sb.jpg",
+      "width": 108,
+      "height": 160,
+      "content_type": "image/jpeg",
+      "sha256": "684aeb123d756c2227651a7d4d1d3d0111cb3bde1db3f4185bf1f08f2db8cd66",
+      "bytes": 4331,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/google-nexus-9-8-9-16gb-indigo-black/9776457.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

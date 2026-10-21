@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "SpeakerCraft - 6-1/2\" In-Ceiling Speakers (5-Pack) - White",
+    "description": "Learn more about Magnolia Premium Installation   Experience customized sound with this SpeakerCraft ASM86601-5 set of 5 in-ceiling speakers that feature a pivoting design to allow you to direct sound toward the listener. The 6-1/2\" polypropylene woofers provide rich, immersive bass.",
+    "brand": "SpeakerCraft",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers",
+      "In-Ceiling Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers",
+      "lvl3": "Audio > Home Audio > Speakers > In-Ceiling Speakers"
+    },
+    "type": "So mht speakers ups",
+    "price": 449.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2888377_sb.jpg",
+    "url": "http://www.bestbuy.com/site/speakercraft-6-1-2-in-ceiling-speakers-5-pack-white/2888377.p?id=1219081257289&skuId=2888377",
+    "free_shipping": false,
+    "popularity": 187,
+    "rating": 1,
+    "objectID": "2888377"
+  },
+  "bestbuy": {
+    "id": 2888377,
+    "name": "SpeakerCraft - 6-1/2\" In-Ceiling Speakers (5-Pack) - White",
+    "type": "HardGood",
+    "price": 449.99,
+    "upc": "664254010002",
+    "shipping": 0,
+    "description": "SPEAKERCRAFT 6-1/2\" In-Ceiling Speakers (5-Pack): 100W maximum power handling; 6-1/2\" polypropylene woofer; 1\" silk tweeter; pivoting design; WavePlane technology",
+    "manufacturer": "SpeakerCraft",
+    "model": "ASM86601-5",
+    "url": "http://www.bestbuy.com/site/speakercraft-6-1-2-in-ceiling-speakers-5-pack-white/2888377.p?id=1219081257289&skuId=2888377&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2888/2888377_sa.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

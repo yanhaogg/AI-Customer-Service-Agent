@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "Garmin - Approach S2 GPS Golf Watch - White/Gray",
+    "description": "Garmin Approach S2 GPS Golf Watch: Enhance your game with this GPS watch that is preloaded with more than 30,000 courses and features a digital scorecard, which makes it easy to keep track of your strokes. The water-resistant design ensures durability.",
+    "brand": "Garmin",
+    "categories": [
+      "Health, Fitness & Beauty",
+      "Fitness & GPS Watches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Health, Fitness & Beauty",
+      "lvl1": "Health, Fitness & Beauty > Fitness & GPS Watches"
+    },
+    "type": "Monitoring devices",
+    "price": 179.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8876381_sb.jpg",
+    "url": "http://www.bestbuy.com/site/garmin-approach-s2-gps-golf-watch-white-gray/8876381.p?id=1218928775971&skuId=8876381&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6703,
+    "rating": 2,
+    "objectID": "8876381"
+  },
+  "bestbuy": null
+}

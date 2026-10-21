@@ -1,0 +1,23 @@
+{
+  "algolia": {
+    "name": "BRAVEN - Balance Portable Bluetooth Speaker - Raven Black",
+    "description": "Braven Balance Bluetooth Speaker: Whether you're at the beach or hosting a backyard barbecue, this portable 20W speaker packs a punch. Stream music wirelessly from a Bluetooth-enabled device, and enjoy rich sound with Bass Optimization technology.",
+    "brand": "BRAVEN",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7913183_sb.jpg",
+    "url": "http://www.bestbuy.com/site/braven-balance-portable-bluetooth-speaker-raven-black/7913183.p?id=1219686596027&skuId=7913183&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8508,
+    "rating": 6,
+    "objectID": "7913183"
+  },
+  "bestbuy": null
+}

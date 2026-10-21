@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "Sprint - HTC One (M9) with 32GB Memory Cell Phone - Gray (Sprint)",
+    "description": "Stay in touch with friends and family with this Sprint HTC One (M9) HTC0PJA2KT cell phone, which features 4G LTE speed (available in select markets) and rapid Wi-Fi for flexible Web connection. The 5\" touch screen offers simple navigation.",
+    "brand": "Sprint",
+    "categories": [
+      "Cell Phones",
+      "All Cell Phones with Plans"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > All Cell Phones with Plans"
+    },
+    "type": "Sprint smartphones",
+    "price": 699.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4046037_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sprint-htc-one-m9-with-32gb-memory-cell-phone-gray-sprint/4046037.p?id=1219627838552&skuId=4046037&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3,
+    "rating": 1,
+    "objectID": "4046037"
+  },
+  "bestbuy": null
+}

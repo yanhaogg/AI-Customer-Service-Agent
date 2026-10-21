@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Huawei - Ascend Mate 2 4G Cell Phone (Unlocked) - Black",
+    "description": "Utilizing an efficient quad-core Qualcomm Snapdragon 400 processor and 4G LTE speed, this Huawei Ascend Mate 2 MT2-L03 BLK cell phone makes it easy to stay connected, wherever you are. A large 6.1\" capacitive touch screen simplifies navigation.",
+    "brand": "Huawei",
+    "categories": [
+      "Cell Phones",
+      "Unlocked Cell Phones",
+      "All Unlocked Cell Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Unlocked Cell Phones",
+      "lvl2": "Cell Phones > Unlocked Cell Phones > All Unlocked Cell Phones"
+    },
+    "type": "Unlocked handsets",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9925292_sb.jpg",
+    "url": "http://www.bestbuy.com/site/huawei-ascend-mate-2-4g-cell-phone-unlocked-black/9925292.p?id=1219450407284&skuId=9925292&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5880,
+    "rating": 5,
+    "objectID": "9925292"
+  },
+  "bestbuy": null
+}

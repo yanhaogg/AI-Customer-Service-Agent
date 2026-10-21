@@ -1,0 +1,84 @@
+{
+  "id": "bb-3938025",
+  "source_sku": "3938025",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "LG - G Flex 2 with 32GB Memory Cell Phone - Red (Sprint)",
+  "brand": "LG",
+  "model": null,
+  "description_original": "Enjoy videos and photos on the go with this LG G Flex 2 LGLS996RDKT cell phone, which features a 5.5\" LCD touch screen for easy operation and clear, detailed visuals with up to 1920 x 1080 resolution. Fast AC Wi-Fi simplifies on-the-go Internet access. Sprint Easy Pay option available in store. Learn more ›",
+  "description_official_dataset": null,
+  "introduction_zh": "LG 的手机商品。来源介绍提及：尺寸 5.5 英寸；容量 32GB；分辨率 1920 x 1080。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 399.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "All Cell Phones with Plans"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5.5\"",
+      "evidence_original": "GLS996RDKT cell phone, which features a 5.5\" LCD touch screen for easy operation and clear, detailed visuals with "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "32GB",
+      "evidence_original": "LG - G Flex 2 with 32GB Memory Cell Phone - Red (Sprint) Enjoy videos and photos on the go wi"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1920 x 1080",
+      "evidence_original": " and clear, detailed visuals with up to 1920 x 1080 resolution. Fast AC Wi-Fi simplifies on-the-go Internet access. Sprin"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "h up to 1920 x 1080 resolution. Fast AC Wi-Fi simplifies on-the-go Internet access. Sprint Easy Pay option availabl"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-3938025/main.jpg",
+      "alt": "LG - G Flex 2 with 32GB Memory Cell Phone - Red (Sprint)",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3938/3938025_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3938/3938025_sb.jpg",
+      "width": 505,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "b663c899b64c8708b5c2eafd6ed60ffe0f640d50ee6ed745070a340ddfac8a01",
+      "bytes": 63281,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/lg-g-flex-2-with-32gb-memory-cell-phone-red-sprint/3938025.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

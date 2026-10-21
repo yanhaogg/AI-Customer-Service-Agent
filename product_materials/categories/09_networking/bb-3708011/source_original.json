@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "NETGEAR - AC1200 Dual-Band Wireless-AC Range Extender with 5-Port Ethernet Switch - Black",
+    "description": "With 2 high-gain 5dBi antennas and 700 mW amplifiers, this NETGEAR AC1200 EX6200-100NAS wireless range extender provides expanded Wi-Fi coverage and features Beamforming+ technology to help ensure reliable connectivity.",
+    "brand": "NETGEAR",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "PC Range Extenders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > PC Range Extenders"
+    },
+    "type": "Networking",
+    "price": 119.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3708011_rb.jpg",
+    "url": "http://www.bestbuy.com/site/netgear-ac1200-dual-band-wireless-ac-range-extender-with-5-port-ethernet-switch-black/3708011.p?id=1219093056786&skuId=3708011&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2804,
+    "rating": 5,
+    "objectID": "3708011"
+  },
+  "bestbuy": {
+    "id": 3708011,
+    "name": "NETGEAR - AC1200 Dual-Band Wireless-AC Range Extender with 5-Port Ethernet Switch - Black",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "606449099751",
+    "shipping": 0,
+    "description": "Up to 1200 Mbps data transfer rates; Wi-Fi Protected Access; Beamforming+ and FastLane technologies; Push 'N' Connect setup; DLNA-compatible DMS (Digital Media Server)",
+    "manufacturer": "NETGEAR",
+    "model": "EX6200-100NAS",
+    "url": "http://www.bestbuy.com/site/netgear-ac1200-dual-band-wireless-ac-range-extender-with-5-port-ethernet-switch-black/3708011.p?id=1219093056786&skuId=3708011&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3708/3708011_rc.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

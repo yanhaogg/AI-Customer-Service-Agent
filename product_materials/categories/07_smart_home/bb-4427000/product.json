@@ -1,0 +1,66 @@
+{
+  "id": "bb-4427000",
+  "source_sku": "4427000",
+  "category_id": "07_smart_home",
+  "category_name_zh": "智能家居",
+  "name_original": "Ring - Chime - White",
+  "brand": "Ring",
+  "model": "88CH000FC000",
+  "description_original": "Ring Chime: With this indoor chime, you can connect to your Ring Smart Video Doorbell using your home wireless network to receive audible alerts when you have a visitor. Manage alerts and settings using your compatible smartphone.",
+  "description_official_dataset": "Works with Ring Smart Video Doorbell; compatible with Apple® and Android devices; alerts you when someone is at your door; volume control",
+  "introduction_zh": "Ring 的智能家居商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 29.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Connected Home",
+    "Security Cameras & Systems",
+    "Security Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Ring",
+    "model": "88CH000FC000",
+    "upc": "852239005109",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/07_smart_home/bb-4427000/main.jpg",
+      "alt": "Ring - Chime - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4427/4427000_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4427/4427000_sa.jpg",
+      "width": 334,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "5159012c9f9211c134842727ce7b8e89b53de99bfa93efb70d5166531f601183",
+      "bytes": 8606,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/ring-chime-white/4427000.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

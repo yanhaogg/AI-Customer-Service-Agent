@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "ReTrak - Animalz Bunny Over-the-Ear Headphones - Pink",
+    "description": "Let your child enjoy his or her favorite tunes with these ReTrak Animalz ETAUDFBNY over-the-ear headphones, which feature 85dB volume-limiting safety control to help protect hearing. The bunny design creates a fun look.",
+    "brand": "ReTrak",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Over-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Over-Ear Headphones"
+    },
+    "type": "On ear headphones",
+    "price": 19.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8932034_sb.jpg",
+    "url": "http://www.bestbuy.com/site/retrak-animalz-bunny-over-the-ear-headphones-pink/8932034.p?id=1219378310128&skuId=8932034&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 1580,
+    "rating": 5,
+    "objectID": "8932034"
+  },
+  "bestbuy": {
+    "id": 8932034,
+    "name": "ReTrak - Animalz Bunny Over-the-Ear Headphones - Pink",
+    "type": "HardGood",
+    "price": 19.99,
+    "upc": "816983010604",
+    "shipping": 0,
+    "description": "85dB volume-limiting safety control; soft, fuzzy ear pads; retractable 3.2' cable; gold-plated 3.5mm connector; lightweight construction; bunny design",
+    "manufacturer": "ReTrak",
+    "model": "ETAUDFBNY",
+    "url": "http://www.bestbuy.com/site/retrak-animalz-bunny-over-the-ear-headphones-pink/8932034.p?id=1219378310128&skuId=8932034&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8932/8932034_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

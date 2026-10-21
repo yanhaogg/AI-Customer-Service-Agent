@@ -1,0 +1,103 @@
+{
+  "id": "bb-3774034",
+  "source_sku": "3774034",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Panasonic - HC-VX870K 4K Ultra HD Flash Memory Camcorder - Black",
+  "brand": "Panasonic",
+  "model": "HC-VX870K",
+  "description_original": "Preserve important moments with this Panasonic HC-VX870K camcorder, which features a BSI MOS sensor that captures stunning footage with up to 4K Ultra HD (3840 x 2160) resolution and clear stereo sound. Hybrid image stabilization ensures smooth videos.",
+  "description_official_dataset": "20x optical/60x digital zoom; 25.9MP digital still mode; 3\" LCD touch screen; low-light/night recording; Hybrid O.I.S. (optical image stabilization); Wi-Fi; NFC (near-field communication) technology",
+  "introduction_zh": "Panasonic 的相机与摄像机商品。来源介绍提及：尺寸 3 英寸；分辨率 4K；分辨率 Ultra HD。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 899.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Camcorders",
+    "Traditional Camcorders",
+    "All Traditional Camcorders"
+  ],
+  "specifications_original": {
+    "manufacturer": "Panasonic",
+    "model": "HC-VX870K",
+    "upc": "885170229464",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "3\"",
+      "evidence_original": "igital zoom; 25.9MP digital still mode; 3\" LCD touch screen; low-light/night recording; Hybrid O.I.S. (optical i"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "4K",
+      "evidence_original": "Panasonic - HC-VX870K 4K Ultra HD Flash Memory Camcorder - Black Preserve important moments wi"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "Ultra HD",
+      "evidence_original": "Panasonic - HC-VX870K 4K Ultra HD Flash Memory Camcorder - Black Preserve important moments with this P"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "3840 x 2160",
+      "evidence_original": "tunning footage with up to 4K Ultra HD (3840 x 2160) resolution and clear stereo sound. Hybrid image stabilization ensure"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "25.9MP",
+      "evidence_original": "h videos. 20x optical/60x digital zoom; 25.9MP digital still mode; 3\" LCD touch screen; low-light/night recording; H"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "d O.I.S. (optical image stabilization); Wi-Fi; NFC (near-field communication) technology"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "NFC",
+      "evidence_original": ". (optical image stabilization); Wi-Fi; NFC (near-field communication) technology"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-3774034/main.jpg",
+      "alt": "Panasonic - HC-VX870K 4K Ultra HD Flash Memory Camcorder - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3774/3774034_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3774/3774034_sa.jpg",
+      "width": 500,
+      "height": 198,
+      "content_type": "image/jpeg",
+      "sha256": "9e18fdb564292089436106299caf45a54a2188b8c9845beea522f95918af5809",
+      "bytes": 9191,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/panasonic-hc-vx870k-4k-ultra-hd-flash-memory-camcorder-black/3774034.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "NETGEAR - AC1200 Dual-Band Gigabit Wi-Fi Range Extender - White",
+    "description": "This NETGEAR EX6150-100NAS range extender allows you to extend the coverage of your existing 802.11a/b/g/n/ac network or create a Wireless-AC access point. FastLane technology helps ensure rapid performance by using both 2.4GHz and 5.0GHz Wi-Fi bands.",
+    "brand": "NETGEAR",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "PC Range Extenders"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > PC Range Extenders"
+    },
+    "type": "Networking",
+    "price": 119.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3993445_sb.jpg",
+    "url": "http://www.bestbuy.com/site/netgear-ac1200-dual-band-gigabit-wi-fi-range-extender-white/3993445.p?id=1219613164633&skuId=3993445&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2805,
+    "rating": 1,
+    "objectID": "3993445"
+  },
+  "bestbuy": {
+    "id": 3993445,
+    "name": "NETGEAR - AC1200 Dual-Band Gigabit Wi-Fi Range Extender - White",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "606449105056",
+    "shipping": 0,
+    "description": "Up to 1200 Mbps data transfer rates; WPA/WPA2-PSK (Wi-Fi Protected Access) and WEP security; FastLane technology; external antennas; 2 Wi-Fi modes; Gigabit Ethernet port",
+    "manufacturer": "NETGEAR",
+    "model": "EX6150-100NAS",
+    "url": "http://www.bestbuy.com/site/netgear-ac1200-dual-band-gigabit-wi-fi-range-extender-white/3993445.p?id=1219613164633&skuId=3993445&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3993/3993445_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

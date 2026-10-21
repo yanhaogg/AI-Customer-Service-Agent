@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Definitive Technology - 3-1/2\" Surround Loudspeaker (Each) - Black",
+    "description": "This Definitive Technology SR-8040BP surround loudspeaker features two 3-1/2\" drivers and two 1\" aluminum dome tweeters for brilliant audio. Linear Response Waveguide technology smoothes off-axis frequency response and disperses sound over a wide area.",
+    "brand": "Definitive Technology",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers",
+      "Center-Channel Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers",
+      "lvl3": "Audio > Home Audio > Speakers > Center-Channel Speakers"
+    },
+    "type": "Mht surround spkrs",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1170353_sb.jpg",
+    "url": "http://www.bestbuy.com/site/definitive-technology-3-1-2-surround-loudspeaker-each-black/1170353.p?id=1218229467633&skuId=1170353&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7742,
+    "rating": 1,
+    "objectID": "1170353"
+  },
+  "bestbuy": null
+}

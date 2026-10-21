@@ -1,0 +1,72 @@
+{
+  "id": "bb-9852879",
+  "source_sku": "9852879",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "Metra - DC Adapter Power Cord - Black",
+  "brand": "Metra",
+  "model": "IBR-RUPC",
+  "description_original": "Power your radar detectors and other electronic devices through your vehicle's DC outlet with this power cord.",
+  "description_official_dataset": "Compatible with most vehicles; provides power to electronic accessories through your DC outlet; 9\" length",
+  "introduction_zh": "Metra 的充电与电源配件商品。来源介绍提及：尺寸 9 英寸。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 22.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Car Chargers"
+  ],
+  "specifications_original": {
+    "manufacturer": "Metra",
+    "model": "IBR-RUPC",
+    "upc": "086429216574",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "9\"",
+      "evidence_original": "nic accessories through your DC outlet; 9\" length"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-9852879/main.jpg",
+      "alt": "Metra - DC Adapter Power Cord - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9852/9852879_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9852/9852879_sa.jpg",
+      "width": 500,
+      "height": 333,
+      "content_type": "image/jpeg",
+      "sha256": "7502b644e65f98e660fd48b7f38f17cbb7a628479885f2801ff6c5e238466ad2",
+      "bytes": 10077,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/metra-dc-adapter-power-cord-black/9852879.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

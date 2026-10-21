@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "HP - Pavilion x2 - 10.1\" - Intel Atom - 32GB - With Keyboard - Blizzard White",
+    "description": "Learn more about the New Windows   HP Pavilion x2 Tablet: With a detachable keyboard, you can easily convert this tablet for use in laptop, stand and tent modes depending on your needs. Chat with loved ones using the front-facing TrueVision HD webcam, and pair with other devices via Bluetooth.",
+    "brand": "HP",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other wintel wifi",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9567019_sb.jpg",
+    "url": "http://www.bestbuy.com/site/hp-pavilion-x2-10-1-intel-atom-32gb-with-keyboard-blizzard-white/9567019.p?id=1219704433051&skuId=9567019&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5931,
+    "rating": 2,
+    "objectID": "9567019"
+  },
+  "bestbuy": null
+}

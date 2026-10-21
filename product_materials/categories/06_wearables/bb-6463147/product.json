@@ -1,0 +1,67 @@
+{
+  "id": "bb-6463147",
+  "source_sku": "6463147",
+  "category_id": "06_wearables",
+  "category_name_zh": "智能穿戴",
+  "name_original": "LG - GizmoPal Smartwatch 97mm PET - Pink TPU (Verizon Wireless)",
+  "brand": "LG",
+  "model": "LG-VC100P",
+  "description_original": "LG GizmoPal Smartwatch 97mm PET: Keep your child safe and connected with this smartwatch, which can call 2 registered contacts and receive calls from up to 4 authorized numbers. Set the device to auto answer to prevent missed calls, and adjust the volume remotely.",
+  "description_official_dataset": "Fits most wrist sizesCompatible with select Apple® iOS and Android devicesTPU bandIPX3 water resistance2-way callingAuto call answer",
+  "introduction_zh": "LG 的智能穿戴商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Smartwatches & Accessories",
+    "Smartwatches"
+  ],
+  "specifications_original": {
+    "manufacturer": "LG",
+    "model": "LG-VC100P",
+    "upc": "652810800266",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/06_wearables/bb-6463147/main.jpg",
+      "alt": "LG - GizmoPal Smartwatch 97mm PET - Pink TPU (Verizon Wireless)",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6463/6463147_rc.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6463/6463147_rc.jpg",
+      "width": 824,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "f9dee01277e45162269fc0ed9f7226362fcdc24c482691493df92feb8ce709d8",
+      "bytes": 53180,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/lg-gizmopal-smartwatch-97mm-pet-pink-tpu-verizon-wireless/6463147.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

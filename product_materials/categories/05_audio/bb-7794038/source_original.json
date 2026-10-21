@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Bell'O - 40\" Sound Speaker Shelf - Espresso",
+    "description": "This Bell'O BDS4012-40-E474 sound speaker shelf features 4 speakers and a 2-way design with tuned bass support, so you can enjoy clear, dynamic audio. The Bluetooth interface makes it easy to wirelessly link with select Bluetooth-enabled devices.",
+    "brand": "Bell'O",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Home Theater Systems",
+      "Sound Bars"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Home Theater Systems",
+      "lvl3": "Audio > Home Audio > Home Theater Systems > Sound Bars"
+    },
+    "type": "Soundbars",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7794038_sb.jpg",
+    "url": "http://www.bestbuy.com/site/bello-40-sound-speaker-shelf-espresso/7794038.p?id=1219684757970&skuId=7794038&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 8940,
+    "rating": 4,
+    "objectID": "7794038"
+  },
+  "bestbuy": {
+    "id": 7794038,
+    "name": "Bell'O - 40\" Digital Soundbar Shelf - Espresso",
+    "type": "HardGood",
+    "price": 249.99,
+    "upc": "748249240121",
+    "shipping": 0,
+    "description": "4 speakers; 2-way design with tuned bass support; Bluetooth interface; two 3.5mm audio inputs; subwoofer output",
+    "manufacturer": "Bell'O",
+    "model": "BDS4012-40-E474",
+    "url": "http://www.bestbuy.com/site/bello-40-digital-soundbar-shelf-espresso/7794038.p?id=1219684757970&skuId=7794038&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7794/7794038_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

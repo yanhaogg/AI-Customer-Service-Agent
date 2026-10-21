@@ -1,0 +1,76 @@
+{
+  "id": "bb-6575821",
+  "source_sku": "6575821",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "Action Sport Drives - So So Happy Cuddle 16GB USB 2.0 Flash Drive - Multi",
+  "brand": "Action Sport Drives",
+  "model": "SO-CUDDLE/16GB",
+  "description_original": "This Action Sport Drives USB 2.0 flash drive features a generous 16GB capacity, so you can easily take documents, movies, photos and more on the go. The So So Happy Cuddle design showcases your sense of style.",
+  "description_official_dataset": "PC and Mac compatible; flexible silicone material; neck strap/lanyard attachment; So So Happy design",
+  "introduction_zh": "Action Sport Drives 的存储设备商品。来源介绍提及：容量 16GB；接口或连接方式 USB 2.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 13.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "USB Flash Drives"
+  ],
+  "specifications_original": {
+    "manufacturer": "Action Sport Drives",
+    "model": "SO-CUDDLE/16GB",
+    "upc": "845999006592",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "ction Sport Drives - So So Happy Cuddle 16GB USB 2.0 Flash Drive - Multi This Action Sport Drives USB 2.0 flash dr"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 2.0",
+      "evidence_original": " Sport Drives - So So Happy Cuddle 16GB USB 2.0 Flash Drive - Multi This Action Sport Drives USB 2.0 flash drive feat"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-6575821/main.jpg",
+      "alt": "Action Sport Drives - So So Happy Cuddle 16GB USB 2.0 Flash Drive - Multi",
+      "source_url": "https://images.bestbuy.com/BestBuy_US/images/products/6575/6575821_sa.jpg",
+      "resolved_url": "https://images.bestbuy.com/BestBuy_US/images/products/6575/6575821_sa.jpg",
+      "width": 377,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "6edc5c60d38471887f3e36bd1df956af535bdde0fd65b003bdf09264510de67b",
+      "bytes": 87444,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/action-sport-drives-so-so-happy-cuddle-16gb-usb-2-0-flash-drive-multi/6575821.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

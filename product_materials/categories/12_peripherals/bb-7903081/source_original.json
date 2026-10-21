@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "j5 create - USB 3.0 Multi-Adapter - Black",
+    "description": "Provide your computer with extra connectivity with this j5 create JUA370 multi-adapter that lets you easily utilize another USB peripheral, VGA monitor or Gigabit LAN via an existing USB 3.0 port. Up to 5 Gbps data transfer ensures efficient operation.",
+    "brand": "j5 create",
+    "categories": [
+      "Computers & Tablets",
+      "Cables & Connectors",
+      "USB Cables & Hubs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Cables & Connectors",
+      "lvl2": "Computers & Tablets > Cables & Connectors > USB Cables & Hubs"
+    },
+    "type": "Cables/connectors",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7903081_sb.jpg",
+    "url": "http://www.bestbuy.com/site/j5-create-usb-3-0-multi-adapter-black/7903081.p?id=1219304149321&skuId=7903081&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5036,
+    "rating": 4,
+    "objectID": "7903081"
+  },
+  "bestbuy": {
+    "id": 7903081,
+    "name": "j5 create - USB 3.0 Multi-Adapter - Black",
+    "type": "HardGood",
+    "price": 69.99,
+    "upc": "847626000751",
+    "shipping": 0,
+    "description": "Compatible with Windows and Mac OS; USB 3.0 plug-and-play; backward compatible with USB 2.0 and 1.1; lets you add an additional USB peripheral, VGA monitor or Gigabit LAN via USB; data transfer rates up to 5 Gbps",
+    "manufacturer": "j5 create",
+    "model": "JUA370",
+    "url": "http://www.bestbuy.com/site/j5-create-usb-3-0-multi-adapter-black/7903081.p?id=1219304149321&skuId=7903081&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7903/7903081_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

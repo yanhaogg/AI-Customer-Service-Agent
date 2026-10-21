@@ -1,0 +1,78 @@
+{
+  "id": "bb-1310702",
+  "source_sku": "1310702",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Razer - DeathStalker Ultimate Elite Gaming Keyboard - Black",
+  "brand": "Razer",
+  "model": "RZ03-00790100-R3M1",
+  "description_original": "Enhance your gaming experience with help from this Razer DeathStalker Ultimate RZ03-00790100-R3M1 gaming keyboard that features 10-key rollover in gaming mode, so your commands are registered accurately and quickly.",
+  "description_official_dataset": "Compatible with PC; switchblade user interface; 2 USB ports required; 10 key rollover; 4.05\" touch screen; track pad; tri-colour backlit keys",
+  "introduction_zh": "Razer 的键鼠与电脑外设商品。来源介绍提及：尺寸 4.05 英寸；接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 249.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Mice & Keyboards",
+    "Computer Keyboards",
+    "Gaming Keyboards"
+  ],
+  "specifications_original": {
+    "manufacturer": "Razer",
+    "model": "RZ03-00790100-R3M1",
+    "upc": "879862005368",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "4.05\"",
+      "evidence_original": " 2 USB ports required; 10 key rollover; 4.05\" touch screen; track pad; tri-colour backlit keys"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": " with PC; switchblade user interface; 2 USB ports required; 10 key rollover; 4.05\" touch screen; track pad; tri-c"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-1310702/main.jpg",
+      "alt": "Razer - DeathStalker Ultimate Elite Gaming Keyboard - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1310/1310702_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1310/1310702_sb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "0547e4d167d2267cde73306a132a5b1e000205d0134214d0f9f8126979a758a2",
+      "bytes": 70455,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/razer-deathstalker-ultimate-elite-gaming-keyboard-black/1310702.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

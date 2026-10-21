@@ -1,0 +1,10 @@
+{
+  "records": 400,
+  "unique_ids": 400,
+  "verified_local_images": 400,
+  "errors": [],
+  "jsonl_round_trip": "passed",
+  "schema_validation": "passed",
+  "full_image_decode": "passed",
+  "placeholder_screening": "passed"
+}

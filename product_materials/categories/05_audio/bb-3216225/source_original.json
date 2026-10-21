@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "LG - SoundPlate 340 4.1-Channel Speaker - Black",
+    "description": "Designed to complement most 32\" to 55\" TVs, this 4.1-channel LG SoundPlate 340 LAP340 speaker delivers crisp, robust stereophonic sounds, so you can enjoy a cinematic experience from the comfort of your home. The dual subwoofers provide deep bass.",
+    "brand": "LG",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Home Theater Systems",
+      "Sound Bars"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Home Theater Systems",
+      "lvl3": "Audio > Home Audio > Home Theater Systems > Sound Bars"
+    },
+    "type": "Soundbars",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3216225_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lg-soundplate-340-4-1-channel-speaker-black/3216225.p?id=1219089113505&skuId=3216225&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4134,
+    "rating": 3,
+    "objectID": "3216225"
+  },
+  "bestbuy": null
+}

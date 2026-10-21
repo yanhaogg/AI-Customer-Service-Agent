@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Canon - EOS 5D Mark III DSLR Camera with 24-70mm f/4L IS Lens - Black",
+    "description": "Canon EOS 5D Mark III DSLR Camera with 24&#8211;70mm f/4L IS lens: Snap crisp, detailed photos of important moments for your clients or your loved ones using this DSLR camera, which comes with a 24-70mm lens with image stabilization to help you get started. The DIGIC 5+ image processor and 22.3-megapixel CMOS sensor ensure edge-to-edge image clarity while maintaining rapid capture speeds.  Memory card sold separately.",
+    "brand": "Canon",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Digital SLR Cameras",
+      "DSLR Body & Lens"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Digital SLR Cameras > DSLR Body & Lens"
+    },
+    "type": "Dslr cameras",
+    "price": 3549.99,
+    "price_range": "> 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2800242_sb.jpg",
+    "url": "http://www.bestbuy.com/site/canon-eos-5d-mark-iii-dslr-camera-with-24-70mm-f-4l-is-lens-black/2800242.p?id=1219077401346&skuId=2800242&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 8303,
+    "rating": 2,
+    "objectID": "2800242"
+  },
+  "bestbuy": {
+    "id": 2800242,
+    "name": "Canon - EOS 5D Mark III DSLR Camera with 24-70mm f/4L IS Lens - Black",
+    "type": "HardGood",
+    "price": 3549.99,
+    "upc": "013803231793",
+    "shipping": 0,
+    "description": "22.3-megapixel, 36mm x 24mm full-frame CMOS sensorISO 100-25,600Shooting speeds up to 6 fpsUp to 41 cross-type AF pointsDIGIC 5+ image processorEOS HD video with manual exposure control",
+    "manufacturer": "Canon",
+    "model": "5260B054",
+    "url": "http://www.bestbuy.com/site/canon-eos-5d-mark-iii-dslr-camera-with-24-70mm-f-4l-is-lens-black/2800242.p?id=1219077401346&skuId=2800242&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2800/2800242_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Apple - 21.5\" iMac® with Retina 4K display - Intel Core i5 (3.1GHz) - 8GB Memory - 1TB Hard Drive - Silver",
+    "description": "Apple iMac MK452LL/A All-in-One: iMac now offers a stunning Retina&#174; 4K display on the 21.5\" model. And a wider color gamut means a palette of up to 25 percent more available colors. So photos and videos look crystal clear and vibrant, and text is razor sharp.",
+    "brand": "Apple",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "Apple cpu's",
+    "price": 1499.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6293016_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-21-5-imac-with-retina-4k-display-intel-core-i5-3-1ghz-8gb-memory-1tb-hard-drive-silver/6293016.p?id=1218725896674&skuId=6293016&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9752,
+    "rating": 1,
+    "objectID": "6293016"
+  },
+  "bestbuy": {
+    "id": 6293016,
+    "name": "Apple - 21.5\" iMac® with Retina 4K display - Intel Core i5 - 8GB Memory - 1TB Hard Drive - Silver",
+    "type": "HardGood",
+    "price": 1499.99,
+    "upc": "888462347754",
+    "shipping": 0,
+    "description": "Mac OS XTechnical details: Intel&#174; Core&#8482; i5 processor; 21.5\" display; 8GB memory; 1TB hard driveSpecial features: Built-in wireless networking; wireless keyboard and mouse; webcamNote: DVD/CD drive not included",
+    "manufacturer": "Apple",
+    "model": "MK452LL/A",
+    "url": "http://www.bestbuy.com/site/apple-21-5-imac-with-retina-4k-display-intel-core-i5-8gb-memory-1tb-hard-drive-silver/6293016.p?id=1218725896674&skuId=6293016&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6293/6293016_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

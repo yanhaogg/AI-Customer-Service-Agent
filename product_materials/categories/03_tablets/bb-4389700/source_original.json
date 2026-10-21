@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Amazon - Fire HD 10 - 10.1\" Tablet 16GB - Black",
+    "description": "Amazon Fire HD 10 Tablet: Download games and stream your favorite content instantly with this tablet, which features the Amazon Underground store for access to apps, games and more. The HD touch screen features a polarizing filter for comfortable reading outdoors.",
+    "brand": "Amazon",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Amazon wi-fi",
+    "price": 229.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4389700_sb.jpg",
+    "url": "http://www.bestbuy.com/site/amazon-fire-hd-10-10-1-tablet-16gb-black/4389700.p?id=1219741360549&skuId=4389700&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9854,
+    "rating": 2,
+    "objectID": "4389700"
+  },
+  "bestbuy": {
+    "id": 4389700,
+    "name": "Amazon - Fire HD 10 - 10.1\" Tablet 16GB - Black",
+    "type": "HardGood",
+    "price": 229.99,
+    "upc": "848719069396",
+    "shipping": 0,
+    "description": "Fire OS 510.1\" IPS touch-screen display with 1280 x 800 resolution16GB storage capacityQuad-core processorWi-FiAmazon Underground",
+    "manufacturer": "Amazon",
+    "model": "B00VKIY9RG",
+    "url": "http://www.bestbuy.com/site/amazon-fire-hd-10-10-1-tablet-16gb-black/4389700.p?id=1219741360549&skuId=4389700&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4389/4389700_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

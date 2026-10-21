@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Insignia™ - USB 2.0 Multiformat Memory Card Reader - Black",
+    "description": "Transfer digital photos and other media between various memory cards (not included) and your computer with this Insignia&#8482; NS-CR20A1 memory card reader that features USB 2.0 connectivity for fast data transfer.",
+    "brand": "Insignia™",
+    "categories": [
+      "Cameras & Camcorders",
+      "Memory Cards",
+      "All Memory Cards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Memory Cards",
+      "lvl2": "Cameras & Camcorders > Memory Cards > All Memory Cards"
+    },
+    "type": "Flash memory readers",
+    "price": 19.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3603026_sb.jpg",
+    "url": "http://www.bestbuy.com/site/insignia-usb-2-0-multiformat-memory-card-reader-black/3603026.p?id=1219092580748&skuId=3603026&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5217,
+    "rating": 4,
+    "objectID": "3603026"
+  },
+  "bestbuy": null
+}

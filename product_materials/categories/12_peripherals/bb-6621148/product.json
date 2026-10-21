@@ -1,0 +1,82 @@
+{
+  "id": "bb-6621148",
+  "source_sku": "6621148",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Apple - USB-C VGA Multiport Adapter - White",
+  "brand": "Apple",
+  "model": "MJ1L2AM/A",
+  "description_original": "The Apple USB-C VGA Multiport Adapter lets you connect your Apple MacBook with USB-C port to a VGA display, while also connecting a USB device and a USB-C charging cable. Mirror your MacBook display to your VGA-enabled TV or other display in up to 1080p.",
+  "description_official_dataset": "Compatible with Apple MacBook® with a USB-C port; mirror your display on your VGA-enabled TV; sync and charge your Apple iPhone®, iPad® or iPod®; USB-C, VGA and 1st gen USB 3.1 connectors",
+  "introduction_zh": "Apple 的键鼠与电脑外设商品。来源介绍提及：分辨率 1080p；接口或连接方式 USB-C；接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Cables & Connectors",
+    "USB Cables & Hubs"
+  ],
+  "specifications_original": {
+    "manufacturer": "Apple",
+    "model": "MJ1L2AM/A",
+    "upc": "888462074995",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "resolution",
+      "value_original": "1080p",
+      "evidence_original": "GA-enabled TV or other display in up to 1080p. Compatible with Apple MacBook® with a USB-C port; mirror your displa"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB-C",
+      "evidence_original": "Apple - USB-C VGA Multiport Adapter - White The Apple USB-C VGA Multiport Adapter l"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": " a VGA display, while also connecting a USB device and a USB-C charging cable. Mirror your MacBook display to you"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-6621148/main.jpg",
+      "alt": "Apple - USB-C VGA Multiport Adapter - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6621/6621148_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6621/6621148_sa.jpg",
+      "width": 270,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "4e8631d34563b993153dffacde342fb3f639f08cc6e5d577f1006f997ee3d087",
+      "bytes": 2869,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/apple-usb-c-vga-multiport-adapter-white/6621148.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

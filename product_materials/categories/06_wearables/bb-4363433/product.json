@@ -1,0 +1,73 @@
+{
+  "id": "bb-4363433",
+  "source_sku": "4363433",
+  "category_id": "06_wearables",
+  "category_name_zh": "智能穿戴",
+  "name_original": "Motorola - Moto 360 2nd Generation Men's Smartwatch 42mm Stainless Steel - Black Stainless Steel",
+  "brand": "Motorola",
+  "model": "00821NARTL",
+  "description_original": "Motorola Moto 360 2nd Generation Men's Smartwatch: With at-a-glance notifications, this smartwatch lets you know when you receive messages, plus provides the weather and the news. You can wirelessly pair with your Apple® iOS or Android phone using the Bluetooth 4.0 LE interface and stay on top of your fitness goals with the Moto Body tracker.",
+  "description_official_dataset": "Fits most wrist sizesCompatible with most Apple® iOS and Android cell phones22mm stainless steel bandWater-resistant designAt-a-glance notifications",
+  "introduction_zh": "Motorola 的智能穿戴商品。来源介绍提及：接口或连接方式 Bluetooth 4.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 349.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Smartwatches & Accessories",
+    "Smartwatches"
+  ],
+  "specifications_original": {
+    "manufacturer": "Motorola",
+    "model": "00821NARTL",
+    "upc": "723755008212",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.0",
+      "evidence_original": "r Apple® iOS or Android phone using the Bluetooth 4.0 LE interface and stay on top of your fitness goals with the Moto Body"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/06_wearables/bb-4363433/main.jpg",
+      "alt": "Motorola - Moto 360 2nd Generation Men's Smartwatch 42mm Stainless Steel - Black Stainless Steel",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4363/4363433_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4363/4363433_sa.jpg",
+      "width": 324,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "02fd33ec2b8411577601646f7d50d48d6a1b2892295d21ba25d15ffb98d3351f",
+      "bytes": 17101,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/motorola-moto-360-2nd-generation-mens-smartwatch-42mm-stainless-steel-black-stainless-steel/4363433.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Acer - 15.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Linen White",
+    "description": "Acer 15.6\" Chromebook: Stay connected while you're on the go with this Chromebook, which features fast Wireless-AC Internet connectivity and integrated Cloud support. The wide-angle Full HD display delivers bright, clear graphics, perfect for streaming your favorite TV show or chatting with friends through the HDR webcam.  Learn more about Chromebooks &#8250;",
+    "brand": "Acer",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "Chromebooks"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > Chromebooks"
+    },
+    "type": "Google os",
+    "price": 279.0,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4262900_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acer-15-6-chromebook-intel-celeron-4gb-memory-16gb-solid-state-drive-linen-white/4262900.p?id=1219730564516&skuId=4262900&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9980,
+    "rating": 2,
+    "objectID": "4262900"
+  },
+  "bestbuy": {
+    "id": 4262900,
+    "name": "Acer - 15.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Linen White",
+    "type": "HardGood",
+    "price": 249,
+    "upc": "888863275496",
+    "shipping": 0,
+    "description": "Google ChromeTechnical details: Intel&#174; Celeron&#174; processor; Full HD 15.6\" display; 4GB memory; 16GB solid state driveSpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included",
+    "manufacturer": "Acer",
+    "model": "CB5-571-C4G4",
+    "url": "http://www.bestbuy.com/site/acer-15-6-chromebook-intel-celeron-4gb-memory-16gb-solid-state-drive-linen-white/4262900.p?id=1219730564516&skuId=4262900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4262/4262900_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

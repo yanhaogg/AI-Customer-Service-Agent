@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Scosche - reVOLT USB Vehicle Charger - Black",
+    "description": "Keep your cell phone, tablet or action camera charged on the go with this Scosche reVOLT USBC121M vehicle charger, which features a low-profile design and an illuminated USB port for simple connection with a wide variety of devices.",
+    "brand": "Scosche",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Car Chargers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Car Chargers"
+    },
+    "type": "Misc accy",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4215703_sb.jpg",
+    "url": "http://www.bestbuy.com/site/scosche-revolt-usb-vehicle-charger-black/4215703.p?id=1219707858481&skuId=4215703&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 766,
+    "rating": 3,
+    "objectID": "4215703"
+  },
+  "bestbuy": {
+    "id": 4215703,
+    "name": "Scosche - reVOLT USB Vehicle Charger - Black",
+    "type": "HardGood",
+    "price": 14.99,
+    "upc": "033991042445",
+    "shipping": 0,
+    "description": "Compatible with select Apple&#174; iPhone&#174;, iPod&#174; and iPad&#174; models and most USB-enabled devices; 2.4 amps; 12W maximum output; illuminated USB port",
+    "manufacturer": "Scosche",
+    "model": "USBC121M",
+    "url": "http://www.bestbuy.com/site/scosche-revolt-usb-vehicle-charger-black/4215703.p?id=1219707858481&skuId=4215703&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4215/4215703_sa.jpg",
+    "createdAt": "2016-11-17 18:00:01.751 +00:00",
+    "updatedAt": "2016-11-17 18:00:01.751 +00:00"
+  }
+}

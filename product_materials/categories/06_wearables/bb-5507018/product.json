@@ -1,0 +1,65 @@
+{
+  "id": "bb-5507018",
+  "source_sku": "5507018",
+  "category_id": "06_wearables",
+  "category_name_zh": "智能穿戴",
+  "name_original": "Samsung - Gear 2 Smartwatch 58.4mm Metal - Gold/Brown Rubber",
+  "brand": "Samsung",
+  "model": null,
+  "description_original": "Samsung Gear 2 Smartwatch: Pair this stylish watch with select Samsung phones or tablets to make calls, fire off texts and receive notifications right from your wrist. The bright touch screen makes it easy to shoot video on the go and track your fitness progress, or relax at home and surf channels.",
+  "description_official_dataset": null,
+  "introduction_zh": "Samsung 的智能穿戴商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 299.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Smartwatches & Accessories",
+    "Smartwatches"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/06_wearables/bb-5507018/main.jpg",
+      "alt": "Samsung - Gear 2 Smartwatch 58.4mm Metal - Gold/Brown Rubber",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5507/5507018_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5507/5507018_sb.jpg",
+      "width": 543,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "8700fd43088f7cd3eed31b55d5e472322d7e7a7561b6b222179437de53ebd689",
+      "bytes": 73710,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/samsung-gear-2-smartwatch-58-4mm-metal-gold-brown-rubber/5507018.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

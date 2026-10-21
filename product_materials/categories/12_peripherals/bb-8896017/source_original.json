@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Insignia™ - 5.9\" USB Type-C-to-USB 3.0 Type-A Adapter - White",
+    "description": "Connect your USB devices to your Apple&#174; MacBook&#174; with this Insignia&#8482; NS-PU396CA-WH adapter, which features USB Type-A and USB Type-C connectors. Transfer speeds up to 5 Gbps ensure rapid response times.",
+    "brand": "Insignia™",
+    "categories": [
+      "Computers & Tablets",
+      "Cables & Connectors",
+      "USB Cables & Hubs"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Cables & Connectors",
+      "lvl2": "Computers & Tablets > Cables & Connectors > USB Cables & Hubs"
+    },
+    "type": "Cables/connectors",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8896017_sb.jpg",
+    "url": "http://www.bestbuy.com/site/insignia-5-9-usb-type-c-to-usb-3-0-type-a-adapter-white/8896017.p?id=1219697991183&skuId=8896017&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5600,
+    "rating": 5,
+    "objectID": "8896017"
+  },
+  "bestbuy": {
+    "id": 8896017,
+    "name": "Insignia™ - 5.9\" USB Type-C-to-USB 3.0 Type-A Cable - White",
+    "type": "HardGood",
+    "price": 14.99,
+    "upc": "600603189654",
+    "shipping": 0,
+    "description": "Compatible with Apple&#174; MacBook&#174; and other devices with a USB Type-C port; connects your USB Type-A devices to your MacBook; PVC jacket; up to 5 Gbps transfer speeds; reversible plug",
+    "manufacturer": "Insignia™",
+    "model": "NS-PU396CA-WH",
+    "url": "http://www.bestbuy.com/site/insignia-5-9-usb-type-c-to-usb-3-0-type-a-cable-white/8896017.p?id=1219697991183&skuId=8896017&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8896/8896017_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

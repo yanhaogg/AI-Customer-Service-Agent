@@ -1,0 +1,81 @@
+{
+  "id": "bb-1775023",
+  "source_sku": "1775023",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Microsoft - Arc Touch Bluetooth Wireless Mouse - Gray",
+  "brand": "Microsoft",
+  "model": null,
+  "description_original": "Enjoy control from up to 30' away with this Microsoft Arc Touch 7MP-00001 mouse, which features Bluetooth 4.0 for use with select Windows devices. The 3-button, ambidextrous design also includes a touch scroll strip to offer flexibility.",
+  "description_official_dataset": null,
+  "introduction_zh": "Microsoft 品牌的键鼠与电脑外设商品。来源介绍提及 7MP 成像规格；提及 Bluetooth 接口或连接方式；提及 Bluetooth 4.0 接口或连接方式。该记录来自历史商品目录，适合商品展示与数据库练习；实际参数和当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 69.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Mice & Keyboards",
+    "Mice",
+    "Wireless & Bluetooth Mice"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "camera_resolution",
+      "value_original": "7MP",
+      "evidence_original": " 30' away with this Microsoft Arc Touch 7MP-00001 mouse, which features Bluetooth 4.0 for use with select Windows"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "Microsoft - Arc Touch Bluetooth Wireless Mouse - Gray Enjoy control from up to 30' away with this Mic"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.0",
+      "evidence_original": "c Touch 7MP-00001 mouse, which features Bluetooth 4.0 for use with select Windows devices. The 3-button, ambidextrous desig"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-1775023/main.jpg",
+      "alt": "Microsoft - Arc Touch Bluetooth Wireless Mouse - Gray",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1775/1775023_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1775/1775023_sb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "content_type": "image/png",
+      "sha256": "e74430c32acfcfb09edd9bcafeaf6b0b10fdb4b93f029f667961dab4a6020cf4",
+      "bytes": 39640,
+      "original_format": "PNG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/microsoft-arc-touch-bluetooth-wireless-mouse-gray/1775023.p",
+    "collected_at": "2026-10-13T16:17:29.071629+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

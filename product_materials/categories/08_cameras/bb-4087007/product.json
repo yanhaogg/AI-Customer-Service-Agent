@@ -1,0 +1,78 @@
+{
+  "id": "bb-4087007",
+  "source_sku": "4087007",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Olympus - OM-D E-M10 Mirrorless Camera with 14-42mm Lens - Black",
+  "brand": "Olympus",
+  "model": "V207021BU000",
+  "description_original": "Olympus OM-D E-M10 Mirrorless Camera with 14–42mm Lens: Take the portable Olympus OM-D E-M10 on the go to ensure you're ready to capture important moments as they come up. An included M.Zuiko digital II R lens allows you to start shooting right away and can be swapped out for other lenses (sold separately) if you'd prefer. To share photos and HD videos with your friends and relatives, simply connect your wireless devices using the camera's built-in Wi-Fi. Memory card sold separately.",
+  "description_official_dataset": "16.1-megapixel, 4/3 Live MOS sensorISO 100-25,600Shooting speeds up to 8 fps81 autofocus pointsBuilt-in Wi-Fi",
+  "introduction_zh": "Olympus 的相机与摄像机商品。来源介绍提及：成像规格 16.1-megapixel；接口或连接方式 Wi-Fi。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 699.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Mirrorless Cameras",
+    "All Mirrorless Cameras"
+  ],
+  "specifications_original": {
+    "manufacturer": "Olympus",
+    "model": "V207021BU000",
+    "upc": "050332187863",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "camera_resolution",
+      "value_original": "16.1-megapixel",
+      "evidence_original": "-in Wi-Fi. Memory card sold separately. 16.1-megapixel, 4/3 Live MOS sensorISO 100-25,600Shooting speeds up to 8 fps81 autof"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "ess devices using the camera's built-in Wi-Fi. Memory card sold separately. 16.1-megapixel, 4/3 Live MOS sensorISO "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-4087007/main.jpg",
+      "alt": "Olympus - OM-D E-M10 Mirrorless Camera with 14-42mm Lens - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4087/4087007_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4087/4087007_sa.jpg",
+      "width": 500,
+      "height": 358,
+      "content_type": "image/jpeg",
+      "sha256": "8ef112078c96c2a1d7fbb2415db6c88c801fc942b3d00c98540fb99d1aca007e",
+      "bytes": 31503,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/olympus-om-d-e-m10-mirrorless-camera-with-14-42mm-lens-black/4087007.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

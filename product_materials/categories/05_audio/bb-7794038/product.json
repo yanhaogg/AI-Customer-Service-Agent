@@ -1,0 +1,78 @@
+{
+  "id": "bb-7794038",
+  "source_sku": "7794038",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "Bell'O - 40\" Sound Speaker Shelf - Espresso",
+  "brand": "Bell'O",
+  "model": "BDS4012-40-E474",
+  "description_original": "This Bell'O BDS4012-40-E474 sound speaker shelf features 4 speakers and a 2-way design with tuned bass support, so you can enjoy clear, dynamic audio. The Bluetooth interface makes it easy to wirelessly link with select Bluetooth-enabled devices.",
+  "description_official_dataset": "4 speakers; 2-way design with tuned bass support; Bluetooth interface; two 3.5mm audio inputs; subwoofer output",
+  "introduction_zh": "Bell'O 的耳机与音箱商品。来源介绍提及：尺寸 40 英寸；接口或连接方式 Bluetooth。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 249.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "Home Audio",
+    "Home Theater Systems",
+    "Sound Bars"
+  ],
+  "specifications_original": {
+    "manufacturer": "Bell'O",
+    "model": "BDS4012-40-E474",
+    "upc": "748249240121",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "40\"",
+      "evidence_original": "Bell'O - 40\" Sound Speaker Shelf - Espresso This Bell'O BDS4012-40-E474 sound spea"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "you can enjoy clear, dynamic audio. The Bluetooth interface makes it easy to wirelessly link with select Bluetooth-enab"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-7794038/main.jpg",
+      "alt": "Bell'O - 40\" Sound Speaker Shelf - Espresso",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/7794/7794038_sa.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/7794/7794038_sa.jpg",
+      "width": 500,
+      "height": 137,
+      "content_type": "image/jpeg",
+      "sha256": "306802123436a569ba3d5ebb1781a285217109d117bfe25951e3ab7762433045",
+      "bytes": 14533,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/bello-40-sound-speaker-shelf-espresso/7794038.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

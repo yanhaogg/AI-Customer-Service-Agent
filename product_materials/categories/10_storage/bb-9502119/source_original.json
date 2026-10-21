@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "Disney - Frozen 8GB USB 2.0 Flash Drive - White",
+    "description": "Take your files wherever you go in style with this Disney Frozen USB-ASST-OLAF 8GB USB flash drive that features plug-and-play compatibility for simple data transfers between your compatible devices.",
+    "brand": "Disney",
+    "categories": [
+      "Computers & Tablets",
+      "USB Flash Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > USB Flash Drives"
+    },
+    "type": "Flash drives",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9502119_sb.jpg",
+    "url": "http://www.bestbuy.com/site/disney-frozen-8gb-usb-2-0-flash-drive-white/9502119.p?id=1219418202055&skuId=9502119&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 7561,
+    "rating": 3,
+    "objectID": "9502119"
+  },
+  "bestbuy": null
+}

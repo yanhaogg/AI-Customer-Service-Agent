@@ -1,0 +1,23 @@
+{
+  "algolia": {
+    "name": "Nutek - Bluetooth Portable Powered Speaker System - Silver",
+    "description": "Nutek Portable Speaker System: Dual 10\" woofers and a 1.5\" tweeter deliver rich, robust sound for your next barbecue, fundraiser or other event. Bluetooth lets you wirelessly stream tunes from your phone, tablet or other device.",
+    "brand": "Nutek",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "So wireless speakers",
+    "price": 183.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4212309_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nutek-bluetooth-portable-powered-speaker-system-silver/4212309.p?id=1219707780427&skuId=4212309",
+    "free_shipping": false,
+    "popularity": 2601,
+    "rating": 2,
+    "objectID": "4212309"
+  },
+  "bestbuy": null
+}

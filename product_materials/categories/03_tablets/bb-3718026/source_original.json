@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Samsung - Galaxy Note Pro - 12.2\" - 32GB - Black",
+    "description": "Samsung Galaxy Note Pro - 12.2\" - 32GB: Experience the productivity and entertainment of a tablet with a spacious screen. View up to 4 apps simultaneously and switch seamlessly between work and play. Watch a movie in stunning HD, or tackle business tasks with the versatile stylus. With tools to make multitasking and collaboration a breeze, the Samsung Galaxy Note Pro can keep up with even the busiest of days.",
+    "brand": "Samsung",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Samsung wifi",
+    "price": 749.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3718026_sb.jpg",
+    "url": "http://www.bestbuy.com/site/samsung-galaxy-note-pro-12-2-32gb-black/3718026.p?id=1219093181542&skuId=3718026&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 1114,
+    "rating": 5,
+    "objectID": "3718026"
+  },
+  "bestbuy": null
+}

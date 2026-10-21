@@ -1,0 +1,87 @@
+{
+  "id": "bb-6036011",
+  "source_sku": "6036011",
+  "category_id": "04_monitors",
+  "category_name_zh": "显示器",
+  "name_original": "Lenovo - 23\" IPS LED HD Monitor - Black",
+  "brand": "Lenovo",
+  "model": "Lenovo LI2323S 23\" LED IPS Monitor",
+  "description_original": "This Lenovo LED monitor includes a full-aluminum stand that lets you tilt the 23\" display, so you can easily customize the viewing angle to suit your preferences. The 1920 x 1080 maximum resolution presents media in striking clarity.",
+  "description_official_dataset": "7 ms response time; 10,000,000:1 dynamic contrast ratio (1000:1 typical); 250 cd/m² brightness; 1920 x 1080 maximum resolution; 178° horizontal and vertical viewing angles; VGA, DVI-D and HDMI inputs",
+  "introduction_zh": "Lenovo 的显示器商品。来源介绍提及：尺寸 23 英寸；尺寸 23 英寸 display；分辨率 1920 x 1080。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 169.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Monitors",
+    "All Monitors"
+  ],
+  "specifications_original": {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo LI2323S 23\" LED IPS Monitor",
+    "upc": "888228765921",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "23\"",
+      "evidence_original": "Lenovo - 23\" IPS LED HD Monitor - Black This Lenovo LED monitor includes a full-al"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "23\" display",
+      "evidence_original": "l-aluminum stand that lets you tilt the 23\" display, so you can easily customize the viewing angle to suit your preferenc"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1920 x 1080",
+      "evidence_original": "ing angle to suit your preferences. The 1920 x 1080 maximum resolution presents media in striking clarity. 7 ms response "
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "vertical viewing angles; VGA, DVI-D and HDMI inputs"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/04_monitors/bb-6036011/main.jpg",
+      "alt": "Lenovo - 23\" IPS LED HD Monitor - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6036/6036011_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6036/6036011_sb.jpg",
+      "width": 1000,
+      "height": 755,
+      "content_type": "image/jpeg",
+      "sha256": "b7cfa13889e478d4203882a929c89d6a1aa32ec712700b5a49f5238d5872c12c",
+      "bytes": 35423,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/lenovo-23-ips-led-hd-monitor-black/6036011.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

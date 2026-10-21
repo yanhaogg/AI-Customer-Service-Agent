@@ -1,0 +1,96 @@
+{
+  "id": "bb-7365128",
+  "source_sku": "7365128",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "LG - Escape 2 4G with 8GB Memory Cell Phone - Black (AT&T)",
+  "brand": "LG",
+  "model": "LG C70",
+  "description_original": "LG Escape 2 Cell Phone for AT&T: Stay connected at home and on the go with 4G LTE speed and Wi-Fi. You'll also be ready to capture special moments as they unfold, thanks to 8.0MP rear-facing and 2.0MP front-facing cameras. AT&T Next option available in store. Learn more ›",
+  "description_official_dataset": "Qualcomm Snapdragon 410 1.2GHz processorAndroid 5.0.1 Lollipop operating system4G LTE speedWi-Fi4.7\" LCD touch screenBluetooth interface8.0MP rear-facing and 2.0MP front-facing cameras",
+  "introduction_zh": "LG 的手机商品。来源介绍提及：尺寸 7 英寸；容量 8GB；成像规格 8.0MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 179.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "All Cell Phones with Plans"
+  ],
+  "specifications_original": {
+    "manufacturer": "LG",
+    "model": "LG C70",
+    "upc": "652810516440",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\"",
+      "evidence_original": "ipop operating system4G LTE speedWi-Fi4.7\" LCD touch screenBluetooth interface8.0MP rear-facing and 2.0MP front-"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "LG - Escape 2 4G with 8GB Memory Cell Phone - Black (AT&T) LG Escape 2 Cell Phone for AT&T: Sta"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "8.0MP",
+      "evidence_original": "ecial moments as they unfold, thanks to 8.0MP rear-facing and 2.0MP front-facing cameras. AT&T Next option availabl"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "2.0MP",
+      "evidence_original": "unfold, thanks to 8.0MP rear-facing and 2.0MP front-facing cameras. AT&T Next option available in store. Learn more"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "0MP",
+      "evidence_original": "7\" LCD touch screenBluetooth interface8.0MP rear-facing and 2.0MP front-facing cameras"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "ome and on the go with 4G LTE speed and Wi-Fi. You'll also be ready to capture special moments as they unfold, than"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-7365128/main.jpg",
+      "alt": "LG - Escape 2 4G with 8GB Memory Cell Phone - Black (AT&T)",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7365/7365128_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7365/7365128_sb.jpg",
+      "width": 497,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "e6dc7a8c64a3d98b7aad8ab7d26084a863bfac4bc7b40e80ca5a6569cdf7ef53",
+      "bytes": 49475,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:24:05.281969+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/lg-escape-2-4g-with-8gb-memory-cell-phone-black-at-t/7365128.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

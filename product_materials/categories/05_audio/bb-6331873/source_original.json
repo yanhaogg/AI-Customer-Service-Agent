@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Klipsch - 2-Way Indoor/Outdoor Speakers (Pair) - White",
+    "description": "Buy this pair of weather-resistant, high-quality speakers and enjoy music on your patio, in your garden or by your pool.",
+    "brand": "Klipsch",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Speakers",
+      "Outdoor Speakers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Speakers",
+      "lvl3": "Audio > Home Audio > Speakers > Outdoor Speakers"
+    },
+    "type": "Outdoor speakers",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6331873_sb.jpg",
+    "url": "http://www.bestbuy.com/site/klipsch-2-way-indoor-outdoor-speakers-pair-white/6331873.p?id=1082742914946&skuId=6331873&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4490,
+    "rating": 3,
+    "objectID": "6331873"
+  },
+  "bestbuy": {
+    "id": 6331873,
+    "name": "Klipsch - 2-Way Indoor/Outdoor Speakers (Pair) - White",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "743878014853",
+    "shipping": 0,
+    "description": "Weather- and UV-resistant; stainless steel grille; mounting hardware; paintable",
+    "manufacturer": "Klipsch",
+    "model": "KHO-7",
+    "url": "http://www.bestbuy.com/site/klipsch-2-way-indoor-outdoor-speakers-pair-white/6331873.p?id=1082742914946&skuId=6331873&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6331/6331873_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

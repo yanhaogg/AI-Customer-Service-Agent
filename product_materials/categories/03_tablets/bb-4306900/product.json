@@ -1,0 +1,82 @@
+{
+  "id": "bb-4306900",
+  "source_sku": "4306900",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "DigiLand - 7\" Tablet - 8GB - Black",
+  "brand": "DigiLand",
+  "model": "DL718M",
+  "description_original": "DigiLand Tablet: Take work and entertainment to go with this tablet, which offers a lush LCD touch screen with IPS technology for a crisp, clear view of your videos and Web content. The quad-core processor ensures fast, efficient performance for everyday tasks.",
+  "description_official_dataset": "Android 5.1 Lollipop operating system7\" WVGA LCD touch screen with 1024 x 600 resolution8GB storage capacityQuad core processorWi-FiFront and rear cameras",
+  "introduction_zh": "DigiLand 的平板电脑商品。来源介绍提及：尺寸 7 英寸；容量 8GB；分辨率 1024 x 600。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 49.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {
+    "manufacturer": "DigiLand",
+    "model": "DL718M",
+    "upc": "840778100188",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\"",
+      "evidence_original": "DigiLand - 7\" Tablet - 8GB - Black DigiLand Tablet: Take work and entertainment to "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "DigiLand - 7\" Tablet - 8GB - Black DigiLand Tablet: Take work and entertainment to go with this "
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1024 x 600",
+      "evidence_original": "ing system7\" WVGA LCD touch screen with 1024 x 600 resolution8GB storage capacityQuad core processorWi-FiFront and rear "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-4306900/main.jpg",
+      "alt": "DigiLand - 7\" Tablet - 8GB - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4306/4306900_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4306/4306900_sa.jpg",
+      "width": 500,
+      "height": 286,
+      "content_type": "image/jpeg",
+      "sha256": "1059fd982ae8bea07aeacbcd1653136693ef7f8cef465484d2c64276e7d8325d",
+      "bytes": 21612,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/digiland-7-tablet-8gb-black/4306900.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

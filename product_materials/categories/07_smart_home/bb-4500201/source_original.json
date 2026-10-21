@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Logitech - Logi Circle Portable Wireless Video Monitoring Camera with 2-way talk - Black",
+    "description": "Logitech Logi Circle Portable Wireless Video Monitoring Camera with 2-way talk: Circle is the intelligent home security camera that keeps you connected to home with a seamless app experience, intelligent portable design and easy-to-connect Wi-Fi capability. Instantly monitor every important moment at home &#8211; at night, from work or away on vacation &#8211; right on your smart device in beautiful HD video. So whether it's family and pet moments or home security, you never miss a thing.",
+    "brand": "Logitech",
+    "categories": [
+      "Connected Home",
+      "Security Cameras & Systems",
+      "Security Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Security Cameras & Systems",
+      "lvl2": "Connected Home > Security Cameras & Systems > Security Cameras"
+    },
+    "type": "Video monitoring",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4500201_sb.jpg",
+    "url": "http://www.bestbuy.com/site/logitech-logi-circle-portable-wireless-video-monitoring-camera-with-2-way-talk-black/4500201.p?id=1219755042751&skuId=4500201&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3913,
+    "rating": 3,
+    "objectID": "4500201"
+  },
+  "bestbuy": {
+    "id": 4500201,
+    "name": "Logitech - Logi Circle Wireless HD Video Security Camera with 2-way talk - Black",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "097855118028",
+    "shipping": 0,
+    "description": "Bluetooth and Wi-Fi connectivity; downloadable Circle app; remote access via mobile device; smart notifications; night vision; 8x digital zoom; portable; magnetic wall-mounting hardware",
+    "manufacturer": "Logitech",
+    "model": "961-000392",
+    "url": "http://www.bestbuy.com/site/logitech-logi-circle-wireless-hd-video-security-camera-with-2-way-talk-black/4500201.p?id=1219755042751&skuId=4500201&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4500/4500201_sa.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

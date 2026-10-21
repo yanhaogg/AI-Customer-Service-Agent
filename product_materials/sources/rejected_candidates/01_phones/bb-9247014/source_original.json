@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Jitterbug - Samsung Touch3 4G No-Contract Cell Phone - Gray",
+    "description": "Keep in touch using this GreatCall Samsung Jitterbug Touch3 cell phone, which features 3G speed for on-the-go Web connection. The 4\" touch screen enables easy navigation of the simplified menu and offers clear, detailed images.",
+    "brand": "Jitterbug",
+    "categories": [
+      "Cell Phones",
+      "No-Contract Phones",
+      "All No-Contract Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > No-Contract Phones",
+      "lvl2": "Cell Phones > No-Contract Phones > All No-Contract Phones"
+    },
+    "type": "Greatcall",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9247014_sb.jpg",
+    "url": "http://www.bestbuy.com/site/jitterbug-samsung-touch3-4g-no-contract-cell-phone-gray/9247014.p?id=1219411164533&skuId=9247014&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4893,
+    "rating": 6,
+    "objectID": "9247014"
+  },
+  "bestbuy": {
+    "id": 9247014,
+    "name": "Jitterbug - Samsung Touch3 4G Prepaid Cell Phone - Gray",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "887276060804",
+    "shipping": 0,
+    "description": "Android operating system3G speed4\" touch screenBluetooth 4.0Simplified menu5.0 rear-facing and VGA front-facing camera",
+    "manufacturer": "Jitterbug",
+    "model": "GREAT CALL JITTERBUG TOUCH 3 G",
+    "url": "http://www.bestbuy.com/site/jitterbug-samsung-touch3-4g-prepaid-cell-phone-gray/9247014.p?id=1219411164533&skuId=9247014&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313533599/1313533599_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

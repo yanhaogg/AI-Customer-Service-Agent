@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "FLIR - FX Indoor/Outdoor Wireless High-Definition Surveillance Camera - Black/Silver",
+    "description": "Keep watch over your home with this FLIR FX FXV101-H indoor/outdoor surveillance camera that features RapidRecap that condenses clips so you can review events from hours of cloud-recorded video simultaneously.",
+    "brand": "FLIR",
+    "categories": [
+      "Connected Home",
+      "Security Cameras & Systems",
+      "Security Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Security Cameras & Systems",
+      "lvl2": "Connected Home > Security Cameras & Systems > Security Cameras"
+    },
+    "type": "Video monitoring",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4020147_sb.jpg",
+    "url": "http://www.bestbuy.com/site/flir-fx-indoor-outdoor-wireless-high-definition-surveillance-camera-black-silver/4020147.p?id=1219616416110&skuId=4020147&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 6889,
+    "rating": 4,
+    "objectID": "4020147"
+  },
+  "bestbuy": {
+    "id": 4020147,
+    "name": "FLIR - FX Indoor/Outdoor Wireless High-Definition Surveillance Camera - Black/Silver",
+    "type": "HardGood",
+    "price": 179.99,
+    "upc": "841430009832",
+    "shipping": 0,
+    "description": "CMOS image sensor; 1920 x 1080 resolution; IR night vision up to 33'; SmartZone technology; 2-way audio; motion- and sound-activated design; temperature sensor; 3-axis adjustable",
+    "manufacturer": "FLIR",
+    "model": "FXV101-H",
+    "url": "http://www.bestbuy.com/site/flir-fx-indoor-outdoor-wireless-high-definition-surveillance-camera-black-silver/4020147.p?id=1219616416110&skuId=4020147&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4020/4020147_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

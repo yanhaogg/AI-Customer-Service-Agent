@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Asus - 19.5\" HD Touch-Screen Monitor - Black",
+    "description": "Enjoy films, music and more with this Asus VT207N 19.5\" HD monitor, which features a 10-point touch screen for ease of use. Ultrafast 5 ms response time prevents blurring and streaking in fast-moving films, games and more for picture clarity.",
+    "brand": "Asus",
+    "categories": [
+      "Computers & Tablets",
+      "Monitors",
+      "LED Monitors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Monitors",
+      "lvl2": "Computers & Tablets > Monitors > LED Monitors"
+    },
+    "type": "So monitors",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2079068_sb.jpg",
+    "url": "http://www.bestbuy.com/site/asus-19-5-hd-touch-screen-monitor-black/2079068.p?id=1219524349838&skuId=2079068",
+    "free_shipping": false,
+    "popularity": 9332,
+    "rating": 1,
+    "objectID": "2079068"
+  },
+  "bestbuy": {
+    "id": 2079068,
+    "name": "Asus - 19.5\" HD Touch-Screen Monitor - Black",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "886227624775",
+    "shipping": 0,
+    "description": "ASUS 19.5\" HD Touch-Screen Monitor: 5 ms response time; 100,000,000:1 contrast ratio; 250 nits brightness; 1600 x 900 resolution",
+    "manufacturer": "Asus",
+    "model": "VT207N",
+    "url": "http://www.bestbuy.com/site/asus-19-5-hd-touch-screen-monitor-black/2079068.p?id=1219524349838&skuId=2079068&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2079/2079068_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

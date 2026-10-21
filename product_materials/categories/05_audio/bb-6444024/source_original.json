@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Plantronics - BackBeat FIT Behind-the-Neck Bluetooth Headphones - Blue/Black",
+    "description": "Enjoy hands-free calls and music during your workout with these Plantronics BackBeat FIT 200450-63 Bluetooth stereo headphones that feature P2i coating to help resist damage from sweat or splashing water. The armband securely holds your smartphone.",
+    "brand": "Plantronics",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Wireless Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Wireless Headphones"
+    },
+    "type": "Wireless in ears",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6444024_sb.jpg",
+    "url": "http://www.bestbuy.com/site/plantronics-backbeat-fit-behind-the-neck-bluetooth-headphones-blue-black/6444024.p?id=1219217426417&skuId=6444024&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2052,
+    "rating": 5,
+    "objectID": "6444024"
+  },
+  "bestbuy": {
+    "id": 6444024,
+    "name": "Plantronics - BackBeat FIT Wireless Behind-the-Neck Headphones - Blue/Black",
+    "type": "HardGood",
+    "price": 129.99,
+    "upc": "017229143692",
+    "shipping": 0,
+    "description": "Behind-the-neck design; compatible with most Bluetooth-enabled mobile devices; P2i coating; DeepSleep hibernation mode; safety eartip design; up to 8-hour listening time; easy controls",
+    "manufacturer": "Plantronics",
+    "model": "200450-63",
+    "url": "http://www.bestbuy.com/site/plantronics-backbeat-fit-wireless-behind-the-neck-headphones-blue-black/6444024.p?id=1219217426417&skuId=6444024&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6444/6444024_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "bb-3603026",
+  "source_sku": "3603026",
+  "category_id": "10_storage",
+  "category_name_zh": "存储设备",
+  "name_original": "Insignia™ - USB 2.0 Multiformat Memory Card Reader - Black",
+  "brand": "Insignia™",
+  "model": null,
+  "description_original": "Transfer digital photos and other media between various memory cards (not included) and your computer with this Insignia™ NS-CR20A1 memory card reader that features USB 2.0 connectivity for fast data transfer.",
+  "description_official_dataset": null,
+  "introduction_zh": "Insignia™ 的存储设备商品。来源介绍提及：接口或连接方式 USB 2.0。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 19.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Memory Cards",
+    "All Memory Cards"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB 2.0",
+      "evidence_original": "Insignia™ - USB 2.0 Multiformat Memory Card Reader - Black Transfer digital photos and ot"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/10_storage/bb-3603026/main.jpg",
+      "alt": "Insignia™ - USB 2.0 Multiformat Memory Card Reader - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3603/3603026_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3603/3603026_sb.jpg",
+      "width": 500,
+      "height": 236,
+      "content_type": "image/jpeg",
+      "sha256": "80f743e6fabc904147e8d02f56f8815efca9b452f656b9b7a2b4d1a48d0457db",
+      "bytes": 12896,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/insignia-usb-2-0-multiformat-memory-card-reader-black/3603026.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

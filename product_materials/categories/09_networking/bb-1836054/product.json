@@ -1,0 +1,65 @@
+{
+  "id": "bb-1836054",
+  "source_sku": "1836054",
+  "category_id": "09_networking",
+  "category_name_zh": "路由器与网络设备",
+  "name_original": "Amped Wireless - High Power AC1750 Wireless-AC Router - Black",
+  "brand": "Amped Wireless",
+  "model": null,
+  "description_original": "Enjoy optimal wireless coverage with this Amped Wireless AC1750 RTA1750 router, which works with 802.11a/b/g/n/ac networks and features High Power technology, 3 high-gain, dual-band antennas and 12 amplifiers for powerful performance.",
+  "description_official_dataset": null,
+  "introduction_zh": "Amped Wireless 的路由器与网络设备商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 169.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Networking & Wireless",
+    "Routers",
+    "Wireless Routers"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/09_networking/bb-1836054/main.jpg",
+      "alt": "Amped Wireless - High Power AC1750 Wireless-AC Router - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1836/1836054_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1836/1836054_sb.jpg",
+      "width": 220,
+      "height": 135,
+      "content_type": "image/jpeg",
+      "sha256": "b3f9b5afa318ef99eb1fb7338537d5796bbcdf6a5a51318abacfa1cd0a5485fa",
+      "bytes": 3518,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/amped-wireless-high-power-ac1750-wireless-ac-router-black/1836054.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

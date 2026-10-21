@@ -1,0 +1,87 @@
+{
+  "id": "bb-3760001",
+  "source_sku": "3760001",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "SanDisk - Clip Sport 4GB* MP3 Player - Black",
+  "brand": "SanDisk",
+  "model": "SDMX24-004G-A46K",
+  "description_original": "Stay entertained during your workout with this SanDisk Clip Sport MP3 player, which features a 4GB* capacity for storing music and audio books. The 1.4\" LCD display with 128 x 128 resolution offers a clear view and helps simplify operation.",
+  "description_official_dataset": "1.4\" screen with 128 x 128 resolution4GB* internal memory; microSDHC card slotBuilt-in FM tunerClip-on design",
+  "introduction_zh": "SanDisk 的耳机与音箱商品。来源介绍提及：尺寸 1.4 英寸；尺寸 1.4 英寸 screen；容量 4GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 39.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio",
+    "iPod & MP3 Players",
+    "MP3 Players"
+  ],
+  "specifications_original": {
+    "manufacturer": "SanDisk",
+    "model": "SDMX24-004G-A46K",
+    "upc": "619659107437",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "1.4\"",
+      "evidence_original": " for storing music and audio books. The 1.4\" LCD display with 128 x 128 resolution offers a clear view and helps s"
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "1.4\" screen",
+      "evidence_original": "lear view and helps simplify operation. 1.4\" screen with 128 x 128 resolution4GB* internal memory; microSDHC card slotBui"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "4GB",
+      "evidence_original": "SanDisk - Clip Sport 4GB* MP3 Player - Black Stay entertained during your workout with this Sa"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "128 x 128",
+      "evidence_original": " audio books. The 1.4\" LCD display with 128 x 128 resolution offers a clear view and helps simplify operation. 1.4\" scr"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-3760001/main.jpg",
+      "alt": "SanDisk - Clip Sport 4GB* MP3 Player - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3760/3760001_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3760/3760001_sa.jpg",
+      "width": 494,
+      "height": 784,
+      "content_type": "image/jpeg",
+      "sha256": "dd4792a06f3217cf3904f7357ad278932d5baf4f7ff53b8cba6e0b72e797c14b",
+      "bytes": 25148,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/sandisk-clip-sport-4gb-mp3-player-black/3760001.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

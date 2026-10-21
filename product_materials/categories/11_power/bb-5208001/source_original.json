@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Griffin Technology - Mossy Oak USB Vehicle Charger - Multi",
+    "description": "Keep your USB-chargeable cell phone powered and ready for use on the go with this Griffin Technology Mossy Oak GC38611 vehicle charger, which features a USB Type A socket that delivers 10W of power.",
+    "brand": "Griffin Technology",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Car Chargers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Car Chargers"
+    },
+    "type": "Chargers",
+    "price": 19.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5208001_rb.jpg",
+    "url": "http://www.bestbuy.com/site/griffin-technology-mossy-oak-usb-vehicle-charger-multi/5208001.p?id=1219114900461&skuId=5208001&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6433,
+    "rating": 1,
+    "objectID": "5208001"
+  },
+  "bestbuy": {
+    "id": 5208001,
+    "name": "Griffin Technology - Mossy Oak USB Vehicle Charger - Multi",
+    "type": "HardGood",
+    "price": 19.99,
+    "upc": "685387413546",
+    "shipping": 0,
+    "description": "Compatible with most USB-chargeable cell phones; USB Type A socket; delivers 10W of power; built-in circuit protection",
+    "manufacturer": "Griffin Technology",
+    "model": "GC38611",
+    "url": "http://www.bestbuy.com/site/griffin-technology-mossy-oak-usb-vehicle-charger-multi/5208001.p?id=1219114900461&skuId=5208001&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5208/5208001_rc.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

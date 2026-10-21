@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver",
+    "description": "Alienware Laptop: With 3GB dedicated NVIDIA graphics and vivid 4K Ultra HD resolution, this laptop offers stunning graphics and smooth gameplay, so you can take on your most challenging opponents with ease. Built-in 2.1-channel Klipsch speakers offer immersive audio for an enhanced gaming experience.",
+    "brand": "Alienware",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Gaming laptops",
+    "price": 1649.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4550902_sb.jpg",
+    "url": "http://www.bestbuy.com/site/alienware-17-3-4k-ultra-hd-laptop-intel-core-i7-8gb-memory-1tb-hard-drive-128gb-solid-state-drive-epic-silver/4550902.p?id=1219765894082&skuId=4550902&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9917,
+    "rating": 3,
+    "objectID": "4550902"
+  },
+  "bestbuy": {
+    "id": 4550902,
+    "name": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver",
+    "type": "HardGood",
+    "price": 1649.99,
+    "upc": "884116203988",
+    "shipping": 0,
+    "description": "Windows 104K Ultra HD3GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 17.3\" display; 8GB memory; 1TB hard drive + 128GB solid state driveSpecial features: Backlit keyboard; HDMI outputNote: DVD/CD drive not included",
+    "manufacturer": "Alienware",
+    "model": "AW17R3-3758SLV",
+    "url": "http://www.bestbuy.com/site/alienware-17-3-4k-ultra-hd-laptop-intel-core-i7-8gb-memory-1tb-hard-drive-128gb-solid-state-drive-epic-silver/4550902.p?id=1219765894082&skuId=4550902&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4550/4550902_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "SanDisk - 16GB SDHC Memory Card - Blue",
+    "description": "This SDHC card features 16GB of memory for storing or transferring media. The high transfer rate delivers fast copying or downloading.",
+    "brand": "SanDisk",
+    "categories": [
+      "Cameras & Camcorders",
+      "Memory Cards",
+      "All Memory Cards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Memory Cards",
+      "lvl2": "Cameras & Camcorders > Memory Cards > All Memory Cards"
+    },
+    "type": "Secure digital memor",
+    "price": 29.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9631906_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sandisk-16gb-sdhc-memory-card-blue/9631906.p?id=1218134574280&skuId=9631906&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 905,
+    "rating": 5,
+    "objectID": "9631906"
+  },
+  "bestbuy": null
+}

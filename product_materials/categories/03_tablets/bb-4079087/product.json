@@ -1,0 +1,97 @@
+{
+  "id": "bb-4079087",
+  "source_sku": "4079087",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "Acer - Iconia - 8\" - Intel Atom - 32GB - Slate",
+  "brand": "Acer",
+  "model": "B18101193",
+  "description_original": "With an 8\" multitouch display and Wi-Fi, this Acer Iconia B18101193 tablet makes it easy to browse the Web at home or on the go. The Bluetooth 4.0 interface lets you pair with other Bluetooth-enabled devices.",
+  "description_official_dataset": "8\" multitouch display with 1280 x 800 resolutionAndroid 4.4 KitKat operating system32GB storage capacityQuad-core processorWi-FiBluetooth 4.0 interface",
+  "introduction_zh": "Acer 的平板电脑商品。来源介绍提及：尺寸 8 英寸；容量 32GB；分辨率 1280 x 800。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 129.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {
+    "manufacturer": "Acer",
+    "model": "B18101193",
+    "upc": "888863026524",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "8\"",
+      "evidence_original": "Acer - Iconia - 8\" - Intel Atom - 32GB - Slate With an 8\" multitouch display and Wi-Fi, "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "32GB",
+      "evidence_original": "Acer - Iconia - 8\" - Intel Atom - 32GB - Slate With an 8\" multitouch display and Wi-Fi, this Acer Iconia B18"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1280 x 800",
+      "evidence_original": "led devices. 8\" multitouch display with 1280 x 800 resolutionAndroid 4.4 KitKat operating system32GB storage capacityQua"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "Slate With an 8\" multitouch display and Wi-Fi, this Acer Iconia B18101193 tablet makes it easy to browse the Web at"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth 4.0",
+      "evidence_original": "rowse the Web at home or on the go. The Bluetooth 4.0 interface lets you pair with other Bluetooth-enabled devices. 8\" mult"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": " 4.0 interface lets you pair with other Bluetooth-enabled devices. 8\" multitouch display with 1280 x 800 resolutionAndr"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-4079087/main.jpg",
+      "alt": "Acer - Iconia - 8\" - Intel Atom - 32GB - Slate",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4079/4079087_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4079/4079087_sa.jpg",
+      "width": 500,
+      "height": 246,
+      "content_type": "image/jpeg",
+      "sha256": "c7afcf1e11bc6e925c34ce9f63b652c9a79508571e961165b830e6ddb1c6d09a",
+      "bytes": 14215,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/acer-iconia-8-intel-atom-32gb-slate/4079087.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

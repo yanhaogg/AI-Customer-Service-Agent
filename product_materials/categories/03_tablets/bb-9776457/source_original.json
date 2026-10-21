@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Google - Nexus 9 - 8.9\" - 16GB - Indigo Black",
+    "description": "With an Android 5.0 Lollipop operating system, powerful 64-bit processor and responsive 8.9\" IPS touch screen, this Google Nexus 9 99HZF003-00 tablet lets you work, or play, however you want. Connect to the Web via Wi-Fi for an easy browsing experience.",
+    "brand": "Google",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Other android wifi",
+    "price": 399.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9776457_sb.jpg",
+    "url": "http://www.bestbuy.com/site/google-nexus-9-8-9-16gb-indigo-black/9776457.p?id=1219435639718&skuId=9776457&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 6518,
+    "rating": 3,
+    "objectID": "9776457"
+  },
+  "bestbuy": null
+}

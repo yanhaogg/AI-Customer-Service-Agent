@@ -1,0 +1,23 @@
+{
+  "algolia": {
+    "name": "Craig - 2-Way Floorstanding Tower Speaker (Each) - Black",
+    "description": "Stream music from your smartphone to this Craig SPCG941 2-way floorstanding tower speaker, which features Bluetooth technology for simple pairing with compatible devices. The stereo FM radio lets you enjoy your favorite stations.",
+    "brand": "Craig",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "So wireless speakers",
+    "price": 69.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8011033_sb.jpg",
+    "url": "http://www.bestbuy.com/site/craig-2-way-floorstanding-tower-speaker-each-black/8011033.p?id=1219306470628&skuId=8011033",
+    "free_shipping": false,
+    "popularity": 7904,
+    "rating": 5,
+    "objectID": "8011033"
+  },
+  "bestbuy": null
+}

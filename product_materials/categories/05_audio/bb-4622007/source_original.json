@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Audiovox - Movies2Go Wireless Over-the-Ear Headphones - Black",
+    "description": "With dual-channel infrared wireless connectivity, these Audiovox Movies2Go MTGHP2CA over-the-ear headphones let you easily stream audio from compatible devices. The folding design simplifies portability, and an adjustable headband ensures comfortable use.",
+    "brand": "Audiovox",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Over-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Over-Ear Headphones"
+    },
+    "type": "Accessories",
+    "price": 46.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4622007_rb.jpg",
+    "url": "http://www.bestbuy.com/site/audiovox-movies2go-wireless-over-the-ear-headphones-black/4622007.p?id=1219100304607&skuId=4622007&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9169,
+    "rating": 4,
+    "objectID": "4622007"
+  },
+  "bestbuy": {
+    "id": 4622007,
+    "name": "Audiovox - Movies2Go Wireless Over-the-Ear Headphones - Black",
+    "type": "HardGood",
+    "price": 46.99,
+    "upc": "044476113307",
+    "shipping": 0,
+    "description": "27mm drivers; neodymium magnets; dual-channel infrared wireless connectivity; A/B channel switch; auto shutoff; adjustable headband; faux-leather ear cushions; folding design",
+    "manufacturer": "Audiovox",
+    "model": "MTGHP2CA",
+    "url": "http://www.bestbuy.com/site/audiovox-movies2go-wireless-over-the-ear-headphones-black/4622007.p?id=1219100304607&skuId=4622007&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4622/4622007_rc.jpg",
+    "createdAt": "2016-11-17 18:01:33.383 +00:00",
+    "updatedAt": "2016-11-17 18:01:33.383 +00:00"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "CyberPowerPC - Gamer Supreme Desktop - AMD FX-Series - 16GB Memory - 2TB Hard Drive + 128GB Solid State Drive - Black/Blue",
+    "description": "CyberPowerPC Gamer Supreme Desktop: Experience faithful gaming images with this efficient desktop, which uses NVIDIA GeForce GTX 970 graphics with 4GB dedicated video memory. An HDMI output makes it easy to connect your HDTV or high-definition monitor.",
+    "brand": "CyberPowerPC",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 1299.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4294508_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cyberpowerpc-gamer-supreme-desktop-amd-fx-series-16gb-memory-2tb-hard-drive-128gb-solid-state-drive-black-blue/4294508.p?id=bb4294508&skuId=4294508",
+    "free_shipping": false,
+    "popularity": 7797,
+    "rating": 2,
+    "objectID": "4294508"
+  },
+  "bestbuy": null
+}

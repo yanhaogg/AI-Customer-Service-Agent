@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Motorola - Moto 360 2nd Generation Men's Smartwatch 42mm Stainless Steel - Black Leather",
+    "description": "Motorola Moto 360 2nd Generation Men's Smartwatch: Stay informed with this helpful smartwatch, which provides at-a-glance notifications for your messages, news, weather and much more. The Bluetooth 4.0 LE interface enables simple wireless pairing with your compatible Apple&#174; iOS or Android cell phone. Plus, you can stay on top of your health goals with the Moto Body fitness tracker.",
+    "brand": "Motorola",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4363429_sb.jpg",
+    "url": "http://www.bestbuy.com/site/motorola-moto-360-2nd-generation-mens-smartwatch-42mm-stainless-steel-black-leather/4363429.p?id=1219736622349&skuId=4363429&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3007,
+    "rating": 3,
+    "objectID": "4363429"
+  },
+  "bestbuy": {
+    "id": 4363429,
+    "name": "Motorola - Moto 360 2nd Generation Men's Smartwatch 42mm Stainless Steel - Black Leather",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "723755009035",
+    "shipping": 0,
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android cell phones22mm Horween leather bandWater-resistant designAt-a-glance notifications",
+    "manufacturer": "Motorola",
+    "model": "00903NARTL",
+    "url": "http://www.bestbuy.com/site/motorola-moto-360-2nd-generation-mens-smartwatch-42mm-stainless-steel-black-leather/4363429.p?id=1219736622349&skuId=4363429&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4363/4363429_sa.jpg",
+    "createdAt": "2016-11-17 18:00:01.751 +00:00",
+    "updatedAt": "2016-11-17 18:00:01.751 +00:00"
+  }
+}

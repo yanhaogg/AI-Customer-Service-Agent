@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ServAI collected product material",
+  "type": "object",
+  "required": ["id", "source_sku", "category_id", "category_name_zh", "name_original", "description_original", "introduction_zh", "price", "images", "source", "quality"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^bb-[0-9]+$"},
+    "source_sku": {"type": "string"},
+    "category_id": {"type": "string"},
+    "category_name_zh": {"type": "string"},
+    "name_original": {"type": "string", "minLength": 1},
+    "brand": {"type": ["string", "null"]},
+    "model": {"type": ["string", "null"]},
+    "description_original": {"type": "string", "minLength": 1},
+    "description_official_dataset": {"type": ["string", "null"]},
+    "introduction_zh": {"type": "string", "minLength": 1},
+    "introduction_method": {"type": "string"},
+    "price": {"type": "object", "required": ["amount", "currency", "kind", "current_price_verified"], "properties": {"amount": {"type": ["number", "null"]}, "currency": {"const": "USD"}, "kind": {"const": "historical_dataset_price"}, "observed_at": {"type": ["string", "null"]}, "current_price_verified": {"const": false}}},
+    "source_categories": {"type": "array", "items": {"type": "string"}},
+    "specifications_original": {"type": "object"},
+    "extracted_attributes": {"type": "array", "items": {"type": "object", "required": ["attribute", "value_original", "evidence_original"]}},
+    "images": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["local_path", "source_url", "width", "height", "sha256", "status"], "properties": {"local_path": {"type": "string"}, "width": {"type": "integer", "minimum": 100}, "height": {"type": "integer", "minimum": 100}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "status": {"const": "verified"}}}},
+    "source": {"type": "object", "required": ["publisher", "official_dataset_url", "metadata_mirror_url", "product_url", "collected_at", "metadata_license"]},
+    "quality": {"type": "object"}
+  }
+}

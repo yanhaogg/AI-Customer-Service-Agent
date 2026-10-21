@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Huawei - 18mm Smartwatch for Select Apple® iOS and Android Devices - Silver Stainless Steel with Stainless Steel Links",
+    "description": "Huawei Smartwatch: Stay connected on the go with this smartwatch, which provides helpful notifications when you receive calls, texts and app alerts on your compatible Apple iOS or Android device. You can control functions just by saying \"OK Google\" and speaking your commands. Plus, meet your health and fitness goals with a built-in activity tracker with heart rate monitor.",
+    "brand": "Huawei",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 399.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4457600_sb.jpg",
+    "url": "http://www.bestbuy.com/site/huawei-18mm-smartwatch-for-select-apple-ios-and-android-devices-silver-stainless-steel-with-stainless-steel-links/4457600.p?id=1219750723810&skuId=4457600&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 5881,
+    "rating": 3,
+    "objectID": "4457600"
+  },
+  "bestbuy": {
+    "id": 4457600,
+    "name": "Huawei - Smartwatch 42mm Stainless Steel - Silver Stainless Steel with Stainless Steel Links",
+    "type": "HardGood",
+    "price": 399.99,
+    "upc": "886598036160",
+    "shipping": 0,
+    "description": "Fits most wrist sizesCompatible with select Apple&#174; iOS and Android devices18mm stainless steel bandHeart rate monitorWater-resistant designCall, text and app alerts",
+    "manufacturer": "Huawei",
+    "model": "55020538",
+    "url": "http://www.bestbuy.com/site/huawei-smartwatch-42mm-stainless-steel-silver-stainless-steel-with-stainless-steel-links/4457600.p?id=1219750723810&skuId=4457600&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4457/4457600_sa.jpg",
+    "createdAt": "2016-11-17 18:01:44.806 +00:00",
+    "updatedAt": "2016-11-17 18:01:44.806 +00:00"
+  }
+}

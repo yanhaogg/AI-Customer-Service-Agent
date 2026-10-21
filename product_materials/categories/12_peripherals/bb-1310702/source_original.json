@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Razer - DeathStalker Ultimate Elite Gaming Keyboard - Black",
+    "description": "Enhance your gaming experience with help from this Razer DeathStalker Ultimate RZ03-00790100-R3M1 gaming keyboard that features 10-key rollover in gaming mode, so your commands are registered accurately and quickly.",
+    "brand": "Razer",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards",
+      "Gaming Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Computer Keyboards > Gaming Keyboards"
+    },
+    "type": "So diy parts",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1310702_sb.jpg",
+    "url": "http://www.bestbuy.com/site/razer-deathstalker-ultimate-elite-gaming-keyboard-black/1310702.p?id=1219047789707&skuId=1310702",
+    "free_shipping": false,
+    "popularity": 1649,
+    "rating": 3,
+    "objectID": "1310702"
+  },
+  "bestbuy": {
+    "id": 1310702,
+    "name": "Razer - DeathStalker Ultimate Gaming Keyboard - Black",
+    "type": "HardGood",
+    "price": 249.99,
+    "upc": "879862005368",
+    "shipping": 0,
+    "description": "Compatible with PC; switchblade user interface; 2 USB ports required; 10 key rollover; 4.05\" touch screen; track pad; tri-colour backlit keys",
+    "manufacturer": "Razer",
+    "model": "RZ03-00790100-R3M1",
+    "url": "http://www.bestbuy.com/site/razer-deathstalker-ultimate-gaming-keyboard-black/1310702.p?id=1219047789707&skuId=1310702&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1307/1307728727/1307728727_sa.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

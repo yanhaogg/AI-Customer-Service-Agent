@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Motorola - Moto G (2nd Generation) Cell Phone (Unlocked) (U.S. Version) - White",
+    "description": "Enjoy your media on the go with this Motorola Moto G (2nd Generation) 00504NARTL cell phone, which features a 5\" high-definition touch screen that delivers crisp, detailed images. The 8.0MP rear-facing camera lets you capture videos with 720p resolution.",
+    "brand": "Motorola",
+    "categories": [
+      "Cell Phones",
+      "Unlocked Cell Phones",
+      "All Unlocked Cell Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Unlocked Cell Phones",
+      "lvl2": "Cell Phones > Unlocked Cell Phones > All Unlocked Cell Phones"
+    },
+    "type": "Unlocked handsets",
+    "price": 149.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8970003_sb.jpg",
+    "url": "http://www.bestbuy.com/site/motorola-moto-g-2nd-generation-cell-phone-unlocked-u-s-version-white/8970003.p?id=1219378308187&skuId=8970003&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 2995,
+    "rating": 1,
+    "objectID": "8970003"
+  },
+  "bestbuy": null
+}

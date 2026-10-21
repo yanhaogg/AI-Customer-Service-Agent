@@ -1,0 +1,66 @@
+{
+  "id": "bb-1908054",
+  "source_sku": "1908054",
+  "category_id": "11_power",
+  "category_name_zh": "充电与电源配件",
+  "name_original": "Griffin Technology - PowerBlock Wall Charger and PowerJolt Vehicle Charger for Most Lightning-Enabled Apple® Devices - Black",
+  "brand": "Griffin Technology",
+  "model": "NA38222",
+  "description_original": "Keep your Lightning-enabled devices charged and synced while you're at home or on the go with these Griffin Technology NA38222 PowerBlock and PowerJolt chargers, which deliver 10W of power for reliable performance.",
+  "description_official_dataset": "Compatible with most Lightning-enabled Apple devices; let you charge and sync your device at home or on the go; deliver 10W of power",
+  "introduction_zh": "Griffin Technology 的充电与电源配件商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 39.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Car Chargers"
+  ],
+  "specifications_original": {
+    "manufacturer": "Griffin Technology",
+    "model": "NA38222",
+    "upc": "685387406654",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/11_power/bb-1908054/main.jpg",
+      "alt": "Griffin Technology - PowerBlock Wall Charger and PowerJolt Vehicle Charger for Most Lightning-Enabled Apple® Devices - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1908/1908054_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1908/1908054_sa.jpg",
+      "width": 500,
+      "height": 123,
+      "content_type": "image/jpeg",
+      "sha256": "a58ec3b56e155aad0da047a77f47541824077d55e30aad3240c7f9b3367d0374",
+      "bytes": 5946,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/griffin-technology-powerblock-wall-charger-and-powerjolt-vehicle-charger-for-most-lightning-enabled-apple-devices-black/1908054.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

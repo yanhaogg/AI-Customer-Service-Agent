@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Corsair - K70 Mechanical Keyboard - Black",
+    "description": "Defeat virtual enemies with this Corsair K70 keyboard that features Cherry MX Red mechanical switches that offer smooth, linear response and minimal noise for enhanced gameplay. The brushed-aluminum chassis offers durability.",
+    "brand": "Corsair",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards",
+      "Gaming Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Computer Keyboards > Gaming Keyboards"
+    },
+    "type": "Gaming controllers",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9089085_sb.jpg",
+    "url": "http://www.bestbuy.com/site/corsair-k70-mechanical-keyboard-black/9089085.p?id=1218978327181&skuId=9089085&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7917,
+    "rating": 2,
+    "objectID": "9089085"
+  },
+  "bestbuy": null
+}

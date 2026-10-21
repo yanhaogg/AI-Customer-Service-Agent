@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "LaCie - Rugged 1TB External USB 3.0/Thunderbolt Portable Hard Drive - Orange/Silver",
+    "description": "Easily take your files on the go with this LaCie Rugged 9000294 1TB portable external drive, which features a durable design that withstands drops from up to 3.9' for protection against damage. Data transfer rates up to 10 Gbps ensure speedy transfer.",
+    "brand": "LaCie",
+    "categories": [
+      "Computers & Tablets",
+      "Hard Drives & Storage",
+      "External Hard Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Hard Drives & Storage",
+      "lvl2": "Computers & Tablets > Hard Drives & Storage > External Hard Drives"
+    },
+    "type": "2.5\" prtable storage",
+    "price": 179.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/6952841_rb.jpg",
+    "url": "http://www.bestbuy.com/site/lacie-rugged-1tb-external-usb-3-0-thunderbolt-portable-hard-drive-orange-silver/6952841.p?id=1218816234025&skuId=6952841&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4444,
+    "rating": 1,
+    "objectID": "6952841"
+  },
+  "bestbuy": {
+    "id": 6952841,
+    "name": "LaCie - Rugged 1TB External USB 3.0/Thunderbolt Portable Hard Drive - Orange/Silver",
+    "type": "HardGood",
+    "price": 179.99,
+    "upc": "093053010232",
+    "shipping": 0,
+    "description": "USB 3.0 and Thunderbolt interfaces; portable design; 3.9' maximum drop height; data transfer rates up to 10 Gbps",
+    "manufacturer": "LaCie",
+    "model": "9000294",
+    "url": "http://www.bestbuy.com/site/lacie-rugged-1tb-external-usb-3-0-thunderbolt-portable-hard-drive-orange-silver/6952841.p?id=1218816234025&skuId=6952841&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/6952/6952841_rc.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

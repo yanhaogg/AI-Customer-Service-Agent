@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Garmin - Approach S2 GPS Golf Watch - Black/Red",
+    "description": "Garmin Approach S2 GPS Golf Watch: Enhance your game with this GPS watch that is preloaded with more than 30,000 courses and features a digital scorecard, which makes it easy to keep track of your strokes. The water-resistant design ensures durability.",
+    "brand": "Garmin",
+    "categories": [
+      "Health, Fitness & Beauty",
+      "Fitness & GPS Watches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Health, Fitness & Beauty",
+      "lvl1": "Health, Fitness & Beauty > Fitness & GPS Watches"
+    },
+    "type": "Monitoring devices",
+    "price": 179.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8876405_rb.jpg",
+    "url": "http://www.bestbuy.com/site/garmin-approach-s2-gps-golf-watch-black-red/8876405.p?id=1218928768602&skuId=8876405&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6704,
+    "rating": 2,
+    "objectID": "8876405"
+  },
+  "bestbuy": {
+    "id": 8876405,
+    "name": "Garmin - Approach S2 GPS Golf Watch - Black/Red",
+    "type": "HardGood",
+    "price": 179.99,
+    "upc": "753759996956",
+    "shipping": 0,
+    "description": "Measures shot distance; more than 30,000 preloaded courses; lifetime course updates; water-resistant design",
+    "manufacturer": "Garmin",
+    "model": "010-01139-01",
+    "url": "http://www.bestbuy.com/site/garmin-approach-s2-gps-golf-watch-black-red/8876405.p?id=1218928768602&skuId=8876405&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8876/8876405_rc.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

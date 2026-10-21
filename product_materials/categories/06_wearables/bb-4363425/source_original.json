@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Motorola - Moto 360 2nd Generation Men's Smartwatch 42mm Stainless Steel - Silver Stainless Steel",
+    "description": "Motorola Moto 360 2nd Generation Men's Smartwatch: With at-a-glance notifications, this smartwatch lets you know when you receive messages, plus provides the weather and the news. You can wirelessly pair with your Apple&#174; iOS or Android phone using the Bluetooth 4.0 LE interface and stay on top of your fitness goals with the Moto Body tracker.",
+    "brand": "Motorola",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 349.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4363425_sb.jpg",
+    "url": "http://www.bestbuy.com/site/motorola-moto-360-2nd-generation-mens-smartwatch-42mm-stainless-steel-silver-stainless-steel/4363425.p?id=1219736631577&skuId=4363425&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 3005,
+    "rating": 6,
+    "objectID": "4363425"
+  },
+  "bestbuy": {
+    "id": 4363425,
+    "name": "Motorola - Moto 360 2nd Generation Men's Smartwatch 42mm Stainless Steel - Silver Stainless Steel",
+    "type": "HardGood",
+    "price": 349.99,
+    "upc": "723755008236",
+    "shipping": 0,
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android cell phones22mm stainless steel bandWater-resistant designAt-a-glance notifications",
+    "manufacturer": "Motorola",
+    "model": "00823NARTL",
+    "url": "http://www.bestbuy.com/site/motorola-moto-360-2nd-generation-mens-smartwatch-42mm-stainless-steel-silver-stainless-steel/4363425.p?id=1219736631577&skuId=4363425&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4363/4363425_sa.jpg",
+    "createdAt": "2016-11-17 18:00:01.751 +00:00",
+    "updatedAt": "2016-11-17 18:00:01.751 +00:00"
+  }
+}

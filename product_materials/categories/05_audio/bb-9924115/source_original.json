@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Onkyo - 5.1.2-Channel Dolby Atmos Ready Network A/V Receiver/Speaker Package - Black",
+    "description": "This Onkyo HT-S7700 home theater system contains speakers and a receiver with 4K pass-through to enhance your entertainment. To build a complete 3D home theater system, you'll also need a 3D TV, 3D glasses designed for the TV and a high-speed HDMI cable.",
+    "brand": "Onkyo",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Home Theater Systems",
+      "All Home Theater Systems"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Home Theater Systems",
+      "lvl3": "Audio > Home Audio > Home Theater Systems > All Home Theater Systems"
+    },
+    "type": "So theater in a box",
+    "price": 799.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9924115_sb.jpg",
+    "url": "http://www.bestbuy.com/site/onkyo-5-1-2-channel-dolby-atmos-ready-network-a-v-receiver-speaker-package-black/9924115.p?id=1219450404665&skuId=9924115",
+    "free_shipping": false,
+    "popularity": 2547,
+    "rating": 1,
+    "objectID": "9924115"
+  },
+  "bestbuy": {
+    "id": 9924115,
+    "name": "Onkyo - 5.1.2-Channel Dolby Atmos Ready Network A/V Receiver/Speaker Package - Black",
+    "type": "HardGood",
+    "price": 799.99,
+    "upc": "751398012044",
+    "shipping": 0,
+    "description": "ONKYO 5.1.2-Channel Dolby Atmos Ready Network A/V Receiver/Speaker Package: Dolby Atmos and Dolby TrueHD decoders; USB port; built-in Wi-Fi; Bluetooth interface; Qdeo processing technology by Marvell; powered zone 2 and zone 2 line-out; bi-amping capability",
+    "manufacturer": "Onkyo",
+    "model": "HT-S7700",
+    "url": "http://www.bestbuy.com/site/onkyo-5-1-2-channel-dolby-atmos-ready-network-a-v-receiver-speaker-package-black/9924115.p?id=1219450404665&skuId=9924115&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9924/9924115_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

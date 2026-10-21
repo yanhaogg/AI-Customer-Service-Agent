@@ -1,0 +1,73 @@
+{
+  "id": "bb-4839205",
+  "source_sku": "4839205",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "Canon - EOS 5D Mark III DSLR Camera with 24-105mm f/4L IS Lens - Black",
+  "brand": "Canon",
+  "model": "5260B009",
+  "description_original": "Canon EOS 5D Mark III DSLR Camera with 24–105mm f/4L IS Lens: Capture amazing high-resolution photos with this professional-grade Canon DSLR. Don't miss a moment with a high frame rate and dual image processor for clear fast-action shots. The included zoom lens with image stabilizer technology lets you come in close and shoot every detail in crisp, clear quality, even from a distance. Memory card sold separately.",
+  "description_official_dataset": "22.3 megapixel full-frame CMOS sensorISO 100–25600Up to 6.0 fps continuous shootingUp to 41 cross-type pointsDIGIC 5+ image processorEOS HD video with manual exposure control",
+  "introduction_zh": "Canon 的相机与摄像机商品。来源介绍提及：成像规格 22.3 megapixel。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 3399.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Digital Cameras",
+    "Digital SLR Cameras",
+    "DSLR Body & Lens"
+  ],
+  "specifications_original": {
+    "manufacturer": "Canon",
+    "model": "5260B009",
+    "upc": "013803142457",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "camera_resolution",
+      "value_original": "22.3 megapixel",
+      "evidence_original": " distance. Memory card sold separately. 22.3 megapixel full-frame CMOS sensorISO 100–25600Up to 6.0 fps continuous shootingU"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-4839205/main.jpg",
+      "alt": "Canon - EOS 5D Mark III DSLR Camera with 24-105mm f/4L IS Lens - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4839/4839205_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4839/4839205_sa.jpg",
+      "width": 500,
+      "height": 488,
+      "content_type": "image/jpeg",
+      "sha256": "9707cd85dc6cac637dda235409a3f066529ab0d0cdbb0f296c9185033dc43f56",
+      "bytes": 36359,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/canon-eos-5d-mark-iii-dslr-camera-with-24-105mm-f-4l-is-lens-black/4839205.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

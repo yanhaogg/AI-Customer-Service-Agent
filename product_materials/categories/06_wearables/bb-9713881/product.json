@@ -1,0 +1,67 @@
+{
+  "id": "bb-9713881",
+  "source_sku": "9713881",
+  "category_id": "06_wearables",
+  "category_name_zh": "智能穿戴",
+  "name_original": "Pebble - Smartwatch 33mm Plastic - Red Silicone",
+  "brand": "Pebble",
+  "model": "301RD",
+  "description_original": "Pebble Smartwatch: From tracking your morning run to checking your favorite team's score during the big game, this watch puts useful apps and notifications on your wrist.",
+  "description_official_dataset": "Fits most wrist sizesCompatible with select Apple® and Android devicesSilicone bandVibration notifications",
+  "introduction_zh": "Pebble 的智能穿戴商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 99.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "Cell Phone Accessories",
+    "Smartwatches & Accessories",
+    "Smartwatches"
+  ],
+  "specifications_original": {
+    "manufacturer": "Pebble",
+    "model": "301RD",
+    "upc": "855906004061",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/06_wearables/bb-9713881/main.jpg",
+      "alt": "Pebble - Smartwatch 33mm Plastic - Red Silicone",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9713/9713881_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9713/9713881_sa.jpg",
+      "width": 305,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "d8585976aa32f384af80863ad937859376570c29b492e27aa96e0630931cf6ae",
+      "bytes": 10388,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/pebble-smartwatch-33mm-plastic-red-silicone/9713881.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

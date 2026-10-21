@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Razer - BlackWidow Chroma RGB Mechanical Gaming Keyboard - Black",
+    "description": "Featuring mechanical switches, this Razer BlackWidow Chroma RGB keyboard is ideal for gaming and allows you to input data quickly and accurately. The Chroma backlighting allows you to choose between 16.8 million color options for customization.",
+    "brand": "Razer",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards",
+      "Gaming Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards",
+      "lvl3": "Computers & Tablets > Mice & Keyboards > Computer Keyboards > Gaming Keyboards"
+    },
+    "type": "Gaming controllers",
+    "price": 169.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8501005_sb.jpg",
+    "url": "http://www.bestbuy.com/site/razer-blackwidow-chroma-rgb-mechanical-gaming-keyboard-black/8501005.p?id=1219340875088&skuId=8501005&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 1654,
+    "rating": 4,
+    "objectID": "8501005"
+  },
+  "bestbuy": {
+    "id": 8501005,
+    "name": "Razer - BlackWidow Chroma Keyboard - Multi",
+    "type": "HardGood",
+    "price": 169.99,
+    "upc": "811254023888",
+    "shipping": 0,
+    "description": "Cable Connectivity - USB Interface - Programmable, Macro Hot Key(s) - Mechanical",
+    "manufacturer": "Razer",
+    "model": "RZ03-01220200-R3U1",
+    "url": "http://www.bestbuy.com/site/razer-blackwidow-chroma-keyboard-multi/8501005.p?id=1219340875088&skuId=8501005&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8501/8501005_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

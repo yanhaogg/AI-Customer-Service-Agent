@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "DigiPower - Dual USB Vehicle Charger - Black",
+    "description": "Recharge your mobile phone, MP3 player or tablet while you're on the go with this DigiPower SP-PC200 vehicle charger, which delivers 10.5W of power for fast performance and features dual USB interfaces for simultaneously providing power to 2 devices.",
+    "brand": "DigiPower",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Car Chargers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Car Chargers"
+    },
+    "type": "So camera accy",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1319463_sb.jpg",
+    "url": "http://www.bestbuy.com/site/digipower-dual-usb-vehicle-charger-black/1319463.p?id=1219048897041&skuId=1319463",
+    "free_shipping": true,
+    "popularity": 7628,
+    "rating": 4,
+    "objectID": "1319463"
+  },
+  "bestbuy": {
+    "id": 1319463,
+    "name": "DigiPower - Dual USB Vehicle Charger - Black",
+    "type": "HardGood",
+    "price": 14.99,
+    "upc": "758302644414",
+    "shipping": 0,
+    "description": "Compatible with select Windows Phone, Android, BlackBerry and Apple&#174; iPod&#174;, iPad&#174; and iPhone&#174; models; delivers 10.5W of power; dual USB interfaces",
+    "manufacturer": "DigiPower",
+    "model": "SP-PC200",
+    "url": "http://www.bestbuy.com/site/digipower-dual-usb-vehicle-charger-black/1319463.p?id=1219048897041&skuId=1319463&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1319/1319463_sa.jpg",
+    "createdAt": "2016-11-17 18:02:21.601 +00:00",
+    "updatedAt": "2016-11-17 18:02:21.601 +00:00"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "EMTEC - 3D Snoopy Flying Ace 8GB USB 2.0 Type A Flash Drive - White",
+    "description": "Make file storage fun with this EMTEC 3D Snoopy Flying Ace ECMMD8GPN104 USB flash drive, which features an 8GB capacity and an attached figurine from the popular cartoon. The high-speed USB 2.0 interface allows rapid data transfers.",
+    "brand": "EMTEC",
+    "categories": [
+      "Computers & Tablets",
+      "USB Flash Drives"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > USB Flash Drives"
+    },
+    "type": "Flash drives",
+    "price": 9.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4227700_sb.jpg",
+    "url": "http://www.bestbuy.com/site/emtec-3d-snoopy-flying-ace-8gb-usb-2-0-type-a-flash-drive-white/4227700.p?id=1219710235006&skuId=4227700&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7194,
+    "rating": 6,
+    "objectID": "4227700"
+  },
+  "bestbuy": null
+}

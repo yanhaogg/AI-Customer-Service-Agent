@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "BenQ - 24\" LED HD Monitor - Black/Red",
+    "description": "Take your gaming up a notch with this BenQ XL2411Z 24\" LED monitor, which offers an ultrafast 1 ms response time to minimize blurring, streaking and ghosting in fast-paced movies and games. Enjoy games and browse the Web in crisp, 1080p resolution.",
+    "brand": "BenQ",
+    "categories": [
+      "Computers & Tablets",
+      "Monitors",
+      "LED Monitors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Monitors",
+      "lvl2": "Computers & Tablets > Monitors > LED Monitors"
+    },
+    "type": "So monitors",
+    "price": 329.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8903018_sb.jpg",
+    "url": "http://www.bestbuy.com/site/benq-24-led-hd-monitor-black-red/8903018.p?id=1219378305247&skuId=8903018",
+    "free_shipping": false,
+    "popularity": 8918,
+    "rating": 3,
+    "objectID": "8903018"
+  },
+  "bestbuy": {
+    "id": 8903018,
+    "name": "BenQ - 24\" LED HD Monitor - Black/Red",
+    "type": "HardGood",
+    "price": 289.99,
+    "upc": "840046030568",
+    "shipping": 0,
+    "description": "BENQ 24\" LED HD Monitor: 1 ms gray-to-gray response time; 1000:1 contrast ratio; 350 nits brightness; 1080p resolution; DVI-D, VGA (D-Sub), HDMI and DisplayPort 1.2 inputs; headphone jack; antiglare screen; 144Hz refresh rate; wall mountable",
+    "manufacturer": "BenQ",
+    "model": "XL2411Z",
+    "url": "http://www.bestbuy.com/site/benq-24-led-hd-monitor-black-red/8903018.p?id=1219378305247&skuId=8903018&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8903/8903018_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

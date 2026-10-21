@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Motorola - Moto G (3rd Generation) 4G with 8GB Memory Cell Phone (Unlocked) - White",
+    "description": "Motorola Moto G (3rd Generation) Unlocked Cell Phone: Stay entertained wherever you are with 4G LTE speed and built-in Wi-Fi that let you access social media, check your e-mail and browse Web sites. You'll be prepared to capture important moments as they arise, since this phone features a 13.0MP rear-facing and 5.0MP front-facing camera.",
+    "brand": "Motorola",
+    "categories": [
+      "Cell Phones",
+      "Unlocked Cell Phones",
+      "All Unlocked Cell Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Unlocked Cell Phones",
+      "lvl2": "Cell Phones > Unlocked Cell Phones > All Unlocked Cell Phones"
+    },
+    "type": "Unlocked handsets",
+    "price": 179.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8917001_sb.jpg",
+    "url": "http://www.bestbuy.com/site/motorola-moto-g-3rd-generation-4g-with-8gb-memory-cell-phone-unlocked-white/8917001.p?id=1219696702812&skuId=8917001&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2993,
+    "rating": 6,
+    "objectID": "8917001"
+  },
+  "bestbuy": {
+    "id": 8917001,
+    "name": "Motorola - Moto G (3rd Generation) 4G with 8GB Memory Cell Phone (Unlocked) - White",
+    "type": "HardGood",
+    "price": 159.99,
+    "upc": "723755007710",
+    "shipping": 0,
+    "description": "Qualcomm Snapdragon 410 quad-core processorAndroid 5.1 Lollipop operating system4G LTE speedWi-Fi5\" touch screenBluetooth 4.0 + LEOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "manufacturer": "Motorola",
+    "model": "00771NARTL",
+    "url": "http://www.bestbuy.com/site/motorola-moto-g-3rd-generation-4g-with-8gb-memory-cell-phone-unlocked-white/8917001.p?id=1219696702812&skuId=8917001&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/8917/8917001_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

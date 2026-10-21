@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "AT&T GoPhone - Microsoft Lumia 640 4G LTE with 8GB Memory No-Contract Cell Phone - Black",
+    "description": "Microsoft 640 No-Contract Cell Phone for AT&T GoPhone: Stay connected and productive wherever you are with this no-contract cell phone, which features 4G LTE speed and Wi-Fi for flexible Internet connection options. Easily browse Web sites and flip through features using the 5\" touch screen, and snap photos with the 8.0MP rear-facing camera.",
+    "brand": "AT&T GoPhone",
+    "categories": [
+      "Cell Phones",
+      "No-Contract Phones",
+      "All No-Contract Phones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > No-Contract Phones",
+      "lvl2": "Cell Phones > No-Contract Phones > All No-Contract Phones"
+    },
+    "type": "At&#38;t go phone",
+    "price": 79.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9231014_sb.jpg",
+    "url": "http://www.bestbuy.com/site/at-t-gophone-microsoft-lumia-640-4g-lte-with-8gb-memory-no-contract-cell-phone-black/9231014.p?id=1219701750248&skuId=9231014&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9246,
+    "rating": 1,
+    "objectID": "9231014"
+  },
+  "bestbuy": null
+}

@@ -1,0 +1,92 @@
+{
+  "id": "bb-6523207",
+  "source_sku": "6523207",
+  "category_id": "01_phones",
+  "category_name_zh": "手机",
+  "name_original": "NET10 - LG Destiny with 8GB Memory No-Contract Cell Phone - Gray",
+  "brand": "NET10",
+  "model": "NTLGL21G3P4P",
+  "description_original": "LG Destiny No-Contract Cell Phone for TRACFONE: Thanks to this cell phone's rear-facing 5.0MP and front-facing 0.3MP cameras, you can document your adventures and share them with loved ones. Streaming videos, music and more is easy with Wi-Fi.",
+  "description_official_dataset": "Qualcomm 8916 1.2GHz quad-core processorAndroid 5.0.1 Lollipop operating system3G speedWi-Fi4.5\" touch screenBluetooth enabled",
+  "introduction_zh": "NET10 的手机商品。来源介绍提及：尺寸 5 英寸；容量 8GB；成像规格 5.0MP。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 79.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cell Phones",
+    "No-Contract Phones",
+    "All No-Contract Phones"
+  ],
+  "specifications_original": {
+    "manufacturer": "NET10",
+    "model": "NTLGL21G3P4P",
+    "upc": "616960102588",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "5\"",
+      "evidence_original": "Lollipop operating system3G speedWi-Fi4.5\" touch screenBluetooth enabled"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "NET10 - LG Destiny with 8GB Memory No-Contract Cell Phone - Gray LG Destiny No-Contract Cell Phon"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "5.0MP",
+      "evidence_original": "Thanks to this cell phone's rear-facing 5.0MP and front-facing 0.3MP cameras, you can document your adventures and "
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "0.3MP",
+      "evidence_original": "ne's rear-facing 5.0MP and front-facing 0.3MP cameras, you can document your adventures and share them with loved o"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "ing videos, music and more is easy with Wi-Fi. Qualcomm 8916 1.2GHz quad-core processorAndroid 5.0.1 Lollipop opera"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/01_phones/bb-6523207/main.jpg",
+      "alt": "NET10 - LG Destiny with 8GB Memory No-Contract Cell Phone - Gray",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523207_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523207_sa.jpg",
+      "width": 251,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "6df3ef099c9aaaa5f57fcda78c4e15e3717281aac9ccdb8adedf88d9035c99fb",
+      "bytes": 19835,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/net10-lg-destiny-with-8gb-memory-no-contract-cell-phone-gray/6523207.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

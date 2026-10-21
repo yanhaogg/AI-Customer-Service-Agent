@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Gateway - 15.6\" Touch-Screen Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Black",
+    "description": "Gateway Laptop: Control media playback, surf the Web and play your favorite games, all with your fingertips on this laptop's 15.6\" touch screen. The built-in webcam makes it easy to video chat with friends and family.",
+    "brand": "Gateway",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "So laptops",
+    "price": 479.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/8568018_sb.jpg",
+    "url": "http://www.bestbuy.com/site/gateway-15-6-touch-screen-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-black/8568018.p?id=1219693614245&skuId=8568018",
+    "free_shipping": true,
+    "popularity": 6635,
+    "rating": 6,
+    "objectID": "8568018"
+  },
+  "bestbuy": null
+}

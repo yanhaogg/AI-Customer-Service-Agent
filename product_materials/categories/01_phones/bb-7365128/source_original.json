@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "LG - Escape 2 4G with 8GB Memory Cell Phone - Black (AT&T)",
+    "description": "LG Escape 2 Cell Phone for AT&T: Stay connected at home and on the go with 4G LTE speed and Wi-Fi. You'll also be ready to capture special moments as they unfold, thanks to 8.0MP rear-facing and 2.0MP front-facing cameras.  AT&T Next option available in store. Learn more &#8250;",
+    "brand": "LG",
+    "categories": [
+      "Cell Phones",
+      "All Cell Phones with Plans"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > All Cell Phones with Plans"
+    },
+    "type": "At&#38;t smartphone",
+    "price": 179.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7365128_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lg-escape-2-4g-with-8gb-memory-cell-phone-black-at-t/7365128.p?id=1219680103736&skuId=7365128&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4154,
+    "rating": 2,
+    "objectID": "7365128"
+  },
+  "bestbuy": {
+    "id": 7365128,
+    "name": "LG - Escape 2 4G with 8GB Memory Cell Phone - Black (AT&T)",
+    "type": "HardGood",
+    "price": 169.99,
+    "upc": "652810516440",
+    "shipping": 0,
+    "description": "Qualcomm Snapdragon 410 1.2GHz processorAndroid 5.0.1 Lollipop operating system4G LTE speedWi-Fi4.7\" LCD touch screenBluetooth interface8.0MP rear-facing and 2.0MP front-facing cameras",
+    "manufacturer": "LG",
+    "model": "LG C70",
+    "url": "http://www.bestbuy.com/site/lg-escape-2-4g-with-8gb-memory-cell-phone-black-at-t/7365128.p?id=1219680103736&skuId=7365128&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1314/1314269299/1314269299_sa.jpg",
+    "createdAt": "2016-11-17 18:00:01.751 +00:00",
+    "updatedAt": "2016-11-17 18:00:01.751 +00:00"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "algolia": {
+    "name": "Oplink Connected - AlarmShield Wireless Security System with Wireless Camera - White",
+    "description": "Create a comprehensive security strategy with this Oplink AlarmShield OPG2200 system, which includes a Wi-Fi IP camera, 2 door/window sensors, 2 key fob remotes and a motion detector to help identify and prevent unauthorized access to your home.",
+    "brand": "Oplink Connected",
+    "categories": [
+      "Connected Home",
+      "Remote Monitoring Kits"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Connected Home",
+      "lvl1": "Connected Home > Remote Monitoring Kits"
+    },
+    "type": "So home monitoring",
+    "price": 249.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3146049_sb.jpg",
+    "url": "http://www.bestbuy.com/site/oplink-connected-alarmshield-wireless-security-system-with-wireless-camera-white/3146049.p?id=1219573002242&skuId=3146049",
+    "free_shipping": true,
+    "popularity": 2539,
+    "rating": 5,
+    "objectID": "3146049"
+  },
+  "bestbuy": {
+    "id": 3146049,
+    "name": "Oplink Connected - AlarmShield Wireless Security System with Wireless Camera - White",
+    "type": "HardGood",
+    "price": 249.99,
+    "upc": "855755005547",
+    "shipping": 0,
+    "description": "OPLINK AlarmShield Wireless Security System: Includes an OPU (Oplink Processing Unit), Wi-Fi IP camera, 2 door/window sensors, 2 key fob remotes, motion detector, sensor and more; CMOS sensor; IR night vision up to 15'; expandable up to 8 cameras",
+    "manufacturer": "Oplink Connected",
+    "model": "OPG2200",
+    "url": "http://www.bestbuy.com/site/oplink-connected-alarmshield-wireless-security-system-with-wireless-camera-white/3146049.p?id=1219573002242&skuId=3146049&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3146/3146049_sa.jpg",
+    "createdAt": "2016-11-17 17:59:24.820 +00:00",
+    "updatedAt": "2016-11-17 17:59:24.820 +00:00"
+  }
+}

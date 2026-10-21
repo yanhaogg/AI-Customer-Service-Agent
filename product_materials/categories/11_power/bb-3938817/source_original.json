@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "CyberPower - 1500VA Battery Back-Up System - Black",
+    "description": "Protect your office or entertainment equipment with this CyberPower LX1500GU 1500VA battery back-up system, which enables safe shutdown in the event of a power failure and features AVR (Automatic Voltage Regulation) to provide consistent power levels.",
+    "brand": "CyberPower",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Battery Backup (UPS)"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Battery Backup (UPS)"
+    },
+    "type": "Surge/ups",
+    "price": 159.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3938817_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cyberpower-1500va-battery-back-up-system-black/3938817.p?id=1219609308198&skuId=3938817&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7806,
+    "rating": 1,
+    "objectID": "3938817"
+  },
+  "bestbuy": {
+    "id": 3938817,
+    "name": "CyberPower - 1500VA Battery Back-Up System - Black",
+    "type": "HardGood",
+    "price": 159.99,
+    "upc": "649532615537",
+    "shipping": 0,
+    "description": "ENERGY STAR Certified\n890 joules of protection; 10 surge-protected outlets; phone line protection; AVR (Automatic Voltage Regulation); Line Interactive topology; GreenPower UPS Bypass design; multifunction LCD",
+    "manufacturer": "CyberPower",
+    "model": "LX1500GU",
+    "url": "http://www.bestbuy.com/site/cyberpower-1500va-battery-back-up-system-black/3938817.p?id=1219609308198&skuId=3938817&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3938/3938817_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

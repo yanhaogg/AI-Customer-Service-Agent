@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "D-Link - 802.11ac Wireless Gigabit Router - Black",
+    "description": "Build a home or small business network with this D-Link DIR880L wireless router that features high-modulation dual-band performance for optimal throughput with minimal Wi-Fi interference. The Advanced AC Beamforming helps expand wireless coverage.",
+    "brand": "D-Link",
+    "categories": [
+      "Computers & Tablets",
+      "Networking & Wireless",
+      "Routers",
+      "Wireless Routers"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Networking & Wireless",
+      "lvl2": "Computers & Tablets > Networking & Wireless > Routers",
+      "lvl3": "Computers & Tablets > Networking & Wireless > Routers > Wireless Routers"
+    },
+    "type": "So networking",
+    "price": 209.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9606114_sb.jpg",
+    "url": "http://www.bestbuy.com/site/d-link-802-11ac-wireless-gigabit-router-black/9606114.p?id=1219424301681&skuId=9606114",
+    "free_shipping": true,
+    "popularity": 7770,
+    "rating": 5,
+    "objectID": "9606114"
+  },
+  "bestbuy": {
+    "id": 9606114,
+    "name": "D-Link - 802.11ac Wireless Gigabit Router - Black",
+    "type": "HardGood",
+    "price": 149.99,
+    "upc": "790069404474",
+    "shipping": 0,
+    "description": "D-LINK 802.11ac Wireless Gigabit Router: WPA, WPA2, WPS and 64- and 128-bit WEP security; dual-band performance; four 10/100/1000 Ethernet ports; mydlink cloud services",
+    "manufacturer": "D-Link",
+    "model": "DIR880L",
+    "url": "http://www.bestbuy.com/site/d-link-802-11ac-wireless-gigabit-router-black/9606114.p?id=1219424301681&skuId=9606114&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9606/9606114_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

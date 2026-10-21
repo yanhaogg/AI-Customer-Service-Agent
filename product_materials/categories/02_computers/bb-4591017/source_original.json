@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Acer - 11.6\" Touch-Screen Chromebook - Intel Celeron - 2GB Memory - 32GB Solid State Drive - Moonstone White",
+    "description": "Acer C720P-2661 Chromebook: Navigate your favorite websites with a slide, tap and touch of your finger. You can easily take it wherever you go, and find new places to relax and watch your favorite TV shows or movies.   Learn more about Chromebooks &#8250;",
+    "brand": "Acer",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "Chromebooks"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > Chromebooks"
+    },
+    "type": "Google os",
+    "price": 279.0,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4591017_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acer-11-6-touch-screen-chromebook-intel-celeron-2gb-memory-32gb-solid-state-drive-moonstone-white/4591017.p?id=1219098810504&skuId=4591017&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 9981,
+    "rating": 1,
+    "objectID": "4591017"
+  },
+  "bestbuy": null
+}

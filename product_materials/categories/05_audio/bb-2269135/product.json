@@ -1,0 +1,70 @@
+{
+  "id": "bb-2269135",
+  "source_sku": "2269135",
+  "category_id": "05_audio",
+  "category_name_zh": "耳机与音箱",
+  "name_original": "FUGOO - Sport Waterproof Bluetooth Speaker - Black/Blue",
+  "brand": "FUGOO",
+  "model": "F6SPKG01",
+  "description_original": "FUGOO Sport Speaker: This FUGOO Sport Bluetooth speaker features 6 speakers around all 4 sides for 360° high-fidelity audio, a mud-, snow- and shock-proof design and is waterproof up to 3.3' for up to 30 minutes, making it easy to enjoy music wherever life takes you. Up to 40 hour battery life delivers music that keeps the music going. Full duplex speakerphone and voice control pass-through helps you manage your life, hands-free.",
+  "description_official_dataset": "FUGOO Sport Waterproof Bluetooth Speaker: Bluetooth/Wireless; rechargeable battery; water-, dust-, snow- and shockproof; speakerphone; Special features: 3.5mm audio input jack",
+  "introduction_zh": "FUGOO 的耳机与音箱商品。来源介绍提及：接口或连接方式 Bluetooth。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Audio"
+  ],
+  "specifications_original": {
+    "manufacturer": "FUGOO",
+    "model": "F6SPKG01",
+    "upc": "859065004016",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "FUGOO - Sport Waterproof Bluetooth Speaker - Black/Blue FUGOO Sport Speaker: This FUGOO Sport Bluetooth "
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/05_audio/bb-2269135/main.jpg",
+      "alt": "FUGOO - Sport Waterproof Bluetooth Speaker - Black/Blue",
+      "source_url": "https://img.bbystatic.com/BestBuy_US/images/products/2269/2269135_sa.jpg",
+      "resolved_url": "https://img.bbystatic.com/BestBuy_US/images/products/2269/2269135_sa.jpg",
+      "width": 500,
+      "height": 194,
+      "content_type": "image/jpeg",
+      "sha256": "a5ce7e68f160ccee9b6cea58a98a05c24231c9678a7834d083a57b7a1d2b1b0e",
+      "bytes": 48065,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/fugoo-sport-waterproof-bluetooth-speaker-black-blue/2269135.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

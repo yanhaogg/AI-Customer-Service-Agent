@@ -1,0 +1,37 @@
+{
+  "algolia": {
+    "name": "FUGOO - Sport Waterproof Bluetooth Speaker - Black/Blue",
+    "description": "FUGOO Sport Speaker: This FUGOO Sport Bluetooth speaker features 6 speakers around all 4 sides for 360&#176; high-fidelity audio, a mud-, snow- and shock-proof design and is waterproof up to 3.3' for up to 30 minutes, making it easy to enjoy music wherever life takes you. Up to 40 hour battery life delivers music that keeps the music going. Full duplex speakerphone and voice control pass-through helps you manage your life, hands-free.",
+    "brand": "FUGOO",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "Wireless speakers",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2269135_sb.jpg",
+    "url": "http://www.bestbuy.com/site/fugoo-sport-waterproof-bluetooth-speaker-black-blue/2269135.p?id=1219535314382&skuId=2269135&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 6744,
+    "rating": 6,
+    "objectID": "2269135"
+  },
+  "bestbuy": {
+    "id": 2269135,
+    "name": "FUGOO - Sport Waterproof Bluetooth Speaker - Black/Blue",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "859065004016",
+    "shipping": 0,
+    "description": "FUGOO Sport Waterproof Bluetooth Speaker: Bluetooth/Wireless; rechargeable battery; water-, dust-, snow- and shockproof; speakerphone; Special features: 3.5mm audio input jack",
+    "manufacturer": "FUGOO",
+    "model": "F6SPKG01",
+    "url": "http://www.bestbuy.com/site/fugoo-sport-waterproof-bluetooth-speaker-black-blue/2269135.p?id=1219535314382&skuId=2269135&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2269/2269135_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

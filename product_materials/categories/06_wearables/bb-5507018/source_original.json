@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Samsung - Gear 2 Smartwatch 58.4mm Metal - Gold/Brown Rubber",
+    "description": "Samsung Gear 2 Smartwatch: Pair this stylish watch with select Samsung phones or tablets to make calls, fire off texts and receive notifications right from your wrist. The bright touch screen makes it easy to shoot video on the go and track your fitness progress, or relax at home and surf channels.",
+    "brand": "Samsung",
+    "categories": [
+      "Cell Phones",
+      "Cell Phone Accessories",
+      "Smartwatches & Accessories",
+      "Smartwatches"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": "Cell Phones > Cell Phone Accessories",
+      "lvl2": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories",
+      "lvl3": "Cell Phones > Cell Phone Accessories > Smartwatches & Accessories > Smartwatches"
+    },
+    "type": "Smartwatches",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5507018_sb.jpg",
+    "url": "http://www.bestbuy.com/site/samsung-gear-2-smartwatch-58-4mm-metal-gold-brown-rubber/5507018.p?id=1219133600802&skuId=5507018&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 1009,
+    "rating": 6,
+    "objectID": "5507018"
+  },
+  "bestbuy": null
+}

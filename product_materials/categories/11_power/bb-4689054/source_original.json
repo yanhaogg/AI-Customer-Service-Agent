@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Rocketfish™ - 2-Outlet Surge Protector - Black",
+    "description": "Safeguard your A/V devices with this Rocketfish&#8482; RF-HTS1215 surge protector, which features 2 outlets with 1500 joules of protection against power surges and spikes. The low-profile design is ideal for placement behind your flat-panel TV.",
+    "brand": "Rocketfish™",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Surge Protectors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Surge Protectors"
+    },
+    "type": "Ht power surge",
+    "price": 19.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4689054_sb.jpg",
+    "url": "http://www.bestbuy.com/site/rocketfish-2-outlet-surge-protector-black/4689054.p?id=1219639902855&skuId=4689054&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 1539,
+    "rating": 1,
+    "objectID": "4689054"
+  },
+  "bestbuy": {
+    "id": 4689054,
+    "name": "Rocketfish™ - 2-Outlet Surge Protector - Black",
+    "type": "HardGood",
+    "price": 19.99,
+    "upc": "600603185755",
+    "shipping": 0,
+    "description": "Only @ Best Buy\n1500 joules of protection; 2 outlets; 47dB EMI/RFI noise filter; low-profile design",
+    "manufacturer": "Rocketfish™",
+    "model": "RF-HTS1215",
+    "url": "http://www.bestbuy.com/site/rocketfish-2-outlet-surge-protector-black/4689054.p?id=1219639902855&skuId=4689054&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4689/4689054_sa.jpg",
+    "createdAt": "2016-11-17 17:58:46.655 +00:00",
+    "updatedAt": "2016-11-17 17:58:46.655 +00:00"
+  }
+}

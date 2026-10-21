@@ -1,0 +1,80 @@
+{
+  "id": "bb-4968016",
+  "source_sku": "4968016",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "Microsoft - Surface 3 - 10.8\" - Intel Atom - 128GB - Silver",
+  "brand": "Microsoft",
+  "model": null,
+  "description_original": "With the integrated Kickstand, the ability to run desktop software and touch apps, and a full-size USB port, Surface 3 is a perfect mix of innovation and practicality. As thin and light as it is, you'll be amazed at all you can achieve with this device. Now for a limited time, Surface 3 tablets include 1 year of Microsoft Office 365 Personal (a $69.99 value) plus OneDrive cloud storage. Office activation required within 6 months of Windows activation date. Offer valid while supplies last.",
+  "description_official_dataset": null,
+  "introduction_zh": "Microsoft 的平板电脑商品。来源介绍提及：尺寸 10.8 英寸；容量 128GB；接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 599.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "10.8\"",
+      "evidence_original": "Microsoft - Surface 3 - 10.8\" - Intel Atom - 128GB - Silver With the integrated Kickstand, the abil"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "128GB",
+      "evidence_original": "soft - Surface 3 - 10.8\" - Intel Atom - 128GB - Silver With the integrated Kickstand, the ability to run desktop so"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "oftware and touch apps, and a full-size USB port, Surface 3 is a perfect mix of innovation and practicality. As t"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-4968016/main.jpg",
+      "alt": "Microsoft - Surface 3 - 10.8\" - Intel Atom - 128GB - Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4968/4968016_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4968/4968016_sb.jpg",
+      "width": 1000,
+      "height": 765,
+      "content_type": "image/jpeg",
+      "sha256": "61869be18cf60bf930f7afd75055828847e3b761b59ff69e0615c21577d2b820",
+      "bytes": 80504,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/microsoft-surface-3-10-8-intel-atom-128gb-silver/4968016.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

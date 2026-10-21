@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Acer - 11.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gray",
+    "description": "Acer Chromebook: Stay productive and entertained whether you're at home or on the go with this 11.6\" Chromebook, which features built-in Wireless-AC networking for rapid Web access. Easily connect a display via HDMI to enjoy enlarged content.  Learn more about Chromebooks &#8250;",
+    "brand": "Acer",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "Chromebooks"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > Chromebooks"
+    },
+    "type": "So laptops",
+    "price": 279.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4020462_sb.jpg",
+    "url": "http://www.bestbuy.com/site/acer-11-6-chromebook-intel-celeron-4gb-memory-16gb-solid-state-drive-gray/4020462.p?id=1219616451773&skuId=4020462",
+    "free_shipping": true,
+    "popularity": 9982,
+    "rating": 2,
+    "objectID": "4020462"
+  },
+  "bestbuy": {
+    "id": 4020462,
+    "name": "Acer - 11.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gray",
+    "type": "HardGood",
+    "price": 249.99,
+    "upc": "887899773891",
+    "shipping": 0,
+    "description": "Chrome OSTechnical details: Intel&#174; Celeron&#174; processor; 11.6\" display; 4GB memory; 16GB solid state driveSpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included",
+    "manufacturer": "Acer",
+    "model": "C740C4PE",
+    "url": "http://www.bestbuy.com/site/acer-11-6-chromebook-intel-celeron-4gb-memory-16gb-solid-state-drive-gray/4020462.p?id=1219616451773&skuId=4020462&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1312/1312249743/1312249743_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

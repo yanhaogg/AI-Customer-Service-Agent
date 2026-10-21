@@ -1,0 +1,91 @@
+{
+  "id": "bb-4575223",
+  "source_sku": "4575223",
+  "category_id": "02_computers",
+  "category_name_zh": "笔记本与台式电脑",
+  "name_original": "iBUYPOWER - Desktop - AMD FX-Series - 16GB Memory - 1TB Hard Drive + 120GB Solid State Drive - Black/Red",
+  "brand": "iBUYPOWER",
+  "model": "BB723",
+  "description_original": "iBUYPOWER Desktop: Immerse yourself in high-quality video playback and lifelike gameplay, and enjoy smooth multitasking capabilities with this powerful computer. Customize your setup by displaying on a hi-def monitor or HDTV via the HDMI port.",
+  "description_official_dataset": "Windows 10Technical details: AMD FX-Series processor; 16GB memory; 1TB hard drive; 120GB solid state driveSpecial features: 2GB dedicated graphics; built-in wireless networking; HDMI output",
+  "introduction_zh": "iBUYPOWER 的笔记本与台式电脑商品。来源介绍提及：容量 16GB；容量 1TB；容量 120GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 799.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "All Desktops"
+  ],
+  "specifications_original": {
+    "manufacturer": "iBUYPOWER",
+    "model": "BB723",
+    "upc": "848604018799",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "16GB",
+      "evidence_original": "iBUYPOWER - Desktop - AMD FX-Series - 16GB Memory - 1TB Hard Drive + 120GB Solid State Drive - Black/Red iBUYPOW"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "1TB",
+      "evidence_original": "Desktop - AMD FX-Series - 16GB Memory - 1TB Hard Drive + 120GB Solid State Drive - Black/Red iBUYPOWER Desktop: I"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "120GB",
+      "evidence_original": "Series - 16GB Memory - 1TB Hard Drive + 120GB Solid State Drive - Black/Red iBUYPOWER Desktop: Immerse yourself in "
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "2GB",
+      "evidence_original": "20GB solid state driveSpecial features: 2GB dedicated graphics; built-in wireless networking; HDMI output"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "HDMI",
+      "evidence_original": "ing on a hi-def monitor or HDTV via the HDMI port. Windows 10Technical details: AMD FX-Series processor; 16GB memo"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/02_computers/bb-4575223/main.jpg",
+      "alt": "iBUYPOWER - Desktop - AMD FX-Series - 16GB Memory - 1TB Hard Drive + 120GB Solid State Drive - Black/Red",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4575/4575223_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4575/4575223_sa.jpg",
+      "width": 399,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "a2967ad135b1be6d14fc5da32d1d2fa5cddee665792c5d64a54fad31e9a01e20",
+      "bytes": 24061,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/ibuypower-desktop-amd-fx-series-16gb-memory-1tb-hard-drive-120gb-solid-state-drive-black-red/4575223.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

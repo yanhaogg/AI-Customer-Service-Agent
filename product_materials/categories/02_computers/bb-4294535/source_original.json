@@ -1,0 +1,25 @@
+{
+  "algolia": {
+    "name": "CyberPowerPC - Gamer Supreme Desktop - Intel Core i7 - 16GB Memory - 2TB Hard Drive + 128GB Solid State Drive - Gunmetal",
+    "description": "CyberPowerPC Gamer Supreme Desktop: Utilizing AMD Radeon R7 370 graphics powered by 2GB dedicated video memory, this desktop brings gaming images to life. An HDMI output makes it easy to connect a high-definition monitor or HDTV.",
+    "brand": "CyberPowerPC",
+    "categories": [
+      "Computers & Tablets",
+      "All Desktops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > All Desktops"
+    },
+    "type": "So gaming pc",
+    "price": 1399.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4294535_sb.jpg",
+    "url": "http://www.bestbuy.com/site/cyberpowerpc-gamer-supreme-desktop-intel-core-i7-16gb-memory-2tb-hard-drive-128gb-solid-state-drive-gunmetal/4294535.p?id=bb4294535&skuId=4294535",
+    "free_shipping": false,
+    "popularity": 7796,
+    "rating": 4,
+    "objectID": "4294535"
+  },
+  "bestbuy": null
+}

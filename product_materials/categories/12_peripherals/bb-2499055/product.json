@@ -1,0 +1,67 @@
+{
+  "id": "bb-2499055",
+  "source_sku": "2499055",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "EVGA - TORQ X3L Laser Gaming Mouse - Blue",
+  "brand": "EVGA",
+  "model": "901-X1-1031-KR",
+  "description_original": "Game on using this EVGA TORQ X3L 901-X1-1031-KR laser mouse, which delivers up to 5000 dpi sensitivity with on-the-fly adjustment and offers on-board storage with support for up to 5 separate profiles, making it easy to customize your in-game action.",
+  "description_official_dataset": "Laser technology; up to 5000 dpi sensitivity; on-the-fly sensitivity adjustment; on-board storage with support for up to 5 separate profiles; Omron switches; 8 programmable buttons; low-friction PTFE mouse feet",
+  "introduction_zh": "EVGA 的键鼠与电脑外设商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 39.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Mice & Keyboards",
+    "Mice",
+    "Gaming Mice"
+  ],
+  "specifications_original": {
+    "manufacturer": "EVGA",
+    "model": "901-X1-1031-KR",
+    "upc": "843368032098",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-2499055/main.jpg",
+      "alt": "EVGA - TORQ X3L Laser Gaming Mouse - Blue",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2499/2499055_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2499/2499055_sa.jpg",
+      "width": 499,
+      "height": 500,
+      "content_type": "image/jpeg",
+      "sha256": "6658ed0c17afaf6e4121f6f287a45c7b02ea3c872619447f0903d08305c3497d",
+      "bytes": 34640,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/evga-torq-x3l-laser-gaming-mouse-blue/2499055.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

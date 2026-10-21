@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Microsoft - Surface 3 - 10.8\" - Intel Atom - 128GB - Silver",
+    "description": "With the integrated Kickstand, the ability to run desktop software and touch apps, and a full-size USB port, Surface 3 is a perfect mix of innovation and practicality. As thin and light as it is, you'll be amazed at all you can achieve with this device.  Now for a limited time, Surface 3 tablets include 1 year of Microsoft Office 365 Personal (a $69.99 value) plus OneDrive cloud storage. Office activation required within 6 months of Windows activation date. Offer valid while supplies last.",
+    "brand": "Microsoft",
+    "categories": [
+      "Computers & Tablets",
+      "Tablets",
+      "All Tablets"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Tablets",
+      "lvl2": "Computers & Tablets > Tablets > All Tablets"
+    },
+    "type": "Msft surface wifi",
+    "price": 599.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4968016_sb.jpg",
+    "url": "http://www.bestbuy.com/site/microsoft-surface-3-10-8-intel-atom-128gb-silver/4968016.p?id=1219645631904&skuId=4968016&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 3371,
+    "rating": 3,
+    "objectID": "4968016"
+  },
+  "bestbuy": null
+}

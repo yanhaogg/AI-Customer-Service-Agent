@@ -1,0 +1,65 @@
+{
+  "id": "bb-9089085",
+  "source_sku": "9089085",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Corsair - K70 Mechanical Keyboard - Black",
+  "brand": "Corsair",
+  "model": null,
+  "description_original": "Defeat virtual enemies with this Corsair K70 keyboard that features Cherry MX Red mechanical switches that offer smooth, linear response and minimal noise for enhanced gameplay. The brushed-aluminum chassis offers durability.",
+  "description_official_dataset": null,
+  "introduction_zh": "Corsair 的键鼠与电脑外设商品。具体功能、适用设备和配件说明见保留的英文原文。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 129.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Mice & Keyboards",
+    "Computer Keyboards",
+    "Gaming Keyboards"
+  ],
+  "specifications_original": {},
+  "extracted_attributes": [],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-9089085/main.jpg",
+      "alt": "Corsair - K70 Mechanical Keyboard - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9089/9089085_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9089/9089085_sb.jpg",
+      "width": 500,
+      "height": 306,
+      "content_type": "image/jpeg",
+      "sha256": "cb7ade0efe78531101454faa6c589434068b876a5482d5ac3d1cd6eb5ad8e2a1",
+      "bytes": 17359,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/corsair-k70-mechanical-keyboard-black/9089085.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": false,
+    "missing_fields": [
+      "model",
+      "upc"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "LG - 24\" IPS HD Monitor - Black",
+    "description": "This LG 24MP57HQ monitor features a large 24\" IPS display with antiglare treatment and 1920 x 1080 high-definition resolution for clear, detailed images and enhanced visibility. Wide 178&#176; viewing angles ensure a clear view from around the room.",
+    "brand": "LG",
+    "categories": [
+      "Computers & Tablets",
+      "Monitors",
+      "LED Monitors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Monitors",
+      "lvl2": "Computers & Tablets > Monitors > LED Monitors"
+    },
+    "type": "Flat screen monitor",
+    "price": 219.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3566052_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lg-24-ips-hd-monitor-black/3566052.p?id=1219588127762&skuId=3566052&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": true,
+    "popularity": 4269,
+    "rating": 3,
+    "objectID": "3566052"
+  },
+  "bestbuy": {
+    "id": 3566052,
+    "name": "LG - 24\" IPS HD Monitor - Black",
+    "type": "HardGood",
+    "price": 219.99,
+    "upc": "719192195745",
+    "shipping": 0,
+    "description": "5 ms response time; 5,000,000:1 contrast ratio; 250 cd/m&#178; brightness; 1920 x 1080 resolution; 178&#176; horizontal and vertical viewing angles; HDMI and VGA interfaces",
+    "manufacturer": "LG",
+    "model": "24MP57HQ",
+    "url": "http://www.bestbuy.com/site/lg-24-ips-hd-monitor-black/3566052.p?id=1219588127762&skuId=3566052&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/3566/3566052_sa.jpg",
+    "createdAt": "2016-11-17 18:01:22.276 +00:00",
+    "updatedAt": "2016-11-17 18:01:22.276 +00:00"
+  }
+}

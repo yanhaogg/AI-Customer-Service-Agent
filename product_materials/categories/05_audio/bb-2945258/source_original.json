@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "NAD - VISO HP50 Over-the-Ear Headphones - Black",
+    "description": "Learn more about Magnolia Premium Installation   Enjoy immersive audio with these NAD VISO HP50 headphones that feature an Apple&#174; 3-button remote and a microphone for simple use. RoomFeel technology ensures high-quality sound.",
+    "brand": "NAD",
+    "categories": [
+      "Audio",
+      "Headphones",
+      "Over-Ear Headphones"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Headphones",
+      "lvl2": "Audio > Headphones > Over-Ear Headphones"
+    },
+    "type": "So mht audio accy",
+    "price": 299.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2945258_sb.jpg",
+    "url": "http://www.bestbuy.com/site/nad-viso-hp50-over-the-ear-headphones-black/2945258.p?id=1219084100320&skuId=2945258",
+    "free_shipping": false,
+    "popularity": 2918,
+    "rating": 1,
+    "objectID": "2945258"
+  },
+  "bestbuy": {
+    "id": 2945258,
+    "name": "NAD - VISO HP50 Over-the-Ear Headphones - Black",
+    "type": "HardGood",
+    "price": 299.99,
+    "upc": "5703120290324",
+    "shipping": 0,
+    "description": "NAD VISO HP50 Over-the-Ear Headphones: RoomFeel technology; sound isolating; 40mm drivers; neodymium magnets; Apple 3-button remote with microphone; detachable cord with left and right inputs",
+    "manufacturer": "NAD",
+    "model": "NAD VISO HP50 BLK",
+    "url": "http://www.bestbuy.com/site/nad-viso-hp50-over-the-ear-headphones-black/2945258.p?id=1219084100320&skuId=2945258&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/2945/2945258_sa.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

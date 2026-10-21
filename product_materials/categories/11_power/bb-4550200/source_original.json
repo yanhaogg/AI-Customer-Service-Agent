@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "APC - SurgeArrest 3-Outlet and 6-Outlet Surge Protectors - White",
+    "description": "Protect your electronics from power surges with these APC SurgeArrest P3U3P66 surge protectors, which feature surge-protected outlets and 3 surge-protected USB ports to protect PCs, TVs, mobile devices and more.",
+    "brand": "APC",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Surge Protectors"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Surge Protectors"
+    },
+    "type": "Surge/ups",
+    "price": 21.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4550200_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apc-surgearrest-3-outlet-and-6-outlet-surge-protectors-white/4550200.p?id=1219765895334&skuId=4550200&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9764,
+    "rating": 6,
+    "objectID": "4550200"
+  },
+  "bestbuy": null
+}

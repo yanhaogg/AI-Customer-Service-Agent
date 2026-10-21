@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "SONOS - Boost Wireless Speaker Transmitter - White",
+    "description": "Enjoy reliable streaming performance with your SONOS speakers using this SONOS Boost wireless transmitter, which features 3 antennas that broadcast 360&#176; signals through walls and ceilings for efficient long-range coverage to most rooms.",
+    "brand": "SONOS",
+    "categories": [
+      "Audio",
+      "Home Audio",
+      "Wireless & Multiroom Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio",
+      "lvl1": "Audio > Home Audio",
+      "lvl2": "Audio > Home Audio > Wireless & Multiroom Audio"
+    },
+    "type": "Sonos",
+    "price": 99.99,
+    "price_range": "50 - 100",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7428001_sb.jpg",
+    "url": "http://www.bestbuy.com/site/sonos-boost-wireless-speaker-transmitter-white/7428001.p?id=1219269302188&skuId=7428001&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 459,
+    "rating": 4,
+    "objectID": "7428001"
+  },
+  "bestbuy": {
+    "id": 7428001,
+    "name": "SONOS - Boost Wireless Speaker Transmitter - White",
+    "type": "HardGood",
+    "price": 99.99,
+    "upc": "878269000853",
+    "shipping": 0,
+    "description": "Compatible with most SONOS wireless speakers; establishes a wireless network for reliable wireless streaming; surround-sound capability; 3 antennas",
+    "manufacturer": "SONOS",
+    "model": "SONOS BOOST",
+    "url": "http://www.bestbuy.com/site/sonos-boost-wireless-speaker-transmitter-white/7428001.p?id=1219269302188&skuId=7428001&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/7428/7428001_sa.jpg",
+    "createdAt": "2016-11-17 18:01:06.648 +00:00",
+    "updatedAt": "2016-11-17 18:01:06.648 +00:00"
+  }
+}

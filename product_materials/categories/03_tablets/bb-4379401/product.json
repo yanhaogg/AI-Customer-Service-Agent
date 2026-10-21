@@ -1,0 +1,92 @@
+{
+  "id": "bb-4379401",
+  "source_sku": "4379401",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "Acer - One 10 - 10.1\" - Intel Atom - 32GB - With Keyboard - Silver",
+  "brand": "Acer",
+  "model": "ONE 10 S1002-145A 2-IN-1",
+  "description_original": "Acer One 10 Tablet: Get the versatility you need with a device that converts to laptop, tablet, tent and display modes. Just attach the keyboard dock to enjoy effortless typing, or use the 10.1\" 5-point multitouch screen independently to tap, touch and glide your way through features.",
+  "description_official_dataset": "Windows 1010.1\" 5-point multitouch screen with 1280 x 800 resolution32GB storage capacityQuad-core processorWi-FiBluetooth 4.02.0MP front- and rear-facing cameras",
+  "introduction_zh": "Acer 的平板电脑商品。来源介绍提及：尺寸 10.1 英寸；尺寸 1010.1 英寸；容量 32GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 199.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {
+    "manufacturer": "Acer",
+    "model": "ONE 10 S1002-145A 2-IN-1",
+    "upc": "888863333127",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "10.1\"",
+      "evidence_original": "Acer - One 10 - 10.1\" - Intel Atom - 32GB - With Keyboard - Silver Acer One 10 Tablet: Get "
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "1010.1\"",
+      "evidence_original": "lide your way through features. Windows 1010.1\" 5-point multitouch screen with 1280 x 800 resolution32GB storage capa"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "32GB",
+      "evidence_original": "Acer - One 10 - 10.1\" - Intel Atom - 32GB - With Keyboard - Silver Acer One 10 Tablet: Get the versatility you "
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1280 x 800",
+      "evidence_original": " 1010.1\" 5-point multitouch screen with 1280 x 800 resolution32GB storage capacityQuad-core processorWi-FiBluetooth 4.02"
+    },
+    {
+      "attribute": "camera_resolution",
+      "value_original": "02.0MP",
+      "evidence_original": "cityQuad-core processorWi-FiBluetooth 4.02.0MP front- and rear-facing cameras"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-4379401/main.jpg",
+      "alt": "Acer - One 10 - 10.1\" - Intel Atom - 32GB - With Keyboard - Silver",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4379/4379401_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4379/4379401_sa.jpg",
+      "width": 500,
+      "height": 379,
+      "content_type": "image/jpeg",
+      "sha256": "c21c9a741aad16b29d34617ba2fab55bb698a541b4d9fcec5d12de6437cfc240",
+      "bytes": 17726,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/acer-one-10-10-1-intel-atom-32gb-with-keyboard-silver/4379401.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

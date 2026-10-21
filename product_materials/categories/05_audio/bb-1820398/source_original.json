@@ -1,0 +1,23 @@
+{
+  "algolia": {
+    "name": "ECOXGEAR - ECOROX Waterproof Bluetooth Speaker - Red",
+    "description": "Listen to your music out on the water with this ECOXGEAR ECOROX GDI-EGRX607 speaker that features buoyant, IPX7-certified waterproof construction for protection from the elements. Bluetooth technology lets you stream music from compatible devices.",
+    "brand": "ECOXGEAR",
+    "categories": [
+      "Audio"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Audio"
+    },
+    "type": "So wireless speakers",
+    "price": 129.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/1820398_sb.jpg",
+    "url": "http://www.bestbuy.com/site/ecoxgear-ecorox-waterproof-bluetooth-speaker-red/1820398.p?id=1219065631471&skuId=1820398",
+    "free_shipping": false,
+    "popularity": 7243,
+    "rating": 4,
+    "objectID": "1820398"
+  },
+  "bestbuy": null
+}

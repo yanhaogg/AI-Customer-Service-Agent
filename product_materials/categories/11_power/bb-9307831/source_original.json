@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "APC - Power Saving Back-UPS XS 1500 - Black",
+    "description": "Peace of mind from the world's most trusted UPS. The Back-UPS battery backup offers guaranteed power and surge protection for wireless networks, computers, gaming consoles and other electronics in your home or business. Models supply battery backup during outages and unsafe voltage fluctuations, as well as provide protection from damaging surges and spikes. They're available in 'tower' or 'floor' styles, and together with a variety of standard features, they are the perfect choice to protect your data and keep you connected.",
+    "brand": "APC",
+    "categories": [
+      "Computers & Tablets",
+      "Surge Protectors & Power",
+      "Battery Backup (UPS)"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Surge Protectors & Power",
+      "lvl2": "Computers & Tablets > Surge Protectors & Power > Battery Backup (UPS)"
+    },
+    "type": "Surge/ups",
+    "price": 199.99,
+    "price_range": "100 - 200",
+    "image": "https://cdn-demo.algolia.com/bestbuy/9307831_sb.jpg",
+    "url": "http://www.bestbuy.com/site/apc-power-saving-back-ups-xs-1500-black/9307831.p?id=1218081367518&skuId=9307831&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9765,
+    "rating": 5,
+    "objectID": "9307831"
+  },
+  "bestbuy": {
+    "id": 9307831,
+    "name": "APC - Power Saving Back-UPS XS 1500 - Black",
+    "type": "HardGood",
+    "price": 199.99,
+    "upc": "731304268390",
+    "shipping": 0,
+    "description": "1500VA/865W - 5 x NEMA 5-15R - Battery Backup System, 5 x NEMA 5-15R - Surge-protected",
+    "manufacturer": "APC",
+    "model": "BX1500G",
+    "url": "http://www.bestbuy.com/site/apc-power-saving-back-ups-xs-1500-black/9307831.p?id=1218081367518&skuId=9307831&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/9307/9307831_sa.jpg",
+    "createdAt": "2016-11-17 17:58:03.298 +00:00",
+    "updatedAt": "2016-11-17 17:58:03.298 +00:00"
+  }
+}

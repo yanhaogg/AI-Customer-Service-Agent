@@ -1,0 +1,27 @@
+{
+  "algolia": {
+    "name": "Dynex™ - Wireless Keyboard and Wireless Optical Mouse - Black",
+    "description": "Comfortably control your PC or Mac with this Dynex&#8482; DX-WLC1401 wireless keyboard and wireless optical mouse, which feature 2.4GHz wireless technology to eliminate restrictive power cords. The mouse's scrolling wheel makes navigation easy.",
+    "brand": "Dynex™",
+    "categories": [
+      "Computers & Tablets",
+      "Mice & Keyboards",
+      "Computer Keyboards"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Mice & Keyboards",
+      "lvl2": "Computers & Tablets > Mice & Keyboards > Computer Keyboards"
+    },
+    "type": "Keyboards",
+    "price": 14.99,
+    "price_range": "1 - 50",
+    "image": "https://cdn-demo.algolia.com/bestbuy/7654096_sb.jpg",
+    "url": "http://www.bestbuy.com/site/dynex-wireless-keyboard-and-wireless-optical-mouse-black/7654096.p?id=1218857085685&skuId=7654096&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 7295,
+    "rating": 3,
+    "objectID": "7654096"
+  },
+  "bestbuy": null
+}

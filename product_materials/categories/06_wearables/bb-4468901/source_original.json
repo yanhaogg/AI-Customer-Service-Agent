@@ -1,0 +1,41 @@
+{
+  "algolia": {
+    "name": "Apple - Apple Watch 38mm Space Black Stainless Steel Case - Black Sport Band",
+    "description": "Apple Watch is an incredibly customizable timepiece, has entirely new ways to stay in touch, and is a comprehensive health and fitness companion.",
+    "brand": "Apple",
+    "categories": [
+      "Wearable Technology",
+      "Apple Watch",
+      "Apple Watch"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Wearable Technology",
+      "lvl1": "Wearable Technology > Apple Watch",
+      "lvl2": "Wearable Technology > Apple Watch > Apple Watch"
+    },
+    "type": "Apple watch",
+    "price": 549.0,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4468901_rb.jpg",
+    "url": "http://www.bestbuy.com/site/apple-apple-watch-38mm-space-black-stainless-steel-case-black-sport-band/4468901.p?id=bb4468901&skuId=4468901&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 9737,
+    "rating": 1,
+    "objectID": "4468901"
+  },
+  "bestbuy": {
+    "id": 4468901,
+    "name": "Apple - Apple Watch 38mm Space Black Stainless Steel Case - Black Sport Band",
+    "type": "HardGood",
+    "price": 549,
+    "upc": "888462671262",
+    "shipping": 0,
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "manufacturer": "Apple",
+    "model": "MLCK2LL/A",
+    "url": "http://www.bestbuy.com/site/apple-apple-watch-38mm-space-black-stainless-steel-case-black-sport-band/4468901.p?id=bb4468901&skuId=4468901&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4468/4468901_rc.jpg",
+    "createdAt": "2016-11-17 18:01:55.562 +00:00",
+    "updatedAt": "2016-11-17 18:01:55.562 +00:00"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "MSI - GE72 Apache 17.3\" Laptop - Intel Core i7 - 16GB Memory - 1TB Hard Drive - Black",
+    "description": "MSI GE72 Apache Laptop: Edit videos, participate in gaming tournaments and multitask with ease using this laptop, which offers 16GB of memory and 2GB of dedicated graphics for handling multiple graphics-intensive applications simultaneously. Game to victory on the big screen via the HDMI output.",
+    "brand": "MSI",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "So gaming laptops",
+    "price": 1199.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/4285011_sb.jpg",
+    "url": "http://www.bestbuy.com/site/msi-ge72-apache-17-3-laptop-intel-core-i7-16gb-memory-1tb-hard-drive-black/4285011.p?id=bb4285011&skuId=4285011",
+    "free_shipping": false,
+    "popularity": 2951,
+    "rating": 1,
+    "objectID": "4285011"
+  },
+  "bestbuy": null
+}

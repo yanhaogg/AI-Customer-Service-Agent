@@ -1,0 +1,83 @@
+{
+  "id": "bb-6954009",
+  "source_sku": "6954009",
+  "category_id": "08_cameras",
+  "category_name_zh": "相机与摄像机",
+  "name_original": "GoPro - HERO+ LCD HD Waterproof Action Camera",
+  "brand": "GoPro",
+  "model": "CHDHB-101",
+  "description_original": "GoPro HERO+ LCD HD Waterproof Action Camera: Capture beautiful 8.0MP shots with this waterproof action camera from GoPro. Hold the shutter button down for burst shooting up to 5 fps (frames per second). GoPro's wearable, mountable design and touch-screen controls make it easy to capture the action from your unique first-person perspective. This GoPro HERO+ LCD action camera also has built-in Wi-Fi and Bluetooth, making it easy to share footage and control the camera remotely.",
+  "description_official_dataset": "8.0MP still images; Auto Low Light; Wi-Fi; Bluetooth interface; SuperView; QuikCapture; HiLight Tag; waterproof up to 131'",
+  "introduction_zh": "GoPro 的相机与摄像机商品。来源介绍提及：成像规格 8.0MP；接口或连接方式 Wi-Fi；接口或连接方式 Bluetooth。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 299.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Cameras & Camcorders",
+    "Camcorders",
+    "Action Camcorders",
+    "All Action Camcorders"
+  ],
+  "specifications_original": {
+    "manufacturer": "GoPro",
+    "model": "CHDHB-101",
+    "upc": "818279014129",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "camera_resolution",
+      "value_original": "8.0MP",
+      "evidence_original": "rproof Action Camera: Capture beautiful 8.0MP shots with this waterproof action camera from GoPro. Hold the shutter"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Wi-Fi",
+      "evidence_original": "RO+ LCD action camera also has built-in Wi-Fi and Bluetooth, making it easy to share footage and control the camera"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "Bluetooth",
+      "evidence_original": "tion camera also has built-in Wi-Fi and Bluetooth, making it easy to share footage and control the camera remotely. 8.0"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/08_cameras/bb-6954009/main.jpg",
+      "alt": "GoPro - HERO+ LCD HD Waterproof Action Camera",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6954/6954009_rc.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6954/6954009_rc.jpg",
+      "width": 1000,
+      "height": 507,
+      "content_type": "image/jpeg",
+      "sha256": "97f0376cab1afbdf9a642e91e077f14c52e5616eadfe49ddcc2965aae1170c6e",
+      "bytes": 54916,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/gopro-hero-lcd-hd-waterproof-action-camera/6954009.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

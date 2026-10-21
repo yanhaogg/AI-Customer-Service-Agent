@@ -1,0 +1,43 @@
+{
+  "algolia": {
+    "name": "Olympus - TG-4 16.0-Megapixel Waterproof Digital Camera - Black",
+    "description": "Preserve memories with this Olympus TG-4 16.0-megapixel digital camera that captures sharp photos and 1080p videos and lets you share them via Wi-Fi. The rugged design resists water, freezing temperatures, crushing force, shocks and dust for durability.  Memory card sold separately.",
+    "brand": "Olympus",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Point & Shoot Cameras",
+      "All Point & Shoot Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Point & Shoot Cameras > All Point & Shoot Cameras"
+    },
+    "type": "Digital cameras",
+    "price": 379.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/5567064_sb.jpg",
+    "url": "http://www.bestbuy.com/site/olympus-tg-4-16-0-megapixel-waterproof-digital-camera-black/5567064.p?id=1219653100135&skuId=5567064&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 2570,
+    "rating": 4,
+    "objectID": "5567064"
+  },
+  "bestbuy": {
+    "id": 5567064,
+    "name": "Olympus - TG-4 16.0-Megapixel Digital Camera - Black",
+    "type": "HardGood",
+    "price": 379.99,
+    "upc": "050332189850",
+    "shipping": 0,
+    "description": "4x optical/3x digital zoom1080p HD videoWater-resistantUnderwater modes with underwater HDRWi-Fi and GPS",
+    "manufacturer": "Olympus",
+    "model": "V104160BU000",
+    "url": "http://www.bestbuy.com/site/olympus-tg-4-16-0-megapixel-digital-camera-black/5567064.p?id=1219653100135&skuId=5567064&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/5567/5567064_sa.jpg",
+    "createdAt": "2016-11-17 18:00:31.886 +00:00",
+    "updatedAt": "2016-11-17 18:00:31.886 +00:00"
+  }
+}

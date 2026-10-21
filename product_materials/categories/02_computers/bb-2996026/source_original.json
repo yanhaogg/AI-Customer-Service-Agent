@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Lenovo - 15.6\" Laptop - AMD A8-Series - 6GB Memory - 500GB Hard Drive - Black",
+    "description": "Clearly view your favorite movies or look at photos using this Lenovo G50 - 80E30181US laptop, which features a 15.6\" display that offers visuals in high-definition. A 500GB hard drive provides serviceable storage for your files.",
+    "brand": "Lenovo",
+    "categories": [
+      "Computers & Tablets",
+      "Laptops",
+      "All Laptops",
+      "PC Laptops"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Computers & Tablets",
+      "lvl1": "Computers & Tablets > Laptops",
+      "lvl2": "Computers & Tablets > Laptops > All Laptops",
+      "lvl3": "Computers & Tablets > Laptops > All Laptops > PC Laptops"
+    },
+    "type": "Burst skus",
+    "price": 329.99,
+    "price_range": "200 - 500",
+    "image": "https://cdn-demo.algolia.com/bestbuy/2996026_sb.jpg",
+    "url": "http://www.bestbuy.com/site/lenovo-15-6-laptop-amd-a8-series-6gb-memory-500gb-hard-drive-black/2996026.p?id=1219567191659&skuId=2996026&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 4374,
+    "rating": 4,
+    "objectID": "2996026"
+  },
+  "bestbuy": null
+}

@@ -1,0 +1,77 @@
+{
+  "id": "bb-6622138",
+  "source_sku": "6622138",
+  "category_id": "12_peripherals",
+  "category_name_zh": "键鼠与电脑外设",
+  "name_original": "Apple - USB-C-to-USB Adapter - White",
+  "brand": "Apple",
+  "model": "MJ1M2AM/A",
+  "description_original": "The Apple USB-C-to-USB Adapter lets you connect iOS devices and many of your USB accessories to a MacBook with a USB-C port. Plug the USB-C end of the adapter into the USB-C port on your MacBook, and then connect your flash drive, camera or other standard USB device.",
+  "description_official_dataset": "Designed for use with Apple MacBook® with a USB-C port; connect your iOS devices and USB accessories to your compatible MacBook; sync and charge your Apple iPhone®, iPad® or iPod® (USB cable not included)",
+  "introduction_zh": "Apple 的键鼠与电脑外设商品。来源介绍提及：接口或连接方式 USB-C；接口或连接方式 USB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 19.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Cables & Connectors",
+    "USB Cables & Hubs"
+  ],
+  "specifications_original": {
+    "manufacturer": "Apple",
+    "model": "MJ1M2AM/A",
+    "upc": "888462108416",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "connectivity",
+      "value_original": "USB-C",
+      "evidence_original": "Apple - USB-C-to-USB Adapter - White The Apple USB-C-to-USB Adapter lets you connec"
+    },
+    {
+      "attribute": "connectivity",
+      "value_original": "USB",
+      "evidence_original": "Apple - USB-C-to-USB Adapter - White The Apple USB-C-to-USB Adapter lets you connect iOS d"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/12_peripherals/bb-6622138/main.jpg",
+      "alt": "Apple - USB-C-to-USB Adapter - White",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6622/6622138_sb.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6622/6622138_sb.jpg",
+      "width": 141,
+      "height": 1000,
+      "content_type": "image/jpeg",
+      "sha256": "2eefd0ced12711ddcac79d6f737e9b49309fdb86e5d01fbf817297c3bf55219f",
+      "bytes": 5373,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/apple-usb-c-to-usb-adapter-white/6622138.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "bb-4390200",
+  "source_sku": "4390200",
+  "category_id": "03_tablets",
+  "category_name_zh": "平板电脑",
+  "name_original": "Amazon - Fire - 7\" Tablet - 8GB - Black",
+  "brand": "Amazon",
+  "model": "B00TSUGXKE",
+  "description_original": "Amazon Fire Tablet: Catch up on your reading or browse the Web with this tablet, which offers access to Amazon Underground, so you can download apps and games and discover exciting new entertainment. Front and rear cameras let you capture memorable moments or chat with friends.",
+  "description_official_dataset": "Fire OS 57\" IPS touch-screen display with 1024 x 600 resolution8GB storage capacityQuad-core processorWi-FiAmazon Underground",
+  "introduction_zh": "Amazon 的平板电脑商品。来源介绍提及：尺寸 7 英寸；尺寸 57 英寸；容量 8GB。具体对应的部件或兼容设备，请结合英文原文确认。该记录来自历史商品目录，实际参数与当前售价需重新核对。",
+  "introduction_method": "rule_based_summary_of_category_and_source_evidence_not_full_translation",
+  "price": {
+    "amount": 49.99,
+    "currency": "USD",
+    "kind": "historical_dataset_price",
+    "observed_at": null,
+    "current_price_verified": false
+  },
+  "source_categories": [
+    "Computers & Tablets",
+    "Tablets",
+    "All Tablets"
+  ],
+  "specifications_original": {
+    "manufacturer": "Amazon",
+    "model": "B00TSUGXKE",
+    "upc": "848719062854",
+    "type": "HardGood"
+  },
+  "extracted_attributes": [
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "7\"",
+      "evidence_original": "Amazon - Fire - 7\" Tablet - 8GB - Black Amazon Fire Tablet: Catch up on your reading or "
+    },
+    {
+      "attribute": "size_inch_mention",
+      "value_original": "57\"",
+      "evidence_original": "e moments or chat with friends. Fire OS 57\" IPS touch-screen display with 1024 x 600 resolution8GB storage capaci"
+    },
+    {
+      "attribute": "storage_or_memory",
+      "value_original": "8GB",
+      "evidence_original": "Amazon - Fire - 7\" Tablet - 8GB - Black Amazon Fire Tablet: Catch up on your reading or browse the We"
+    },
+    {
+      "attribute": "resolution",
+      "value_original": "1024 x 600",
+      "evidence_original": "re OS 57\" IPS touch-screen display with 1024 x 600 resolution8GB storage capacityQuad-core processorWi-FiAmazon Undergro"
+    }
+  ],
+  "attribute_extraction_method": "regex_matches_with_evidence_not_independently_verified",
+  "images": [
+    {
+      "local_path": "categories/03_tablets/bb-4390200/main.jpg",
+      "alt": "Amazon - Fire - 7\" Tablet - 8GB - Black",
+      "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4390/4390200_sa.jpg",
+      "resolved_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4390/4390200_sa.jpg",
+      "width": 500,
+      "height": 300,
+      "content_type": "image/jpeg",
+      "sha256": "8dd9240ee363289f92aba3ebc3ea25c430369ae0d18282319a263ec7f4c4d767",
+      "bytes": 17436,
+      "original_format": "JPEG",
+      "status": "verified",
+      "downloaded_at": "2026-10-13T16:17:29.071629+00:00",
+      "rights_status": "third_party_product_image_not_separately_verified"
+    }
+  ],
+  "source": {
+    "publisher": "Best Buy",
+    "official_dataset_url": "https://github.com/BestBuy/api-playground",
+    "metadata_mirror_url": "https://github.com/algolia/datasets/tree/master/ecommerce",
+    "product_url": "https://www.bestbuy.com/site/amazon-fire-7-tablet-8gb-black/4390200.p",
+    "collected_at": "2026-10-13T16:24:05.281969+00:00",
+    "catalog_date": "historical (official dataset copyright 2016; mirror exact snapshot date unknown)",
+    "metadata_license": "CC-BY-NC-4.0 applies to official BestBuy dataset; mirror-derived descriptions need separate rights verification"
+  },
+  "quality": {
+    "raw_original_preserved": true,
+    "image_decoded": true,
+    "description_present": true,
+    "official_dataset_match": true,
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "algolia": {
+    "name": "Samsung - NX500 Mirrorless Camera with 16-50mm Lens - Brown",
+    "description": "With a 28.2-megapixel BSI CMOS sensor and a 16-50mm lens, this Samsung NX500 mirrorless camera makes it easy to capture high-definition footage and clear photos in a variety of scenarios. Built-in Wi-Fi simplifies wireless image transfer.  Memory card sold separately.",
+    "brand": "Samsung",
+    "categories": [
+      "Cameras & Camcorders",
+      "Digital Cameras",
+      "Mirrorless Cameras",
+      "All Mirrorless Cameras"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cameras & Camcorders",
+      "lvl1": "Cameras & Camcorders > Digital Cameras",
+      "lvl2": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras",
+      "lvl3": "Cameras & Camcorders > Digital Cameras > Mirrorless Cameras > All Mirrorless Cameras"
+    },
+    "type": "Mirrorless cameras",
+    "price": 799.99,
+    "price_range": "500 - 2000",
+    "image": "https://cdn-demo.algolia.com/bestbuy/3723036_rb.jpg",
+    "url": "http://www.bestbuy.com/site/samsung-nx500-mirrorless-camera-with-16-50mm-lens-brown/3723036.p?id=1219597975262&skuId=3723036&cmp=RMX&ky=1uWSHMdQqBeVJB9cXgEke60s5EjfS6M1W",
+    "free_shipping": false,
+    "popularity": 979,
+    "rating": 1,
+    "objectID": "3723036"
+  },
+  "bestbuy": null
+}
