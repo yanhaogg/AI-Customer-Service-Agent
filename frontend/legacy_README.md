@@ -1,3 +1,7 @@
+# 历史 Vite 模板说明
+
+本文件保留早期模板内容，不是当前项目入口。现行文档见 [系统技术说明](../docs/PROJECT_TECHNICAL_GUIDE.md)。
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

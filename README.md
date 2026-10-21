@@ -7,6 +7,7 @@
 1. [系统技术说明](docs/PROJECT_TECHNICAL_GUIDE.md)：架构、技术栈、目录、业务流程、Agent、配置与运行方式。
 2. [逐文件代码说明](docs/CODE_FILE_REFERENCE.md)：129 个第一方源码与配置代码文件的功能及历史文件标记。
 3. [数据库与接口参考](docs/DATABASE_AND_API_REFERENCE.md)：26 个 ORM 表的字段、关系和 76 项业务 HTTP 操作。
+4. [历史文件命名说明](docs/LEGACY_FILES.md)：`legacy_` 前缀、原路径与现路径，以及保留原名的兼容入口。
 
 专项说明位于 [backend/scripts](backend/scripts)，素材采集说明位于 [product_materials/README.md](product_materials/README.md)。
 

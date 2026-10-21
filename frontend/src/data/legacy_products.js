@@ -1,0 +1,135 @@
+// LEGACY: 早期虚构商品数据，当前使用 lib/catalog.js 读取数据库商品。
+// Fictional product catalog for the storefront prototype.
+export const products = [
+  {
+    id: "air-one",
+    name: "Air One 无线降噪耳机",
+    shortName: "Air One",
+    category: "影音娱乐",
+    kind: "earbuds",
+    price: 399,
+    tag: "品牌代表作",
+    color: "#ebe4d9",
+    description:
+      "把喧嚣留在外面，把喜欢的声音带在身边。轻巧入耳，从早高峰到晚间散步，都有好音乐陪伴。",
+    features: ["主动降噪", "轻巧入耳", "长效续航"],
+    specs: [
+      ["连接方式", "蓝牙 5.3"],
+      ["续航时间", "搭配充电盒约 30 小时"],
+      ["充电接口", "USB-C"],
+      ["防护等级", "IPX4"],
+    ],
+    variants: ["暖白色", "石墨黑"],
+  },
+  {
+    id: "nova-phone",
+    name: "Nova 智能手机",
+    shortName: "Nova",
+    category: "手机数码",
+    kind: "phone",
+    price: 2499,
+    tag: "日常主力",
+    color: "#e2e9df",
+    description:
+      "清晰记录生活，流畅处理日常。轻薄设计与全天续航，让每一次出发都更从容。",
+    features: ["120Hz 屏幕", "5000mAh 电池", "256GB 存储"],
+    specs: [
+      ["显示屏", "6.5 英寸 OLED / 120Hz"],
+      ["存储组合", "8GB + 256GB"],
+      ["电池容量", "5000mAh"],
+      ["充电接口", "USB-C"],
+    ],
+    variants: ["鼠尾草绿", "石墨黑"],
+  },
+  {
+    id: "book-air",
+    name: "Book Air 轻薄笔记本",
+    shortName: "Book Air",
+    category: "电脑办公",
+    kind: "laptop",
+    price: 4299,
+    tag: "轻装办公",
+    color: "#e4e8ed",
+    description:
+      "装进背包，就带走整个工作空间。轻薄机身、清晰屏幕，让办公和学习更专注。",
+    features: ["14 英寸屏幕", "16GB 内存", "轻薄金属机身"],
+    specs: [
+      ["显示屏", "14 英寸 / 2.5K"],
+      ["内存", "16GB"],
+      ["存储", "512GB SSD"],
+      ["机身重量", "约 1.3kg"],
+    ],
+    variants: ["雾银色", "深空灰"],
+  },
+  {
+    id: "pulse-watch",
+    name: "Pulse 智能手表",
+    shortName: "Pulse",
+    category: "智能穿戴",
+    kind: "watch",
+    price: 599,
+    tag: "活力搭档",
+    color: "#eee2db",
+    description:
+      "抬手看见日常节奏。运动记录、消息提醒，让你更轻松地安排每一天。",
+    features: ["运动记录", "消息提醒", "轻盈佩戴"],
+    specs: [
+      ["屏幕", "1.75 英寸 AMOLED"],
+      ["续航", "典型使用约 7 天"],
+      ["连接方式", "蓝牙 5.3"],
+      ["充电方式", "磁吸充电"],
+    ],
+    variants: ["暖沙色", "石墨黑"],
+  },
+  {
+    id: "sound-mini",
+    name: "Sound Mini 蓝牙音箱",
+    shortName: "Sound Mini",
+    category: "影音娱乐",
+    kind: "speaker",
+    price: 199,
+    tag: "随处好声音",
+    color: "#e2e8df",
+    description:
+      "小小体积，装下生活的背景音乐。放在书桌、床头或带去野餐，好声音随你而行。",
+    features: ["便携设计", "蓝牙连接", "立体声配对"],
+    specs: [
+      ["连接方式", "蓝牙 5.3"],
+      ["功率", "10W"],
+      ["续航", "约 12 小时"],
+      ["充电接口", "USB-C"],
+    ],
+    variants: ["苔绿色", "暖白色"],
+  },
+  {
+    id: "power-go",
+    name: "Power Go 移动电源",
+    shortName: "Power Go",
+    category: "生活配件",
+    kind: "power",
+    price: 129,
+    tag: "出行必备",
+    color: "#eee9dd",
+    description:
+      "给手机补充电量，也给出行多一份安心。轻便易携，让你在路上保持连接。",
+    features: ["10000mAh", "双向快充", "轻巧便携"],
+    specs: [
+      ["额定电池容量", "10000mAh"],
+      ["最大输出功率", "20W"],
+      ["接口", "USB-C / USB-A"],
+      ["充电方式", "USB-C 双向充电"],
+    ],
+    variants: ["奶油白", "石墨黑"],
+  },
+];
+export const categories = [
+  "全部商品",
+  "手机数码",
+  "电脑办公",
+  "影音娱乐",
+  "智能穿戴",
+  "生活配件",
+];
+export function productQuestion(product) {
+  return `/chat?product=${product.id}&topic=${encodeURIComponent(`我想了解 ${product.name}，请介绍它的特点和适用场景。商品展示参考：${product.features.join("、")}，展示价格 ¥${product.price}。`)}`;
+}

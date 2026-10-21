@@ -1,6 +1,17 @@
 # ServAI 逐文件代码说明
 
-对应 [系统技术说明](PROJECT_TECHNICAL_GUIDE.md)。以下覆盖当前仓库的全部 129 个第一方 Python、JavaScript、JSX 与 CSS 源码/配置文件；不展开第三方依赖、虚拟环境、缓存和构建产物。
+对应 [系统技术说明](PROJECT_TECHNICAL_GUIDE.md)。以下覆盖项目第一方 Python、JavaScript、JSX 与 CSS 源码/配置文件；不展开第三方依赖、虚拟环境、缓存和构建产物。
+
+## 本轮结构调整
+
+| 文件 | 职责 |
+| --- | --- |
+| [schemas/shop.py](../backend/app/schemas/shop.py) | 地址、购物车、结算、销售报价与发货请求的字段和校验。 |
+| [schemas/aftersales.py](../backend/app/schemas/aftersales.py) | 联系客服、催发货、退款、凭证与人工审核请求的字段和校验。 |
+| [schemas/support_tasks.py](../backend/app/schemas/support_tasks.py) | 待办操作、订单分析预览和确认创建请求的字段和校验。 |
+| [StaffThread.jsx](../frontend/src/components/StaffThread.jsx) | 客服工作台中单个会话的消息、历史分页、助手建议和回复表单；HumanSupport 页面负责列表筛选与会话选择。 |
+
+以上请求模型原先内嵌在同名 API 文件，现由 API 导入使用，保留原接口契约。后端用 Black 统一排版，前端用 Prettier 展开 JSX、对象和控制流程。格式配置见 backend/pyproject.toml 与 frontend/.prettierrc.json。
 
 ## 阅读规则
 
@@ -121,7 +132,7 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 
 | 文件 | 功能与关键实现 |
 | --- | --- |
-| [test.py](../backend/test.py) | 旧退款演示脚本，导入 graph.app；该对象当前不存在，不是现行测试运行入口。 |
+| [legacy_refund_demo.py](../backend/legacy_refund_demo.py) | 旧退款演示脚本，导入 graph.app；该对象当前不存在，不是现行测试运行入口。 |
 
 ## frontend
 
@@ -134,8 +145,8 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 
 | 文件 | 功能与关键实现 |
 | --- | --- |
-| [App.css](../frontend/src/App.css) | Vite/早期 App 样式，当前入口未导入。 |
-| [App.jsx](../frontend/src/App.jsx) | 早期示例页面，含旧 /chat 请求与固定订单号；当前 main.jsx 不挂载它。 |
+| [legacy_App.css](../frontend/src/legacy_App.css) | Vite/早期 App 样式，当前入口未导入。 |
+| [legacy_App.jsx](../frontend/src/legacy_App.jsx) | 早期示例页面，含旧 /chat 请求与固定订单号；当前 main.jsx 不挂载它。 |
 | [index.css](../frontend/src/index.css) | 全局基础、早期商城通用样式和聊天气泡基础规则；仍由 main.jsx 引入。 |
 | [main.jsx](../frontend/src/main.jsx) | 真实 React 入口：AuthProvider 包裹 Router，导入三份当前样式并挂载 #root。 |
 | [navbar.css](../frontend/src/navbar.css) | 导航的 grid/flex 布局与窄屏适配，避免导航出现横向滚动条。 |
@@ -169,13 +180,13 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 
 | 文件 | 功能与关键实现 |
 | --- | --- |
-| [request.js](../frontend/src/api/request.js) | 旧请求封装，固定 localhost:8000 并读取 localStorage Token；当前页面未引用。 |
+| [legacy_request.js](../frontend/src/api/legacy_request.js) | 旧请求封装，固定 localhost:8000 并读取 localStorage Token；当前页面未引用。 |
 
 ## frontend/src/data
 
 | 文件 | 功能与关键实现 |
 | --- | --- |
-| [products.js](../frontend/src/data/products.js) | 早期虚构商品列表、分类和咨询链接函数；当前目录已改为数据库接口，不使用此数据。 |
+| [legacy_products.js](../frontend/src/data/legacy_products.js) | 早期虚构商品列表、分类和咨询链接函数；当前目录已改为数据库接口，不使用此数据。 |
 
 ## frontend/src/pages
 
@@ -216,8 +227,8 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [Navbar.jsx](../frontend/src/components/Navbar.jsx) | 客户导航、管理员导航、消息未读徽标和未完成待办数量；根据身份显示入口。 |
 | [OrderView.jsx](../frontend/src/components/OrderView.jsx) | 共享订单内容与操作组件，连接支付/取消/收货、联系/催发货、管理员发货及售后/待办入口。 |
 | [ProductCard.jsx](../frontend/src/components/ProductCard.jsx) | 商品卡片、图片、名称、参考价/演示售价和购买入口。 |
-| [ProductVisual.jsx](../frontend/src/components/ProductVisual.jsx) | 早期 CSS 商品示意图；当前业务组件没有引用它。 |
-| [ProtectedRoute.jsx](../frontend/src/components/ProtectedRoute.jsx) | 早期只检查本地 Token 的路由包装；当前路由未使用，现行界面使用 ShopShell，后端另行校验。 |
+| [legacy_ProductVisual.jsx](../frontend/src/components/legacy_ProductVisual.jsx) | 早期 CSS 商品示意图；当前业务组件没有引用它。 |
+| [legacy_ProtectedRoute.jsx](../frontend/src/components/legacy_ProtectedRoute.jsx) | 早期只检查本地 Token 的路由包装；当前路由未使用，现行界面使用 ShopShell，后端另行校验。 |
 | [PurchaseActions.jsx](../frontend/src/components/PurchaseActions.jsx) | 商品的立即购买、加入购物车及数量/登录/可售状态处理。 |
 | [SaleOfferEditor.jsx](../frontend/src/components/SaleOfferEditor.jsx) | 管理员编辑 sale_offers 的演示售价、币种、库存和启用开关，与参考报价编辑分离。 |
 | [SecureEvidence.jsx](../frontend/src/components/SecureEvidence.jsx) | 携带 Token 获取私有退款凭证为 Blob URL 展示，并清理 URL；不暴露公开凭证路径。 |
@@ -244,11 +255,11 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [frontend/package.json](../frontend/package.json) | 前端直接依赖、版本范围和 dev/build/lint/preview 脚本。 |
 | [frontend/package-lock.json](../frontend/package-lock.json) | 前端精确依赖解析结果，npm ci 依赖它。 |
 | [frontend/index.html](../frontend/index.html) | 浏览器入口，提供 #root、中文元数据并引入 src/main.jsx。 |
-| [frontend/README.md](../frontend/README.md) | Vite 模板说明，不能替代当前业务技术文档。 |
+| [frontend/legacy_README.md](../frontend/legacy_README.md) | Vite 模板说明，不能替代当前业务技术文档。 |
 | [frontend/public/favicon.svg](../frontend/public/favicon.svg) | 可公开提供的图标资源；当前 index.html 未显式引用它。 |
-| [frontend/public/icons.svg](../frontend/public/icons.svg) | 模板 SVG 图标资源。 |
-| [frontend/src/assets/react.svg](../frontend/src/assets/react.svg) | React 模板图标，当前主要页面未引用。 |
-| [frontend/src/assets/vite.svg](../frontend/src/assets/vite.svg) | Vite 模板图标，当前主要页面未引用。 |
+| [frontend/public/legacy_icons.svg](../frontend/public/legacy_icons.svg) | 模板 SVG 图标资源。 |
+| [frontend/src/assets/legacy_react.svg](../frontend/src/assets/legacy_react.svg) | React 模板图标，当前主要页面未引用。 |
+| [frontend/src/assets/legacy_vite.svg](../frontend/src/assets/legacy_vite.svg) | Vite 模板图标，当前主要页面未引用。 |
 | [backend/requirements.txt](../backend/requirements.txt) | 后端依赖版本清单，包含 Web、数据库、模型客户端及测试所需组件。 |
 | [product_materials/scripts/requirements.txt](../product_materials/scripts/requirements.txt) | 离线素材脚本依赖，如 Pillow 与 jsonschema。 |
 | [product_materials/product.schema.json](../product_materials/product.schema.json) | 商品素材的 JSON Schema，供离线校验。 |

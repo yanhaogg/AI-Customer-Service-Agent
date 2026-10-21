@@ -1,3 +1,4 @@
+"""LEGACY: 早期退款演示脚本，不属于当前运行入口；其 graph.app 已不存在。当前测试见 tests/。"""
 from app.agent.graph import app
 
 

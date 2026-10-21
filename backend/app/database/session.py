@@ -1,4 +1,4 @@
-#FastAPI接口后续通过它获取数据库连接。
+# FastAPI接口后续通过它获取数据库连接。
 
 from .database import SessionLocal
 

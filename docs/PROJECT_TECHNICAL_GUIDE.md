@@ -2,6 +2,8 @@
 
 版本基准：2026 年 10 月 21 日的代码。
 
+代码阅读补充：购物、售后、客服待办先读 `backend/app/schemas/` 下的同名请求模型，再读 `api/` 中的接口与 `services/` 中的业务规则。人工客服页面从 `HumanSupport.jsx` 的会话列表读到 `StaffThread.jsx` 的单个会话。具体拆分见[逐文件代码说明](CODE_FILE_REFERENCE.md#本轮结构调整)。
+
 ServAI 是一个以日常电子产品商城为业务背景的智能客服实战项目。React 前端提供商品、购物、售后与管理员界面；FastAPI 后端负责身份校验、数据库读写和业务状态转换；LangGraph 组织大模型查询与人工客服辅助流程。业务数据保存在 PostgreSQL，商品图片与售后凭证保存在本地文件系统。
 
 理解这个项目时，需要分清三件事：商城规则由程序执行；Agent 根据受限数据生成回答或建议；管理员通过业务接口确认处理。多 Agent 是同一后端中的多个逻辑角色和子图，不是多个独立部署的服务。
@@ -102,7 +104,7 @@ AI-Customer-Service-Agent/
 │   ├── scripts/                    导入、建表、管理员创建、检查说明
 │   ├── tests/                      自动化测试
 │   ├── requirements.txt
-│   └── test.py                     早期演示脚本，当前不应作为测试入口
+│   └── legacy_refund_demo.py                     早期演示脚本，当前不应作为测试入口
 ├── frontend/
 │   ├── index.html                  浏览器 HTML 入口
 │   ├── src/
@@ -155,7 +157,7 @@ flowchart LR
 
 `router/index.jsx` 决定页面。`/chat` 对应 `Chat.jsx`，后者转导出 `SavedChat.jsx`；`/orders` 对应 `Orders.jsx`，后者转导出 `ShopOrders.jsx`。因此修改聊天和订单列表时，应主要看两个实际实现文件。
 
-`App.jsx` 不在当前挂载链路中。它保留了早期向 `/chat` 提交固定订单号的页面，而当前后端没有这个旧接口。不能根据这个文件理解现有客服架构。
+`legacy_App.jsx` 不在当前挂载链路中。它保留了早期向 `/chat` 提交固定订单号的页面，而当前后端没有这个旧接口。不能根据这个文件理解现有客服架构。
 
 ### 4.2 请求封装
 
@@ -615,14 +617,14 @@ Pop-Location
 
 | 内容 | 当前判断 |
 | --- | --- |
-| `frontend/src/App.jsx` 与它使用的 `/chat` | 早期演示，不是当前应用入口，也不是当前 API |
-| `frontend/src/data/products.js` | 早期虚构商品目录，当前展示已使用数据库 |
+| `frontend/src/legacy_App.jsx` 与它使用的 `/chat` | 早期演示，不是当前应用入口，也不是当前 API |
+| `frontend/src/data/legacy_products.js` | 早期虚构商品目录，当前展示已使用数据库 |
 | `models.py::Order` / `orders` 表 | 旧演示模型；正式购物链路是 `ShopOrder` / `shop_orders` |
-| `backend/test.py` | 仍导入已不存在的 `graph.app`，保留的旧脚本，不能作为当前测试入口 |
+| `backend/legacy_refund_demo.py` | 仍导入已不存在的 `graph.app`，保留的旧脚本，不能作为当前测试入口 |
 | `agent/tools.py`、`agent/nodes.py` | 兼容转导出，实际实现分别在 `catalog_tools.py`、`runtime_nodes.py` |
 | `refund_agent` 名称 | 是 `support_agent` 的兼容别名，不是能执行退款的 Agent |
 | `support_scan_state` | 历史扫描统计表；当前没有调用扫描器的功能 |
 | `product_materials/README.md` 开头的“未连接数据库” | 是采集阶段的说明；当前网站已通过导入脚本使用数据库 |
-| `frontend/README.md` | Vite 模板说明；项目业务入口以本文和实际路由为准 |
+| `frontend/legacy_README.md` | Vite 模板说明；项目业务入口以本文和实际路由为准 |
 
 以上区别用于准确阅读当前项目，不代表要立刻删除旧文件或增加新模块。

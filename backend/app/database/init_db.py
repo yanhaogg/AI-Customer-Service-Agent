@@ -15,6 +15,7 @@ def init_database():
         migrate_activity(connection)
         migrate_aftersales(connection)
 
+
 if __name__ == "__main__":
 
     init_database()

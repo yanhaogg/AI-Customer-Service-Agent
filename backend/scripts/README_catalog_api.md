@@ -1,6 +1,6 @@
 # 数据库商品展示
 
-首页、全部商品页和详情页通过 `/api/catalog` 读取 PostgreSQL，不再使用前端 `src/data/products.js` 的演示商品。
+首页、全部商品页和详情页通过 `/api/catalog` 读取 PostgreSQL，不再使用前端 `src/data/legacy_products.js` 的演示商品。
 
 从项目根目录启动后端：
 

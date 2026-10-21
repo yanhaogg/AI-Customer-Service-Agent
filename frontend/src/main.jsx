@@ -1,7 +1,7 @@
 // import { StrictMode } from 'react'
 // import { createRoot } from 'react-dom/client'
 // import './index.css'
-// import App from './App.jsx'
+// import App from './legacy_App.jsx'
 
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
@@ -15,12 +15,10 @@ import Router from './router'
 import AuthProvider from './auth/AuthProvider'
 import './index.css'
 
-
-ReactDOM.createRoot(
-    document.getElementById('root')
-)
-.render(
-    <AuthProvider><Router /></AuthProvider>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <AuthProvider>
+    <Router />
+  </AuthProvider>,
 )
 import './storefront.css'
 import './navbar.css'

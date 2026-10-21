@@ -3,3 +3,9 @@
 
 # Backend provider credentials.
 /backend/.env
+
+# Local dependencies and generated caches.
+/backend/venv/
+__pycache__/
+*.pyc
+node_modules/
