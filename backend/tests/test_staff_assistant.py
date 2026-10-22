@@ -40,7 +40,7 @@ class StaffAssistantTests(unittest.TestCase):
         self.assertEqual(self.client.post(self.path,headers=self.headers[0]).status_code,403)
         self.assertEqual(self.client.post(self.path,headers=self.headers[1]).status_code,403)
         model=AdviceModel()
-        with patch('app.api.human_support.staff_assistant',self.assistant(model)):
+        with patch('app.services.human_support.staff_assistant',self.assistant(model)):
             result=self.client.post(self.path,headers=self.headers[2])
         self.assertEqual(result.status_code,200,result.text);advice=result.json()
         detail=self.client.get(f'/api/admin/support-sessions/{self.sid}',headers=self.headers[2]).json()
@@ -63,7 +63,7 @@ class StaffAssistantTests(unittest.TestCase):
         with Session(self.db_engine) as db:
             db.add_all([ChatMessage(session_id=self.sid,role='user',content='长对话内容'*800,request_key=uuid4().hex) for _ in range(55)]);db.commit()
         model=AdviceModel()
-        with patch('app.api.human_support.staff_assistant',self.assistant(model)):
+        with patch('app.services.human_support.staff_assistant',self.assistant(model)):
             advice=self.client.post(self.path,headers=self.headers[2]).json()
         self.assertTrue(advice['has_older_messages']);self.assertLessEqual(advice['included_messages'],50)
         context=json.loads(model.inputs[0][-1].content)
@@ -74,11 +74,11 @@ class StaffAssistantTests(unittest.TestCase):
         self.assertNotEqual(detail['assist_version'],advice['snapshot_version'])
 
     def test_invalid_model_response_and_missing_config_are_safe(self):
-        with patch('app.api.human_support.staff_assistant',self.assistant(AdviceModel('SECRET_INVALID_JSON'))):
+        with patch('app.services.human_support.staff_assistant',self.assistant(AdviceModel('SECRET_INVALID_JSON'))):
             response=self.client.post(self.path,headers=self.headers[2])
         self.assertEqual(response.status_code,503);self.assertNotIn('SECRET',response.text)
         broken=StaffAssistant(settings_loader=lambda:(_ for _ in ()).throw(AgentConfigurationError('SECRET_CONFIG')))
-        with patch('app.api.human_support.staff_assistant',broken):
+        with patch('app.services.human_support.staff_assistant',broken):
             response=self.client.post(self.path,headers=self.headers[2])
         self.assertEqual(response.status_code,503);self.assertNotIn('SECRET',response.text)
         with Session(self.db_engine) as db:self.assertEqual(db.scalar(select(func.count()).select_from(ChatMessage)),1)
@@ -87,6 +87,6 @@ class StaffAssistantTests(unittest.TestCase):
         self.assertEqual(self.client.post('/api/admin/support-sessions/999999/assistant',headers=self.headers[2]).status_code,404)
         model=AdviceModel()
         # Client-supplied identities are rejected before invoking the assistant.
-        with patch('app.api.human_support.staff_assistant',self.assistant(model)):
+        with patch('app.services.human_support.staff_assistant',self.assistant(model)):
             result=self.client.post(self.path,headers=self.headers[2],json={'user_id':self.users[1]})
         self.assertEqual(result.status_code,422);self.assertEqual(model.inputs,[])

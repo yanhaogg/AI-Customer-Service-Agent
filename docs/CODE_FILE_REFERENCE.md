@@ -28,15 +28,15 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 
 | 文件 | 功能与关键实现 |
 | --- | --- |
-| [activity.py](../backend/app/api/activity.py) | 本人会话、消息生成、重试、浏览历史、未读与已读接口；send_message 负责释放事务后调用 support_agent。 |
-| [admin.py](../backend/app/api/admin.py) | 首页选品读取和保存；校验商品 ID、互斥位置与 revision，要求超级管理员。 |
-| [admin_products.py](../backend/app/api/admin_products.py) | 管理员商品 CRUD、来源/参考价维护、图片上传与转换；逻辑删除、主图维护、updated_at 并发检查。 |
-| [aftersales.py](../backend/app/api/aftersales.py) | 订单联系、催发货、退款政策/申请/凭证、撤销、退货物流、管理员审核与催发货处理接口。 |
-| [auth.py](../backend/app/api/auth.py) | 公开注册、登录和 /auth/me；注册固定 user 角色，验证 bcrypt 后签发 JWT。 |
-| [catalog.py](../backend/app/api/catalog.py) | 公开分类、商品列表/详情、默认或配置首页、媒体文件响应；拼装参考价与演示销售设置。 |
-| [human_support.py](../backend/app/api/human_support.py) | 管理员全部会话列表、未读排序、人工回复/结束、客户转人工及客服助手调用；绑定会话客户而非管理员身份查询。 |
-| [shop.py](../backend/app/api/shop.py) | 地址、购物车、计价、创建订单、支付/取消/确认收货、销售设置和管理员发货；含库存锁、幂等与惰性超时回收。 |
-| [support_tasks.py](../backend/app/api/support_tasks.py) | 手动预览、确认创建、待办列表/详情、重新分析、认领/备注/完成与进入订单会话；没有 /scan 接口。 |
+| [activity.py](../backend/app/api/activity.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [admin.py](../backend/app/api/admin.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [admin_products.py](../backend/app/api/admin_products.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [aftersales.py](../backend/app/api/aftersales.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [auth.py](../backend/app/api/auth.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [catalog.py](../backend/app/api/catalog.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [human_support.py](../backend/app/api/human_support.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [shop.py](../backend/app/api/shop.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
+| [support_tasks.py](../backend/app/api/support_tasks.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
 
 ## backend/app/auth
 
@@ -77,7 +77,15 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 
 | 文件 | 功能与关键实现 |
 | --- | --- |
-| [aftersales.py](../backend/app/services/aftersales.py) | 售后规则与自动路由、退款摘要、订单会话复用、人工接管、审计事件和模拟退款/库存恢复。 |
+| [aftersales.py](../backend/app/services/aftersales.py) | 退款申请、撤销、退货物流、人工审核与完成模拟退款；组织退款流程并在用例完成时提交事务。 |
+| [refund_policy.py](../backend/app/services/refund_policy.py) | 不访问数据库的退款政策、原因编码和自动退款条件。 |
+| [aftersales_queries.py](../backend/app/services/aftersales_queries.py) | 查询活动申请、最新售后摘要，组装退款详情数据。 |
+| [order_support.py](../backend/app/services/order_support.py) | 联系订单客服、催发货与管理员处理催促记录。 |
+| [conversations.py](../backend/app/services/conversations.py) | 同一订单复用会话、人工接管及处理中回复清理。 |
+| [refund_evidence.py](../backend/app/services/refund_evidence.py) | 凭证图片校验与保存、访问权限和路径校验；返回文件路径，由 API 返回文件响应。 |
+| [inventory.py](../backend/app/services/inventory.py) | 取消、超时回收和未发货退款共用的库存释放逻辑，不再从 service 导入 API。 |
+| [order_access.py](../backend/app/services/order_access.py) | 本人订单归属校验与行锁。 |
+| [clock.py](../backend/app/services/clock.py) | 上述业务服务共用的 UTC 时间函数。 |
 | [chat_unread.py](../backend/app/services/chat_unread.py) | 按阅读者与角色构建未读 SQL、计数、读取水位和单调已读更新；列表查询不隐式清除未读。 |
 | [support_tasks.py](../backend/app/services/support_tasks.py) | 手动核实三类事项、生成预览、确认建单、事实指纹、任务详情/锁和重新分析；读取不自动建单或关闭。 |
 
@@ -132,7 +140,7 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 
 | 文件 | 功能与关键实现 |
 | --- | --- |
-| [legacy_refund_demo.py](../backend/legacy_refund_demo.py) | 旧退款演示脚本，导入 graph.app；该对象当前不存在，不是现行测试运行入口。 |
+| `legacy_refund_demo.py`（当前已不存在） | 历史退款演示脚本，不是现行测试运行入口。 |
 
 ## frontend
 
@@ -287,3 +295,33 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 每个 categories/<分类>/<商品目录>/ 下的 product.json、source_original.json、image_metadata.json、introduction.txt / introduction.md、main.jpg 分别是标准资料、原始来源、图片元数据、介绍和图片本体。它们按同一结构重复保存，不是数百个不同功能的代码文件。
 
 sources 保存离线数据源及许可；admin_uploads 与 private_refund_evidence 是运行时文件目录。后端通过数据库路径定位文件，备份不能只导出 PostgreSQL 而遗漏这些目录。
+
+## 全功能分层新增文件（2026-10-22）
+
+完整调用地图见[系统技术说明](PROJECT_TECHNICAL_GUIDE.md#全功能整理后的阅读地图)。API 原有函数和 URL 保留；原来的查询、校验及事务代码已进入对应服务，以下位置是当前实现入口。
+
+| 文件 | 职责 |
+| --- | --- |
+| [services/accounts.py](../backend/app/services/accounts.py) | 用户注册、登录与身份信息用例，密码和 JWT 算法仍由 auth 包提供。 |
+| [services/addresses.py](../backend/app/services/addresses.py) | 收货地址的归属、默认地址与增删改查用例。 |
+| [services/browsing.py](../backend/app/services/browsing.py) | 当前用户浏览历史的记录、查询和清除。 |
+| [services/cart.py](../backend/app/services/cart.py) | 购物车条目增删改查；结算仍由订单服务执行。 |
+| [services/catalog.py](../backend/app/services/catalog.py) | 公开商品分类、列表、详情及媒体访问校验。 |
+| [services/catalog_queries.py](../backend/app/services/catalog_queries.py) | 商品公共查询与数据组装，供商城、后台和 Agent 共用。 |
+| [services/chat.py](../backend/app/services/chat.py) | 客户会话与消息用例；生成前提交，释放事务后调用多 Agent，再检查版本回写。 |
+| [services/chat_queries.py](../backend/app/services/chat_queries.py) | 聊天归属校验、消息序列化与中断回复恢复。 |
+| [services/homepage.py](../backend/app/services/homepage.py) | 公开首页的默认选品与管理员配置展示。 |
+| [services/homepage_admin.py](../backend/app/services/homepage_admin.py) | 首页选品配置维护，使用版本号和数据库锁防止覆盖。 |
+| [services/human_support.py](../backend/app/services/human_support.py) | 人工会话列表、接管、回复、结束及助手建议快照。 |
+| [services/offers.py](../backend/app/services/offers.py) | 管理员维护独立的演示销售价格、库存与上架状态。 |
+| [services/orders.py](../backend/app/services/orders.py) | 结算预览、下单、订单查询及支付、取消、收货、发货状态转换。 |
+| [services/product_management.py](../backend/app/services/product_management.py) | 后台商品资料增删改查与逻辑删除。 |
+| [services/product_media.py](../backend/app/services/product_media.py) | 后台商品图片校验与保存。 |
+| [services/shopping_queries.py](../backend/app/services/shopping_queries.py) | 购物公共查询、计价、订单快照与过期库存回收。 |
+| [services/support_task_workflows.py](../backend/app/services/support_task_workflows.py) | 客服待办的列表、统计、操作与会话入口；分析能力委托 support_tasks。 |
+| [services/user_access.py](../backend/app/services/user_access.py) | 串行处理同一用户的购物车、地址、会话创建等写入，不涉及登录令牌校验。 |
+| [schemas/activity.py](../backend/app/schemas/activity.py) | 该功能的共享定义。 |
+| [schemas/admin.py](../backend/app/schemas/admin.py) | admin 接口的请求字段与输入校验。 |
+| [schemas/admin_products.py](../backend/app/schemas/admin_products.py) | admin_products 接口的请求字段与输入校验。 |
+| [schemas/human_support.py](../backend/app/schemas/human_support.py) | human_support 接口的请求字段与输入校验。 |
+| [storage.py](../backend/app/storage.py) | 不依赖路由的媒体根路径与商品可见状态配置。 |

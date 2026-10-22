@@ -27,6 +27,7 @@ class AdviceState(TypedDict, total=False):
 
 
 def snapshot_version(session, messages, tasks=None):
+    # 用消息、人工状态和待办内容生成版本号，供前端判断建议是否已因新消息而过期。
     content = [
         session.id,
         session.human_status,
@@ -43,9 +44,11 @@ class StaffAssistant:
         self.model_factory = model_factory
 
     def invoke(self, payload):
+        # 管理员助手是独立的固定流程，不走客户 Manager 调度，也不自动发送消息。
         settings = self.settings_loader()
 
         def facts_node(state):
+            # 先按会话所属客户绑定只读工具，再由程序固定查询关联订单、商品与退款规则。
             tools = {
                 tool.name: tool
                 for tool in build_tools(
@@ -70,6 +73,7 @@ class StaffAssistant:
             return {"facts": facts}
 
         def draft_node(state):
+            # 把聊天快照与本次核实的事实交给模型，生成摘要、诉求与草稿；输出必须通过结构校验。
             prompt = """你是 ServAI 的人工客服助手，只向管理员提供接待参考，不直接回复客户或修改业务记录。
 请输出 JSON 对象，且只包含 summary（聊天摘要）、customer_needs（用户当前诉求字符串数组）、suggested_reply（可编辑的客户回复草稿）。
 摘要应区分用户陈述、此前 AI/客服答复和目前尚未解决的问题，不能把历史答复当成当前事实。

@@ -77,6 +77,7 @@ function ChatWorkspace() {
     navigate(id ? `/chat?session=${id}` : '/chat')
   }
   async function send(event, retryMessage = null) {
+    // 同一条消息重试沿用 request_key，后端复用原消息记录；新提问才生成新的请求编号。
     event?.preventDefault()
     if (busy || pending) return
     const content = retryMessage?.content || draft.trim()

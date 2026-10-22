@@ -13,6 +13,7 @@ export default function PurchaseActions({ product, compact = false }) {
   const offer = product.offer,
     available = offer?.is_active && offer.stock > 0
   const checkout = `/checkout?product=${product.id}&quantity=${quantity}`
+  // 立即购买只带商品与数量进入结算页；购物车另走写入接口，最终价格和库存都由后端核实。
   async function add() {
     if (!auth.user) {
       navigate(`/login?redirect=${encodeURIComponent(`/products/${product.id}`)}`)

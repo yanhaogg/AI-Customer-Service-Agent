@@ -35,7 +35,7 @@ class ActivityTests(unittest.TestCase):
         self.assertEqual(c.post('/api/activity/sessions',headers=self.headers[1],json={'order_number':order['number']}).status_code,404)
         self.assertEqual(c.post('/api/activity/sessions',headers=h,json={'product_id':999999}).status_code,404)
         payload={'content':'你好，我想咨询这款商品','request_key':uuid4().hex}
-        with patch('app.api.activity.support_agent.invoke',return_value={'answer':'这是测试回复。'}) as invoke:
+        with patch('app.services.chat.support_agent.invoke',return_value={'answer':'这是测试回复。'}) as invoke:
             response=c.post(f'/api/activity/sessions/{sid}/messages',headers=h,json=payload)
             self.assertEqual(response.status_code,200,response.text)
             self.assertEqual([m['role'] for m in response.json()['items']],['user','assistant'])
@@ -69,12 +69,12 @@ class ActivityTests(unittest.TestCase):
             with Session(self.db_engine) as db:
                 self.assertEqual(db.scalar(select(func.count()).select_from(ChatMessage).where(ChatMessage.session_id==sid)),2)
             raise RuntimeError('simulated provider outage')
-        with patch('app.api.activity.support_agent.invoke',side_effect=fail):
+        with patch('app.services.chat.support_agent.invoke',side_effect=fail):
             response=c.post(f'/api/activity/sessions/{sid}/messages',headers=h,json=body)
         self.assertEqual(response.status_code,200,response.text)
         self.assertEqual(response.json()['items'][1]['status'],'failed')
         message_ids=[m['id'] for m in response.json()['items']]
-        with patch('app.api.activity.support_agent.invoke',return_value={'answer':'重试成功'}):
+        with patch('app.services.chat.support_agent.invoke',return_value={'answer':'重试成功'}):
             response=c.post(f'/api/activity/sessions/{sid}/messages',headers=h,json=body)
         self.assertEqual([m['id'] for m in response.json()['items']],message_ids)
         self.assertEqual(response.json()['items'][1]['content'],'重试成功')
@@ -98,7 +98,7 @@ class ActivityTests(unittest.TestCase):
             if not finish.wait(10):raise RuntimeError('timeout in test')
             return {'answer':'过期的原始回复'}
         with ThreadPoolExecutor(max_workers=1) as executor:
-            with patch('app.api.activity.support_agent.invoke',side_effect=slow):
+            with patch('app.services.chat.support_agent.invoke',side_effect=slow):
                 original=executor.submit(c.post,f'/api/activity/sessions/{sid}/messages',headers=h,json=body)
                 self.assertTrue(started.wait(5))
                 repeated=c.post(f'/api/activity/sessions/{sid}/messages',headers=h,json=body)
@@ -109,7 +109,7 @@ class ActivityTests(unittest.TestCase):
                         updated_at=datetime.now(timezone.utc)-timedelta(minutes=3)));db.commit()
                 recovered=c.get(f'/api/activity/sessions/{sid}',headers=h)
                 self.assertEqual(recovered.json()['items'][-1]['status'],'failed')
-                with patch('app.api.activity.support_agent.invoke',return_value={'answer':'新的重试回复'}):
+                with patch('app.services.chat.support_agent.invoke',return_value={'answer':'新的重试回复'}):
                     self.assertEqual(c.post(f'/api/activity/sessions/{sid}/messages',headers=h,json=body).status_code,200)
                 finish.set();self.assertEqual(original.result(timeout=5).status_code,200)
         self.assertEqual(c.get(f'/api/activity/sessions/{sid}',headers=h).json()['items'][-1]['content'],'新的重试回复')

@@ -10,6 +10,7 @@ import { shopRequest, useShop } from '../lib/shop'
 
 // 单个会话：消息加载、人工接待、历史分页与回复。
 export default function StaffThread({ id, onChange }) {
+  // 单个会话独立维护草稿和请求编号；父组件切换 key 后重新挂载，避免把草稿带到其他客户。
   const { token } = useAuth(),
     thread = useShop(`/api/admin/support-sessions/${id}`, {
       keepPrevious: true,

@@ -1,12 +1,44 @@
 # ServAI 项目技术说明
 
-版本基准：2026 年 10 月 21 日的代码。
+版本基准：2026 年 10 月 22 日的代码（已完成全业务 API 分层整理）。
 
 代码阅读补充：购物、售后、客服待办先读 `backend/app/schemas/` 下的同名请求模型，再读 `api/` 中的接口与 `services/` 中的业务规则。人工客服页面从 `HumanSupport.jsx` 的会话列表读到 `StaffThread.jsx` 的单个会话。具体拆分见[逐文件代码说明](CODE_FILE_REFERENCE.md#本轮结构调整)。
 
 ServAI 是一个以日常电子产品商城为业务背景的智能客服实战项目。React 前端提供商品、购物、售后与管理员界面；FastAPI 后端负责身份校验、数据库读写和业务状态转换；LangGraph 组织大模型查询与人工客服辅助流程。业务数据保存在 PostgreSQL，商品图片与售后凭证保存在本地文件系统。
 
 理解这个项目时，需要分清三件事：商城规则由程序执行；Agent 根据受限数据生成回答或建议；管理员通过业务接口确认处理。多 Agent 是同一后端中的多个逻辑角色和子图，不是多个独立部署的服务。
+
+
+## 全功能整理后的阅读地图
+
+数据库模型现统一使用 SQLAlchemy 2.x 类型化声明：`Base` 继承 `DeclarativeBase`，字段使用 `属性: Mapped[Python类型] = mapped_column(SQL类型, ...)`。金额标注 `Decimal`，日期标注 `datetime`，JSON 对象标注 `dict[str, Any]`，首页商品 ID 数组标注 `list[int]`。允许 NULL 的列标注 `| None`。显式保留旧模型的 SQL 类型、可空性、主外键、索引和默认值；本次代码风格转换不要求迁移或重建已有表，数据库引擎仍是同步的。
+
+各功能统一按 **请求结构（schemas）→ HTTP 入口（api）→ 业务用例（services）→ ORM 模型（database）** 阅读。Agent 编排保留在 agent 目录，服务在需要生成答案或建议时调用它；Agent 的商品工具复用 catalog_queries，不依赖 API。
+
+| 功能 | HTTP 入口 | 主要业务服务 |
+| --- | --- | --- |
+| 注册、登录 | api/auth.py | services/accounts.py；密码与令牌算法见 auth/ |
+| 商品列表、详情、图片 | api/catalog.py | services/catalog.py、catalog_queries.py |
+| 公开首页 | api/catalog.py | services/homepage.py |
+| 首页选品管理 | api/admin.py | services/homepage_admin.py |
+| 商品资料管理、图片上传 | api/admin_products.py | services/product_management.py、product_media.py |
+| 收货地址 | api/shop.py | services/addresses.py |
+| 购物车 | api/shop.py | services/cart.py |
+| 结算、订单状态、发货 | api/shop.py | services/orders.py、shopping_queries.py |
+| 销售价格与库存设置 | api/shop.py | services/offers.py |
+| 客户聊天与 Agent 回答 | api/activity.py | services/chat.py、chat_queries.py → agent/graph.py |
+| 浏览历史 | api/activity.py | services/browsing.py |
+| 人工接待与建议回复 | api/human_support.py | services/human_support.py → agent/staff_assistant.py |
+| 退款与退货 | api/aftersales.py | services/aftersales.py、refund_policy.py |
+| 联系客服、催发货 | api/aftersales.py | services/order_support.py |
+| 私有凭证 | api/aftersales.py | services/refund_evidence.py |
+| 客服待办 | api/support_tasks.py | services/support_task_workflows.py → support_tasks.py → agent/order_followup.py |
+
+公共函数按职责复用：clock 提供 UTC 时间；user_access 加用户行锁；order_access 校验订单归属；inventory 释放库存；conversations 维护订单会话和接管；chat_unread 计算已读/未读；storage.py 提供媒体路径和商品展示状态配置。
+
+事务由服务中的公开业务用例管理。以催发货为例：API 的 remind 只调用 order_support.remind；服务依次锁订单、校验退款与冷却时间、保存记录、关联会话并 commit，最后返回 API。以聊天为例：chat.send_message 先提交用户消息并释放锁，调用 Manager 后再开启数据库操作，校验生成版本后回写；返回数据和状态码，由 API 设置 HTTP 响应。
+
+这次调整覆盖后端全部业务入口及相互引用，未迁移前端页面目录，也未新增业务功能、修改数据库结构或切换同步数据库引擎。前端仍按 pages、components、lib、auth、router 划分。
 
 ## 文档导航
 
@@ -172,7 +204,11 @@ flowchart LR
 
 `app/main.py` 创建 `server = FastAPI()`，注册各个路由，并允许本地前端的跨域来源。当前没有后台扫描的应用生命周期任务。
 
-`api/` 负责 HTTP 参数和响应；`services/` 放复用业务规则；`database/` 定义表和数据库会话；`agent/` 组织模型与只读工具。这不是完全拆分为 repository 层的架构：一些 SQL 和规则直接位于 API 文件中，例如购物流程的 `quote`、`expire_orders`、库存释放函数就在 `api/shop.py`。
+`api/` 负责 HTTP 参数和响应；`services/` 放复用业务规则；`database/` 定义表和数据库会话；`agent/` 组织模型与只读工具。售后模块现已完整抽出接口中的业务流程，API 只声明输入、权限与响应，事务由业务用例管理；库存释放抽至 `services/inventory.py`，避免服务反向依赖 API。其余业务也已整理：地址、购物车、订单、报价、聊天、浏览、人工客服和后台维护各自进入对应服务，API 中不再直接查询数据库。
+
+售后代码阅读顺序：先看 `schemas/aftersales.py` 的输入，再从 `api/aftersales.py` 选一个接口，进入其调用的服务函数。催发货主线是 `order_support.remind → order_access.owned → aftersales_queries.active_refund → conversations.order_session`，业务服务完成后提交事务，再将结果返回 API。退款主线从 `aftersales.apply_refund` 开始，按注释的五个阶段阅读；只在需要理解判断时进入 `refund_policy.auto_route`。`complete_refund` 通过 `inventory.release_stock` 释放未发货库存，`refund_evidence` 专门管理私有凭证。
+
+当前统一事务约定：公开业务用例负责提交和必要的回滚；公共规则、查询、库存和会话辅助函数不自行提交。API 只转发；生成聊天、接待建议、订单跟进分析仍保留分段事务，在等待模型前提交或释放快照事务，回写时重新验证状态。此约定替代上一轮售后采用的 API 提交方式，避免两套约定并存。接口 URL、响应结构和业务规则保持原样。
 
 ## 5 身份与权限
 
@@ -313,7 +349,7 @@ stateDiagram-v2
 
 `chat_sessions` 保存会话归属、商品上下文、订单上下文、标题和人工接待状态。`chat_messages` 保存消息本身。
 
-同一订单的普通咨询、催发货、退款售后、转人工与通用创建会话请求，都复用该订单唯一会话。实现由 `services/aftersales.py::order_session`、订单行锁和 `chat_sessions.order_id` 唯一约束共同保证。未绑定订单的普通咨询可以有多个会话。
+同一订单的普通咨询、催发货、退款售后、转人工与通用创建会话请求，都复用该订单唯一会话。实现由 `services/conversations.py::order_session`、订单行锁和 `chat_sessions.order_id` 唯一约束共同保证。未绑定订单的普通咨询可以有多个会话。
 
 ### 10.2 一轮客户消息的处理
 
@@ -564,7 +600,7 @@ Pop-Location
 
 其中 `--seed-demo-offers` 是显式把资料价格复制为演示售价，并为缺少销售设置的商品初始化模拟库存，不是识别真实市场库存。已有环境不需要为日常启动重复导入整批素材。
 
-`unify_order_chats.py` 用于旧库合并同一订单的多个会话，保留消息与退款关联，建立唯一索引；不要把它当成删除聊天记录的脚本。待办预览表由 `init_support_tasks.py` 创建，初始 `init_db.py` 的导入范围不能替代所有专项升级脚本。
+`unify_order_chats.py` 用于旧库合并同一订单的多个会话，保留消息与退款关联，建立唯一索引；不要把它当成删除聊天记录的脚本。`init_db.py` 现已显式导入全部模型，可统一创建包含待办预览在内的缺失表；`init_support_tasks.py` 仍可用于专项补建。统一建表不会自动执行旧会话数据合并，也不能替代所有专项升级脚本。
 
 ## 16 测试与排查
 
@@ -603,13 +639,13 @@ Pop-Location
 
 第一遍看入口与目录：`main.jsx → router/index.jsx → AuthProvider.jsx → backend/app/main.py`。
 
-第二遍跟一条购物链路：`ProductDetail / PurchaseActions → Checkout → api/shop.py → shop_models.py`。重点看后端重新计价、库存锁和订单快照。
+第二遍跟一条购物链路：`ProductDetail / PurchaseActions → Checkout → api/shop.py → services/orders.py → shopping_queries.py → shop_models.py`。重点看后端重新计价、库存锁和订单快照。
 
-第三遍看客户客服：`SavedChat.jsx → api/activity.py::send_message → agent/graph.py → specialists.py → runtime_nodes.py → catalog_tools.py`。把 LangGraph 状态、模型消息协议和业务查询工具分开理解。
+第三遍看客户客服：`SavedChat.jsx → api/activity.py::send_message → services/chat.py::send_message → agent/graph.py → specialists.py → runtime_nodes.py → catalog_tools.py`。把 LangGraph 状态、模型消息协议和业务查询工具分开理解。
 
 第四遍看管理员辅助：`HumanSupport.jsx → StaffAssistant.jsx → api/human_support.py → agent/staff_assistant.py`。
 
-第五遍看手动异常分析：`ManualOrderAnalysis.jsx → api/support_tasks.py → services/support_tasks.py → agent/order_followup.py → SupportTaskPreview / SupportTask`。
+第五遍看手动异常分析：`ManualOrderAnalysis.jsx → api/support_tasks.py → services/support_task_workflows.py → services/support_tasks.py → agent/order_followup.py → SupportTaskPreview / SupportTask`。
 
 最后看测试。测试中的 `ScriptedModel` 能展示 Manager 如何派发任务、子 Agent 如何回报、错误如何处理，比只读提示词更容易理解运行过程。
 

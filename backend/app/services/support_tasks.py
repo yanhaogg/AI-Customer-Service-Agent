@@ -6,7 +6,6 @@ from datetime import datetime, timedelta, timezone
 from uuid import uuid4
 from fastapi import HTTPException
 from sqlalchemy import select, delete
-from sqlalchemy.orm import Session
 from app.database.models import User
 from app.database.shop_models import ShopOrder
 from app.database.aftersales_models import RefundRequest
@@ -70,6 +69,7 @@ def event(db, task, actor_id, action, note):
 
 
 def findings(order, refund, at):
+    # 确定性规则只判断三类时间条件；命中条件表示需要核实，不代表已经证实物流故障。
     result = []
 
     def add(kind, source, anchor):
@@ -144,6 +144,8 @@ def matching_finding(db, order, kind, source):
 
 
 def preview_order(db, order_id, actor_id):
+    # 管理员主动分析选定订单：读事实 → 释放事务 → 调模型 → 重查事实 → 保存短期预览。
+    # 这里只生成预览，必须另行确认才创建正式待办。
     order = db.get(ShopOrder, order_id)
     if order is None:
         raise HTTPException(404, "订单不存在")
@@ -215,6 +217,7 @@ def preview_order(db, order_id, actor_id):
 
 
 def create_from_preview(db, preview_id, actor_id):
+    # 确认时再次检查预览归属、有效期和事实版本；同一订单同类来源已有待办则直接复用。
     preview = db.get(SupportTaskPreview, preview_id)
     if preview is None or preview.actor_id != actor_id:
         raise HTTPException(404, "分析结果不存在，请重新分析。")
@@ -257,6 +260,7 @@ def create_from_preview(db, preview_id, actor_id):
 
 
 def locked_task(db, task_id):
+    # 先锁订单、后锁待办，保持一致的加锁顺序；这里只读取和加锁，不自动关闭待办。
     task = db.get(SupportTask, task_id)
     if task is None:
         raise HTTPException(404, "待办不存在")
@@ -275,6 +279,7 @@ def locked_task(db, task_id):
 
 
 def task_data(db, task, details=False):
+    # 展示时比较当前事实与分析快照；事实变化就隐藏过期建议，但不在读取接口修改待办状态。
     order = db.get(ShopOrder, task.order_id)
     assignee = db.get(User, task.assignee_id) if task.assignee_id else None
     result = {
@@ -334,6 +339,7 @@ def task_data(db, task, details=False):
 
 
 def analyze_task(db, task_id, actor_id=None):
+    # 仅在人工触发时重新分析；生成前记录请求标记，生成后核对版本，避免旧结果覆盖新事实。
     task, order = locked_task(db, task_id)
     if task.status not in ACTIVE:
         db.commit()

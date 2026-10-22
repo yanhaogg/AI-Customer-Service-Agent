@@ -3,6 +3,7 @@ import { useAuth } from '../auth/useAuth'
 import { shopRequest, useShop } from './shop'
 
 export function useUnread(admin = false, enabled = true) {
+  // 轮询只刷新提醒，不会标记已读；用户与管理员分别调用各自有权限的接口。
   const result = useShop(
     enabled ? (admin ? '/api/admin/support-sessions/unread' : '/api/activity/unread') : null,
     { keepPrevious: true },
@@ -23,6 +24,7 @@ export function useUnread(admin = false, enabled = true) {
 }
 
 export function useConversationRead(path, data) {
+  // 只确认本次已加载消息的时间水位；页面可见且窗口获得焦点时才认为用户正在阅读。
   const { token } = useAuth(),
     last = useRef('')
   const watermark = data?.read_through
@@ -51,7 +53,7 @@ export function useConversationRead(path, data) {
           window.dispatchEvent(new Event('chat-read'))
         }
       } catch {
-        /* A failed acknowledgement leaves messages unread and retries while visible. */
+        /* 确认失败时保留未读，页面可见期间继续重试，避免消息被误清零。 */
       } finally {
         inFlight = false
       }

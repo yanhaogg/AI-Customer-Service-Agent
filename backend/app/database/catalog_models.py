@@ -1,10 +1,15 @@
 """PostgreSQL product catalog tables, separate from users and orders."""
 
+from typing import Any
+
+from sqlalchemy.orm import Mapped, mapped_column
+from datetime import datetime
+from decimal import Decimal
+
 from sqlalchemy import (
     BigInteger,
     Boolean,
     CheckConstraint,
-    Column,
     DateTime,
     ForeignKey,
     Identity,
@@ -23,32 +28,44 @@ from .database import Base
 
 class CatalogCategory(Base):
     __tablename__ = "categories"
-    id = Column(BigInteger, Identity(), primary_key=True)
-    code = Column(String(100), nullable=False, unique=True)
-    name = Column(Text, nullable=False)
-    parent_id = Column(BigInteger, ForeignKey("categories.id"), nullable=True)
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    code: Mapped[str] = mapped_column(String(100), nullable=False, unique=True)
+    name: Mapped[str] = mapped_column(Text, nullable=False)
+    parent_id: Mapped[int | None] = mapped_column(
+        BigInteger, ForeignKey("categories.id"), nullable=True
+    )
 
 
 class Product(Base):
     __tablename__ = "products"
-    id = Column(BigInteger, Identity(), primary_key=True)
-    import_key = Column(String(150), nullable=False, unique=True)
-    category_id = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    import_key: Mapped[str] = mapped_column(String(150), nullable=False, unique=True)
+    category_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("categories.id"), nullable=False, index=True
     )
-    name_original = Column(Text, nullable=False)
-    name_zh = Column(Text, nullable=True)
-    brand = Column(Text, index=True)
-    model = Column(Text, index=True)
-    description_original = Column(Text, nullable=False)
-    introduction_zh = Column(Text, nullable=False)
-    specs = Column(JSONB, nullable=False, server_default=text("'{}'::jsonb"))
-    quality = Column(JSONB, nullable=False, server_default=text("'{}'::jsonb"))
-    status = Column(String(20), nullable=False, server_default="draft")
-    created_at = Column(
+    name_original: Mapped[str] = mapped_column(Text, nullable=False)
+    name_zh: Mapped[str | None] = mapped_column(Text, nullable=True)
+    brand: Mapped[str | None] = mapped_column(Text, index=True, nullable=True)
+    model: Mapped[str | None] = mapped_column(Text, index=True, nullable=True)
+    description_original: Mapped[str] = mapped_column(Text, nullable=False)
+    introduction_zh: Mapped[str] = mapped_column(Text, nullable=False)
+    specs: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, server_default=text("'{}'::jsonb")
+    )
+    quality: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, server_default=text("'{}'::jsonb")
+    )
+    status: Mapped[str] = mapped_column(
+        String(20), nullable=False, server_default="draft"
+    )
+    created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
-    updated_at = Column(
+    updated_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
 
@@ -60,14 +77,16 @@ class MediaAsset(Base):
             "width > 0 AND height > 0 AND byte_size > 0", name="ck_media_dimensions"
         ),
     )
-    id = Column(BigInteger, Identity(), primary_key=True)
-    storage_key = Column(Text, nullable=False)
-    sha256 = Column(String(64), nullable=False, unique=True)
-    width = Column(Integer, nullable=False)
-    height = Column(Integer, nullable=False)
-    byte_size = Column(BigInteger, nullable=False)
-    content_type = Column(Text, nullable=False)
-    created_at = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    storage_key: Mapped[str] = mapped_column(Text, nullable=False)
+    sha256: Mapped[str] = mapped_column(String(64), nullable=False, unique=True)
+    width: Mapped[int] = mapped_column(Integer, nullable=False)
+    height: Mapped[int] = mapped_column(Integer, nullable=False)
+    byte_size: Mapped[int] = mapped_column(BigInteger, nullable=False)
+    content_type: Mapped[str] = mapped_column(Text, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
 
@@ -77,19 +96,23 @@ class ProductSource(Base):
     __table_args__ = (
         UniqueConstraint("source_name", "source_sku", name="uq_source_name_sku"),
     )
-    id = Column(BigInteger, Identity(), primary_key=True)
-    product_id = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    product_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("products.id"), nullable=False, index=True
     )
-    source_name = Column(Text, nullable=False)
-    source_sku = Column(Text, nullable=False)
-    product_url = Column(Text)
-    official_dataset_url = Column(Text)
-    metadata_mirror_url = Column(Text)
-    catalog_date = Column(Text)
-    metadata_license = Column(Text)
-    collected_at = Column(DateTime(timezone=True), nullable=False)
-    raw_data = Column(JSONB, nullable=False)
+    source_name: Mapped[str] = mapped_column(Text, nullable=False)
+    source_sku: Mapped[str] = mapped_column(Text, nullable=False)
+    product_url: Mapped[str | None] = mapped_column(Text, nullable=True)
+    official_dataset_url: Mapped[str | None] = mapped_column(Text, nullable=True)
+    metadata_mirror_url: Mapped[str | None] = mapped_column(Text, nullable=True)
+    catalog_date: Mapped[str | None] = mapped_column(Text, nullable=True)
+    metadata_license: Mapped[str | None] = mapped_column(Text, nullable=True)
+    collected_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False
+    )
+    raw_data: Mapped[dict[str, Any]] = mapped_column(JSONB, nullable=False)
 
 
 class ProductImage(Base):
@@ -100,22 +123,30 @@ class ProductImage(Base):
         ),
         CheckConstraint("sort_order >= 0", name="ck_image_sort_order"),
     )
-    id = Column(BigInteger, Identity(), primary_key=True)
-    product_id = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    product_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("products.id"), nullable=False, index=True
     )
-    source_id = Column(
+    source_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("product_sources.id"), nullable=False, index=True
     )
-    asset_id = Column(BigInteger, ForeignKey("media_assets.id"), nullable=False)
-    sort_order = Column(Integer, nullable=False)
-    is_primary = Column(Boolean, nullable=False, server_default=text("false"))
-    alt = Column(Text)
-    source_url = Column(Text)
-    resolved_url = Column(Text)
-    rights_status = Column(Text, nullable=False)
-    downloaded_at = Column(DateTime(timezone=True))
-    original_metadata = Column(JSONB, nullable=False)
+    asset_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey("media_assets.id"), nullable=False
+    )
+    sort_order: Mapped[int] = mapped_column(Integer, nullable=False)
+    is_primary: Mapped[bool] = mapped_column(
+        Boolean, nullable=False, server_default=text("false")
+    )
+    alt: Mapped[str | None] = mapped_column(Text, nullable=True)
+    source_url: Mapped[str | None] = mapped_column(Text, nullable=True)
+    resolved_url: Mapped[str | None] = mapped_column(Text, nullable=True)
+    rights_status: Mapped[str] = mapped_column(Text, nullable=False)
+    downloaded_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
+    original_metadata: Mapped[dict[str, Any]] = mapped_column(JSONB, nullable=False)
 
 
 Index(
@@ -132,18 +163,26 @@ class ProductPriceRecord(Base):
         UniqueConstraint("source_id", "record_key", name="uq_price_source_record"),
         CheckConstraint("amount >= 0", name="ck_price_nonnegative"),
     )
-    id = Column(BigInteger, Identity(), primary_key=True)
-    product_id = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    product_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("products.id"), nullable=False, index=True
     )
-    source_id = Column(BigInteger, ForeignKey("product_sources.id"), nullable=False)
-    record_key = Column(String(64), nullable=False)
-    amount = Column(Numeric(12, 2), nullable=False)
-    currency = Column(String(3), nullable=False)
-    price_kind = Column(String(50), nullable=False)
-    observed_at = Column(DateTime(timezone=True))
-    collected_at = Column(DateTime(timezone=True), nullable=False)
-    current_price_verified = Column(
+    source_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey("product_sources.id"), nullable=False
+    )
+    record_key: Mapped[str] = mapped_column(String(64), nullable=False)
+    amount: Mapped[Decimal] = mapped_column(Numeric(12, 2), nullable=False)
+    currency: Mapped[str] = mapped_column(String(3), nullable=False)
+    price_kind: Mapped[str] = mapped_column(String(50), nullable=False)
+    observed_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
+    collected_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False
+    )
+    current_price_verified: Mapped[bool] = mapped_column(
         Boolean, nullable=False, server_default=text("false")
     )
 

@@ -1,14 +1,12 @@
-from fastapi import APIRouter, Depends, HTTPException, Query
-from sqlalchemy import func, select
+"""HTTP 入口：声明路径、输入校验和权限依赖，业务流程及事务见 services。"""
+
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 from app.auth.dependencies import require_superadmin
 from app.database.session import get_db
 from app.database.models import User
-from app.database.activity_models import ChatSession
-from app.database.support_task_models import SupportTask
-from app.services import support_tasks as service
-from app.services.aftersales import order_session
 from app.schemas.support_tasks import TaskAction, PreviewRequest, CreateRequest
+from app.services import support_task_workflows as support_task_workflows_service
 
 router = APIRouter(
     prefix="/api/admin/support-tasks",
@@ -19,25 +17,7 @@ router = APIRouter(
 
 @router.get("/summary")
 def summary(db: Session = Depends(get_db), user: User = Depends(require_superadmin)):
-    counts = dict(
-        db.execute(
-            select(SupportTask.status, func.count()).group_by(SupportTask.status)
-        ).all()
-    )
-    mine = db.scalar(
-        select(func.count())
-        .select_from(SupportTask)
-        .where(
-            SupportTask.status.in_(service.ACTIVE), SupportTask.assignee_id == user.id
-        )
-    )
-    return {
-        "counts": counts,
-        "active": sum(counts.get(s, 0) for s in service.ACTIVE),
-        "mine": mine,
-        "rules": service.RULES,
-        "mode": "manual",
-    }
+    return support_task_workflows_service.summary(db, user)
 
 
 @router.post("/preview")
@@ -46,7 +26,7 @@ def preview(
     db: Session = Depends(get_db),
     user: User = Depends(require_superadmin),
 ):
-    return service.preview_order(db, body.order_id, user.id)
+    return support_task_workflows_service.preview(body, db, user)
 
 
 @router.post("", status_code=201)
@@ -55,10 +35,7 @@ def create(
     db: Session = Depends(get_db),
     user: User = Depends(require_superadmin),
 ):
-    task, created = service.create_from_preview(db, body.preview_id, user.id)
-    result = {**service.task_data(db, task, details=True), "created": created}
-    db.commit()
-    return result
+    return support_task_workflows_service.create(body, db, user)
 
 
 @router.get("")
@@ -75,38 +52,14 @@ def tasks(
     db: Session = Depends(get_db),
     user: User = Depends(require_superadmin),
 ):
-    query = select(SupportTask)
-    if status == "active":
-        query = query.where(SupportTask.status.in_(service.ACTIVE))
-    elif status != "all":
-        query = query.where(SupportTask.status == status)
-    if kind:
-        query = query.where(SupportTask.kind == kind)
-    if mine:
-        query = query.where(SupportTask.assignee_id == user.id)
-    if order_id:
-        query = query.where(SupportTask.order_id == order_id)
-    total = db.scalar(select(func.count()).select_from(query.subquery()))
-    entries = db.scalars(
-        query.order_by(
-            (SupportTask.priority == "high").desc(), SupportTask.due_at, SupportTask.id
-        )
-        .offset((page - 1) * 20)
-        .limit(20)
-    ).all()
-    return {
-        "items": [service.task_data(db, t) for t in entries],
-        "total": total,
-        "total_pages": (total + 19) // 20,
-    }
+    return support_task_workflows_service.tasks(
+        status, kind, mine, order_id, page, db, user
+    )
 
 
 @router.get("/{task_id}")
 def detail(task_id: int, db: Session = Depends(get_db)):
-    task, order = service.locked_task(db, task_id)
-    result = service.task_data(db, task, details=True)
-    db.commit()
-    return result
+    return support_task_workflows_service.detail(task_id, db)
 
 
 @router.post("/{task_id}/analyze")
@@ -115,7 +68,7 @@ def analyze(
     db: Session = Depends(get_db),
     user: User = Depends(require_superadmin),
 ):
-    return service.analyze_task(db, task_id, user.id)
+    return support_task_workflows_service.analyze(task_id, db, user)
 
 
 @router.post("/{task_id}/actions")
@@ -125,52 +78,9 @@ def action(
     db: Session = Depends(get_db),
     user: User = Depends(require_superadmin),
 ):
-    task, order = service.locked_task(db, task_id)
-    if body.action == "note":
-        if not body.note:
-            raise HTTPException(422, "请填写跟进备注。")
-        service.event(db, task, user.id, "note", body.note)
-    else:
-        if task.status not in service.ACTIVE:
-            db.commit()
-            raise HTTPException(409, "该待办已关闭或异常已消失。")
-        if task.assignee_id and task.assignee_id != user.id:
-            raise HTTPException(409, "待办已由其他客服认领，请由当前负责人处理。")
-        if body.action == "claim":
-            if task.assignee_id != user.id:
-                task.assignee_id = user.id
-                task.status = "in_progress"
-                service.event(db, task, user.id, "claimed", "已认领待办。")
-        elif body.action == "release":
-            if task.assignee_id != user.id:
-                raise HTTPException(409, "只能释放自己认领的待办。")
-            task.assignee_id = None
-            task.status = "pending"
-            service.event(
-                db, task, user.id, "released", "已释放待办，等待其他客服接手。"
-            )
-        else:
-            if not body.note:
-                raise HTTPException(422, "完成或忽略待办时必须填写处理说明。")
-            task.assignee_id = user.id
-            task.status = "resolved" if body.action == "resolve" else "dismissed"
-            task.resolved_at = service.now()
-            task.resolution_note = body.note
-            task.analysis_key = None
-            if task.analysis_status == "generating":
-                task.analysis_status = "pending"
-            service.event(db, task, user.id, body.action, body.note)
-    task.updated_at = service.now()
-    db.flush()
-    result = service.task_data(db, task, details=True)
-    db.commit()
-    return result
+    return support_task_workflows_service.action(task_id, body, db, user)
 
 
 @router.post("/{task_id}/conversation")
 def conversation(task_id: int, db: Session = Depends(get_db)):
-    task, order = service.locked_task(db, task_id)
-    session = order_session(db, order)
-    result = {"session_id": session.id, "url": f"/admin/support?session={session.id}"}
-    db.commit()
-    return result
+    return support_task_workflows_service.conversation(task_id, db)

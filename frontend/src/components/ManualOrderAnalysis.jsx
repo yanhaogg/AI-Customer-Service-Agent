@@ -17,6 +17,7 @@ export default function ManualOrderAnalysis({ initialOrderId = '', onCreated }) 
     keepPrevious: true,
   })
   async function analyze() {
+    // 第一步只生成预览；管理员读完分析结果后，再通过 create 确认创建正式待办。
     setBusy(true)
     setError('')
     setResult(null)
@@ -34,6 +35,7 @@ export default function ManualOrderAnalysis({ initialOrderId = '', onCreated }) 
     }
   }
   async function create(previewId) {
+    // 后端会复核预览有效期与订单事实，过期或订单已变化时需要重新分析。
     setBusy(true)
     setError('')
     try {

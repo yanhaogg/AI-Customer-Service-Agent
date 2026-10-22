@@ -52,6 +52,7 @@ SPECIALISTS = {
 
 def delegation_tools():
     # These schemas describe graph routing only. They do not execute database queries.
+    # 向 Manager 暴露“可委派哪些角色”的工具描述；这些函数本身不查询数据库。
     def schema_only(task):
         return task
 
@@ -67,6 +68,8 @@ def delegation_tools():
 
 
 def specialist_graph(name, settings, tools, prompt, budget, model_factory):
+    # 按角色白名单筛出真实工具，并复用 model → tools → model 的循环。
+    # 专员有自己的轮数上限，同时与 Manager 共用整个请求的预算。
     spec = SPECIALISTS[name]
     nodes = build_nodes(
         replace(settings, max_steps=settings.max_worker_steps),

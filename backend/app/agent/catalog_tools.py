@@ -11,8 +11,9 @@ from app.database.database import SessionLocal
 from app.database.catalog_models import CatalogCategory, Product
 from app.database.shop_models import SaleOffer, ShopOrder, ShopOrderItem
 from app.database.activity_models import BrowsingHistory, ChatSession, ChatMessage
-from app.api.catalog import product_query, serialize_products
-from app.services.aftersales import latest_summary, refund_policy
+from app.services.catalog_queries import product_query, serialize_products
+from app.services.aftersales_queries import latest_summary
+from app.services.refund_policy import refund_policy
 
 Currency = Literal["CNY", "USD", "EUR", "GBP", "JPY", "HKD"]
 OrderStatus = Literal[
@@ -146,12 +147,15 @@ def order_brief(db, order):
 
 
 def build_tools(user_id, session_factory=None, current_message_id=None):
+    # 权限入口：user_id 来自登录校验，并封存在工具闭包中，不作为模型可填写的参数。
+    # 每个工具绑定固定函数与 Pydantic 参数结构，模型不能自由执行 SQL。
     if type(user_id) is not int or user_id <= 0:
         raise ValueError("Verified user required")
     factory = session_factory or SessionLocal
 
     @contextmanager
     def database():
+        # 每次工具查询使用独立数据库会话；事务强制只读，单条 SQL 最长执行 3 秒。
         with factory() as db:
             db.execute(text("SET TRANSACTION READ ONLY"))
             db.execute(text("SET LOCAL statement_timeout = '3000ms'"))
@@ -183,6 +187,7 @@ def build_tools(user_id, session_factory=None, current_message_id=None):
         page=1,
         limit=6,
     ):
+        # 按名称、分类、币种、价格与库存筛选；返回精简商品信息，限制模型上下文大小。
         with database() as db:
             statement = product_query().outerjoin(
                 SaleOffer, SaleOffer.product_id == Product.id
@@ -257,6 +262,7 @@ def build_tools(user_id, session_factory=None, current_message_id=None):
             return result
 
     def my_orders(status=None, page=1, limit=5):
+        # 查询条件固定包含当前用户 ID；模型只能筛选本人订单，不能切换查询身份。
         with database() as db:
             query = select(ShopOrder).where(ShopOrder.user_id == user_id)
             if status:
@@ -274,6 +280,7 @@ def build_tools(user_id, session_factory=None, current_message_id=None):
             }
 
     def order_details(order_number=None, order_id=None):
+        # 即使知道其他人的订单 ID 或编号，仍必须满足订单归属条件才会返回数据。
         with database() as db:
             query = select(ShopOrder).where(ShopOrder.user_id == user_id)
             query = (
@@ -289,6 +296,7 @@ def build_tools(user_id, session_factory=None, current_message_id=None):
             )
 
     def browsing(limit=6):
+        # 从当前用户浏览记录取商品线索，再补充现有商品资料；浏览快照不等于实时库存。
         with database() as db:
             rows = db.scalars(
                 select(BrowsingHistory)
@@ -325,6 +333,7 @@ def build_tools(user_id, session_factory=None, current_message_id=None):
             }
 
     def chat_history(query, limit=5):
+        # 仅搜索当前账号已完成的历史消息；排除本条及之后的消息，避免把当前提问当成证据。
         with database() as db:
             statement = select(ChatMessage, ChatSession.title).join(
                 ChatSession, ChatSession.id == ChatMessage.session_id
@@ -352,6 +361,7 @@ def build_tools(user_id, session_factory=None, current_message_id=None):
                 "note": "历史消息是上下文线索；订单状态、库存与价格仍需重新调用实时查询工具核实。",
             }
 
+    # 注册表把工具名称、执行函数、参数结构和说明绑定起来，供模型选择并由程序校验执行。
     definitions = [
         (
             "get_refund_policy",

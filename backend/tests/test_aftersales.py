@@ -47,7 +47,7 @@ class AftersalesTests(unittest.TestCase):
         session=c.post(path,headers=h,json={}).json()['session_id']
         self.assertEqual(c.post(path,headers=h,json={}).json()['session_id'],session)
         self.assertEqual(c.get(f'/api/activity/sessions/{session}',headers=h).json()['session']['order_id'],oid)
-        with patch('app.api.activity.support_agent.invoke',return_value={'answer':'已查询本订单'}) as invoke:
+        with patch('app.services.chat.support_agent.invoke',return_value={'answer':'已查询本订单'}) as invoke:
             response=c.post(f'/api/activity/sessions/{session}/messages',headers=h,json={'content':'这个订单怎么样','request_key':uuid4().hex})
             self.assertEqual(response.status_code,200);self.assertEqual(invoke.call_args.args[0]['order_id'],order['number'])
 
@@ -185,7 +185,7 @@ class AftersalesTests(unittest.TestCase):
         self.assertEqual(c.post(f'/api/activity/sessions/{sid}/handoff',headers=h).status_code,200)
         self.assertEqual(c.get('/api/admin/support-sessions',headers=h).status_code,403)
         self.assertEqual(c.get('/api/admin/support-sessions',headers=ah).json()['total'],1)
-        with patch('app.api.activity.support_agent.invoke') as agent:
+        with patch('app.services.chat.support_agent.invoke') as agent:
             message=c.post(f'/api/activity/sessions/{sid}/messages',headers=h,json={'content':'请人工帮我处理这个订单','request_key':uuid4().hex})
             self.assertEqual(message.status_code,200);agent.assert_not_called()
         reply={'content':'您好，我是人工客服，正在核实此订单。','request_key':uuid4().hex}
@@ -202,7 +202,7 @@ class AftersalesTests(unittest.TestCase):
         other_items=c.get(f'/api/admin/support-sessions/{sid}',headers=self.headers[1]).json()['items']
         self.assertTrue(all(not item['is_mine'] for item in other_items))
         c.post(f'/api/admin/support-sessions/{sid}/close',headers=ah)
-        with patch('app.api.activity.support_agent.invoke',return_value={'answer':'人工服务结束，现在由AI继续帮助你。'}) as agent:
+        with patch('app.services.chat.support_agent.invoke',return_value={'answer':'人工服务结束，现在由AI继续帮助你。'}) as agent:
             self.assertEqual(c.post(f'/api/activity/sessions/{sid}/messages',headers=h,json={'content':'继续查询','request_key':uuid4().hex}).status_code,200);agent.assert_called_once()
 
     def test_concurrent_refund_ship_has_one_consistent_outcome(self):
@@ -223,7 +223,7 @@ class AftersalesTests(unittest.TestCase):
         started=Event();finish=Event()
         def slow(_):
             started.set();finish.wait(5);return {'answer':'过期的AI答复不得发送'}
-        with ThreadPoolExecutor(max_workers=1) as executor,patch('app.api.activity.support_agent.invoke',side_effect=slow):
+        with ThreadPoolExecutor(max_workers=1) as executor,patch('app.services.chat.support_agent.invoke',side_effect=slow):
             result=executor.submit(c.post,f'/api/activity/sessions/{sid}/messages',headers=h,json={'content':'我要咨询这个订单','request_key':uuid4().hex})
             self.assertTrue(started.wait(3))
             self.assertEqual(c.post(f'/api/activity/sessions/{sid}/handoff',headers=h).status_code,200)

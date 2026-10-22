@@ -61,6 +61,7 @@ function CheckoutContent() {
   const data = quote?.key === key ? quote.data : null
   const selectedAddress = addressId || String(addresses.data?.items[0]?.id || '')
   async function submit() {
+    // 携带页面确认过的单价和幂等编号；后端重新计价，价格变化时拒绝下单并要求重新确认。
     setBusy(true)
     setError('')
     try {

@@ -2,18 +2,14 @@
 
 from datetime import datetime, timezone
 from fastapi import HTTPException
-from pydantic import BaseModel, ConfigDict, AwareDatetime
 from sqlalchemy import and_, or_, func, select
 from sqlalchemy.dialects.postgresql import insert
 from app.database.activity_models import ChatMessage, ChatSession, ChatReadState
 
 
-class ReadThrough(BaseModel):
-    model_config = ConfigDict(extra="forbid")
-    read_through: AwareDatetime
-
-
 def unread_query(user, admin=False, session_ids=None):
+    # 未读按“查看者 + 会话”独立计算：客户关注 AI/客服消息，管理员关注客户及其他客服消息。
+    # 用 updated_at 比较水位，因此原先 pending 的回复生成完成后仍能被识别为新消息。
     incoming = (
         or_(
             ChatMessage.role == "user",
@@ -60,6 +56,7 @@ def read_through(entries):
 
 
 def mark_read(db, user, session_id, body):
+    # 前端显式确认已读，GET 会话本身不清零；取较大时间，避免乱序请求把已读进度倒退。
     if body.read_through > datetime.now(timezone.utc):
         raise HTTPException(422, "已读时间不能晚于当前时间")
     statement = insert(ChatReadState).values(

@@ -113,7 +113,7 @@ class AdminSecurityTests(unittest.TestCase):
                    {**new,'image_asset_id':999999},{**new,'status':'published'}]:
     self.assertEqual(client.post('/api/admin/products',headers=ah,json=invalid).status_code,422)
    # Upload to a temporary material root, so no test files are left in the real library.
-   with TemporaryDirectory() as temporary, patch('app.api.admin_products.MATERIALS_ROOT',Path(temporary)):
+   with TemporaryDirectory() as temporary, patch('app.services.product_media.MATERIALS_ROOT',Path(temporary)):
     output=BytesIO();Image.new('RGB',(24,24),'blue').save(output,format='PNG')
     image_body={'data':base64.b64encode(output.getvalue()).decode()}
     image_response=client.post('/api/admin/product-images',headers=ah,json=image_body)

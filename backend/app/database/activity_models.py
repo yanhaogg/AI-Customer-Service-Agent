@@ -1,9 +1,13 @@
 """Private customer conversations and deduplicated product browsing history."""
 
+from typing import Any
+
+from sqlalchemy.orm import Mapped, mapped_column
+from datetime import datetime
+
 from sqlalchemy import (
     BigInteger,
     CheckConstraint,
-    Column,
     DateTime,
     ForeignKey,
     Identity,
@@ -22,23 +26,33 @@ from . import models, catalog_models, shop_models
 class ChatSession(Base):
     __tablename__ = "chat_sessions"
     __table_args__ = (UniqueConstraint("order_id", name="uq_chat_order"),)
-    id = Column(BigInteger, Identity(), primary_key=True)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
-    title = Column(String(100), nullable=False)
-    product_id = Column(BigInteger, ForeignKey("products.id"))
-    order_id = Column(BigInteger, ForeignKey("shop_orders.id"))
-    context_name = Column(Text)
-    intent = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    user_id: Mapped[int] = mapped_column(
+        Integer, ForeignKey("users.id"), nullable=False
+    )
+    title: Mapped[str] = mapped_column(String(100), nullable=False)
+    product_id: Mapped[int | None] = mapped_column(
+        BigInteger, ForeignKey("products.id"), nullable=True
+    )
+    order_id: Mapped[int | None] = mapped_column(
+        BigInteger, ForeignKey("shop_orders.id"), nullable=True
+    )
+    context_name: Mapped[str | None] = mapped_column(Text, nullable=True)
+    intent: Mapped[str] = mapped_column(
         String(30), nullable=False, default="general", server_default="general"
     )
-    human_status = Column(
+    human_status: Mapped[str] = mapped_column(
         String(20), nullable=False, default="none", server_default="none"
     )
-    staff_user_id = Column(Integer, ForeignKey("users.id"))
-    created_at = Column(
+    staff_user_id: Mapped[int | None] = mapped_column(
+        Integer, ForeignKey("users.id"), nullable=True
+    )
+    created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
-    updated_at = Column(
+    updated_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
 
@@ -65,20 +79,26 @@ class ChatMessage(Base):
         ),
         Index("ix_chat_message_session_id", "session_id", "id"),
     )
-    id = Column(BigInteger, Identity(), primary_key=True)
-    session_id = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    session_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("chat_sessions.id", ondelete="CASCADE"), nullable=False
     )
-    request_key = Column(String(64), nullable=False)
-    role = Column(String(20), nullable=False)
-    content = Column(Text, nullable=False)
-    agent_metadata = Column(JSONB, nullable=False, default=dict, server_default="{}")
-    staff_user_id = Column(Integer, ForeignKey("users.id"))
-    status = Column(String(20), nullable=False, default="completed")
-    created_at = Column(
+    request_key: Mapped[str] = mapped_column(String(64), nullable=False)
+    role: Mapped[str] = mapped_column(String(20), nullable=False)
+    content: Mapped[str] = mapped_column(Text, nullable=False)
+    agent_metadata: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, default=dict, server_default="{}"
+    )
+    staff_user_id: Mapped[int | None] = mapped_column(
+        Integer, ForeignKey("users.id"), nullable=True
+    )
+    status: Mapped[str] = mapped_column(String(20), nullable=False, default="completed")
+    created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
-    updated_at = Column(
+    updated_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
 
@@ -90,30 +110,46 @@ class BrowsingHistory(Base):
         CheckConstraint("view_count > 0", name="ck_browsing_count"),
         Index("ix_browsing_user_recent", "user_id", "last_viewed_at"),
     )
-    id = Column(BigInteger, Identity(), primary_key=True)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
-    product_id = Column(BigInteger, ForeignKey("products.id"), nullable=False)
-    product_name = Column(Text, nullable=False)
-    image_asset_id = Column(BigInteger, ForeignKey("media_assets.id"))
-    first_viewed_at = Column(
+    id: Mapped[int] = mapped_column(
+        BigInteger, Identity(), primary_key=True, nullable=False
+    )
+    user_id: Mapped[int] = mapped_column(
+        Integer, ForeignKey("users.id"), nullable=False
+    )
+    product_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey("products.id"), nullable=False
+    )
+    product_name: Mapped[str] = mapped_column(Text, nullable=False)
+    image_asset_id: Mapped[int | None] = mapped_column(
+        BigInteger, ForeignKey("media_assets.id"), nullable=True
+    )
+    first_viewed_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
-    last_viewed_at = Column(
+    last_viewed_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
     )
-    view_count = Column(Integer, nullable=False, default=1)
-    last_visit_key = Column(String(64), nullable=False)
+    view_count: Mapped[int] = mapped_column(Integer, nullable=False, default=1)
+    last_visit_key: Mapped[str] = mapped_column(String(64), nullable=False)
 
 
 class ChatReadState(Base):
     __tablename__ = "chat_read_states"
-    session_id = Column(
-        BigInteger, ForeignKey("chat_sessions.id", ondelete="CASCADE"), primary_key=True
+    session_id: Mapped[int] = mapped_column(
+        BigInteger,
+        ForeignKey("chat_sessions.id", ondelete="CASCADE"),
+        primary_key=True,
+        nullable=False,
     )
-    user_id = Column(
-        Integer, ForeignKey("users.id", ondelete="CASCADE"), primary_key=True
+    user_id: Mapped[int] = mapped_column(
+        Integer,
+        ForeignKey("users.id", ondelete="CASCADE"),
+        primary_key=True,
+        nullable=False,
     )
-    last_read_at = Column(DateTime(timezone=True), nullable=False)
+    last_read_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False
+    )
 
 
 ACTIVITY_TABLES = [

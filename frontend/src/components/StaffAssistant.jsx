@@ -17,6 +17,7 @@ function generate(token, id) {
 }
 
 export default function StaffAssistant({ id, version, onUse, disabled, hasDraft }) {
+  // 建议绑定聊天快照版本；新消息到来后旧建议会过期，采用建议只填入草稿，仍需人工发送。
   const { token } = useAuth()
   const [state, setState] = useState({ data: null, loading: true, error: '' })
   useEffect(() => {

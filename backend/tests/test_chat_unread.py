@@ -17,7 +17,7 @@ class ChatUnreadTests(unittest.TestCase):
     def tearDown(self):fixtures.AftersalesTests.tearDown(self)
 
     def send(self):
-        with patch('app.api.activity.support_agent.invoke',return_value={'answer':'AI 回答'}) as model:
+        with patch('app.services.chat.support_agent.invoke',return_value={'answer':'AI 回答'}) as model:
             result=self.client.post(f'/api/activity/sessions/{self.sid}/messages',headers=self.headers[0],
                 json={'content':'请介绍这款商品','request_key':uuid4().hex})
             self.assertEqual(result.status_code,200,result.text)

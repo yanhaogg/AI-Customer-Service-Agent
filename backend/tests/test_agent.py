@@ -173,7 +173,7 @@ class AgentTests(unittest.TestCase):
         model=ScriptedModel([AIMessage(content='',tool_calls=[call('product_agent',{'task':'最近浏览'})]),
             AIMessage(content='',tool_calls=[call('get_my_browsing_history',{})]),AIMessage(content='最近浏览商品0。'),
             AIMessage(content='你最近浏览的是商品0。'),AIMessage(content='你刚才问过最近浏览的商品。')])
-        with patch('app.api.activity.support_agent',self.agent(model)):
+        with patch('app.services.chat.support_agent',self.agent(model)):
             first=self.client.post(f'/api/activity/sessions/{sid}/messages',headers=self.headers[0],json={'content':'我最近看了什么？','request_key':uuid4().hex})
             self.assertEqual(first.status_code,200,first.text)
             meta=first.json()['items'][-1]['agent_metadata']
@@ -187,12 +187,12 @@ class AgentTests(unittest.TestCase):
     def test_missing_configuration_and_provider_errors_are_safe(self):
         sid=activity_fixtures.ActivityTests.new_session(self)
         broken=SupportAgent(settings_loader=lambda:(_ for _ in ()).throw(AgentConfigurationError('请配置 DS_API_KEY')))
-        with patch('app.api.activity.support_agent',broken):
+        with patch('app.services.chat.support_agent',broken):
             response=self.client.post(f'/api/activity/sessions/{sid}/messages',headers=self.headers[0],json={'content':'你好','request_key':uuid4().hex})
         self.assertEqual(response.json()['items'][-1]['status'],'failed')
         self.assertIn('DS_API_KEY',response.json()['items'][-1]['content'])
         model=ScriptedModel([lambda _:(_ for _ in ()).throw(RuntimeError('SECRET_PROVIDER_ERROR'))])
-        with patch('app.api.activity.support_agent',self.agent(model)):
+        with patch('app.services.chat.support_agent',self.agent(model)):
             response=self.client.post(f'/api/activity/sessions/{sid}/messages',headers=self.headers[0],json={'content':'重试另一个问题','request_key':uuid4().hex})
         self.assertEqual(response.json()['items'][-1]['status'],'failed');self.assertNotIn('SECRET_PROVIDER_ERROR',response.text)
         with patch('app.agent.config.dotenv_values',return_value={'DS_API_KEY':'secret-value','DS_API_BASE':'https://api.deepseek.com','DEEPSEEK':'deepseek-flash'}),patch.dict('os.environ',{},clear=True):

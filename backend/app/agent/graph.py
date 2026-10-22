@@ -32,6 +32,7 @@ SYSTEM_PROMPT = """你是 ServAI 商城客服，默认用清楚、简洁的中�
 
 def conversation_messages(history, user_input):
     # Current input is often already the final user record in the DB history.
+    # 上下文组装：只取最近聊天并限制长度；当前输入可能已经入库，要去重后再追加。
     entries = [
         m
         for m in history[-20:]
@@ -73,6 +74,7 @@ MANAGER_PROMPT = """你是客服 Manager，负责理解用户问题、拆分任�
 
 
 def fallback_answer(reports):
+    # 超时或调度失败时保留已取得的专员结论，同时明确哪些信息尚未核实。
     summaries = [
         r["summary"]
         for r in reports
@@ -94,8 +96,10 @@ class SupportAgent:
         self.model_factory = model_factory
 
     def invoke(self, payload):
+        # 一次请求创建一套图状态、用户工具和共享预算；历史聊天由外层接口从数据库传入。
         settings = self.settings_loader()
         budget = RunBudget(settings, monotonic() + settings.budget)
+        # 身份来自接口已验证的 payload；三个专员共享同一用户范围，不能靠任务文本改身份。
         tools = build_tools(
             payload["user_id"],
             payload.get("session_factory"),
@@ -124,6 +128,8 @@ class SupportAgent:
         routes = delegation_tools()
 
         def manager_node(state):
+            # 调度阶段：Manager 只看到三种委派工具，决定继续查谁，或直接输出最终答案。
+            # 模型只生成调用意图；实际执行由 dispatch 节点和对应专员节点完成。
             rounds = state.get("manager_rounds", 0)
             if (
                 rounds >= settings.max_manager_steps
@@ -167,6 +173,8 @@ class SupportAgent:
             }
 
         def dispatch_node(state):
+            # 派发阶段：从队列取一个委派请求，检查次数、Agent 名称与参数，再决定是否执行。
+            # 即使模型一轮请求多个 Agent，这里仍逐个执行，未执行的请求留在 pending_calls。
             pending = state.get("pending_calls", [])
             if not pending:
                 return {"active_call": None}
@@ -232,12 +240,16 @@ class SupportAgent:
             return {"pending_calls": pending[1:], "active_call": call}
 
         def dispatch_route(state):
+            # 存在有效任务就进入对应专员；否则继续处理队列，队列清空才返回 Manager。
             if state.get("active_call"):
                 return state["active_call"]["name"]
             return "dispatch" if state.get("pending_calls") else "manager"
 
         def worker_node(name):
+            # 节点工厂：将专员名称绑定到闭包，生成该专员在主图中的执行入口。
             def run(state):
+                # 每次委派启动独立子图：带入原始聊天和最近专员结论，不混入 Manager 的调用协议。
+                # 专员完成后用 ToolMessage 回填结果，Manager 才能继续审阅或调度。
                 call = state["active_call"]
                 # Original customer history is independent of the manager's tool-call protocol.
                 # Peers share bounded findings through the manager; identity never comes from task text.
@@ -318,6 +330,8 @@ class SupportAgent:
 
             return run
 
+        # 主图：START → manager → dispatch → 专员 → dispatch；队列清空回到 manager，
+        # manager 不再提出委派时才走 END。这里未配置持久化 checkpointer。
         graph = StateGraph(ManagerState)
         graph.add_node("manager", manager_node)
         graph.add_node("dispatch", dispatch_node)

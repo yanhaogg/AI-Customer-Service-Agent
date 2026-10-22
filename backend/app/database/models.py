@@ -1,4 +1,5 @@
-from sqlalchemy import Column, Integer, String, Float, DateTime
+from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy import Integer, String, Float, DateTime
 from .database import Base
 
 from datetime import datetime, timezone
@@ -8,15 +9,21 @@ class User(Base):
 
     __tablename__ = "users"
 
-    id = Column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, nullable=False)
 
-    username = Column(String, unique=True, index=True)
+    username: Mapped[str | None] = mapped_column(
+        String, unique=True, index=True, nullable=True
+    )
 
-    role = Column(String(20), nullable=False, default="user", server_default="user")
+    role: Mapped[str] = mapped_column(
+        String(20), nullable=False, default="user", server_default="user"
+    )
 
-    password_hash = Column(String)
+    password_hash: Mapped[str | None] = mapped_column(String, nullable=True)
 
-    created_time = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+    created_time: Mapped[datetime | None] = mapped_column(
+        DateTime, default=lambda: datetime.now(timezone.utc), nullable=True
+    )
 
 
 # LEGACY: 旧 orders 表，仅保留兼容；当前商城订单使用 shop_models.ShopOrder。
@@ -24,12 +31,12 @@ class Order(Base):
 
     __tablename__ = "orders"
 
-    id = Column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, nullable=False)
 
-    user_id = Column(Integer)
+    user_id: Mapped[int | None] = mapped_column(Integer, nullable=True)
 
-    product_name = Column(String)
+    product_name: Mapped[str | None] = mapped_column(String, nullable=True)
 
-    amount = Column(Float)
+    amount: Mapped[float | None] = mapped_column(Float, nullable=True)
 
-    status = Column(String)
+    status: Mapped[str | None] = mapped_column(String, nullable=True)

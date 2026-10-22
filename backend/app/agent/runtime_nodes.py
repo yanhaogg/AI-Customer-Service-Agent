@@ -22,9 +22,12 @@ def text_content(message):
 def build_nodes(
     settings, tools, system_prompt, deadline, model_factory, budget=None, actor=None
 ):
+    # 构造专员共用的模型节点、工具节点和路由函数；工具集合由调用方预先限制。
     tools_by_name = {tool.name: tool for tool in tools}
 
     def model_node(state):
+        # 先检查局部轮数和全局预算，再把历史消息、系统规则和工具定义交给模型。
+        # AIMessage 中的 tool_calls 只是待执行请求，有调用时会转入 tool_node。
         steps = state.get("steps", 0)
         remaining = deadline - monotonic()
         if remaining <= 0:
@@ -60,6 +63,8 @@ def build_nodes(
         return {"messages": [result], "steps": steps + 1}
 
     def tool_node(state):
+        # 执行上一条 AIMessage 的工具请求：预算检查 → 名称白名单 → 参数校验与查询 → 结果回填。
+        # 失败也返回结构化观察结果，让模型知道“查询失败”，而不是把失败误当成空数据。
         count = state.get("tool_calls", 0)
         messages = []
         trace = []
@@ -102,6 +107,7 @@ def build_nodes(
                     ensure_ascii=False,
                 )
                 status = "too_large"
+            # tool_call_id 必须对应原调用 ID，模型才能把查询结果与其提出的问题配对。
             messages.append(
                 ToolMessage(content=content, tool_call_id=call["id"], name=name)
             )
@@ -117,6 +123,7 @@ def build_nodes(
         return {"messages": messages, "tool_calls": count, "trace": trace}
 
     def route(state):
+        # 有工具调用就继续查询，没有工具调用就结束专员子图；这是循环的退出条件。
         return "tools" if state["messages"][-1].tool_calls else "end"
 
     return model_node, tool_node, route

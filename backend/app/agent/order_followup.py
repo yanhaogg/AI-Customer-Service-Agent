@@ -29,9 +29,11 @@ class OrderFollowupAgent:
         self.model_factory = model_factory
 
     def invoke(self, snapshot):
+        # 只分析调用方提供的订单事实快照，输出建议；不会自行扫描订单、创建待办或修改订单。
         settings = self.settings_loader()
 
         def analyze(state):
+            # 模型解释已命中的规则并提出人工核实步骤；不把超时直接推断成缺货、丢件等原因。
             prompt = """你是订单异常跟进专员，仅为人工客服提供内部处理建议，不执行订单修改，不直接向客户发消息。
 输入为程序从数据库核实的事实和检测规则。只输出 JSON：analysis（情况分析）、next_steps（核实和处理步骤数组）、suggested_reply（供客服编辑的回复草稿）。
 不能从“超时”推断缺货、仓库故障或承运商问题；未接入快递轨迹，发货后长期未确认收货不等于丢件或配送失败。
