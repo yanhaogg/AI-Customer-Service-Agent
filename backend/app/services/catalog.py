@@ -24,10 +24,42 @@ logger = logging.getLogger(__name__)
 
 
 def categories(db):
+    """提供公开商品分类及可见商品数量。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        dict：items 为含 code、name、count 的分类列表。
+
+    流程：
+        1. 委托 categories_data 聚合可见商品分类
+        2. 包装为 items；不提交。
+    """
     return {"items": categories_data(db)}
 
 
 def products(category, q, sort, page, page_size, db):
+    """按分类、关键词和排序分页查询公开商品。
+
+    输入：
+        category: str 或 None，公开分类编码；空值表示不限。
+        q: str，搜索关键词，可为空。
+        sort: str，recommended、price_asc 或 price_desc。
+        page: int，从 1 开始的页码（由路由校验）。
+        page_size: int，每页条数（由路由校验）。
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        dict：items、total、page、page_size、total_pages。
+
+    流程：
+        1. 构建可见商品查询
+        2. 加分类和转义关键词过滤
+        3. 统计总数
+        4. 按推荐主键或最新参考价格排序
+        5. 分页查询并序列化；不提交。
+    """
     query = product_query()
     if category:
         query = query.where(CatalogCategory.code == category)
@@ -79,6 +111,20 @@ def products(category, q, sort, page, page_size, db):
 
 
 def product_detail(product_id, db):
+    """查询公开商品详情及同类推荐。
+
+    输入：
+        product_id: int，商品主键。
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        dict：商品摘要，加 description_original、specs、quality、related。
+
+    流程：
+        1. 查询可见商品（无结果 404）→ 序列化并补全文本与参数
+        2. 查询同类其他商品最多 4 款
+        3. 合并返回；不提交。
+    """
     row = execute(db, product_query().where(Product.id == product_id)).first()
     if not row:
         raise HTTPException(404, "没有找到这款商品")
@@ -101,6 +147,20 @@ def product_detail(product_id, db):
 
 
 def media(asset_id, db):
+    """为公开商品图片解析安全的文件路径。
+
+    输入：
+        asset_id: int，媒体资源主键。
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        tuple：(Path 文件路径, str MIME 类型)，由 API 层构造文件响应。
+
+    流程：
+        1. 查 MediaAsset（不存在 404）→ 在 MATERIALS_ROOT 下解析路径
+        2. 校验未越界且文件存在
+        3. 返回路径和 content_type；不提交。
+    """
     asset = execute(
         db, select(MediaAsset).where(MediaAsset.id == asset_id)
     ).scalar_one_or_none()

@@ -23,6 +23,21 @@ from app.services.support_tasks import order_tasks
 
 
 def staff_session(db, session_id, lock=False):
+    """为客服后台读取会话并按需加锁。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        session_id: int，会话主键。
+        lock: bool，是否对查询结果加行锁，默认 False。
+
+    输出：
+        ChatSession ORM 对象；不存在时抛 404。
+
+    流程：
+        1. 按 session_id 查询
+        2. lock=True 时 FOR UPDATE
+        3. 返回会话；不提交，不限制客户归属，客服权限由路由验证。
+    """
     query = select(ChatSession).where(ChatSession.id == session_id)
     if lock:
         query = query.with_for_update()
@@ -33,6 +48,20 @@ def staff_session(db, session_id, lock=False):
 
 
 def staff_message_data(message, user):
+    """为客服展示消息并标记是否是自己发送的人工回复。
+
+    输入：
+        message: ChatMessage ORM 对象。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：message_data 字段加 is_mine 布尔值。
+
+    流程：
+        1. 序列化消息
+        2. 比较角色 human_agent 及 staff_user_id 与 user.id
+        3. 合并标记；不提交。
+    """
     return {
         **message_data(message),
         "is_mine": message.role == "human_agent" and message.staff_user_id == user.id,
@@ -40,6 +69,21 @@ def staff_message_data(message, user):
 
 
 def handoff(session_id, db, user):
+    """让客户将本人订单会话转交人工。
+
+    输入：
+        session_id: int，会话主键。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：更新后的会话摘要。
+
+    流程：
+        1. 校验归属并锁会话
+        2. 要求已绑定订单（否则 409）→ 调用 handoff_session
+        3. flush、组装、提交。
+    """
     session = owned_session(db, user, session_id, lock=True)
     if session.order_id is None:
         raise HTTPException(409, "请从需要咨询的订单进入人工客服")
@@ -51,6 +95,25 @@ def handoff(session_id, db, user):
 
 
 def inbox(status, page, unread_only, db, user):
+    """分页提供客服收件箱，优先显示有未读消息的会话。
+
+    输入：
+        status: str，状态筛选条件，具体允许值由路由约束。
+        page: int，从 1 开始的页码（由路由校验）。
+        unread_only: bool，是否仅展示有未读消息的会话。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：items（含 customer_name、unread_count）、total、total_pages。
+
+    流程：
+        1. 构建管理员未读子查询
+        2. 按人工状态/仅未读过滤
+        3. 统计并在分页前按未读与时间排序
+        4. 每页 20 条
+        5. 批量补充客户名及计数；不提交。
+    """
     # 管理员查看客户与 AI/人工的会话；未读优先排序在数据库分页前完成。
     unread = unread_query(user, admin=True).subquery()
     count = func.coalesce(unread.c.unread_count, 0)
@@ -90,16 +153,62 @@ def inbox(status, page, unread_only, db, user):
 
 
 def unread(db, user):
+    """汇总当前客服视角下的未读消息。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：total、sessions 会话到未读数的映射。
+
+    流程：
+        1. 调用 unread_counts(admin=True)
+        2. 累加各会话计数；不提交。
+    """
     counts = unread_counts(db, user, admin=True)
     return {"total": sum(counts.values()), "sessions": counts}
 
 
 def read_session(session_id, body, db, user):
+    """确认客服已读某会话中的消息。
+
+    输入：
+        session_id: int，会话主键。
+        body: ReadThrough：read_through 已读截止时间。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：status=read。
+
+    流程：
+        1. staff_session 确认会话存在
+        2. mark_read 保存此客服的个人已读水位并提交；客服权限由路由校验。
+    """
     staff_session(db, session_id)
     return mark_read(db, user, session_id, body)
 
 
 def detail(session_id, before_id, db, user):
+    """读取客服会话详情、历史消息和关联跟进待办。
+
+    输入：
+        session_id: int，会话主键。
+        before_id: 消息主键游标或 None；有值时仅返回更早的消息。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：session、items、has_more、read_through、support_tasks、assist_version。
+
+    流程：
+        1. 查会话
+        2. 按 before_id 游标倒序取 51 条消息
+        3. 查询订单活动待办
+        4. 将前 50 条反转并标记 is_mine
+        5. 计算助手快照版本；不提交、不自动标记已读。
+    """
     session = staff_session(db, session_id)
     query = select(ChatMessage).where(ChatMessage.session_id == session_id)
     if before_id:
@@ -117,6 +226,23 @@ def detail(session_id, before_id, db, user):
 
 
 def assistant(session_id, body, db, user):
+    """根据会话快照生成供客服参考的 AI 接待建议。
+
+    输入：
+        session_id: int，会话主键。
+        body: AssistantRequest 或 None；当前实现未读取此参数，保留接口兼容。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        staff_assistant.invoke 的结果（助手建议）；模型配置或调用失败抛 503。
+
+    流程：
+        1. 读取会话、最近消息及待办
+        2. 使用会话所属客户身份构造有长度上限的上下文和版本
+        3. rollback 释放读取事务
+        4. 调用助手；不发送客户消息、不接管会话。
+    """
     # 读取有限聊天快照和待办上下文，释放事务后生成接待建议；此接口不发送回复或接管会话。
     session = staff_session(db, session_id)
     entries = db.scalars(
@@ -169,6 +295,26 @@ def assistant(session_id, body, db, user):
 
 
 def reply(session_id, body, db, user):
+    """发送可幂等重试的人工客服回复并接管会话。
+
+    输入：
+        session_id: int，会话主键。
+        body: Reply：content 回复内容、request_key 幂等请求标识。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：人工消息字段及 is_mine。
+
+    流程：
+        1. 锁会话
+        2. 按 request_key 查重并校验内容
+        3. 拒绝已关闭会话
+        4. 结束 AI 占位
+        5. 新增 human_agent 消息
+        6. 会话改 active 并记录客服
+        7. flush、组装、提交。
+    """
     # 人工消息与请求编号一起保存以防重复发送；发出回复时接管会话，暂停后续 AI 自动回复。
     session = staff_session(db, session_id, lock=True)
     previous = db.scalar(
@@ -207,6 +353,21 @@ def reply(session_id, body, db, user):
 
 
 def close(session_id, db, user):
+    """结束本次人工接待。
+
+    输入：
+        session_id: int，会话主键。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：status=closed。
+
+    流程：
+        1. 锁会话
+        2. 写 human_status=closed、操作者和更新时间
+        3. 提交；后续客户消息可再进入 AI 流程。
+    """
     # 结束本次人工接待；客户后续继续提问时可以重新进入 AI 流程。
     session = staff_session(db, session_id, lock=True)
     session.human_status = "closed"

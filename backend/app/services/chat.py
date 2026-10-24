@@ -31,6 +31,19 @@ logger = logging.getLogger(__name__)
 
 
 def agent_status():
+    """报告客服 Agent 的配置是否可用。
+
+    输入：
+        无。
+
+    输出：
+        dict：configured、model、mode；成功含 agents，配置失败含 message。
+
+    流程：
+        1. 读取 Agent 配置
+        2. 成功返回模型及子 Agent 名称
+        3. 捕获配置异常并返回未配置状态；不实际调用模型。
+    """
     try:
         settings = load_settings()
         return {
@@ -49,6 +62,23 @@ def agent_status():
 
 
 def create_session(body, db, user):
+    """为用户创建普通会话，或复用订单已有会话。
+
+    输入：
+        body: SessionCreate：标题、可选商品主键和订单号。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：session_data 生成的会话摘要。
+
+    流程：
+        1. 锁用户
+        2. 校验可选商品、本人订单
+        3. 订单入口复用 order_session，普通入口新建
+        4. 校验最多 500 个会话
+        5. flush 后提交。
+    """
     # 普通咨询可新建会话；绑定订单时复用该订单已有会话，避免催发货与售后各开一条。
     lock_user(db, user)
     context = []
@@ -116,6 +146,23 @@ def create_session(body, db, user):
 
 
 def sessions(page, q, db, user):
+    """分页查询本人会话并附带未读数量。
+
+    输入：
+        page: int，从 1 开始的页码（由路由校验）。
+        q: str，搜索关键词，可为空。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：items、total、total_pages。
+
+    流程：
+        1. 按用户与可选标题关键词筛选
+        2. 按更新时间倒序每页取 20 条
+        3. 批量统计该页未读数
+        4. 组装摘要；不提交，不自动标记已读。
+    """
     query = select(ChatSession).where(ChatSession.user_id == user.id)
     if q.strip():
         query = query.where(ChatSession.title.icontains(q.strip(), autoescape=True))
@@ -136,16 +183,63 @@ def sessions(page, q, db, user):
 
 
 def unread(db, user):
+    """汇总当前客户的未读消息数量。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：total 未读总数、sessions 会话主键到未读数的映射。
+
+    流程：
+        1. 调用 unread_counts 的客户模式
+        2. 对计数求和；不提交。
+    """
     counts = unread_counts(db, user)
     return {"total": sum(counts.values()), "sessions": counts}
 
 
 def read_session(session_id, body, db, user):
+    """确认客户已读本人会话中的消息。
+
+    输入：
+        session_id: int，会话主键。
+        body: ReadThrough：read_through 已读时间水位。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：status=read。
+
+    流程：
+        1. 先通过 owned_session 校验归属
+        2. 将 body.read_through 交给 mark_read 推进水位并提交。
+    """
     owned_session(db, user, session_id)
     return mark_read(db, user, session_id, body)
 
 
 def messages(session_id, before_id, db, user):
+    """按消息主键游标读取本人会话的历史消息。
+
+    输入：
+        session_id: int，会话主键。
+        before_id: 消息主键游标或 None；有值时仅返回更早的消息。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：session、items（最多 50 条、按时间方向正序）、has_more、read_through。
+
+    流程：
+        1. 校验归属并锁会话
+        2. 恢复中断回复
+        3. 可选筛选 id 小于 before_id
+        4. 倒序取 51 条判断下一页
+        5. 反转前 50 条并组装
+        6. 提交恢复修改；不自动标记已读。
+    """
     session = owned_session(db, user, session_id, lock=True)
     recover_interrupted(db, session_id)
     query = select(ChatMessage).where(ChatMessage.session_id == session_id)
@@ -163,12 +257,47 @@ def messages(session_id, before_id, db, user):
 
 
 def delete_session(session_id, db, user):
+    """删除本人会话。
+
+    输入：
+        session_id: int，会话主键。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        None；删除会话并提交事务。
+
+    流程：
+        1. 按会话和用户查询并加锁（不存在 404）→ db.delete
+        2. commit；关联记录处理遵循 ORM/数据库关系配置。
+    """
     session = owned_session(db, user, session_id, lock=True)
     db.delete(session)
     db.commit()
 
 
 def send_message(session_id, body, db, user):
+    """保存客户消息，并按会话状态生成 AI 回复或确认人工接收。
+
+    输入：
+        session_id: int，会话主键。
+        body: MessageCreate：content 消息内容、request_key 重试去重标识。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        tuple：(dict 含 items 消息列表, int HTTP 状态码)；回复仍 pending 的重复请求返回 202，其余返回 200。
+
+    流程：
+        1. 锁会话并恢复中断
+        2. request_key 去重及内容校验
+        3. 检查并发回复和消息数
+        4. 保存用户消息与回复占位
+        5. 人工分支直接确认送达
+        6. AI 分支先提交释放锁、携最近 20 条完成消息调用 Agent
+        7. 重锁并核对 pending/生成时间后回写
+        8. 提交。
+    """
     # 聊天主流程：校验归属与重复请求 → 保存用户消息和回复占位 → 调用多 Agent → 回写结果。
     # 人工接待中的消息只落库并确认送达，不再调用模型自动回复。
     session = owned_session(db, user, session_id, lock=True)

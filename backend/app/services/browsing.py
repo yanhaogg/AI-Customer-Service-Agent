@@ -17,6 +17,25 @@ logger = logging.getLogger(__name__)
 
 
 def record_browse(body, db, user):
+    """记录用户浏览商品，并合并重复访问。
+
+    输入：
+        body: BrowseCreate：product_id 商品主键、visit_key 本次访问去重标识。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：id 浏览记录主键、view_count 浏览次数。
+
+    流程：
+        1. 锁用户
+        2. 校验商品可见
+        3. 查主图和已有记录
+        4. 新建或仅对不同 visit_key 增加次数
+        5. 更新商品快照
+        6. 仅保留最近 500 款商品
+        7. 提交。
+    """
     # 只保存已登录用户主动浏览的商品；合并重复记录，更新浏览次数与最近浏览时间。
     lock_user(db, user)
     product = db.scalar(
@@ -70,6 +89,22 @@ def record_browse(body, db, user):
 
 
 def browsing(page, db, user):
+    """分页读取当前用户的浏览历史。
+
+    输入：
+        page: int，从 1 开始的页码（由路由校验）。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：items、total、total_pages；每项含商品快照、次数、可用状态及当前商品数据。
+
+    流程：
+        1. 按用户查询和统计
+        2. 按最近浏览时间每页取 20 条
+        3. 批量组装仍可见的商品
+        4. 与历史名称/图片合并；不提交。
+    """
     query = select(BrowsingHistory).where(BrowsingHistory.user_id == user.id)
     total = db.scalar(select(func.count()).select_from(query.subquery()))
     rows = db.scalars(
@@ -110,12 +145,42 @@ def browsing(page, db, user):
 
 
 def clear_browsing(db, user):
+    """清空当前用户的全部浏览记录。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        None；删除记录并提交事务。
+
+    流程：
+        1. 锁用户
+        2. 按 user.id 批量删除 BrowsingHistory
+        3. commit。
+    """
     lock_user(db, user)
     db.execute(delete(BrowsingHistory).where(BrowsingHistory.user_id == user.id))
     db.commit()
 
 
 def delete_browse(entry_id, db, user):
+    """删除当前用户的一条浏览记录。
+
+    输入：
+        entry_id: int，浏览记录主键。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        None；删除记录并提交事务。
+
+    流程：
+        1. 锁用户
+        2. 按记录主键和用户主键查询
+        3. 不存在返回 404
+        4. 删除并提交。
+    """
     lock_user(db, user)
     entry = db.scalar(
         select(BrowsingHistory).where(

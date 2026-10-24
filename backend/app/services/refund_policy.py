@@ -17,6 +17,18 @@ REASONS = {
 
 
 def refund_policy():
+    """提供前端展示的演示退款政策和原因选项。
+
+    输入：
+        无。
+
+    输出：
+        dict：演示标记、版本、范围、自动/人工/退货规则、材料要求和 reasons。
+
+    流程：
+        1. 基于固定政策文本及 REASONS 组装字典
+        2. 对质量/破损原因标记 requires_evidence；不访问数据库、不发生退款。
+    """
     return {
         "demo": True,
         "version": "demo-v1",
@@ -39,6 +51,19 @@ def refund_policy():
 
 
 def auto_route(order, reason, received):
+    """判断订单是否满足自动模拟退款条件。
+
+    输入：
+        order: ShopOrder ORM 对象。
+        reason: str，退款原因编码。
+        received: bool，用户是否已收到商品。
+
+    输出：
+        bool：满足全部条件为 True，否则为 False。
+
+    流程：
+        1. 依次要求 paid、存在 paid_at、支付已发生且距今不超过 24 小时、原因为普通撤单且未收货；只判定规则，不修改订单。
+    """
     # 自动退款条件由代码判定：已支付未发货、支付后 24 小时内、普通撤单原因且未收货。
     # 不满足条件的申请转人工审核，不由模型决定是否退款。
     return (

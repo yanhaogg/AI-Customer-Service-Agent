@@ -17,6 +17,27 @@ from .order_access import owned
 
 
 def upload_evidence(order_id, body, db, user, materials_root):
+    """保存本人订单的私有退款图片凭证。
+
+    输入：
+        order_id: int，订单主键。
+        body: EvidenceUpload：data，Base64 编码的图片字符串。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+        materials_root: Path，项目素材存储根目录。
+
+    输出：
+        dict：凭证 id、需要权限检查的访问 url。
+
+    流程：
+        1. 锁本人订单并校验可上传状态
+        2. 限制最近一天最多 30 张
+        3. 解码并校验大小/格式/像素
+        4. 转 JPEG
+        5. 写随机名私有文件
+        6. 建 RefundEvidence
+        7. flush、组装、提交。
+    """
     order = owned(db, user, order_id)
     if order.status not in ("paid", "shipped", "completed"):
         raise HTTPException(409, "该订单当前不可上传退款凭证")
@@ -67,6 +88,23 @@ def upload_evidence(order_id, body, db, user, materials_root):
 
 
 def evidence_file(evidence_id, db, user, materials_root):
+    """校验凭证访问权限并解析私有文件路径。
+
+    输入：
+        evidence_id: int，退款凭证主键。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+        materials_root: Path，项目素材存储根目录。
+
+    输出：
+        Path：凭证文件路径，由 API 层创建文件响应。
+
+    流程：
+        1. 查询凭证
+        2. 仅本人或查看已关联申请凭证的 super_admin 可访问
+        3. 校验路径位于私有凭证目录且文件存在
+        4. 返回路径；不提交，失败统一 404。
+    """
     evidence = db.get(RefundEvidence, evidence_id)
     if evidence is None or not (
         evidence.user_id == user.id

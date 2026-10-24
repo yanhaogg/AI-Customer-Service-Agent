@@ -14,6 +14,22 @@ from app.services.user_access import lock_user
 
 
 def cart(db, user):
+    """读取购物车并补充商品当前的展示和销售状态。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：items 含条目 id、product_id、quantity、product、available。
+
+    流程：
+        1. 回收过期待付款订单
+        2. 读取本人购物车
+        3. 批量查询可见商品
+        4. 结合销售上架标记判断可用性
+        5. 提交过期回收产生的修改。
+    """
     expire_orders(db)
     rows = db.scalars(
         select(CartItem).where(CartItem.user_id == user.id).order_by(CartItem.id.desc())
@@ -45,6 +61,24 @@ def cart(db, user):
 
 
 def add_cart(body, db, user):
+    """添加商品到购物车，同款商品累加数量。
+
+    输入：
+        body: CartAdd：product_id、quantity（本次增加数量）。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：条目 id 和最终 quantity。
+
+    流程：
+        1. 锁用户
+        2. 查已有同款
+        3. 检查同款最多 99 件、新款总计最多 100 款
+        4. quote 校验商品和库存
+        5. 新建或累加
+        6. flush 后提交。
+    """
     lock_user(db, user)
     item = db.scalar(
         select(CartItem).where(
@@ -77,6 +111,22 @@ def add_cart(body, db, user):
 
 
 def update_cart(item_id, body, db, user):
+    """调整本人购物车条目的数量。
+
+    输入：
+        item_id: int，购物车条目主键。
+        body: CartUpdate：quantity（目标总数量）。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        dict：quantity 为更新后的数量。
+
+    流程：
+        1. 锁用户
+        2. 按条目主键与用户查询（不存在 404）→ quote 校验目标数量对应库存
+        3. 更新数量并提交。
+    """
     lock_user(db, user)
     item = db.scalar(
         select(CartItem).where(CartItem.id == item_id, CartItem.user_id == user.id)
@@ -90,6 +140,21 @@ def update_cart(item_id, body, db, user):
 
 
 def delete_cart(item_id, db, user):
+    """删除本人购物车条目。
+
+    输入：
+        item_id: int，购物车条目主键。
+        db: SQLAlchemy Session，当前数据库会话。
+        user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
+
+    输出：
+        None；删除条目并提交事务。
+
+    流程：
+        1. 锁用户
+        2. 查询本人条目（不存在 404）→ 删除
+        3. commit。
+    """
     lock_user(db, user)
     item = db.scalar(
         select(CartItem).where(CartItem.id == item_id, CartItem.user_id == user.id)

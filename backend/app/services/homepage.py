@@ -18,6 +18,20 @@ logger = logging.getLogger(__name__)
 
 
 def default_home_data(db):
+    """没有有效人工配置时，按固定规则生成默认首页选品。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        dict：hero、spotlights、featured、categories、total；无商品时返回空结构。
+
+    流程：
+        1. 统计分类
+        2. 优先音响品牌选择主视觉，缺失时取首款
+        3. 按手机/电脑及其他分类选取不重复商品
+        4. 序列化；不提交。
+    """
     categories = categories_data(db)
     total = sum(category["count"] for category in categories)
     if not total:
@@ -94,6 +108,21 @@ def default_home_data(db):
 
 
 def configured_home_data(db, config):
+    """根据管理员配置生成首页展示数据。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        config: HomepageConfig ORM 对象；允许 None 的入口会使用默认配置。
+
+    输出：
+        dict：hero、spotlights、featured、categories、total。
+
+    流程：
+        1. 批量读取配置中的可见商品
+        2. 主视觉不可见时退回默认首页
+        3. 按配置顺序组装其他仍可见的商品
+        4. 附加分类计数；不提交。
+    """
     categories = categories_data(db)
     ids = [config.hero_product_id, *config.spotlight_ids, *config.featured_ids]
     rows = execute(db, product_query().where(Product.id.in_(ids))).all()
@@ -110,6 +139,18 @@ def configured_home_data(db, config):
 
 
 def home(db):
+    """提供公开首页数据入口。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        dict：首页主视觉、焦点商品、精选商品、分类和总数。
+
+    流程：
+        1. 查询 id=1 的 HomepageConfig
+        2. 有配置调用 configured_home_data，否则调用 default_home_data；不提交。
+    """
     config = execute(
         db, select(HomepageConfig).where(HomepageConfig.id == 1)
     ).scalar_one_or_none()

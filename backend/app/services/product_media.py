@@ -15,6 +15,23 @@ from app.database.catalog_models import MediaAsset
 
 
 def upload(body, db):
+    """校验上传图片，标准化并按内容哈希复用资源。
+
+    输入：
+        body: ImageUpload：data，Base64 编码的图片字符串。
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        dict：asset_id、公开图片 url。
+
+    流程：
+        1. 严格解码 Base64
+        2. 校验非空、最多 5MB、格式及 2000 万像素上限
+        3. 转 RGB JPEG 去元数据
+        4. 哈希并锁相同内容上传
+        5. 复用资源或写文件及 MediaAsset
+        6. flush、组装、提交；无效图片返回 422。
+    """
     try:
         raw = base64.b64decode(body.data, validate=True)
         if not raw or len(raw) > 5_000_000:

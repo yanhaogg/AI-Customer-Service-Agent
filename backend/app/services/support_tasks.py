@@ -53,26 +53,96 @@ RULES = {
 
 
 def now():
+    """提供待办规则使用的当前 UTC 时间。
+
+    输入：
+        无。
+
+    输出：
+        带 UTC 时区的 datetime 对象。
+
+    流程：
+        1. 调用 datetime.now(timezone.utc)；不访问数据库。
+    """
     return datetime.now(timezone.utc)
 
 
 def fingerprint(snapshot):
+    """为订单事实快照生成稳定的版本指纹。
+
+    输入：
+        snapshot: dict，包含订单事实的可 JSON 序列化快照。
+
+    输出：
+        str：SHA-256 十六进制摘要。
+
+    流程：
+        1. 快照按键排序并保留中文序列化为 JSON
+        2. 编码为字节
+        3. 计算 SHA-256；用于检测事实变化，不是密码哈希。
+    """
     return hashlib.sha256(
         json.dumps(snapshot, sort_keys=True, ensure_ascii=False).encode()
     ).hexdigest()
 
 
 def event(db, task, actor_id, action, note):
+    """为待办添加操作事件。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        task: SupportTask ORM 对象。
+        actor_id: int 或 None，事件操作者主键；None 表示无指定操作者。
+        action: str，待办事件动作编码。
+        note: str，操作说明或事件备注。
+
+    输出：
+        None；向当前 Session 添加 SupportTaskEvent。
+
+    流程：
+        1. 用待办主键、操作者、动作和备注创建事件
+        2. db.add；不 flush、不 commit，由调用方统一保存。
+    """
     db.add(
         SupportTaskEvent(task_id=task.id, actor_id=actor_id, action=action, note=note)
     )
 
 
 def findings(order, refund, at):
+    """按固定超时规则检测需要人工核实的订单事项。
+
+    输入：
+        order: ShopOrder ORM 对象。
+        refund: 活动 RefundRequest 或 None。
+        at: 带时区 datetime，本次规则判断的参考时间。
+
+    输出：
+        list[dict]：每项含 kind、source_key、due_at、title、priority、snapshot。
+
+    流程：
+        1. 按 paid 未发货、shipped 未确认收货、退款待审核三个条件选择规则
+        2. 内部 add 比较时间阈值并保存事实快照；不访问数据库、不调用 AI、不创建待办。
+    """
     # 确定性规则只判断三类时间条件；命中条件表示需要核实，不代表已经证实物流故障。
     result = []
 
     def add(kind, source, anchor):
+        """向外层 findings 的结果列表追加一条达到超时阈值的发现。
+
+        输入：
+            kind: str，跟进事项类型；列表入口允许空值表示不限。
+            source: str，规则来源标识，例如 paid、shipped 或 refund:<id>。
+            anchor: datetime 或 None，规则计时起点。
+
+        输出：
+            None；符合条件时向闭包 result 追加候选字典。
+
+        流程：
+            1. 按 kind 读取规则
+            2. 检查 anchor 是否早于阈值
+            3. 捕获外层 order/refund 构造事实、建议动作和到期时间
+            4. 追加；anchor=None 或未超时则不追加。
+        """
         rule = RULES[kind]
         if anchor is not None and anchor <= at - timedelta(hours=rule["hours"]):
             facts = {
@@ -121,6 +191,19 @@ def findings(order, refund, at):
 
 
 def current_findings(db, order):
+    """读取订单活动退款并检测当前需要跟进的事项。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        order: ShopOrder ORM 对象。
+
+    输出：
+        list[dict]：findings 返回的当前规则候选。
+
+    流程：
+        1. 查该订单处于审核/待退货/退货中的申请
+        2. 用 now() 调用 findings；不提交。
+    """
     refund = db.scalar(
         select(RefundRequest).where(
             RefundRequest.order_id == order.id,
@@ -133,6 +216,22 @@ def current_findings(db, order):
 
 
 def matching_finding(db, order, kind, source):
+    """查找当前事实中与指定类型及来源一致的发现。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        order: ShopOrder ORM 对象。
+        kind: str，跟进事项类型；列表入口允许空值表示不限。
+        source: str，规则来源标识，例如 paid、shipped 或 refund:<id>。
+
+    输出：
+        dict 或 None：首个匹配的发现；条件已消失时为 None。
+
+    流程：
+        1. 调用 current_findings
+        2. 同时匹配 kind 和 source_key
+        3. 取首个；不提交。
+    """
     return next(
         (
             f
@@ -144,6 +243,24 @@ def matching_finding(db, order, kind, source):
 
 
 def preview_order(db, order_id, actor_id):
+    """分析指定订单并保存待人工确认的短期预览。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        order_id: int，订单主键。
+        actor_id: int 或 None，事件操作者主键；None 表示无指定操作者。
+
+    输出：
+        dict：order_id、order_number、candidates、message；候选含 preview_id、snapshot、advice、existing_task_id。
+
+    流程：
+        1. 查询订单并检测规则
+        2. rollback 释放读取事务
+        3. 对候选调用模型并校验结构
+        4. 重查事实和指纹防过期
+        5. 保存属于操作者的 30 分钟预览
+        6. 清理过期预览并提交；不创建正式待办，模型异常 503、事实变化 409。
+    """
     # 管理员主动分析选定订单：读事实 → 释放事务 → 调模型 → 重查事实 → 保存短期预览。
     # 这里只生成预览，必须另行确认才创建正式待办。
     order = db.get(ShopOrder, order_id)
@@ -217,6 +334,22 @@ def preview_order(db, order_id, actor_id):
 
 
 def create_from_preview(db, preview_id, actor_id):
+    """将仍有效且属于操作者的预览转换为待办。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        preview_id: str，预览记录的随机标识。
+        actor_id: int 或 None，事件操作者主键；None 表示无指定操作者。
+
+    输出：
+        tuple：(SupportTask ORM 对象, bool 是否新建)。
+
+    流程：
+        1. 校验预览归属与期限
+        2. 锁订单并重验事实指纹
+        3. 同类型同来源已有任务则复用
+        4. 否则保存任务快照/建议并 flush、记创建事件；不 commit，由调用方提交。
+    """
     # 确认时再次检查预览归属、有效期和事实版本；同一订单同类来源已有待办则直接复用。
     preview = db.get(SupportTaskPreview, preview_id)
     if preview is None or preview.actor_id != actor_id:
@@ -260,6 +393,20 @@ def create_from_preview(db, preview_id, actor_id):
 
 
 def locked_task(db, task_id):
+    """按统一顺序锁定待办及其订单。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        task_id: int，客服待办主键。
+
+    输出：
+        tuple：(SupportTask, ShopOrder)，均为 ORM 对象。
+
+    流程：
+        1. 先读待办确认存在（否则 404）→ 锁订单
+        2. 再锁待办并 populate_existing 刷新
+        3. 返回；不提交，不自动关闭任务。
+    """
     # 先锁订单、后锁待办，保持一致的加锁顺序；这里只读取和加锁，不自动关闭待办。
     task = db.get(SupportTask, task_id)
     if task is None:
@@ -279,6 +426,23 @@ def locked_task(db, task_id):
 
 
 def task_data(db, task, details=False):
+    """组装待办展示数据并判断建议是否已过期。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        task: SupportTask ORM 对象。
+        details: bool，是否附加事件明细，默认 False。
+
+    输出：
+        dict：待办字段、facts_changed、当前订单信息、负责人、advice、order_url；details=True 加 events。
+
+    流程：
+        1. 查询订单和负责人
+        2. 比较当前发现与快照指纹
+        3. 按版本及状态决定是否展示建议
+        4. 可选查询最近 100 条事件及操作者
+        5. 返回；不修改待办、不提交。
+    """
     # 展示时比较当前事实与分析快照；事实变化就隐藏过期建议，但不在读取接口修改待办状态。
     order = db.get(ShopOrder, task.order_id)
     assignee = db.get(User, task.assignee_id) if task.assignee_id else None
@@ -339,6 +503,25 @@ def task_data(db, task, details=False):
 
 
 def analyze_task(db, task_id, actor_id=None):
+    """显式重新生成待办建议并防止旧结果覆盖新状态。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        task_id: int，客服待办主键。
+        actor_id: int 或 None，事件操作者主键；None 表示无指定操作者。
+
+    输出：
+        dict：分析后的待办详情；无效状态/事实变化抛 409，模型失败记录状态后抛 503。
+
+    流程：
+        1. 锁订单及待办
+        2. 校验活动状态、并发生成和规则仍成立
+        3. 保存新快照/请求标记并提交释放锁
+        4. 调用模型
+        5. 重锁并校验任务状态、事实版本和请求标记
+        6. 失败记事件或保存建议
+        7. 提交；不执行订单操作。
+    """
     # 仅在人工触发时重新分析；生成前记录请求标记，生成后核对版本，避免旧结果覆盖新事实。
     task, order = locked_task(db, task_id)
     if task.status not in ACTIVE:
@@ -410,6 +593,20 @@ def analyze_task(db, task_id, actor_id=None):
 
 
 def order_tasks(db, order_id):
+    """查询某订单仍在处理的待办摘要。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        order_id: int，订单主键。
+
+    输出：
+        list[dict]：id、title、status、assignee_id、snapshot_version；无 order_id 返回空列表。
+
+    流程：
+        1. 按订单及 ACTIVE 状态筛选
+        2. 按 due_at 排序
+        3. 提取摘要字段；不提交。
+    """
     if not order_id:
         return []
     return [

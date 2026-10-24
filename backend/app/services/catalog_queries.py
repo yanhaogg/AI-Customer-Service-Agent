@@ -21,6 +21,19 @@ logger = logging.getLogger(__name__)
 
 
 def execute(db, statement):
+    """执行商品查询并统一转换数据库异常。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        statement: SQLAlchemy 可执行查询语句。
+
+    输出：
+        SQLAlchemy Result 查询结果；数据库异常时抛 HTTPException(503)。
+
+    流程：
+        1. 调用 db.execute
+        2. 捕获 SQLAlchemyError 后回滚、记录日志并返回商品服务不可用错误；正常路径不提交。
+    """
     try:
         return db.execute(statement)
     except SQLAlchemyError:
@@ -34,6 +47,20 @@ def execute(db, statement):
 
 
 def categories_data(db):
+    """统计各分类中可见商品的数量。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+
+    输出：
+        list[dict]：每项含 code、name、count；无可见商品的分类不返回。
+
+    流程：
+        1. 关联分类和商品
+        2. 按可见状态过滤
+        3. 分组计数并按分类编码排序
+        4. 转为字典列表；不提交。
+    """
     rows = execute(
         db,
         select(
@@ -50,6 +77,21 @@ def categories_data(db):
 
 
 def serialize_products(db, items):
+    """批量将商品和分类查询行组装为商品摘要。
+
+    输入：
+        db: SQLAlchemy Session，当前数据库会话。
+        items: 查询行序列，每行为 (Product, CatalogCategory)。
+
+    输出：
+        list[dict]：含名称、分类、主图、参考价格和演示销售 offer；空输入返回空列表。
+
+    流程：
+        1. 提取商品主键
+        2. 批量查主图、每商品最新参考价格和销售设置
+        3. 建映射
+        4. 按输入顺序组装；金额转字符串，不提交。
+    """
     if not items:
         return []
     ids = [product.id for product, _ in items]
@@ -131,6 +173,19 @@ def serialize_products(db, items):
 
 
 def product_query():
+    """创建仅包含可见商品的基础查询。
+
+    输入：
+        无。
+
+    输出：
+        SQLAlchemy Select，查询行结构为 (Product, CatalogCategory)。
+
+    流程：
+        1. 构造商品与分类连接
+        2. 加 VISIBLE_STATUSES 条件
+        3. 返回查询对象；此处不执行 SQL。
+    """
     return (
         select(Product, CatalogCategory)
         .join(CatalogCategory, Product.category_id == CatalogCategory.id)
