@@ -1,8 +1,11 @@
 # ServAI 项目技术说明
 
+
+> 当前状态：客服待办及手动订单异常分析已移除。`support_tasks`、`support_task_events`、`support_task_previews`、`support_scan_state` 仅为历史保留表，不提供业务入口。人工客服摘要、建议回复、订单售后与催发货继续保留。
+
 版本基准：2026 年 10 月 22 日的代码（已完成全业务 API 分层整理）。
 
-代码阅读补充：购物、售后、客服待办先读 `backend/app/schemas/` 下的同名请求模型，再读 `api/` 中的接口与 `services/` 中的业务规则。人工客服页面从 `HumanSupport.jsx` 的会话列表读到 `StaffThread.jsx` 的单个会话。具体拆分见[逐文件代码说明](CODE_FILE_REFERENCE.md#本轮结构调整)。
+代码阅读补充：购物、售后先读 `backend/app/schemas/` 下的同名请求模型，再读 `api/` 中的接口与 `services/` 中的业务规则。人工客服页面从 `HumanSupport.jsx` 的会话列表读到 `StaffThread.jsx` 的单个会话。具体拆分见[逐文件代码说明](CODE_FILE_REFERENCE.md#本轮结构调整)。
 
 ServAI 是一个以日常电子产品商城为业务背景的智能客服实战项目。React 前端提供商品、购物、售后与管理员界面；FastAPI 后端负责身份校验、数据库读写和业务状态转换；LangGraph 组织大模型查询与人工客服辅助流程。业务数据保存在 PostgreSQL，商品图片与售后凭证保存在本地文件系统。
 
@@ -32,7 +35,6 @@ ServAI 是一个以日常电子产品商城为业务背景的智能客服实战�
 | 退款与退货 | api/aftersales.py | services/aftersales.py、refund_policy.py |
 | 联系客服、催发货 | api/aftersales.py | services/order_support.py |
 | 私有凭证 | api/aftersales.py | services/refund_evidence.py |
-| 客服待办 | api/support_tasks.py | services/support_task_workflows.py → support_tasks.py → agent/order_followup.py |
 
 公共函数按职责复用：clock 提供 UTC 时间；user_access 加用户行锁；order_access 校验订单归属；inventory 释放库存；conversations 维护订单会话和接管；chat_unread 计算已读/未读；storage.py 提供媒体路径和商品展示状态配置。
 
@@ -44,8 +46,7 @@ ServAI 是一个以日常电子产品商城为业务背景的智能客服实战�
 
 - 本文：系统架构、技术栈、数据库关系、完整业务与 Agent 流程、启动方式、代码阅读路径。
 - [逐文件代码说明](CODE_FILE_REFERENCE.md)：每个项目源码文件的用途、主要对象与所在层，包含兼容文件和旧演示文件。
-- [数据库与接口参考](DATABASE_AND_API_REFERENCE.md)：26 个 ORM 表的字段、外键，以及 76 项当前注册的业务 HTTP 操作。
-- 更细的模块操作说明位于 [backend/scripts](../backend/scripts)，例如 [Agent 说明](../backend/scripts/README_agent.md)、[售后说明](../backend/scripts/README_aftersales.md)、[手动待办说明](../backend/scripts/README_support_tasks.md)。
+- [数据库与接口参考](DATABASE_AND_API_REFERENCE.md)：26 个 ORM 表的字段、外键，以及 68 项当前注册的业务 HTTP 操作。
 
 建议先阅读本文第 1～4 节，建立整体认识；再按兴趣阅读购物、Agent、人工接待、待办流程；最后用两个参考文档逐个定位文件和接口。
 
@@ -341,7 +342,6 @@ stateDiagram-v2
 
 退款状态包括 `review_pending`、`awaiting_return`、`return_in_transit`、`refunded`、`rejected`、`withdrawn`。审核动作、说明和处理者保存在 `refund_events`。唯一约束避免同一订单并行存在多个活动申请，重复退款也不能重复回补库存。
 
-催发货保存在 `shipment_reminders`，同一订单 24 小时内重复催促复用记录。它与客服待办是不同业务记录：催发货由客户主动发起；待办由管理员查看分析后确认创建。
 
 ## 10 聊天、会话与未读状态
 
@@ -463,48 +463,10 @@ flowchart TD
 }
 ```
 
-接口绑定的是会话客户身份，不是管理员自己的订单身份。最多取最近 50 条消息，每条最多 3000 字符，总聊天文本最多 24000 字符；关联订单、商品、退款政策和未完成待办用于辅助核实。
+接口绑定的是会话客户身份，不是管理员自己的订单身份。最多取最近 50 条消息，每条最多 3000 字符，总聊天文本最多 24000 字符；关联订单、商品、退款政策用于辅助核实。
 
 建议只展示在管理员页面，不作为一条聊天消息保存。点击“采用建议”后填入现有回复框，可编辑并手动发送。新消息或相关版本变化会提示建议过期，轮询不会反复调用模型或覆盖草稿。
 
-## 13 手动订单异常跟进与待办
-
-这是与客户 Manager 分开的管理员工作流，不是定时后台任务。
-
-```mermaid
-flowchart TD
-    A[管理员选择订单] --> B[点击分析所选订单]
-    B --> C[程序核实当前订单与规则]
-    C -->|存在可跟进事项| D[OrderFollowupAgent 生成分析与草稿]
-    C -->|未命中规则| N[显示结果 不建待办]
-    D --> E[保存30分钟有效预览 不建待办]
-    E --> F[管理员确认创建]
-    F --> G[重新核对事实与预览归属]
-    G --> H[创建或返回已有待办]
-    H --> I[认领 备注 手动完成或忽略]
-```
-
-### 13.1 现有规则
-
-- 已支付满 48 小时未发货，且没有进行中售后。
-- 发货满 7 天未确认收货，且没有进行中售后。
-- 退款申请待审核满 24 小时。
-
-规则只是手动分析时的内部参考。未命中不调用异常分析生成候选任务；长期未确认收货也不等于已证实物流丢件。
-
-### 13.2 为什么要先保存预览
-
-`support_task_previews` 保存管理员、订单、异常来源、事实指纹、模型建议和过期时间。创建接口只接受 `preview_id`，不信任前端自拟的建议、用户身份或订单事实。
-
-确认时检查预览属于当前管理员、未过期，且当前订单事实与分析时一致。订单已变化会要求重新分析；相同订单、类型和来源重复确认返回已有待办。
-
-### 13.3 待办生命周期
-
-状态为 `pending`、`in_progress`、`resolved`、`dismissed`。认领与更新使用先锁订单、再锁任务的固定顺序，防止两个管理员同时抢占。完成和忽略必须有说明；事件保存在 `support_task_events`。
-
-列表和详情读取不会自动建单、分析或关闭任务。订单事实变化时，旧建议不再显示，但待办仍由客服核实后手动完成或忽略。完成待办本身不改变发货、退款等业务状态。
-
-`agent/order_followup.py` 接收程序核实后的快照，输出 `analysis`、`next_steps`、`suggested_reply`，没有业务写工具。对已有待办重新分析时，结果也经过版本复核，旧模型结果不能覆盖更新后的事实。
 
 ## 14 事务、并发与一致性
 
@@ -519,8 +481,6 @@ flowchart TD
 | 多人修改首页或商品 | `revision` / `updated_at` 乐观版本检查 |
 | 多次退款或库存恢复 | 活动退款唯一约束、退款成功约束、`stock_restored` 标记 |
 | 同图多商品 | `media_assets.sha256` 唯一，商品图关系独立 |
-| 多管理员认领待办 | 固定锁顺序，检查负责人，冲突返回 409 |
-| 多次确认待办 | 订单、类型、业务来源联合唯一，重复返回已有任务 |
 | 模型请求过慢或结果过时 | 先释放事务，返回后检查请求标识与事实版本 |
 
 SQLAlchemy 的 `create_all(checkfirst=True)` 只创建缺失表，不会把所有旧表自动改成新结构。项目依赖若干显式迁移函数和脚本，没有配置 Alembic 版本迁移链。
@@ -593,14 +553,12 @@ Pop-Location
 & .\backend\venv\Scripts\python.exe .\backend\scripts\init_shop.py --seed-demo-offers
 & .\backend\venv\Scripts\python.exe .\backend\scripts\init_activity.py
 & .\backend\venv\Scripts\python.exe .\backend\scripts\init_aftersales.py
-& .\backend\venv\Scripts\python.exe .\backend\scripts\init_support_tasks.py
 & .\backend\venv\Scripts\python.exe .\backend\scripts\unify_order_chats.py
 & .\backend\venv\Scripts\python.exe .\backend\scripts\create_superadmin.py --username superadmin
 ```
 
 其中 `--seed-demo-offers` 是显式把资料价格复制为演示售价，并为缺少销售设置的商品初始化模拟库存，不是识别真实市场库存。已有环境不需要为日常启动重复导入整批素材。
 
-`unify_order_chats.py` 用于旧库合并同一订单的多个会话，保留消息与退款关联，建立唯一索引；不要把它当成删除聊天记录的脚本。`init_db.py` 现已显式导入全部模型，可统一创建包含待办预览在内的缺失表；`init_support_tasks.py` 仍可用于专项补建。统一建表不会自动执行旧会话数据合并，也不能替代所有专项升级脚本。
 
 ## 16 测试与排查
 
@@ -631,8 +589,6 @@ Pop-Location
 | 客服不回答 | `agent/config.py`、会话 `human_status`、消息 `status` |
 | AI 回答涉及错误订单 | 检查传入的订单上下文和工具归属校验，不能直接放开用户 ID 参数 |
 | 未读数量不清除 | `lib/chat.js` 的窗口可见/焦点判断、`chat_read_states` |
-| 待办分析有结果但列表没有 | 当前只是预览，需点击“确认创建待办”；还需检查筛选条件 |
-| 旧建议突然不显示 | 当前事实指纹已变化，需要重新核实或人工结束待办 |
 | 导入后还是 395 个资产 | 图片按内容去重，不是商品数量统计 |
 
 ## 17 建议的代码阅读顺序
@@ -645,7 +601,6 @@ Pop-Location
 
 第四遍看管理员辅助：`HumanSupport.jsx → StaffAssistant.jsx → api/human_support.py → agent/staff_assistant.py`。
 
-第五遍看手动异常分析：`ManualOrderAnalysis.jsx → api/support_tasks.py → services/support_task_workflows.py → services/support_tasks.py → agent/order_followup.py → SupportTaskPreview / SupportTask`。
 
 最后看测试。测试中的 `ScriptedModel` 能展示 Manager 如何派发任务、子 Agent 如何回报、错误如何处理，比只读提示词更容易理解运行过程。
 

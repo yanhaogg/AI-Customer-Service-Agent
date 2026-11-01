@@ -1,5 +1,8 @@
 # ServAI 数据库与接口参考
 
+
+> 当前状态：客服待办及手动订单异常分析已移除。`support_tasks`、`support_task_events`、`support_task_previews`、`support_scan_state` 仅为历史保留表，不提供业务入口。人工客服摘要、建议回复、订单售后与催发货继续保留。
+
 对应 [系统技术说明](PROJECT_TECHNICAL_GUIDE.md)。字段来自当前 SQLAlchemy 模型，接口来自当前 FastAPI OpenAPI 注册结果；它们是代码结构，不是对某个运行数据库行数或已迁移程度的声明。
 
 ## 1 表与字段
@@ -715,48 +718,8 @@ status IN ('pending','in_progress','resolved','dismissed')
 | POST | `/api/shop/orders/{order_id}/complete` | `confirm_receipt` | 登录 / 本人资源 |
 | POST | `/api/shop/orders/{order_id}/pay` | `pay` | 登录 / 本人资源 |
 
-### support_tasks.py
-
-[实现文件](../backend/app/api/support_tasks.py)
-
-| 方法 | 路径 | 实现函数 | 权限 |
-| --- | --- | --- | --- |
-| GET | `/api/admin/support-tasks` | `tasks` | 超级管理员 |
-| POST | `/api/admin/support-tasks` | `create` | 超级管理员 |
-| POST | `/api/admin/support-tasks/preview` | `preview` | 超级管理员 |
-| GET | `/api/admin/support-tasks/summary` | `summary` | 超级管理员 |
-| GET | `/api/admin/support-tasks/{task_id}` | `detail` | 超级管理员 |
-| POST | `/api/admin/support-tasks/{task_id}/actions` | `action` | 超级管理员 |
-| POST | `/api/admin/support-tasks/{task_id}/analyze` | `analyze` | 超级管理员 |
-| POST | `/api/admin/support-tasks/{task_id}/conversation` | `conversation` | 超级管理员 |
 
 ## 3 关键请求约定
-
-### 手动异常分析与确认创建
-
-第一步：管理员提交选中的内部订单 ID。只返回分析预览，不创建待办。
-
-```http
-POST /api/admin/support-tasks/preview
-Authorization: Bearer <token>
-Content-Type: application/json
-
-{"order_id": 123}
-```
-
-有候选事项时，响应 `candidates` 中包含 `preview_id`、`snapshot`、`advice` 和可能已有的 `existing_task_id`。没有符合规则的事项时，candidates 为空。
-
-第二步：管理员确认后，只提交服务端返回的预览编号。
-
-```http
-POST /api/admin/support-tasks
-Authorization: Bearer <token>
-Content-Type: application/json
-
-{"preview_id": "服务端返回的32位十六进制编号"}
-```
-
-服务端校验归属、30 分钟有效期和当前事实；响应 `created` 表示是否新建。重复确认同一来源不会重复创建；订单事实变化返回 409。不能让客户端提交模型建议来替代服务端预览。
 
 ### 已读确认
 

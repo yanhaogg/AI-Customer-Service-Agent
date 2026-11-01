@@ -19,7 +19,6 @@ from app.services.chat_unread import (
 )
 from app.agent.staff_assistant import staff_assistant, snapshot_version
 from app.agent.config import AgentConfigurationError, AgentUnavailableError
-from app.services.support_tasks import order_tasks
 
 
 def staff_session(db, session_id, lock=False):
@@ -191,7 +190,7 @@ def read_session(session_id, body, db, user):
 
 
 def detail(session_id, before_id, db, user):
-    """读取客服会话详情、历史消息和关联跟进待办。
+    """读取客服会话详情和历史消息。
 
     输入：
         session_id: int，会话主键。
@@ -200,12 +199,11 @@ def detail(session_id, before_id, db, user):
         user: 已认证的 User ORM 对象；后台权限由路由依赖检查。
 
     输出：
-        dict：session、items、has_more、read_through、support_tasks、assist_version。
+        dict：session、items、has_more、read_through、assist_version。
 
     流程：
         1. 查会话
         2. 按 before_id 游标倒序取 51 条消息
-        3. 查询订单活动待办
         4. 将前 50 条反转并标记 is_mine
         5. 计算助手快照版本；不提交、不自动标记已读。
     """
@@ -214,14 +212,12 @@ def detail(session_id, before_id, db, user):
     if before_id:
         query = query.where(ChatMessage.id < before_id)
     entries = db.scalars(query.order_by(ChatMessage.id.desc()).limit(51)).all()
-    tasks = order_tasks(db, session.order_id)
     return {
         "session": session_data(session),
         "items": [staff_message_data(m, user) for m in reversed(entries[:50])],
         "has_more": len(entries) > 50,
         "read_through": read_through(entries[:50]),
-        "support_tasks": tasks,
-        "assist_version": snapshot_version(session, entries[:50], tasks),
+        "assist_version": snapshot_version(session, entries[:50]),
     }
 
 
@@ -238,12 +234,12 @@ def assistant(session_id, body, db, user):
         staff_assistant.invoke 的结果（助手建议）；模型配置或调用失败抛 503。
 
     流程：
-        1. 读取会话、最近消息及待办
+        1. 读取会话及最近消息
         2. 使用会话所属客户身份构造有长度上限的上下文和版本
         3. rollback 释放读取事务
         4. 调用助手；不发送客户消息、不接管会话。
     """
-    # 读取有限聊天快照和待办上下文，释放事务后生成接待建议；此接口不发送回复或接管会话。
+    # 读取有限聊天快照与关联业务上下文，释放事务后生成接待建议；此接口不发送回复或接管会话。
     session = staff_session(db, session_id)
     entries = db.scalars(
         select(ChatMessage)
@@ -252,15 +248,13 @@ def assistant(session_id, body, db, user):
         .limit(51)
     ).all()
     # Identity is the customer who owns the inspected thread, never the administrator or client input.
-    tasks = order_tasks(db, session.order_id)
     payload = {
         "user_id": session.user_id,
         "order_id": session.order_id,
         "product_id": session.product_id,
-        "support_tasks": tasks,
         "title": session.title,
         "human_status": session.human_status,
-        "snapshot_version": snapshot_version(session, entries[:50], tasks),
+        "snapshot_version": snapshot_version(session, entries[:50]),
         "has_older_messages": len(entries) > 50,
         "messages": [],
     }

@@ -37,9 +37,6 @@ export default function Profile() {
                   <Link to="/admin/support">
                     <span>客服工作台</span>接待会话 →
                   </Link>
-                  <Link to="/admin/tasks">
-                    <span>客服待办</span>跟进订单异常 →
-                  </Link>
                 </>
               )}
               <Link to="/history">

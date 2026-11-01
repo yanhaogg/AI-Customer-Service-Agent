@@ -2,11 +2,9 @@ import { NavLink, Link } from 'react-router-dom'
 import { useAuth } from '../auth/useAuth'
 import { useUnread } from '../lib/chat'
 import UnreadBadge from './UnreadBadge'
-import { useTaskSummary } from '../lib/supportTasks'
 
 export default function Navbar() {
   const { isAdmin } = useAuth()
-  const tasks = useTaskSummary(isAdmin)
   const customerUnread = useUnread(),
     staffUnread = useUnread(true, isAdmin)
   return (
@@ -58,14 +56,6 @@ export default function Navbar() {
             </NavLink>
             <NavLink className="admin-nav-link" to="/admin/support">
               客服工作台 <UnreadBadge count={staffUnread.total} />
-            </NavLink>
-            <NavLink className="admin-nav-link" to="/admin/tasks">
-              客服待办
-              {tasks.data?.active > 0 && (
-                <span className="unread-badge" aria-label={`${tasks.data.active} 项未完成待办`}>
-                  {tasks.data.active > 99 ? '99+' : tasks.data.active}
-                </span>
-              )}
             </NavLink>
           </nav>
         )}

@@ -212,7 +212,6 @@ export default function OrderView({ order, admin = false, onChange }) {
               {admin ? '处理/查看售后' : refund ? '查看/申请售后' : '申请退款'}
             </button>
           )}
-          {admin && <Link to={`/admin/tasks?order=${order.id}`}>分析订单 / 查看待办 →</Link>}
           {admin && order.status === 'paid' && (
             <button disabled={busy || refundActive} onClick={() => setShipping(true)}>
               录入物流并发货

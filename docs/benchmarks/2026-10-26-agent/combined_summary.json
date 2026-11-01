@@ -1,0 +1,23 @@
+{
+  "requests": 28,
+  "answer_passes": 27,
+  "answer_pass_rate": 0.9642857142857143,
+  "verified_answer_pass_rate": 0.75,
+  "tool_requirement_pass_rate": 0.75,
+  "tool_calls": 36,
+  "tool_statuses": {
+    "ok": 34,
+    "not_found": 2
+  },
+  "tool_execution_success_rate": 1.0,
+  "tool_ok_only_rate": 0.9444444444444444,
+  "response_completion_rate": 1.0,
+  "latency_seconds": {
+    "mean": 4.680685714285715,
+    "median": 4.24285,
+    "p90": 7.405380000000001,
+    "p95": 9.879394999999995,
+    "minimum": 1.3231,
+    "maximum": 11.0285
+  }
+}

@@ -14,10 +14,8 @@ from app.api.human_support import (
     router as human_admin_router,
     user_router as human_user_router,
 )
-from app.api.support_tasks import router as support_tasks_router
 
 server = FastAPI()
-server.include_router(support_tasks_router)
 server.include_router(catalog_router)
 server.include_router(admin_router)
 server.include_router(admin_products_router)

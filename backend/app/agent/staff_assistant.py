@@ -26,14 +26,13 @@ class AdviceState(TypedDict, total=False):
     advice: dict
 
 
-def snapshot_version(session, messages, tasks=None):
-    # 用消息、人工状态和待办内容生成版本号，供前端判断建议是否已因新消息而过期。
+def snapshot_version(session, messages):
+    # 用消息和人工状态生成版本号，供前端判断建议是否已因新消息而过期。
     content = [
         session.id,
         session.human_status,
         str(session.updated_at),
         [(m.id, m.role, m.status, str(m.updated_at), m.content) for m in messages],
-        tasks or [],
     ]
     return hashlib.sha256(json.dumps(content, ensure_ascii=False).encode()).hexdigest()
 
@@ -89,7 +88,6 @@ class StaffAssistant:
                 for key in ("messages", "has_older_messages", "title", "human_status")
             }
             context["verified_facts"] = state["facts"]
-            context["support_tasks"] = payload.get("support_tasks", [])
             try:
                 model = self.model_factory(settings, min(settings.timeout, 30))
                 answer = model.bind(response_format={"type": "json_object"}).invoke(

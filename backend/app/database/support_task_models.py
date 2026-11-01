@@ -1,4 +1,5 @@
-"""Internal, deduplicated order follow-up tasks and auditable staff actions."""
+# HISTORICAL: 客服待办功能已移除；仅保留历史表映射，不再提供页面、接口或分析入口。
+"""历史待办表映射：保留数据库兼容与数据，不再提供待办功能。"""
 
 from typing import Any
 

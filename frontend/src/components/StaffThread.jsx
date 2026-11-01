@@ -125,14 +125,6 @@ export default function StaffThread({ id, onChange }) {
           结束接待
         </button>
       </div>
-      <section className="linked-support-tasks">
-        <Link to="/admin/tasks">客服待办 →</Link>
-        {thread.data.support_tasks?.map((task) => (
-          <Link key={task.id} to={`/admin/tasks?task=${task.id}`}>
-            {task.title} · {task.status === 'in_progress' ? '处理中' : '待认领'}
-          </Link>
-        ))}
-      </section>
       <StaffAssistant
         id={id}
         version={thread.data.assist_version}

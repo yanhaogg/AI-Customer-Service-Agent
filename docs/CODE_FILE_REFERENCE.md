@@ -1,5 +1,8 @@
 # ServAI 逐文件代码说明
 
+
+> 当前状态：客服待办及手动订单异常分析已移除。`support_tasks`、`support_task_events`、`support_task_previews`、`support_scan_state` 仅为历史保留表，不提供业务入口。人工客服摘要、建议回复、订单售后与催发货继续保留。
+
 对应 [系统技术说明](PROJECT_TECHNICAL_GUIDE.md)。以下覆盖项目第一方 Python、JavaScript、JSX 与 CSS 源码/配置文件；不展开第三方依赖、虚拟环境、缓存和构建产物。
 
 ## 本轮结构调整
@@ -8,7 +11,6 @@
 | --- | --- |
 | [schemas/shop.py](../backend/app/schemas/shop.py) | 地址、购物车、结算、销售报价与发货请求的字段和校验。 |
 | [schemas/aftersales.py](../backend/app/schemas/aftersales.py) | 联系客服、催发货、退款、凭证与人工审核请求的字段和校验。 |
-| [schemas/support_tasks.py](../backend/app/schemas/support_tasks.py) | 待办操作、订单分析预览和确认创建请求的字段和校验。 |
 | [StaffThread.jsx](../frontend/src/components/StaffThread.jsx) | 客服工作台中单个会话的消息、历史分页、助手建议和回复表单；HumanSupport 页面负责列表筛选与会话选择。 |
 
 以上请求模型原先内嵌在同名 API 文件，现由 API 导入使用，保留原接口契约。后端用 Black 统一排版，前端用 Prettier 展开 JSX、对象和控制流程。格式配置见 backend/pyproject.toml 与 frontend/.prettierrc.json。
@@ -36,7 +38,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [catalog.py](../backend/app/api/catalog.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
 | [human_support.py](../backend/app/api/human_support.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
 | [shop.py](../backend/app/api/shop.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
-| [support_tasks.py](../backend/app/api/support_tasks.py) | HTTP 路由、请求参数与权限依赖；具体流程和事务移到同功能服务，见全功能阅读地图。 |
 
 ## backend/app/auth
 
@@ -71,7 +72,7 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [order_chat_migration.py](../backend/app/database/order_chat_migration.py) | 事务内合并同订单旧会话，迁移消息/退款引用、处理阅读水位并建立订单会话唯一索引。 |
 | [session.py](../backend/app/database/session.py) | get_db 请求级数据库会话依赖，yield 后关闭会话；具体提交和回滚由业务代码决定。 |
 | [shop_models.py](../backend/app/database/shop_models.py) | SaleOffer、CartItem、ShippingAddress、ShopOrder、ShopOrderItem；销售设置、订单快照与购物唯一约束。 |
-| [support_task_models.py](../backend/app/database/support_task_models.py) | 待办、事件、分析预览，以及历史扫描状态模型；SupportScanState 当前仅作历史保留。 |
+| [support_task_models.py](../backend/app/database/support_task_models.py) | 已移除功能的历史表映射，不提供业务入口。 |
 
 ## backend/app/services
 
@@ -87,7 +88,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [order_access.py](../backend/app/services/order_access.py) | 本人订单归属校验与行锁。 |
 | [clock.py](../backend/app/services/clock.py) | 上述业务服务共用的 UTC 时间函数。 |
 | [chat_unread.py](../backend/app/services/chat_unread.py) | 按阅读者与角色构建未读 SQL、计数、读取水位和单调已读更新；列表查询不隐式清除未读。 |
-| [support_tasks.py](../backend/app/services/support_tasks.py) | 手动核实三类事项、生成预览、确认建单、事实指纹、任务详情/锁和重新分析；读取不自动建单或关闭。 |
 
 ## backend/app/agent
 
@@ -99,7 +99,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [config.py](../backend/app/agent/config.py) | ModelSettings、配置优先级、配置异常与 ChatOpenAI 工厂；DeepSeek 兼容接口关闭思考模式。 |
 | [graph.py](../backend/app/agent/graph.py) | SupportAgent 主实现；构建 Manager/dispatch/三个专业节点，传递历史和同轮结果，统一汇总、降级和元数据。 |
 | [nodes.py](../backend/app/agent/nodes.py) | 兼容入口，只转导出 runtime_nodes.build_nodes；不另有一套 Agent。 |
-| [order_followup.py](../backend/app/agent/order_followup.py) | OrderFollowupAgent：管理员手动分析订单快照，校验 analysis/next_steps/suggested_reply 结构化结果；无写工具。 |
 | [runtime_nodes.py](../backend/app/agent/runtime_nodes.py) | 专业子图的 model/tools 节点、路由和文本提取；执行工具白名单、参数校验、预算与安全错误反馈。 |
 | [specialists.py](../backend/app/agent/specialists.py) | 商品、订单、售后角色注册与提示；委派参数 Delegation，委派工具 schema 和各专业 StateGraph 构建。 |
 | [staff_assistant.py](../backend/app/agent/staff_assistant.py) | StaffAssistant：先核实关联业务，再生成 summary/customer_needs/suggested_reply；计算会话版本，不直接发送消息。 |
@@ -117,7 +116,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [init_aftersales.py](../backend/scripts/init_aftersales.py) | 先确保活动结构，再执行售后/人工接待字段与表升级。 |
 | [init_chat_unread.py](../backend/scripts/init_chat_unread.py) | 仅补 chat_read_states 表，兼容已有库；不修改消息正文。 |
 | [init_shop.py](../backend/scripts/init_shop.py) | 创建购物表；--seed-demo-offers 可显式按参考价创建缺失演示售价与初始模拟库存。 |
-| [init_support_tasks.py](../backend/scripts/init_support_tasks.py) | 创建待办、事件、手动分析预览及保留的扫描状态表；不启动任务或定时器。 |
 | [unify_order_chats.py](../backend/scripts/unify_order_chats.py) | 调用 migrate_order_chats 执行旧订单重复会话合并，输出合并结果。 |
 
 ## backend/tests
@@ -134,7 +132,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [test_product_import.py](../backend/tests/test_product_import.py) | 素材校验及异常输入；CATALOG_PG_TEST=1 可运行整批 PostgreSQL 导入/幂等/回滚测试。 |
 | [test_shop.py](../backend/tests/test_shop.py) | 购物/库存/地址/幂等/订单状态与并发测试；提供随机 schema、合成用户和商品基础 fixture。 |
 | [test_staff_assistant.py](../backend/tests/test_staff_assistant.py) | 客服助手权限、客户身份绑定、结构化草稿、无发送副作用、上下文限制、过期版本与错误脱敏。 |
-| [test_support_tasks.py](../backend/tests/test_support_tasks.py) | 手动预览不建单、确认建单、重复确认、归属/过期、只读不自动处理、认领竞争与过期分析丢弃。 |
 
 ## backend
 
@@ -158,7 +155,7 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [index.css](../frontend/src/index.css) | 全局基础、早期商城通用样式和聊天气泡基础规则；仍由 main.jsx 引入。 |
 | [main.jsx](../frontend/src/main.jsx) | 真实 React 入口：AuthProvider 包裹 Router，导入三份当前样式并挂载 #root。 |
 | [navbar.css](../frontend/src/navbar.css) | 导航的 grid/flex 布局与窄屏适配，避免导航出现横向滚动条。 |
-| [storefront.css](../frontend/src/storefront.css) | 现行商品、购物、后台、聊天/助手、售后和手动待办布局及响应式样式。 |
+| [storefront.css](../frontend/src/storefront.css) | 现行商品、购物、后台、聊天/助手、售后布局及响应式样式。 |
 
 ## frontend/src/router
 
@@ -182,7 +179,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [chat.js](../frontend/src/lib/chat.js) | 用户/管理员未读轮询，以及可见且聚焦时提交已读水位；不生成 AI 消息。 |
 | [refunds.js](../frontend/src/lib/refunds.js) | 退款状态到中文展示名称的映射。 |
 | [shop.js](../frontend/src/lib/shop.js) | shopRequest、useShop、货币/订单状态格式化；带 Token、请求取消、刷新和保留上次数据。 |
-| [supportTasks.js](../frontend/src/lib/supportTasks.js) | 待办状态/类型映射、页面刷新事件和管理员统计轮询；只是读统计，不扫描订单。 |
 
 ## frontend/src/api
 
@@ -208,7 +204,7 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [Chat.jsx](../frontend/src/pages/Chat.jsx) | 兼容页面名，只转导出 SavedChat，不另有聊天实现。 |
 | [Checkout.jsx](../frontend/src/pages/Checkout.jsx) | 直接购买或购物车结算、计价预览、地址选择/新增、备注、幂等提交订单。 |
 | [Home.jsx](../frontend/src/pages/Home.jsx) | 调用 /api/catalog/home，展示主推/侧栏/推荐及分类，不在前端自行选品。 |
-| [HumanSupport.jsx](../frontend/src/pages/HumanSupport.jsx) | 管理员会话列表、未读筛选、消息轮询、人工回复与结束接待；嵌入助手、分工说明及关联待办链接。 |
+| [HumanSupport.jsx](../frontend/src/pages/HumanSupport.jsx) | 管理员会话列表、未读筛选、消息轮询、人工回复与结束接待；嵌入助手、分工说明。 |
 | [Login.jsx](../frontend/src/pages/Login.jsx) | AuthPage 的登录模式包装。 |
 | [OrderDetail.jsx](../frontend/src/pages/OrderDetail.jsx) | 读取本人订单详情并使用 OrderView 展示操作。 |
 | [Orders.jsx](../frontend/src/pages/Orders.jsx) | 兼容页面名，只转导出 ShopOrders。 |
@@ -218,7 +214,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [Register.jsx](../frontend/src/pages/Register.jsx) | AuthPage 的普通用户注册模式包装。 |
 | [SavedChat.jsx](../frontend/src/pages/SavedChat.jsx) | 实际客户聊天工作区：历史会话、搜索/删除、绑定商品/订单、发送/重试、转人工、未读及分工/工具说明。 |
 | [ShopOrders.jsx](../frontend/src/pages/ShopOrders.jsx) | 用户/管理员共享订单列表，按 admin 参数切换接口、筛选和 OrderView 管理操作。 |
-| [SupportTasks.jsx](../frontend/src/pages/SupportTasks.jsx) | 手动异常分析入口与待办列表/详情，支持筛选、认领、备注、重新分析、关闭和进入订单会话。 |
 
 ## frontend/src/components
 
@@ -231,9 +226,8 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 | [CatalogImage.jsx](../frontend/src/components/CatalogImage.jsx) | 商品图片地址拼接、加载失败占位和图片展示。 |
 | [CatalogStatus.jsx](../frontend/src/components/CatalogStatus.jsx) | 加载、错误与重试等通用界面状态。 |
 | [ChatText.jsx](../frontend/src/components/ChatText.jsx) | 有限的聊天文本格式化和安全站内链接，不作为任意 HTML 渲染器。 |
-| [ManualOrderAnalysis.jsx](../frontend/src/components/ManualOrderAnalysis.jsx) | 手动筛选/选择订单、请求分析预览、展示结果，再用服务端 preview_id 显式确认建待办。 |
-| [Navbar.jsx](../frontend/src/components/Navbar.jsx) | 客户导航、管理员导航、消息未读徽标和未完成待办数量；根据身份显示入口。 |
-| [OrderView.jsx](../frontend/src/components/OrderView.jsx) | 共享订单内容与操作组件，连接支付/取消/收货、联系/催发货、管理员发货及售后/待办入口。 |
+| [Navbar.jsx](../frontend/src/components/Navbar.jsx) | 客户导航、管理员导航、消息未读徽标；根据身份显示入口。 |
+| [OrderView.jsx](../frontend/src/components/OrderView.jsx) | 共享订单内容与操作组件，连接支付/取消/收货、联系/催发货、管理员发货及售后入口。 |
 | [ProductCard.jsx](../frontend/src/components/ProductCard.jsx) | 商品卡片、图片、名称、参考价/演示售价和购买入口。 |
 | [legacy_ProductVisual.jsx](../frontend/src/components/legacy_ProductVisual.jsx) | 早期 CSS 商品示意图；当前业务组件没有引用它。 |
 | [legacy_ProtectedRoute.jsx](../frontend/src/components/legacy_ProtectedRoute.jsx) | 早期只检查本地 Token 的路由包装；当前路由未使用，现行界面使用 ShopShell，后端另行校验。 |
@@ -288,7 +282,6 @@ API 文件对应 HTTP 边界，services 对应复用业务规则，database 对�
 - [README_catalog_api.md](../backend/scripts/README_catalog_api.md)
 - [README_import_products.md](../backend/scripts/README_import_products.md)
 - [README_shop.md](../backend/scripts/README_shop.md)
-- [README_support_tasks.md](../backend/scripts/README_support_tasks.md)
 
 ## 素材目录中的重复记录结构
 
@@ -318,7 +311,6 @@ sources 保存离线数据源及许可；admin_uploads 与 private_refund_eviden
 | [services/product_management.py](../backend/app/services/product_management.py) | 后台商品资料增删改查与逻辑删除。 |
 | [services/product_media.py](../backend/app/services/product_media.py) | 后台商品图片校验与保存。 |
 | [services/shopping_queries.py](../backend/app/services/shopping_queries.py) | 购物公共查询、计价、订单快照与过期库存回收。 |
-| [services/support_task_workflows.py](../backend/app/services/support_task_workflows.py) | 客服待办的列表、统计、操作与会话入口；分析能力委托 support_tasks。 |
 | [services/user_access.py](../backend/app/services/user_access.py) | 串行处理同一用户的购物车、地址、会话创建等写入，不涉及登录令牌校验。 |
 | [schemas/activity.py](../backend/app/schemas/activity.py) | 该功能的共享定义。 |
 | [schemas/admin.py](../backend/app/schemas/admin.py) | admin 接口的请求字段与输入校验。 |

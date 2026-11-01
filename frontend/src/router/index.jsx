@@ -20,7 +20,6 @@ import Register from '../pages/Register'
 // ---------- 管理 / 客服端页面 ----------
 import AdminHomepage from '../pages/AdminHomepage'
 import AdminProducts from '../pages/AdminProducts'
-import SupportTasks from '../pages/SupportTasks'
 import HumanSupport from '../pages/HumanSupport'
 
 export default function Router() {
@@ -56,7 +55,6 @@ export default function Router() {
         <Route path="/admin/orders" element={<Orders admin />} />
 
         {/* ===== 人工客服 / 任务 ===== */}
-        <Route path="/admin/tasks" element={<SupportTasks />} />
         <Route path="/admin/support" element={<HumanSupport />} />
       </Routes>
     </BrowserRouter>
